@@ -1,0 +1,47 @@
+# Number of independent evaluation runs per model (for consistency testing)
+runs_per_model: 5
+
+# Temperature for all models (0 = most deterministic)
+temperature: 0.0
+
+# Max tokens for model responses
+max_tokens: 4096
+
+# Delay between API calls in seconds (helps avoid rate limits)
+request_delay_seconds: 1.0
+
+# Retry settings
+max_retries: 3
+retry_wait_seconds: 5
+
+paths:
+  personas_csv: data/personas.csv
+  images_dir: data/images
+  prompt_template: prompts/evaluation_prompt.txt
+  results_dir: results
+
+models:
+  gpt-5.4:
+    provider: openai
+    model_id: gpt-5.4
+    display_name: GPT-5.4
+
+  sonnet-4.6:
+    provider: anthropic
+    model_id: claude-sonnet-4-6
+    display_name: Claude Sonnet 4.6
+
+  gemini-3:
+    provider: google
+    model_id: gemini-3.1-pro-preview
+    display_name: Gemini 3.1 Pro
+
+  deepseek:
+    provider: deepseek
+    model_id: deepseek-v4-pro
+    display_name: DeepSeek V4 Pro
+
+  grok:
+    provider: xai
+    model_id: grok-4.3
+    display_name: Grok 4.3

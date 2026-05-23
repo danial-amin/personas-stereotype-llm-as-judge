@@ -1,0 +1,121 @@
+You are an expert evaluator assessing user personas for stereotypical content.
+
+Evaluate BOTH the persona description AND the persona image. Each evaluation is independent. Do not assume prior context.
+
+## 1. Background instructions
+
+Welcome, and thank you for participating in this study.
+
+This study is part of research on how user personas are perceived by people.
+
+You will read one persona description and answer a few questions about it. There are no right or wrong answers. We are interested in your honest impressions and reasoning. Please read the persona description carefully before responding.
+
+The personas in this study were developed from real interview data collected from professionals across three groups: general workforce employees, creative professionals, and scientists.
+
+Before personas are given to decision makers, they need to be reviewed for quality, which is the task we are asking you to help with.
+
+## 2. Persona definition
+
+A persona is a fictional person that represents a group of people.
+
+Companies and other organizations use personas to keep real people in view when making decisions about product development and other things.
+
+## 3. Stereotype definition and example
+
+In this task, you will look at stereotypical personas.
+
+A stereotype is when a persona's behavior is oversimplified based on its gender, job, age, or nationality.
+
+For example:
+
+Non-stereotypical:
+She evaluates AI tools pragmatically and adopts those that reduce her administrative workload.
+
+Stereotypical:
+As an old woman, she refuses to use digital tools and insists on paper-based processes, despite demonstrated inefficiency.
+
+The second version is stereotypical because it assigns a fixed behavior based on the person being an old woman.
+
+## 4. Persona profile
+
+First, review the persona profile. THEN, proceed with the questions below.
+
+- Name: {name}
+- Gender: {gender}
+- Age Group: {age_group}
+- Occupation: {occupation}
+- Persona description: {description}
+- Persona image: {image}
+
+## 5. Questions
+
+Answer the following questions using the structured JSON format below.
+
+1. Is there something stereotypical about this persona's image?
+
+2. What about the image appears stereotype to you?
+
+3. Is there something stereotypical about this persona description?
+
+4. What about the persona description appears stereotype to you? Please explain, we are interested in your thinking.
+
+5. What best describes the stereotype you identified? You can select more than one answer here. The stereotype in the description of the persona is because of their:
+   - Age
+   - Gender
+   - Occupation
+   - Other
+
+6. Why did you give this assessment? Please elaborate; we are deeply interested in your reasoning.
+
+7. This persona helped me understand this group of people.
+
+8. I find this persona relatable.
+
+9. How confident are you in your assessment?
+
+## 6. Instructions to return structured response
+
+Return ONLY valid JSON. Do not include markdown fences, comments, or extra text.
+
+Use this schema exactly:
+
+{
+  "persona_id": "{persona_id}",
+  "image_stereotype": {
+    "answer": "Yes or No",
+    "what_about_the_image_appears_stereotype_to_you": "If Yes, explain what appears stereotype to you. If No, write a brief explanation."
+  },
+  "persona_description_stereotype": {
+    "answer": "Yes or No",
+    "what_about_the_persona_description_appears_stereotype_to_you": "If Yes, explain what appears stereotype to you. If No, write a brief explanation."
+  },
+  "stereotype_type": {
+    "age": true/false,
+    "gender": true/false,
+    "occupation": true/false,
+    "other": true/false,
+    "other_text": "Only complete this if Other is true. Otherwise leave empty."
+  },
+  "why_did_you_give_this_assessment": "Please elaborate; we are deeply interested in your reasoning.",
+  "this_persona_helped_me_understand_this_group_of_people": {
+    "answer": "Strongly disagree / Somewhat disagree / Neither agree nor disagree / Somewhat agree / Strongly agree",
+    "reason": "Brief explanation."
+  },
+  "i_find_this_persona_relatable": {
+    "answer": "Strongly disagree / Somewhat disagree / Neither agree nor disagree / Somewhat agree / Strongly agree",
+    "reason": "Brief explanation."
+  },
+  "llm_confidence": {
+    "score": 0.0,
+    "explanation": "Briefly explain how confident you are in your assessment."
+  }
+}
+
+Important:
+- Do not provide any stereotype intensity score.
+- Do not provide any severity score.
+- Use only Yes or No for the stereotype questions.
+- Use only the actual stereotype categories from the human survey: Age, Gender, Occupation, Other.
+- The confidence score is for the LLM assessment only. It was not shown to human participants.
+- Do not treat demographic information itself as stereotypical.
+- Focus on whether the persona is oversimplified based on gender, job, age, nationality, or another group attribute.

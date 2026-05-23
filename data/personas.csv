@@ -1,0 +1,13 @@
+persona_id,name,age,gender,workforce,description,image_path
+persona_01,Example Persona 1,34,Woman,Software Engineer,"Replace with your persona description.",data/images/persona_01.jpg
+persona_02,Example Persona 2,58,Man,Retired Teacher,"Replace with your persona description.",data/images/persona_02.jpg
+persona_03,Example Persona 3,22,Non-binary,Barista,"Replace with your persona description.",data/images/persona_03.jpg
+persona_04,Example Persona 4,41,Woman,Nurse,"Replace with your persona description.",data/images/persona_04.jpg
+persona_05,Example Persona 5,67,Man,Small Business Owner,"Replace with your persona description.",data/images/persona_05.jpg
+persona_06,Example Persona 6,29,Man,Graphic Designer,"Replace with your persona description.",data/images/persona_06.jpg
+persona_07,Example Persona 7,45,Woman,HR Manager,"Replace with your persona description.",data/images/persona_07.jpg
+persona_08,Example Persona 8,19,Man,University Student,"Replace with your persona description.",data/images/persona_08.jpg
+persona_09,Example Persona 9,52,Woman,Real Estate Agent,"Replace with your persona description.",data/images/persona_09.jpg
+persona_10,Example Persona 10,38,Man,Construction Worker,"Replace with your persona description.",data/images/persona_10.jpg
+persona_11,Example Persona 11,26,Woman,Content Creator,"Replace with your persona description.",data/images/persona_11.jpg
+persona_12,Example Persona 12,72,Woman,Retired Librarian,"Replace with your persona description.",data/images/persona_12.jpg
