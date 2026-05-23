@@ -1,0 +1,54 @@
+{
+  "test_persona": {
+    "source_url": "https://httpbin.org/image/jpeg",
+    "local_path": "data/images/test_persona.jpg"
+  },
+  "a_us_marcus": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_CQi2IWzrQlkaAMk",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_marcus.png"
+  },
+  "a_us_eleanor": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_AibjNlyjpqfh5MY",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_eleanor.png"
+  },
+  "a_us_mei": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_Zf0O546IXZ753QL",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_mei.png"
+  },
+  "a_us_marcus_linq": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_kRPQZK8ZfZ3n3AZ",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_marcus_linq.png"
+  },
+  "a_us_richard": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_pfTXV8Vw8c9YZr4",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_richard.png"
+  },
+  "a_us_margaret": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_cB4OoRBg267Klf2",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_us_margaret.png"
+  },
+  "a_s_bernie": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_mAjG3S6nXWqHgLW",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_bernie.png"
+  },
+  "a_s_sofia": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_GoexNLUXJTU2SjV",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_sofia.png"
+  },
+  "a_s_caroline": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_e5p5qCExiuOl5vi",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_caroline.png"
+  },
+  "a_s_james": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_NGy0s1LTXbZTT1K",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_james.png"
+  },
+  "a_s_ray": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_YRkWpGIVqWDBNGE",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_ray.png"
+  },
+  "a_s_aisha": {
+    "source_url": "https://turkueconomics.eu.qualtrics.com/CP/Graphic.php?IM=IM_1clB12llJrHwq84",
+    "local_path": "/Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/data/images/a_s_aisha.png"
+  }
+}

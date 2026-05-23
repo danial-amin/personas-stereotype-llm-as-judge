@@ -13,9 +13,13 @@ class Persona:
     workforce: str
     description: str
     image_path: str
+    image_source: str = ""
 
     def to_dict(self) -> dict[str, str]:
-        return asdict(self)
+        data = asdict(self)
+        if not data["image_source"]:
+            data["image_source"] = data["image_path"]
+        return data
 
 
 @dataclass

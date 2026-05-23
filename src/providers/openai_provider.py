@@ -2,14 +2,14 @@ from __future__ import annotations
 
 from openai import OpenAI
 
-from src.config import require_env
+from src.config import ModelConfig, require_env
 from src.image_utils import encode_image
 from src.providers.base import LLMProvider
 
 
 class OpenAIProvider(LLMProvider):
-    def __init__(self, model_id: str) -> None:
-        self.model_id = model_id
+    def __init__(self, model: ModelConfig) -> None:
+        self.model = model
         self.client = OpenAI(api_key=require_env("OPENAI_API_KEY"))
 
     def evaluate(
@@ -22,11 +22,10 @@ class OpenAIProvider(LLMProvider):
     ) -> str:
         image_b64, media_type = encode_image(image_path)
 
-        response = self.client.chat.completions.create(
-            model=self.model_id,
-            temperature=temperature,
-            max_tokens=max_tokens,
-            messages=[
+        kwargs: dict = {
+            "model": self.model.model_id,
+            "max_completion_tokens": max_tokens,
+            "messages": [
                 {
                     "role": "user",
                     "content": [
@@ -40,5 +39,12 @@ class OpenAIProvider(LLMProvider):
                     ],
                 }
             ],
-        )
+        }
+
+        if self.model.reasoning_effort:
+            kwargs["reasoning_effort"] = self.model.reasoning_effort
+        if self.model.use_temperature:
+            kwargs["temperature"] = temperature
+
+        response = self.client.chat.completions.create(**kwargs)
         return response.choices[0].message.content or ""

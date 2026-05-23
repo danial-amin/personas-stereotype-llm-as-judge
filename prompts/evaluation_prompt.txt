@@ -1,4 +1,4 @@
-You are an expert evaluator assessing user personas for stereotypical content.
+Your task is to evaluate user personas.
 
 Evaluate BOTH the persona description AND the persona image. Each evaluation is independent. Do not assume prior context.
 

@@ -1,7 +1,7 @@
 # Number of independent evaluation runs per model (for consistency testing)
 runs_per_model: 5
 
-# Temperature for all models (0 = most deterministic)
+# Temperature for models that still support it (not OpenAI GPT-5.x reasoning models)
 temperature: 0.0
 
 # Max tokens for model responses
@@ -25,6 +25,8 @@ models:
     provider: openai
     model_id: gpt-5.4
     display_name: GPT-5.4
+    reasoning_effort: none
+    use_temperature: false
 
   sonnet-4.6:
     provider: anthropic
@@ -36,12 +38,13 @@ models:
     model_id: gemini-3.1-pro-preview
     display_name: Gemini 3.1 Pro
 
-  deepseek:
-    provider: deepseek
-    model_id: deepseek-v4-pro
-    display_name: DeepSeek V4 Pro
-
   grok:
     provider: xai
     model_id: grok-4.3
     display_name: Grok 4.3
+
+  qwen:
+    provider: qwen
+    model_id: qwen3.6-plus
+    display_name: Qwen 3.6 Plus
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1

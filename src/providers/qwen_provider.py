@@ -2,19 +2,19 @@ from __future__ import annotations
 
 from openai import OpenAI
 
-from src.config import require_env
+from src.config import ModelConfig, require_env
 from src.image_utils import encode_image
 from src.providers.base import LLMProvider
 
-DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEFAULT_DASHSCOPE_BASE_URL = "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 
 
-class DeepSeekProvider(LLMProvider):
-    def __init__(self, model_id: str) -> None:
-        self.model_id = model_id
+class QwenProvider(LLMProvider):
+    def __init__(self, model: ModelConfig) -> None:
+        self.model_id = model.model_id
         self.client = OpenAI(
-            api_key=require_env("DEEPSEEK_API_KEY"),
-            base_url=DEEPSEEK_BASE_URL,
+            api_key=require_env("DASHSCOPE_API_KEY"),
+            base_url=model.base_url or DEFAULT_DASHSCOPE_BASE_URL,
         )
 
     def evaluate(

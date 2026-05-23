@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from src.models import EvaluationResult, Persona
+from src.response_parser import parse_json_response
 
 
 def persona_output_dir(results_dir: Path, persona_id: str) -> Path:
@@ -40,15 +41,22 @@ def save_persona_csv(output_dir: Path, evaluations: list[EvaluationResult]) -> P
         "timestamp",
         "latency_ms",
         "error",
-        "contains_stereotype",
-        "stereotype_severity",
-        "stereotype_categories",
-        "text_stereotype_score",
-        "image_stereotype_score",
-        "text_image_consistency_score",
-        "confidence",
-        "reasoning",
-        "specific_concerns",
+        "image_stereotype_answer",
+        "image_stereotype_explanation",
+        "description_stereotype_answer",
+        "description_stereotype_explanation",
+        "stereotype_age",
+        "stereotype_gender",
+        "stereotype_occupation",
+        "stereotype_other",
+        "stereotype_other_text",
+        "why_assessment",
+        "understand_group_answer",
+        "understand_group_reason",
+        "relatable_answer",
+        "relatable_reason",
+        "llm_confidence_score",
+        "llm_confidence_explanation",
         "response_raw",
     ]
 
@@ -58,6 +66,13 @@ def save_persona_csv(output_dir: Path, evaluations: list[EvaluationResult]) -> P
 
         for item in evaluations:
             parsed = item.parsed or {}
+            image = parsed.get("image_stereotype") or {}
+            description = parsed.get("persona_description_stereotype") or {}
+            stereotype_type = parsed.get("stereotype_type") or {}
+            understand = parsed.get("this_persona_helped_me_understand_this_group_of_people") or {}
+            relatable = parsed.get("i_find_this_persona_relatable") or {}
+            confidence = parsed.get("llm_confidence") or {}
+
             writer.writerow(
                 {
                     "persona_id": item.persona_id,
@@ -68,17 +83,26 @@ def save_persona_csv(output_dir: Path, evaluations: list[EvaluationResult]) -> P
                     "timestamp": item.timestamp,
                     "latency_ms": item.latency_ms,
                     "error": item.error or "",
-                    "contains_stereotype": parsed.get("contains_stereotype", ""),
-                    "stereotype_severity": parsed.get("stereotype_severity", ""),
-                    "stereotype_categories": _join_list(parsed.get("stereotype_categories")),
-                    "text_stereotype_score": parsed.get("text_stereotype_score", ""),
-                    "image_stereotype_score": parsed.get("image_stereotype_score", ""),
-                    "text_image_consistency_score": parsed.get(
-                        "text_image_consistency_score", ""
+                    "image_stereotype_answer": image.get("answer", ""),
+                    "image_stereotype_explanation": image.get(
+                        "what_about_the_image_appears_stereotype_to_you", ""
                     ),
-                    "confidence": parsed.get("confidence", ""),
-                    "reasoning": parsed.get("reasoning", ""),
-                    "specific_concerns": _join_list(parsed.get("specific_concerns")),
+                    "description_stereotype_answer": description.get("answer", ""),
+                    "description_stereotype_explanation": description.get(
+                        "what_about_the_persona_description_appears_stereotype_to_you", ""
+                    ),
+                    "stereotype_age": stereotype_type.get("age", ""),
+                    "stereotype_gender": stereotype_type.get("gender", ""),
+                    "stereotype_occupation": stereotype_type.get("occupation", ""),
+                    "stereotype_other": stereotype_type.get("other", ""),
+                    "stereotype_other_text": stereotype_type.get("other_text", ""),
+                    "why_assessment": parsed.get("why_did_you_give_this_assessment", ""),
+                    "understand_group_answer": understand.get("answer", ""),
+                    "understand_group_reason": understand.get("reason", ""),
+                    "relatable_answer": relatable.get("answer", ""),
+                    "relatable_reason": relatable.get("reason", ""),
+                    "llm_confidence_score": confidence.get("score", ""),
+                    "llm_confidence_explanation": confidence.get("explanation", ""),
                     "response_raw": item.response_raw,
                 }
             )
@@ -135,9 +159,39 @@ def load_existing_evaluations(output_dir: Path) -> list[EvaluationResult]:
     return results
 
 
-def _join_list(value: Any) -> str:
-    if value is None:
-        return ""
-    if isinstance(value, list):
-        return "; ".join(str(v) for v in value)
-    return str(value)
+def reparse_evaluation(item: EvaluationResult) -> EvaluationResult:
+    if not item.response_raw.strip():
+        return item
+
+    parsed = parse_json_response(item.response_raw)
+    if parsed is not None:
+        return EvaluationResult(
+            persona_id=item.persona_id,
+            model_key=item.model_key,
+            model_display_name=item.model_display_name,
+            model_id=item.model_id,
+            run_index=item.run_index,
+            timestamp=item.timestamp,
+            prompt_text=item.prompt_text,
+            response_raw=item.response_raw,
+            parsed=parsed,
+            latency_ms=item.latency_ms,
+            error=None,
+        )
+
+    if item.error and "parse" in item.error.lower():
+        return item
+
+    return EvaluationResult(
+        persona_id=item.persona_id,
+        model_key=item.model_key,
+        model_display_name=item.model_display_name,
+        model_id=item.model_id,
+        run_index=item.run_index,
+        timestamp=item.timestamp,
+        prompt_text=item.prompt_text,
+        response_raw=item.response_raw,
+        parsed=None,
+        latency_ms=item.latency_ms,
+        error=item.error or "Failed to parse JSON response",
+    )

@@ -15,6 +15,9 @@ class ModelConfig:
     provider: str
     model_id: str
     display_name: str
+    reasoning_effort: str | None = None
+    use_temperature: bool = True
+    base_url: str | None = None
 
 
 @dataclass(frozen=True)
@@ -48,6 +51,9 @@ def load_config(config_path: Path | None = None) -> AppConfig:
             provider=value["provider"],
             model_id=value["model_id"],
             display_name=value["display_name"],
+            reasoning_effort=value.get("reasoning_effort"),
+            use_temperature=bool(value.get("use_temperature", True)),
+            base_url=value.get("base_url"),
         )
         for key, value in raw["models"].items()
     ]
