@@ -1,0 +1,231 @@
+
+==============================================================================
+PERSONA STEREOTYPES EVALUATION — RESULTS SUMMARY
+==============================================================================
+Generated: 2026-05-25 00:55
+Source data: https://raw.githubusercontent.com/danial-amin/persona-papers/refs/heads/main/Persona%20Stereotypes%20Evaluation-2026%20-%20Cleaned-v1.csv
+N participants: 85
+N persona ratings: 510
+
+------------------------------------------------------------------------------
+SAMPLE DESCRIPTIVES
+------------------------------------------------------------------------------
+  Age: M = 37.2, SD = 10.7, range 21-77
+  Gender: 38 female, 47 male
+  Ethnicity (top): Caucasian (58), Black or African American (13), Asian (7), Prefer not to say (3)
+
+==============================================================================
+RQ1 — MANIPULATION CHECK
+==============================================================================
+  Yes-rate stereo:     83.5% (213/255)
+  Yes-rate non-stereo: 43.1% (110/255)
+  Difference: +40.4 pp
+  Two-proportion z: z = 9.46, p < .001 (one-sided)
+  Wilcoxon paired:   W = 1912.0, p < .001, N = 85
+  Condition effect (LMM): b = +0.404, SE = 0.037, z = 10.97, p < .001 (significant)
+
+==============================================================================
+PER-PERSONA DETECTABILITY (str_yes Yes-rate)
+==============================================================================
+  Stereotyped personas (true-positive rate):
+    bernie   :  93.2% (55/59)
+    ray      :  93.1% (27/29)
+    caroline :  87.3% (48/55)
+    aisha    :  78.6% (22/28)
+    sofia    :  76.8% (43/56)
+    james    :  64.3% (18/28)
+  Non-stereotyped personas (false-positive rate):
+    marlinq  :  64.9% (37/57)
+    marcus   :  44.8% (13/29)
+    richard  :  42.1% (24/57)
+    eleanor  :  35.7% (10/28)
+    mei      :  32.1% (9/28)
+    margart  :  30.4% (17/56)
+
+==============================================================================
+RQ2a — GENDER MATCH
+==============================================================================
+  [stereo] no-match 0.843 (n=127), match 0.828 (n=128)
+    gender_match effect (LMM, stereo): b = -0.022, SE = 0.043, z = -0.52, p = .607 (non-significant)
+  [non_stereo] no-match 0.444 (n=126), match 0.419 (n=129)
+    gender_match effect (LMM, non_stereo): b = +0.001, SE = 0.057, z = 0.02, p = .982 (non-significant)
+
+==============================================================================
+RQ2b — AGE MATCH
+==============================================================================
+  [stereo] no-match 0.896 (n=134), match 0.769 (n=121)
+    age_match effect (LMM, stereo): b = -0.125, SE = 0.042, z = -2.95, p = .003 (significant)
+  [non_stereo] no-match 0.394 (n=132), match 0.472 (n=123)
+    age_match effect (LMM, non_stereo): b = +0.040, SE = 0.057, z = 0.70, p = .486 (non-significant)
+
+==============================================================================
+RQ2c — OCCUPATION MATCH
+==============================================================================
+  [stereo] no-match 0.830 (n=159), match 0.844 (n=96)
+    occ_match effect (LMM, stereo): b = +0.011, SE = 0.044, z = 0.24, p = .809 (non-significant)
+  [non_stereo] no-match 0.441 (n=186), match 0.406 (n=69)
+    occ_match effect (LMM, non_stereo): b = -0.045, SE = 0.063, z = -0.72, p = .473 (non-significant)
+
+==============================================================================
+RQ3 — STEREOTYPE-TYPE ATTRIBUTION
+==============================================================================
+  Note: all citation rates below are conditional on str_yes == 1 (rater flagged the persona).
+  Citation rates among flaggers, by condition:
+    non_stereo (N flaggers = 110): age 0.52, gender 0.34, occupation 0.79, other 0.14
+    stereo (N flaggers = 213): age 0.63, gender 0.47, occupation 0.48, other 0.13
+  Stereo-only summary (N = 213 flaggers): proportion citing each dimension
+    Age         : 62.9%
+    Gender      : 47.4%
+    Occupation  : 48.4%
+    Other       : 12.7%
+  Chi-square (condition x dimension): chi2(2) = 16.05, p < .001
+  Mean Jaccard alignment (cited vs intended, stereo only): 0.61
+  Per-SP Jaccard alignment:
+    aisha    : 0.658
+    ray      : 0.653
+    caroline : 0.642
+    bernie   : 0.611
+    sofia    : 0.585
+    james    : 0.529
+
+==============================================================================
+RQ4 — USE / RELATABILITY TRADE-OFFS
+==============================================================================
+  Note: use and rel are per-persona Likert items (Step 3 task items); ass_y open text not analyzed.
+  Usefulness: stereo M = 2.64, non-stereo M = 3.60
+    Condition -> Usefulness: b = -0.965, SE = 0.082, z = -11.78, p < .001 (significant)
+  Relatability: stereo M = 2.31, non-stereo M = 3.53
+    Condition -> Relatability: b = -1.227, SE = 0.094, z = -13.03, p < .001 (significant)
+  Within-condition: does flagging predict lower use/rel?
+    [stereo] str_yes -> usefulness: b = +0.230, SE = 0.201, z = 1.14, p = .254 (non-significant)
+    [stereo] str_yes -> relatability: b = +0.367, SE = 0.203, z = 1.81, p = .071 (non-significant)
+    [non_stereo] str_yes -> usefulness: b = -0.185, SE = 0.117, z = -1.57, p = .116 (non-significant)
+    [non_stereo] str_yes -> relatability: b = -0.194, SE = 0.148, z = -1.30, p = .192 (non-significant)
+
+------------------------------------------------------------------------------
+COMPREHENSION / ATTENTION CHECKS (quality only, not analyzed as outcomes)
+------------------------------------------------------------------------------
+  persona_undstand: 85/85 selected top response ("Alright, I understand. Let's move on!")
+  know-chck-pers: 60/85 selected top response ('a fictional person that represents a group of people.')
+  stereo_undstand: 85/85 selected top response ("Alright, I understand. Let's move on!")
+  know-chck-stereo: 85/85 selected top response ('A description where the person is oversimplified based on th')
+
+==============================================================================
+RQ5 — INDIVIDUAL DIFFERENCES (D9, D11)
+==============================================================================
+  D11_score:
+      Main effect (simple slope at non_stereo): b = +0.014, SE = 0.043, z = 0.32, p = .751 (non-significant)
+      Condition x D11_score: b = -0.035, SE = 0.052, z = -0.68, p = .498 (non-significant)
+    Simple slope at non_stereo: +0.014
+    Simple slope at stereo:     -0.021
+  D9_score:
+      Main effect (simple slope at non_stereo): b = +0.048, SE = 0.024, z = 2.00, p = .045 (significant)
+      Condition x D9_score: b = -0.086, SE = 0.030, z = -2.88, p = .004 (significant)
+    Simple slope at non_stereo: +0.048
+    Simple slope at stereo:     -0.037
+  Note: D11 null (main and interaction n.s.); report briefly. D9 interaction warrants main-text detail.
+
+==============================================================================
+RQ6 — AGE-MATCH DIAGNOSTIC
+==============================================================================
+    age_match (controlling for rater baseline Yes-rate): b = -0.126, SE = 0.042, z = -2.97, p = .003 (significant)
+    baseline_yes covariate: b = -0.092, SE = 0.078, z = -1.18, p = .236 (non-significant)
+  Per-persona age-match (stereo only):
+    bernie: no-match 0.93 (n=42), match 0.94 (n=17), diff = +0.01
+    sofia: no-match 0.90 (n=20), match 0.69 (n=36), diff = -0.21
+    caroline: no-match 0.87 (n=38), match 0.88 (n=17), diff = +0.01
+    james: no-match 0.75 (n=8), match 0.60 (n=20), diff = -0.15
+    ray: no-match 0.89 (n=18), match 1.00 (n=11), diff = +0.11
+    aisha: no-match 1.00 (n=8), match 0.70 (n=20), diff = -0.30
+
+==============================================================================
+RQ7 — IMAGE vs DESCRIPTION CONGRUENCE
+==============================================================================
+  Image Yes-rate stereo:     36.5% (93/255)
+  Image Yes-rate non-stereo: 51.0% (130/255)
+  Two-proportion z (img_yes, two-sided): z = -3.30, p < .001
+    Condition effect on img_yes (LMM, parallel to RQ1): b = -0.145, SE = 0.039, z = -3.74, p < .001 (significant)
+  img_yes x str_yes association: chi2(1) = 21.91, p < .001, phi = 0.21
+    str_yes -> img_yes (LMM, controlling for condition): b = +0.285, SE = 0.047, z = 6.04, p < .001 (significant)
+    Condition effect (LMM, controlling for str_yes): b = -0.260, SE = 0.042, z = -6.13, p < .001 (significant)
+
+==============================================================================
+RQ8 — ETHNICITY
+==============================================================================
+  RQ8a — Ethnicity match:
+    [stereo] no-match 0.768 (n=142), match 0.920 (n=113)
+      eth_match (LMM, stereo): b = +0.150, SE = 0.044, z = 3.38, p < .001 (significant)
+    [non_stereo] no-match 0.377 (n=162), match 0.527 (n=93)
+      eth_match (LMM, non_stereo): b = +0.176, SE = 0.057, z = 3.07, p = .002 (significant)
+  RQ8b — White vs non-White (stereo):
+      rater_white: b = +0.031, SE = 0.062, z = 0.51, p = .613 (non-significant)
+  RQ8c — Black vs non-Black (stereo):
+      rater_black: b = -0.043, SE = 0.073, z = -0.58, p = .560 (non-significant)
+
+==============================================================================
+RQ9 — INTER-RATER AGREEMENT (HUMAN RATERS)
+==============================================================================
+  Note: partial overlap design (6/12 personas per rater). Primary reliability: ICC(2,1) two-way random, absolute agreement.
+  ICC(2,1) for str_yes (description):
+    [All personas] ICC(2,1) = 0.231, ICC(2,k) = 0.927 (targets=12, raters=85, mean k=42.5)
+    [Stereotyped] ICC(2,1) = 0.038, ICC(2,k) = 0.625 (targets=6, raters=85, mean k=42.5)
+    [Non-stereotyped] ICC(2,1) = 0.072, ICC(2,k) = 0.767 (targets=6, raters=85, mean k=42.5)
+  [stereo] str_yes mean majority agreement: 0.822 (range 0.64-0.93)
+  [non_stereo] str_yes mean majority agreement: 0.633 (range 0.55-0.70)
+  Per-persona str_yes majority agreement (sorted):
+    non_stereo marcus   : agree=0.55, yes=0.45 (n=29)
+    non_stereo richard  : agree=0.58, yes=0.42 (n=57)
+    non_stereo eleanor  : agree=0.64, yes=0.36 (n=28)
+    stereo     james    : agree=0.64, yes=0.64 (n=28)
+    non_stereo marlinq  : agree=0.65, yes=0.65 (n=57)
+    non_stereo mei      : agree=0.68, yes=0.32 (n=28)
+    non_stereo margart  : agree=0.70, yes=0.30 (n=56)
+    stereo     sofia    : agree=0.77, yes=0.77 (n=56)
+    stereo     aisha    : agree=0.79, yes=0.79 (n=28)
+    stereo     caroline : agree=0.87, yes=0.87 (n=55)
+    stereo     ray      : agree=0.93, yes=0.93 (n=29)
+    stereo     bernie   : agree=0.93, yes=0.93 (n=59)
+  ICC(2,1) for img_yes (image):
+    [All personas] ICC(2,1) = 0.097, ICC(2,k) = 0.821
+    [Stereotyped] ICC(2,1) = 0.063, ICC(2,k) = 0.740
+    [Non-stereotyped] ICC(2,1) = 0.079, ICC(2,k) = 0.785
+  Image (img_yes) mean majority agreement:
+    [stereo]: 0.658
+    [non_stereo]: 0.662
+  Within-group majority agreement by gender (str_yes):
+    Female: M=0.745 (n_persona-cells=12)
+    Male: M=0.713 (n_persona-cells=12)
+  Male vs Female (paired personas): Male M=0.713, Female M=0.745, n=12, Wilcoxon W=28.0, p = .424
+  Within-group majority agreement by profession (block) (str_yes):
+    Creative: M=0.731 (n_persona-cells=12)
+    Scientist: M=0.732 (n_persona-cells=12)
+  Scientist vs Creative (paired personas): Scientist M=0.732, Creative M=0.731, n=12, Wilcoxon W=38.0, p = .970
+  Within-group majority agreement by age band (str_yes):
+    Mature: M=0.789 (n_persona-cells=12)
+    Young: M=0.700 (n_persona-cells=12)
+  Young vs Mature (paired personas): Young M=0.700, Mature M=0.789, n=12, Wilcoxon W=10.0, p = .021
+  Within-group majority agreement by ethnicity (ethnicity_check) (str_yes):
+    Asian: M=0.804 (n_persona-cells=9)
+    Black: M=0.695 (n_persona-cells=11)
+    Caucasian: M=0.735 (n_persona-cells=12)
+  Within-group majority agreement by white vs non-white (str_yes):
+    White: M=0.735 (n_persona-cells=12)
+    non-White: M=0.720 (n_persona-cells=12)
+  White vs non-White (paired personas): White M=0.735, non-White M=0.720, n=12, Wilcoxon W=24.5, p = .274
+  Within-group majority agreement by black vs non-black (str_yes):
+    Black: M=0.695 (n_persona-cells=11)
+    non-Black: M=0.739 (n_persona-cells=12)
+  Black vs non-Black (paired personas): Black M=0.695, non-Black M=0.747, n=11, Wilcoxon W=20.0, p = .278
+  LMM consensus_match ~ rater demographics (matches persona-level majority):
+      C(rater_gender)[T.Male]: b = -0.019, SE = 0.041, z = -0.45, p = .649 (non-significant)
+      C(rater_occ_type)[T.Scientist]: b = -0.000, SE = 0.041, z = -0.01, p = .991 (non-significant)
+      C(rater_age_band, Treatment(reference='Mature'))[T.Young]: b = -0.071, SE = 0.043, z = -1.65, p = .099 (non-significant)
+      C(rater_ethnicity, Treatment(reference='Caucasian'))[T.Asian]: b = +0.006, SE = 0.070, z = 0.08, p = .937 (non-significant)
+      C(rater_ethnicity, Treatment(reference='Caucasian'))[T.Black]: b = -0.067, SE = 0.054, z = -1.24, p = .214 (non-significant)
+      C(rater_ethnicity, Treatment(reference='Caucasian'))[T.Mixed]: b = +0.089, SE = 0.134, z = 0.66, p = .506 (non-significant)
+      rater_white: b = +0.031, SE = 0.045, z = 0.70, p = .487 (non-significant)
+      rater_black: b = -0.070, SE = 0.053, z = -1.32, p = .188 (non-significant)
+
+==============================================================================
+END OF SUMMARY
+==============================================================================

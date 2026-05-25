@@ -1,0 +1,13 @@
+condition,persona,n_raters,yes_rate,majority_agreement
+non_stereo,marcus,29,0.448,0.552
+non_stereo,richard,57,0.421,0.579
+non_stereo,eleanor,28,0.357,0.643
+non_stereo,marlinq,57,0.649,0.649
+non_stereo,mei,28,0.321,0.679
+non_stereo,margart,56,0.304,0.696
+stereo,james,28,0.643,0.643
+stereo,sofia,56,0.768,0.768
+stereo,aisha,28,0.786,0.786
+stereo,caroline,55,0.873,0.873
+stereo,ray,29,0.931,0.931
+stereo,bernie,59,0.932,0.932

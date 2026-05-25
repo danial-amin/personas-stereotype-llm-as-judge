@@ -74,6 +74,31 @@ class PersonaEvaluator:
 
         return results
 
+    def evaluate_once(
+        self,
+        persona: Persona,
+        model_key: str,
+        run_index: int,
+    ) -> EvaluationResult:
+        model = next((m for m in self.config.models if m.key == model_key), None)
+        if model is None:
+            raise ValueError(f"Unknown model key: {model_key}")
+
+        prompt_text = build_prompt(self.config.prompt_template, persona)
+        provider = self._get_provider(model)
+        result = self._run_single(
+            persona=persona,
+            model=model,
+            provider=provider,
+            prompt_text=prompt_text,
+            run_index=run_index,
+        )
+
+        if self.config.request_delay_seconds > 0:
+            time.sleep(self.config.request_delay_seconds)
+
+        return result
+
     def _run_single(
         self,
         persona: Persona,
