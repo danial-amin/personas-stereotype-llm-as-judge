@@ -142,6 +142,28 @@ def load_mirror_results(output_dir: Path) -> list[dict[str, Any]]:
     return list(data.get("evaluations", []))
 
 
+def dedupe_mirror_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep one record per (participant_id, persona_id), preferring successful runs."""
+    best: dict[tuple[str, str], dict[str, Any]] = {}
+    for record in records:
+        key = (record["participant_id"], record["persona_id"])
+        existing = best.get(key)
+        if existing is None:
+            best[key] = record
+            continue
+        if existing.get("error") and not record.get("error"):
+            best[key] = record
+        elif not existing.get("error") and record.get("error"):
+            continue
+        elif int(record.get("evaluation_index", 0)) >= int(existing.get("evaluation_index", 0)):
+            best[key] = record
+    return sorted(best.values(), key=lambda item: int(item["evaluation_index"]))
+
+
+def load_mirror_results_successful(output_dir: Path) -> list[dict[str, Any]]:
+    return dedupe_mirror_records(load_mirror_results(output_dir))
+
+
 def completed_mirror_keys(records: list[dict[str, Any]]) -> set[tuple[str, str]]:
     return {
         (record["participant_id"], record["persona_id"])

@@ -1,0 +1,101 @@
+
+==============================================================================
+PERSONA STEREOTYPES EVALUATION — HUMAN-MIRROR LLM RESULTS SUMMARY
+==============================================================================
+Generated: 2026-05-25 18:03 UTC
+Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results/human_mirror_experiment
+Model: Claude Sonnet 4.6
+Design: 85 virtual participants × 6 personas (3 stereotyped + 3 non-stereotyped)
+Assignment schedule: matched to Prolific human study (partial overlap, 6/12 personas per participant)
+N participants: 85
+N persona ratings: 510
+
+==============================================================================
+GROUND-TRUTH AGREEMENT
+==============================================================================
+  Image        overall: 22.0% | stereo TP rate 22.0% | non-stereo FP rate 78.0%
+  Description  overall: 50.0% | stereo TP rate 100.0% | non-stereo FP rate 100.0%
+
+==============================================================================
+RQ1 — MANIPULATION CHECK
+==============================================================================
+  Yes-rate stereo:     100.0% (255/255)
+  Yes-rate non-stereo: 100.0% (255/255)
+  Difference: +0.0 pp
+  Two-proportion z: n/a (identical yes-rates)
+  Wilcoxon paired: n/a (identical stereo and non-stereo rates within participants)
+
+==============================================================================
+PER-PERSONA DETECTABILITY (description Yes-rate)
+==============================================================================
+  Stereotyped personas (true-positive rate):
+    aisha    : 100.0% (28/28)
+    bernie   : 100.0% (59/59)
+    caroline : 100.0% (55/55)
+    james    : 100.0% (28/28)
+    ray      : 100.0% (29/29)
+    sofia    : 100.0% (56/56)
+  Non-stereotyped personas (false-positive rate):
+    eleanor  : 100.0% (28/28)
+    marcus   : 100.0% (29/29)
+    marlinq  : 100.0% (57/57)
+    margart  : 100.0% (56/56)
+    mei      : 100.0% (28/28)
+    richard  : 100.0% (57/57)
+
+==============================================================================
+RQ7 — IMAGE vs DESCRIPTION CONGRUENCE
+==============================================================================
+  Image Yes-rate stereo    : 22.0% (56/255)
+  Image Yes-rate non-stereo: 78.0% (199/255)
+  Two-proportion z (img_yes, stereo vs non-stereo): z = -12.66, p < .001
+
+==============================================================================
+RQ3 — STEREOTYPE-TYPE ATTRIBUTION
+==============================================================================
+  Note: citation rates below are conditional on description_stereotype == Yes.
+    non_stereo (N flaggers = 255): age 0.89, gender 0.58, occupation 0.86, other 0.13
+    stereo (N flaggers = 255): age 1.00, gender 0.71, occupation 0.64, other 0.11
+  Stereo-only summary (N = 255 flaggers): proportion citing each dimension
+    Age         : 100.0%
+    Gender      : 71.0%
+    Occupation  : 64.3%
+    Other       : 11.0%
+
+==============================================================================
+RQ4 — USE / RELATABILITY TRADE-OFFS
+==============================================================================
+  Usefulness maps to understand_group; relatability maps to relatable Likert items.
+  Usefulness: stereo M = 1.00, non-stereo M = 3.98
+  Relatability: stereo M = 1.08, non-stereo M = 4.00
+
+==============================================================================
+RQ9 — INTER-RATER AGREEMENT
+==============================================================================
+  Primary metric: majority agreement on description Yes/No (rater column = participant_id).
+  [stereo] description mean majority agreement: 1.000
+  [non_stereo] description mean majority agreement: 1.000
+  Per-persona description majority agreement (sorted):
+    stereo     aisha    : agree=1.00, yes=1.00 (n=28)
+    stereo     bernie   : agree=1.00, yes=1.00 (n=59)
+    stereo     caroline : agree=1.00, yes=1.00 (n=55)
+    stereo     james    : agree=1.00, yes=1.00 (n=28)
+    stereo     ray      : agree=1.00, yes=1.00 (n=29)
+    stereo     sofia    : agree=1.00, yes=1.00 (n=56)
+    non_stereo eleanor  : agree=1.00, yes=1.00 (n=28)
+    non_stereo marcus   : agree=1.00, yes=1.00 (n=29)
+    non_stereo marlinq  : agree=1.00, yes=1.00 (n=57)
+    non_stereo margart  : agree=1.00, yes=1.00 (n=56)
+    non_stereo mei      : agree=1.00, yes=1.00 (n=28)
+    non_stereo richard  : agree=1.00, yes=1.00 (n=57)
+  ICC(2,1) for description_yes:
+    [All personas] ICC(2,1) = n/a (undefined — zero variance across raters)
+    [Stereotyped] ICC(2,1) = n/a (undefined — zero variance across raters)
+    [Non-stereotyped] ICC(2,1) = n/a (undefined — zero variance across raters)
+  Image (img_yes) mean majority agreement:
+    [stereo]: 0.986
+    [non_stereo]: 1.000
+
+==============================================================================
+END OF SUMMARY
+==============================================================================
