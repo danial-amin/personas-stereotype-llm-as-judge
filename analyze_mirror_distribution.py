@@ -13,7 +13,9 @@ from scipy.stats import pearsonr
 from src.human_data import LIKERT_ORDER, likert_to_numeric, load_human_study
 from src.mirror_storage import load_mirror_results_successful
 
-DEFAULT_MIRROR_DIR = Path("results/human_mirror_experiment")
+from pick_mirror_model import DEFAULT_MODEL, mirror_output_dir
+
+DEFAULT_MIRROR_DIR = mirror_output_dir(DEFAULT_MODEL)
 DEFAULT_OUTPUT_DIR = Path("outputs")
 
 
@@ -216,7 +218,7 @@ def _format_report(
 ) -> str:
     lines = [
         "=" * 78,
-        "HUMAN vs HUMAN-MIRROR LLM COMPARISON (Sonnet 4.6, paired design)",
+        f"HUMAN vs HUMAN-MIRROR LLM COMPARISON ({model_name}, paired design)",
         "=" * 78,
         f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
         f"Model: {model_name}",

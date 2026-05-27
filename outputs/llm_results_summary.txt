@@ -2,49 +2,49 @@
 ==============================================================================
 PERSONA STEREOTYPES EVALUATION — LLM RESULTS SUMMARY
 ==============================================================================
-Generated: 2026-05-25 18:03 UTC
+Generated: 2026-05-27 11:20 UTC
 Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results
 Design: 12 personas × 5 models × 5 runs
-N evaluations: 305
+N evaluations: 310
 Models: gemini-3, gpt-5.4, grok, qwen, sonnet-4.6
 
 ==============================================================================
 GROUND-TRUTH AGREEMENT
 ==============================================================================
-  Image        overall: 34.1% | stereo TP rate 37.5% | non-stereo FP rate 69.3%
-  Description  overall: 74.8% | stereo TP rate 100.0% | non-stereo FP rate 50.3%
+  Image        overall: 34.5% | stereo TP rate 38.3% | non-stereo FP rate 69.2%
+  Description  overall: 74.8% | stereo TP rate 100.0% | non-stereo FP rate 50.0%
 
 ==============================================================================
 RQ1 — MANIPULATION CHECK
 ==============================================================================
-  Yes-rate stereo:     100.0% (152/152)
-  Yes-rate non-stereo: 50.3% (77/153)
-  Difference: +49.7 pp
-  Two-proportion z: z = 10.03, p < .001 (one-sided)
+  Yes-rate stereo:     100.0% (154/154)
+  Yes-rate non-stereo: 50.0% (78/156)
+  Difference: +50.0 pp
+  Two-proportion z: z = 10.14, p < .001 (one-sided)
 
 ==============================================================================
 PER-PERSONA DETECTABILITY (description Yes-rate)
 ==============================================================================
   Stereotyped personas (true-positive rate):
     aisha    : 100.0% (25/25)
-    bernie   : 100.0% (26/26)
+    bernie   : 100.0% (27/27)
     caroline : 100.0% (25/25)
     james    : 100.0% (25/25)
     ray      : 100.0% (25/25)
-    sofia    : 100.0% (26/26)
+    sofia    : 100.0% (27/27)
   Non-stereotyped personas (false-positive rate):
     eleanor  :  56.0% (14/25)
-    marcus   :  46.2% (12/26)
-    marlinq  :  42.3% (11/26)
+    marcus   :  44.4% (12/27)
+    marlinq  :  40.7% (11/27)
     margart  :  48.0% (12/25)
     mei      :  20.0% (5/25)
-    richard  :  88.5% (23/26)
+    richard  :  88.9% (24/27)
 
 ==============================================================================
 MODEL BREAKDOWN (description Yes-rate by condition)
 ==============================================================================
   gemini-3    : stereo 100.0%, non-stereo 83.3%, delta +16.7 pp
-  gpt-5.4     : stereo 100.0%, non-stereo 16.7%, delta +83.3 pp
+  gpt-5.4     : stereo 100.0%, non-stereo 18.2%, delta +81.8 pp
   grok        : stereo 100.0%, non-stereo 26.7%, delta +73.3 pp
   qwen        : stereo 100.0%, non-stereo 20.0%, delta +80.0 pp
   sonnet-4.6  : stereo 100.0%, non-stereo 100.0%, delta +0.0 pp
@@ -62,31 +62,31 @@ INTERNAL CONSISTENCY BY MODEL (5 runs per persona)
 ==============================================================================
 RQ7 — IMAGE vs DESCRIPTION CONGRUENCE
 ==============================================================================
-  Image Yes-rate stereo    : 37.5% (57/152)
-  Image Yes-rate non-stereo: 69.3% (106/153)
-  Two-proportion z (img_yes, stereo vs non-stereo): z = -5.56, p < .001
-  img_yes x str_yes association: chi2(1) = 0.05, p = .815, phi = 0.01
+  Image Yes-rate stereo    : 38.3% (59/154)
+  Image Yes-rate non-stereo: 69.2% (108/156)
+  Two-proportion z (img_yes, stereo vs non-stereo): z = -5.46, p < .001
+  img_yes x str_yes association: chi2(1) = 0.02, p = .900, phi = 0.01
 
 ==============================================================================
 RQ3 — STEREOTYPE-TYPE ATTRIBUTION
 ==============================================================================
   Note: citation rates below are conditional on description_stereotype == Yes.
-    non_stereo (N flaggers = 77): age 0.94, gender 0.35, occupation 0.94, other 0.08
-    stereo (N flaggers = 152): age 1.00, gender 0.76, occupation 0.61, other 0.16
-  Stereo-only summary (N = 152 flaggers): proportion citing each dimension
+    non_stereo (N flaggers = 78): age 0.94, gender 0.35, occupation 0.94, other 0.08
+    stereo (N flaggers = 154): age 1.00, gender 0.76, occupation 0.61, other 0.16
+  Stereo-only summary (N = 154 flaggers): proportion citing each dimension
     Age         : 100.0%
-    Gender      : 76.3%
-    Occupation  : 60.5%
-    Other       : 15.8%
+    Gender      : 76.0%
+    Occupation  : 61.0%
+    Other       : 15.6%
 
 ==============================================================================
 RQ4 — USE / RELATABILITY TRADE-OFFS
 ==============================================================================
   Usefulness maps to understand_group; relatability maps to relatable Likert items.
-  Usefulness: stereo M = 1.31, non-stereo M = 4.18
-  Relatability: stereo M = 1.07, non-stereo M = 3.82
-    [non_stereo] flagged usefulness M = 4.03 (n=77), unflagged M = 4.35 (n=76)
-    [non_stereo] flagged relatability M = 3.81 (n=77), unflagged M = 3.84 (n=76)
+  Usefulness: stereo M = 1.32, non-stereo M = 4.18
+  Relatability: stereo M = 1.07, non-stereo M = 3.83
+    [non_stereo] flagged usefulness M = 4.03 (n=78), unflagged M = 4.34 (n=78)
+    [non_stereo] flagged relatability M = 3.81 (n=78), unflagged M = 3.84 (n=78)
 
 ==============================================================================
 RQ9 — INTER-MODEL AGREEMENT

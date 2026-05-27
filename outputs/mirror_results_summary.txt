@@ -2,9 +2,9 @@
 ==============================================================================
 PERSONA STEREOTYPES EVALUATION — HUMAN-MIRROR LLM RESULTS SUMMARY
 ==============================================================================
-Generated: 2026-05-25 18:03 UTC
-Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results/human_mirror_experiment
-Model: Claude Sonnet 4.6
+Generated: 2026-05-27 11:20 UTC
+Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results/human_mirror_gpt-5.4
+Model: GPT-5.4
 Design: 85 virtual participants × 6 personas (3 stereotyped + 3 non-stereotyped)
 Assignment schedule: matched to Prolific human study (partial overlap, 6/12 personas per participant)
 N participants: 85
@@ -13,17 +13,17 @@ N persona ratings: 510
 ==============================================================================
 GROUND-TRUTH AGREEMENT
 ==============================================================================
-  Image        overall: 22.0% | stereo TP rate 22.0% | non-stereo FP rate 78.0%
-  Description  overall: 50.0% | stereo TP rate 100.0% | non-stereo FP rate 100.0%
+  Image        overall: 47.8% | stereo TP rate 56.5% | non-stereo FP rate 60.8%
+  Description  overall: 83.9% | stereo TP rate 100.0% | non-stereo FP rate 32.2%
 
 ==============================================================================
 RQ1 — MANIPULATION CHECK
 ==============================================================================
   Yes-rate stereo:     100.0% (255/255)
-  Yes-rate non-stereo: 100.0% (255/255)
-  Difference: +0.0 pp
-  Two-proportion z: n/a (identical yes-rates)
-  Wilcoxon paired: n/a (identical stereo and non-stereo rates within participants)
+  Yes-rate non-stereo: 32.2% (82/255)
+  Difference: +67.8 pp
+  Two-proportion z: z = 16.18, p < .001 (one-sided)
+  Wilcoxon paired (participant stereo > non-stereo): W = 3655.0, p < .001, N = 85
 
 ==============================================================================
 PER-PERSONA DETECTABILITY (description Yes-rate)
@@ -36,65 +36,68 @@ PER-PERSONA DETECTABILITY (description Yes-rate)
     ray      : 100.0% (29/29)
     sofia    : 100.0% (56/56)
   Non-stereotyped personas (false-positive rate):
-    eleanor  : 100.0% (28/28)
-    marcus   : 100.0% (29/29)
-    marlinq  : 100.0% (57/57)
-    margart  : 100.0% (56/56)
-    mei      : 100.0% (28/28)
-    richard  : 100.0% (57/57)
+    eleanor  :  92.9% (26/28)
+    marcus   :   0.0% (0/29)
+    marlinq  :   0.0% (0/57)
+    margart  :   0.0% (0/56)
+    mei      :   0.0% (0/28)
+    richard  :  98.2% (56/57)
 
 ==============================================================================
 RQ7 — IMAGE vs DESCRIPTION CONGRUENCE
 ==============================================================================
-  Image Yes-rate stereo    : 22.0% (56/255)
-  Image Yes-rate non-stereo: 78.0% (199/255)
-  Two-proportion z (img_yes, stereo vs non-stereo): z = -12.66, p < .001
+  Image Yes-rate stereo    : 56.5% (144/255)
+  Image Yes-rate non-stereo: 60.8% (155/255)
+  Two-proportion z (img_yes, stereo vs non-stereo): z = -0.99, p = .323
+  img_yes x str_yes association: chi2(1) = 0.16, p = .694, phi = 0.02
 
 ==============================================================================
 RQ3 — STEREOTYPE-TYPE ATTRIBUTION
 ==============================================================================
   Note: citation rates below are conditional on description_stereotype == Yes.
-    non_stereo (N flaggers = 255): age 0.89, gender 0.58, occupation 0.86, other 0.13
-    stereo (N flaggers = 255): age 1.00, gender 0.71, occupation 0.64, other 0.11
+    non_stereo (N flaggers = 82): age 1.00, gender 0.00, occupation 1.00, other 0.00
+    stereo (N flaggers = 255): age 1.00, gender 0.77, occupation 0.78, other 0.20
   Stereo-only summary (N = 255 flaggers): proportion citing each dimension
     Age         : 100.0%
-    Gender      : 71.0%
-    Occupation  : 64.3%
-    Other       : 11.0%
+    Gender      : 76.9%
+    Occupation  : 78.4%
+    Other       : 20.0%
 
 ==============================================================================
 RQ4 — USE / RELATABILITY TRADE-OFFS
 ==============================================================================
   Usefulness maps to understand_group; relatability maps to relatable Likert items.
-  Usefulness: stereo M = 1.00, non-stereo M = 3.98
-  Relatability: stereo M = 1.08, non-stereo M = 4.00
+  Usefulness: stereo M = 1.99, non-stereo M = 4.00
+  Relatability: stereo M = 1.05, non-stereo M = 3.78
+    [non_stereo] flagged usefulness M = 4.00 (n=82), unflagged M = 4.00 (n=173)
+    [non_stereo] flagged relatability M = 3.30 (n=82), unflagged M = 3.96 (n=173)
 
 ==============================================================================
 RQ9 — INTER-RATER AGREEMENT
 ==============================================================================
   Primary metric: majority agreement on description Yes/No (rater column = participant_id).
   [stereo] description mean majority agreement: 1.000
-  [non_stereo] description mean majority agreement: 1.000
+  [non_stereo] description mean majority agreement: 0.985
   Per-persona description majority agreement (sorted):
+    non_stereo eleanor  : agree=0.93, yes=0.93 (n=28)
+    non_stereo richard  : agree=0.98, yes=0.98 (n=57)
     stereo     aisha    : agree=1.00, yes=1.00 (n=28)
     stereo     bernie   : agree=1.00, yes=1.00 (n=59)
     stereo     caroline : agree=1.00, yes=1.00 (n=55)
     stereo     james    : agree=1.00, yes=1.00 (n=28)
     stereo     ray      : agree=1.00, yes=1.00 (n=29)
     stereo     sofia    : agree=1.00, yes=1.00 (n=56)
-    non_stereo eleanor  : agree=1.00, yes=1.00 (n=28)
-    non_stereo marcus   : agree=1.00, yes=1.00 (n=29)
-    non_stereo marlinq  : agree=1.00, yes=1.00 (n=57)
-    non_stereo margart  : agree=1.00, yes=1.00 (n=56)
-    non_stereo mei      : agree=1.00, yes=1.00 (n=28)
-    non_stereo richard  : agree=1.00, yes=1.00 (n=57)
+    non_stereo marcus   : agree=1.00, yes=0.00 (n=29)
+    non_stereo marlinq  : agree=1.00, yes=0.00 (n=57)
+    non_stereo margart  : agree=1.00, yes=0.00 (n=56)
+    non_stereo mei      : agree=1.00, yes=0.00 (n=28)
   ICC(2,1) for description_yes:
-    [All personas] ICC(2,1) = n/a (undefined — zero variance across raters)
+    [All personas] ICC(2,1) = n/a (Either missing values are present in data or data are unbalanced. Please remove them manually or use nan_policy='omit'.)
     [Stereotyped] ICC(2,1) = n/a (undefined — zero variance across raters)
-    [Non-stereotyped] ICC(2,1) = n/a (undefined — zero variance across raters)
+    [Non-stereotyped] ICC(2,1) = n/a (Either missing values are present in data or data are unbalanced. Please remove them manually or use nan_policy='omit'.)
   Image (img_yes) mean majority agreement:
-    [stereo]: 0.986
-    [non_stereo]: 1.000
+    [stereo]: 1.000
+    [non_stereo]: 0.956
 
 ==============================================================================
 END OF SUMMARY

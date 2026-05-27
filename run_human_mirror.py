@@ -18,14 +18,25 @@ from src.evaluator import PersonaEvaluator
 from src.human_assignments import DEFAULT_ASSIGNMENTS_PATH, load_mirror_schedule
 from src.mirror_storage import (
     completed_mirror_keys,
+    dedupe_mirror_records,
     load_mirror_results,
     save_mirror_results,
 )
 from src.persona_loader import load_personas
 
 
-DEFAULT_MODEL = "sonnet-4.6"
-DEFAULT_OUTPUT_DIR = Path("results/human_mirror_experiment")
+DEFAULT_MODEL = "gpt-5.4"
+LEGACY_MIRROR_DIR = Path("results/human_mirror_experiment")
+
+
+def mirror_output_dir(model_key: str) -> Path:
+    return Path("results") / f"human_mirror_{model_key}"
+
+
+def resolve_output_dir(model_key: str, output_dir: Path | None) -> Path:
+    if output_dir is not None:
+        return output_dir
+    return mirror_output_dir(model_key)
 
 
 def parse_args() -> argparse.Namespace:
@@ -44,13 +55,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         default=DEFAULT_MODEL,
-        help=f"Single model key to use (default: {DEFAULT_MODEL}).",
+        help=(
+            f"Single model key to use (default: {DEFAULT_MODEL}). "
+            "Run pick_mirror_model.py to compare human alignment."
+        ),
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=DEFAULT_OUTPUT_DIR,
-        help=f"Directory for experiment results (default: {DEFAULT_OUTPUT_DIR}).",
+        default=None,
+        help="Directory for experiment results (default: results/human_mirror_<model>).",
     )
     parser.add_argument(
         "--assignments",
@@ -122,6 +136,7 @@ def main() -> int:
         raise SystemExit(f"Unknown model {args.model!r}. Available: {available}")
 
     config = replace(config, models=[model], runs_per_model=1)
+    output_dir = resolve_output_dir(model.key, args.output_dir)
 
     schedule = load_mirror_schedule(args.assignments)
     if args.test:
@@ -144,10 +159,11 @@ def main() -> int:
     total_calls = len(schedule_rows)
 
     logging.info(
-        "Human-mirror experiment: model=%s (%s), %s evaluation(s)",
+        "Human-mirror experiment: model=%s (%s), %s evaluation(s), output=%s",
         model.key,
         model.display_name,
         total_calls,
+        output_dir,
     )
     logging.info(
         "Assignment balance: %s stereo + %s non-stereo per participant",
@@ -171,13 +187,14 @@ def main() -> int:
         logging.info("Dry run complete: %s API call(s) planned", total_calls)
         return 0
 
-    existing_records = [] if args.no_resume else load_mirror_results(args.output_dir)
-    completed = completed_mirror_keys(existing_records)
+    existing_records = [] if args.no_resume else dedupe_mirror_records(load_mirror_results(output_dir))
+    successful_records = [record for record in existing_records if not record.get("error")]
+    completed = completed_mirror_keys(successful_records)
     if completed:
         logging.info("Resuming with %s completed evaluation(s)", len(completed))
 
     evaluator = PersonaEvaluator(config)
-    results = _records_to_results(existing_records)
+    results = _records_to_results(successful_records)
     schedule_for_save = [
         {
             "participant_id": record["participant_id"],
@@ -186,7 +203,7 @@ def main() -> int:
             "condition": record["condition"],
             "evaluation_index": record["evaluation_index"],
         }
-        for record in existing_records
+        for record in successful_records
     ]
 
     failures = 0
@@ -223,7 +240,7 @@ def main() -> int:
         results.append(result)
         schedule_for_save.append(row)
         save_mirror_results(
-            args.output_dir,
+            output_dir,
             schedule_for_save,
             results,
             model_key=model.key,
@@ -234,7 +251,7 @@ def main() -> int:
         "Finished human-mirror experiment: %s evaluation(s), %s failure(s). Saved to %s",
         len(results),
         failures,
-        args.output_dir,
+        output_dir,
     )
     return 1 if failures else 0
 

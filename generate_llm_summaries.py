@@ -24,7 +24,9 @@ from src.human_data import LIKERT_ORDER, likert_to_numeric
 from src.mirror_storage import load_mirror_results_successful
 
 DEFAULT_OUTPUT_DIR = Path("outputs")
-DEFAULT_MIRROR_DIR = Path("results/human_mirror_experiment")
+from pick_mirror_model import DEFAULT_MODEL, mirror_output_dir
+
+DEFAULT_MIRROR_DIR = mirror_output_dir(DEFAULT_MODEL)
 DEFAULT_RESULTS_DIR = Path("results")
 DEFAULT_CONFIG = Path("config.yaml")
 
