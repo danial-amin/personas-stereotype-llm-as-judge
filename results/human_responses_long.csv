@@ -1,0 +1,511 @@
+pid,persona_suffix,persona_id,condition,description_answer,description_yes,image_answer,image_yes,relatable_answer,usefulness_answer,is_stereo
+6a0e0801d8ded44a65adf91e,marcus,a_us_marcus,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat disagree,False
+6a0e0801d8ded44a65adf91e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6a0e0801d8ded44a65adf91e,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a0e0801d8ded44a65adf91e,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+6a0e0801d8ded44a65adf91e,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+6a0e0801d8ded44a65adf91e,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat disagree,True
+6a00c9c6e751e2284f327b2b,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a00c9c6e751e2284f327b2b,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6a00c9c6e751e2284f327b2b,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a00c9c6e751e2284f327b2b,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a00c9c6e751e2284f327b2b,caroline,a_s_caroline,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a00c9c6e751e2284f327b2b,james,a_s_james,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+69ea127be7c58529e1ee223a,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Strongly disagree,Neither agree nor disagree,False
+69ea127be7c58529e1ee223a,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,False
+69ea127be7c58529e1ee223a,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly disagree,Somewhat agree,False
+69ea127be7c58529e1ee223a,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Strongly disagree,True
+69ea127be7c58529e1ee223a,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat agree,Strongly disagree,True
+69ea127be7c58529e1ee223a,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a0c51209ccfd1a6e53663fa,mei,a_us_mei,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat disagree,False
+6a0c51209ccfd1a6e53663fa,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a0c51209ccfd1a6e53663fa,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+6a0c51209ccfd1a6e53663fa,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+6a0c51209ccfd1a6e53663fa,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a0c51209ccfd1a6e53663fa,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a059c51ac58ebeefab58af0,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a059c51ac58ebeefab58af0,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,False
+6a059c51ac58ebeefab58af0,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a059c51ac58ebeefab58af0,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,True
+6a059c51ac58ebeefab58af0,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a059c51ac58ebeefab58af0,ray,a_s_ray,stereo,No,0.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69fcc31349e5e57fd6f856d2,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69fcc31349e5e57fd6f856d2,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+69fcc31349e5e57fd6f856d2,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+69fcc31349e5e57fd6f856d2,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69fcc31349e5e57fd6f856d2,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69fcc31349e5e57fd6f856d2,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+69fae3c2343e7643b421c19a,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Strongly agree,Strongly agree,False
+69fae3c2343e7643b421c19a,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Strongly agree,Strongly agree,False
+69fae3c2343e7643b421c19a,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69fae3c2343e7643b421c19a,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+69fae3c2343e7643b421c19a,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69fae3c2343e7643b421c19a,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a019c3cc3985370727003c9,mei,a_us_mei,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a019c3cc3985370727003c9,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+6a019c3cc3985370727003c9,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+6a019c3cc3985370727003c9,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,True
+6a019c3cc3985370727003c9,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a019c3cc3985370727003c9,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+5dcfb0ffcc19200baabf0e8a,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+5dcfb0ffcc19200baabf0e8a,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+5dcfb0ffcc19200baabf0e8a,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly agree,Neither agree nor disagree,False
+5dcfb0ffcc19200baabf0e8a,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+5dcfb0ffcc19200baabf0e8a,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+5dcfb0ffcc19200baabf0e8a,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+5b2e41eb1d2f710001fb32db,eleanor,a_us_eleanor,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+5b2e41eb1d2f710001fb32db,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+5b2e41eb1d2f710001fb32db,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+5b2e41eb1d2f710001fb32db,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+5b2e41eb1d2f710001fb32db,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+5b2e41eb1d2f710001fb32db,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0061939b0d50b1177ab27d,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+6a0061939b0d50b1177ab27d,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+6a0061939b0d50b1177ab27d,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+6a0061939b0d50b1177ab27d,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0061939b0d50b1177ab27d,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0061939b0d50b1177ab27d,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Strongly disagree,True
+6a024451660d5009a74c4f91,eleanor,a_us_eleanor,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6a024451660d5009a74c4f91,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6a024451660d5009a74c4f91,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+6a024451660d5009a74c4f91,bernie,a_s_bernie,stereo,No,0.0,Yes,1.0,Strongly agree,Strongly agree,True
+6a024451660d5009a74c4f91,sofia,a_s_sofia,stereo,No,0.0,Yes,1.0,Strongly agree,Somewhat agree,True
+6a024451660d5009a74c4f91,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,True
+6a06fd0bc37e38e12e6f8a84,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a06fd0bc37e38e12e6f8a84,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a06fd0bc37e38e12e6f8a84,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a06fd0bc37e38e12e6f8a84,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+6a06fd0bc37e38e12e6f8a84,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a06fd0bc37e38e12e6f8a84,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+69e9d244cea06249bef8f5a6,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+69e9d244cea06249bef8f5a6,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Strongly agree,Somewhat agree,False
+69e9d244cea06249bef8f5a6,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69e9d244cea06249bef8f5a6,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69e9d244cea06249bef8f5a6,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69e9d244cea06249bef8f5a6,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69fda86187f72c3aacbd992c,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fda86187f72c3aacbd992c,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69fda86187f72c3aacbd992c,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fda86187f72c3aacbd992c,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Strongly disagree,True
+69fda86187f72c3aacbd992c,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69fda86187f72c3aacbd992c,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a01aecb7688850cde90be09,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat disagree,False
+6a01aecb7688850cde90be09,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Neither agree nor disagree,False
+6a01aecb7688850cde90be09,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat disagree,False
+6a01aecb7688850cde90be09,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a01aecb7688850cde90be09,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a01aecb7688850cde90be09,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+69fdd231a69b899937c5139e,mei,a_us_mei,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69fdd231a69b899937c5139e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69fdd231a69b899937c5139e,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69fdd231a69b899937c5139e,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat disagree,True
+69fdd231a69b899937c5139e,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,True
+69fdd231a69b899937c5139e,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+69fe00b34adec4f226d8b9c4,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Strongly agree,Somewhat agree,False
+69fe00b34adec4f226d8b9c4,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fe00b34adec4f226d8b9c4,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+69fe00b34adec4f226d8b9c4,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+69fe00b34adec4f226d8b9c4,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69fe00b34adec4f226d8b9c4,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+69fd9cbe9b919247050be2ad,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+69fd9cbe9b919247050be2ad,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Neither agree nor disagree,False
+69fd9cbe9b919247050be2ad,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly disagree,Neither agree nor disagree,False
+69fd9cbe9b919247050be2ad,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat agree,True
+69fd9cbe9b919247050be2ad,caroline,a_s_caroline,stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+69fd9cbe9b919247050be2ad,james,a_s_james,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+6979f7df3438942e2dd5141e,eleanor,a_us_eleanor,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6979f7df3438942e2dd5141e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6979f7df3438942e2dd5141e,margart,a_us_margaret,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+6979f7df3438942e2dd5141e,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,True
+6979f7df3438942e2dd5141e,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,True
+6979f7df3438942e2dd5141e,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,True
+6a00e9e22e96d39a0a628056,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a00e9e22e96d39a0a628056,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a00e9e22e96d39a0a628056,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat disagree,Strongly agree,False
+6a00e9e22e96d39a0a628056,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a00e9e22e96d39a0a628056,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat agree,True
+6a00e9e22e96d39a0a628056,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+673dbbee9983e0d8084c8a76,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Strongly disagree,False
+673dbbee9983e0d8084c8a76,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+673dbbee9983e0d8084c8a76,margart,a_us_margaret,non_stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+673dbbee9983e0d8084c8a76,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+673dbbee9983e0d8084c8a76,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+673dbbee9983e0d8084c8a76,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+67665f7b0329bd3e30515ad2,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Strongly agree,Somewhat agree,False
+67665f7b0329bd3e30515ad2,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+67665f7b0329bd3e30515ad2,margart,a_us_margaret,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Strongly agree,False
+67665f7b0329bd3e30515ad2,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+67665f7b0329bd3e30515ad2,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,True
+67665f7b0329bd3e30515ad2,james,a_s_james,stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,True
+69f08347f86aa709895ccc23,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+69f08347f86aa709895ccc23,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69f08347f86aa709895ccc23,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+69f08347f86aa709895ccc23,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+69f08347f86aa709895ccc23,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+69f08347f86aa709895ccc23,aisha,a_s_aisha,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+69eddd8913c2470a6e65ef49,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69eddd8913c2470a6e65ef49,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,False
+69eddd8913c2470a6e65ef49,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69eddd8913c2470a6e65ef49,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+69eddd8913c2470a6e65ef49,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly agree,Neither agree nor disagree,True
+69eddd8913c2470a6e65ef49,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+6a0f0c6d8029aec5b6672ac8,eleanor,a_us_eleanor,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,False
+6a0f0c6d8029aec5b6672ac8,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a0f0c6d8029aec5b6672ac8,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0f0c6d8029aec5b6672ac8,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0f0c6d8029aec5b6672ac8,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Neither agree nor disagree,True
+6a0f0c6d8029aec5b6672ac8,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a064e2a606d74651b3d43ec,mei,a_us_mei,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,False
+6a064e2a606d74651b3d43ec,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,False
+6a064e2a606d74651b3d43ec,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,False
+6a064e2a606d74651b3d43ec,sofia,a_s_sofia,stereo,No,0.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a064e2a606d74651b3d43ec,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+6a064e2a606d74651b3d43ec,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+6a0afedaee3a908a64442c72,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a0afedaee3a908a64442c72,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,False
+6a0afedaee3a908a64442c72,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly disagree,False
+6a0afedaee3a908a64442c72,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+6a0afedaee3a908a64442c72,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Strongly disagree,Neither agree nor disagree,True
+6a0afedaee3a908a64442c72,aisha,a_s_aisha,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+6a0b32ff7a776cae6829e7ef,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a0b32ff7a776cae6829e7ef,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a0b32ff7a776cae6829e7ef,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a0b32ff7a776cae6829e7ef,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a0b32ff7a776cae6829e7ef,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0b32ff7a776cae6829e7ef,james,a_s_james,stereo,No,0.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a01b5dcbf58444d468b0dc9,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a01b5dcbf58444d468b0dc9,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly disagree,Strongly agree,False
+6a01b5dcbf58444d468b0dc9,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,False
+6a01b5dcbf58444d468b0dc9,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+6a01b5dcbf58444d468b0dc9,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a01b5dcbf58444d468b0dc9,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+6a0ce43ed2a41c5612a0fd8d,mei,a_us_mei,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Strongly agree,False
+6a0ce43ed2a41c5612a0fd8d,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a0ce43ed2a41c5612a0fd8d,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a0ce43ed2a41c5612a0fd8d,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,True
+6a0ce43ed2a41c5612a0fd8d,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+6a0ce43ed2a41c5612a0fd8d,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,True
+6a01c906bb9ef1bc269e5b64,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+6a01c906bb9ef1bc269e5b64,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a01c906bb9ef1bc269e5b64,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a01c906bb9ef1bc269e5b64,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,True
+6a01c906bb9ef1bc269e5b64,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a01c906bb9ef1bc269e5b64,james,a_s_james,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+69f331531bee06f757511b5d,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly disagree,False
+69f331531bee06f757511b5d,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Strongly agree,Strongly disagree,False
+69f331531bee06f757511b5d,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly disagree,False
+69f331531bee06f757511b5d,bernie,a_s_bernie,stereo,No,0.0,No,0.0,Neither agree nor disagree,Strongly disagree,True
+69f331531bee06f757511b5d,caroline,a_s_caroline,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+69f331531bee06f757511b5d,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+69f09ea0aaaf87cae17b2181,mei,a_us_mei,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69f09ea0aaaf87cae17b2181,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,False
+69f09ea0aaaf87cae17b2181,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat disagree,Strongly disagree,False
+69f09ea0aaaf87cae17b2181,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69f09ea0aaaf87cae17b2181,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69f09ea0aaaf87cae17b2181,james,a_s_james,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+6a0b135d47338dcc5f7d97fc,eleanor,a_us_eleanor,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a0b135d47338dcc5f7d97fc,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a0b135d47338dcc5f7d97fc,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a0b135d47338dcc5f7d97fc,sofia,a_s_sofia,stereo,No,0.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,True
+6a0b135d47338dcc5f7d97fc,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+6a0b135d47338dcc5f7d97fc,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+69ff644a20a296f2eb3cb8a8,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69ff644a20a296f2eb3cb8a8,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+69ff644a20a296f2eb3cb8a8,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+69ff644a20a296f2eb3cb8a8,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69ff644a20a296f2eb3cb8a8,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat disagree,True
+69ff644a20a296f2eb3cb8a8,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6695700163bdc868081f582c,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6695700163bdc868081f582c,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6695700163bdc868081f582c,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6695700163bdc868081f582c,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+6695700163bdc868081f582c,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+6695700163bdc868081f582c,james,a_s_james,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+69a132dca4c10c33ce2e0482,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+69a132dca4c10c33ce2e0482,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+69a132dca4c10c33ce2e0482,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+69a132dca4c10c33ce2e0482,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69a132dca4c10c33ce2e0482,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69a132dca4c10c33ce2e0482,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69fc84eb0f9abbff1e8170ce,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+69fc84eb0f9abbff1e8170ce,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+69fc84eb0f9abbff1e8170ce,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+69fc84eb0f9abbff1e8170ce,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,True
+69fc84eb0f9abbff1e8170ce,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly agree,Strongly agree,True
+69fc84eb0f9abbff1e8170ce,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69f4451102805d82768ac1d5,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+69f4451102805d82768ac1d5,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+69f4451102805d82768ac1d5,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+69f4451102805d82768ac1d5,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat agree,Strongly agree,True
+69f4451102805d82768ac1d5,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,True
+69f4451102805d82768ac1d5,james,a_s_james,stereo,Yes,1.0,No,0.0,Somewhat agree,Strongly agree,True
+69834f3a1d8b3442f40efebf,mei,a_us_mei,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+69834f3a1d8b3442f40efebf,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,False
+69834f3a1d8b3442f40efebf,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+69834f3a1d8b3442f40efebf,bernie,a_s_bernie,stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,True
+69834f3a1d8b3442f40efebf,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+69834f3a1d8b3442f40efebf,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69fca092d151d32505080fa2,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fca092d151d32505080fa2,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Strongly agree,False
+69fca092d151d32505080fa2,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly disagree,Somewhat disagree,False
+69fca092d151d32505080fa2,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Strongly disagree,True
+69fca092d151d32505080fa2,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat disagree,True
+69fca092d151d32505080fa2,james,a_s_james,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+6a023f4680391bcad5d12a8e,mei,a_us_mei,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat disagree,False
+6a023f4680391bcad5d12a8e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+6a023f4680391bcad5d12a8e,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+6a023f4680391bcad5d12a8e,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a023f4680391bcad5d12a8e,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a023f4680391bcad5d12a8e,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a06ee4535f3599505bc54f6,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a06ee4535f3599505bc54f6,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a06ee4535f3599505bc54f6,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a06ee4535f3599505bc54f6,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+6a06ee4535f3599505bc54f6,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a06ee4535f3599505bc54f6,aisha,a_s_aisha,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+6a04712ea149bbd7e5d0a10d,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a04712ea149bbd7e5d0a10d,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a04712ea149bbd7e5d0a10d,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a04712ea149bbd7e5d0a10d,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+6a04712ea149bbd7e5d0a10d,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a04712ea149bbd7e5d0a10d,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Strongly agree,Somewhat disagree,True
+6a0cbcf2dfec28ecd231ff80,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0cbcf2dfec28ecd231ff80,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0cbcf2dfec28ecd231ff80,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0cbcf2dfec28ecd231ff80,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+6a0cbcf2dfec28ecd231ff80,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0cbcf2dfec28ecd231ff80,james,a_s_james,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a0487e38079417b7af5c78c,marcus,a_us_marcus,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a0487e38079417b7af5c78c,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+6a0487e38079417b7af5c78c,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6a0487e38079417b7af5c78c,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+6a0487e38079417b7af5c78c,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0487e38079417b7af5c78c,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+5ae0c7d4e0feeb0001caff2b,mei,a_us_mei,non_stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+5ae0c7d4e0feeb0001caff2b,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+5ae0c7d4e0feeb0001caff2b,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+5ae0c7d4e0feeb0001caff2b,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+5ae0c7d4e0feeb0001caff2b,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+5ae0c7d4e0feeb0001caff2b,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+6793b24867d67e714c19d140,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,False
+6793b24867d67e714c19d140,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+6793b24867d67e714c19d140,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+6793b24867d67e714c19d140,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+6793b24867d67e714c19d140,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat agree,True
+6793b24867d67e714c19d140,james,a_s_james,stereo,No,0.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+57d42e23f7b8540001e77bfc,mei,a_us_mei,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,False
+57d42e23f7b8540001e77bfc,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+57d42e23f7b8540001e77bfc,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+57d42e23f7b8540001e77bfc,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat agree,True
+57d42e23f7b8540001e77bfc,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Strongly disagree,True
+57d42e23f7b8540001e77bfc,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat disagree,True
+69ef88c8becdb4be332455d4,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly disagree,False
+69ef88c8becdb4be332455d4,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Strongly disagree,False
+69ef88c8becdb4be332455d4,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Strongly disagree,False
+69ef88c8becdb4be332455d4,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Strongly disagree,True
+69ef88c8becdb4be332455d4,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Strongly disagree,True
+69ef88c8becdb4be332455d4,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a009fb698bfd622eca974a9,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+6a009fb698bfd622eca974a9,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a009fb698bfd622eca974a9,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat disagree,False
+6a009fb698bfd622eca974a9,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+6a009fb698bfd622eca974a9,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a009fb698bfd622eca974a9,james,a_s_james,stereo,No,0.0,No,0.0,Somewhat disagree,Strongly disagree,True
+69fa07e70c715dd540eb3e37,mei,a_us_mei,non_stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat agree,False
+69fa07e70c715dd540eb3e37,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+69fa07e70c715dd540eb3e37,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,False
+69fa07e70c715dd540eb3e37,sofia,a_s_sofia,stereo,No,0.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,True
+69fa07e70c715dd540eb3e37,caroline,a_s_caroline,stereo,No,0.0,No,0.0,Strongly disagree,Neither agree nor disagree,True
+69fa07e70c715dd540eb3e37,james,a_s_james,stereo,No,0.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69f34e896cc303af6179f627,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69f34e896cc303af6179f627,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69f34e896cc303af6179f627,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69f34e896cc303af6179f627,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69f34e896cc303af6179f627,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+69f34e896cc303af6179f627,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69ce8a70eaea367be2555303,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69ce8a70eaea367be2555303,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69ce8a70eaea367be2555303,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69ce8a70eaea367be2555303,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+69ce8a70eaea367be2555303,caroline,a_s_caroline,stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69ce8a70eaea367be2555303,aisha,a_s_aisha,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0dad3034c47c5d4019cf1a,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0dad3034c47c5d4019cf1a,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a0dad3034c47c5d4019cf1a,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0dad3034c47c5d4019cf1a,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0dad3034c47c5d4019cf1a,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0dad3034c47c5d4019cf1a,james,a_s_james,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+69f9fafbeb629895d8478fed,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69f9fafbeb629895d8478fed,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat disagree,False
+69f9fafbeb629895d8478fed,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69f9fafbeb629895d8478fed,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat disagree,True
+69f9fafbeb629895d8478fed,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+69f9fafbeb629895d8478fed,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+6a0c3ccfc64cec9e6cbe98f3,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0c3ccfc64cec9e6cbe98f3,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+6a0c3ccfc64cec9e6cbe98f3,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat disagree,False
+6a0c3ccfc64cec9e6cbe98f3,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+6a0c3ccfc64cec9e6cbe98f3,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Strongly disagree,True
+6a0c3ccfc64cec9e6cbe98f3,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a0df0a3b59e467b84081550,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,False
+6a0df0a3b59e467b84081550,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a0df0a3b59e467b84081550,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+6a0df0a3b59e467b84081550,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+6a0df0a3b59e467b84081550,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0df0a3b59e467b84081550,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69fca06d5978f0e043cc098d,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+69fca06d5978f0e043cc098d,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fca06d5978f0e043cc098d,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69fca06d5978f0e043cc098d,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+69fca06d5978f0e043cc098d,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+69fca06d5978f0e043cc098d,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat disagree,True
+69ff3544a146b1ea268e0e0a,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Strongly disagree,Somewhat agree,False
+69ff3544a146b1ea268e0e0a,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+69ff3544a146b1ea268e0e0a,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat disagree,Strongly agree,False
+69ff3544a146b1ea268e0e0a,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+69ff3544a146b1ea268e0e0a,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69ff3544a146b1ea268e0e0a,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a08d7ebd6444314bbbf1112,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,False
+6a08d7ebd6444314bbbf1112,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,False
+6a08d7ebd6444314bbbf1112,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,False
+6a08d7ebd6444314bbbf1112,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a08d7ebd6444314bbbf1112,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a08d7ebd6444314bbbf1112,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+69f9f0668bf5734f80f13a7c,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69f9f0668bf5734f80f13a7c,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69f9f0668bf5734f80f13a7c,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+69f9f0668bf5734f80f13a7c,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+69f9f0668bf5734f80f13a7c,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly agree,Somewhat agree,True
+69f9f0668bf5734f80f13a7c,james,a_s_james,stereo,No,0.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+63ff73ed36feccbe522ca754,eleanor,a_us_eleanor,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+63ff73ed36feccbe522ca754,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+63ff73ed36feccbe522ca754,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+63ff73ed36feccbe522ca754,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,True
+63ff73ed36feccbe522ca754,caroline,a_s_caroline,stereo,No,0.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,True
+63ff73ed36feccbe522ca754,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,True
+69fdf337817e7f5b9b30861e,mei,a_us_mei,non_stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat agree,False
+69fdf337817e7f5b9b30861e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+69fdf337817e7f5b9b30861e,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+69fdf337817e7f5b9b30861e,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,True
+69fdf337817e7f5b9b30861e,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+69fdf337817e7f5b9b30861e,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+6a0dbb6ce7b5b74816801849,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+6a0dbb6ce7b5b74816801849,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a0dbb6ce7b5b74816801849,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,False
+6a0dbb6ce7b5b74816801849,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+6a0dbb6ce7b5b74816801849,caroline,a_s_caroline,stereo,No,0.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,True
+6a0dbb6ce7b5b74816801849,ray,a_s_ray,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Somewhat agree,True
+61051e6133be9809ad619c55,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+61051e6133be9809ad619c55,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,False
+61051e6133be9809ad619c55,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,False
+61051e6133be9809ad619c55,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+61051e6133be9809ad619c55,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+61051e6133be9809ad619c55,aisha,a_s_aisha,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+5827634ea80bf4000199994b,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+5827634ea80bf4000199994b,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,False
+5827634ea80bf4000199994b,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat disagree,False
+5827634ea80bf4000199994b,bernie,a_s_bernie,stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,True
+5827634ea80bf4000199994b,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Strongly disagree,True
+5827634ea80bf4000199994b,james,a_s_james,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat disagree,True
+58277a9ac297cc0001f2dd79,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+58277a9ac297cc0001f2dd79,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Strongly agree,Strongly agree,False
+58277a9ac297cc0001f2dd79,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+58277a9ac297cc0001f2dd79,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+58277a9ac297cc0001f2dd79,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,True
+58277a9ac297cc0001f2dd79,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a033e5ebfb1c796b4a2b9c5,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat disagree,False
+6a033e5ebfb1c796b4a2b9c5,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6a033e5ebfb1c796b4a2b9c5,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,False
+6a033e5ebfb1c796b4a2b9c5,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a033e5ebfb1c796b4a2b9c5,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Somewhat agree,True
+6a033e5ebfb1c796b4a2b9c5,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly agree,True
+6a0a1d0620ab03bd3ef2d77a,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a0a1d0620ab03bd3ef2d77a,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Strongly agree,Somewhat agree,False
+6a0a1d0620ab03bd3ef2d77a,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Strongly agree,Strongly agree,False
+6a0a1d0620ab03bd3ef2d77a,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly disagree,Neither agree nor disagree,True
+6a0a1d0620ab03bd3ef2d77a,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0a1d0620ab03bd3ef2d77a,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0b5798342bb6e7fa33b7af,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Strongly disagree,Neither agree nor disagree,False
+6a0b5798342bb6e7fa33b7af,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0b5798342bb6e7fa33b7af,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0b5798342bb6e7fa33b7af,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a0b5798342bb6e7fa33b7af,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0b5798342bb6e7fa33b7af,ray,a_s_ray,stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a0a2c0a560911073934e71c,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0a2c0a560911073934e71c,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+6a0a2c0a560911073934e71c,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a0a2c0a560911073934e71c,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0a2c0a560911073934e71c,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a0a2c0a560911073934e71c,james,a_s_james,stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,True
+69ecdbf5caf554ac27ae3f97,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69ecdbf5caf554ac27ae3f97,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+69ecdbf5caf554ac27ae3f97,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,False
+69ecdbf5caf554ac27ae3f97,sofia,a_s_sofia,stereo,Yes,1.0,No,0.0,Strongly agree,Somewhat agree,True
+69ecdbf5caf554ac27ae3f97,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Somewhat agree,Strongly agree,True
+69ecdbf5caf554ac27ae3f97,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat agree,True
+6a047edcb7702c7a32f38d5e,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+6a047edcb7702c7a32f38d5e,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,False
+6a047edcb7702c7a32f38d5e,margart,a_us_margaret,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Neither agree nor disagree,False
+6a047edcb7702c7a32f38d5e,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a047edcb7702c7a32f38d5e,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a047edcb7702c7a32f38d5e,james,a_s_james,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69fcf284ba393d763498206c,mei,a_us_mei,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Somewhat agree,False
+69fcf284ba393d763498206c,richard,a_us_richard,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,False
+69fcf284ba393d763498206c,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+69fcf284ba393d763498206c,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+69fcf284ba393d763498206c,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat disagree,True
+69fcf284ba393d763498206c,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Strongly disagree,Strongly disagree,True
+6a0b62ecd8bb18705aed2bed,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a0b62ecd8bb18705aed2bed,marlinq,a_us_marcus_linq,non_stereo,No,0.0,No,0.0,Somewhat agree,Strongly agree,False
+6a0b62ecd8bb18705aed2bed,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+6a0b62ecd8bb18705aed2bed,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a0b62ecd8bb18705aed2bed,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a0b62ecd8bb18705aed2bed,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a08567fdba543bb923ec76c,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+6a08567fdba543bb923ec76c,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Somewhat disagree,Somewhat disagree,False
+6a08567fdba543bb923ec76c,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Neither agree nor disagree,False
+6a08567fdba543bb923ec76c,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat agree,True
+6a08567fdba543bb923ec76c,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a08567fdba543bb923ec76c,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+69ff5b61345443f459b1fc58,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+69ff5b61345443f459b1fc58,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,False
+69ff5b61345443f459b1fc58,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69ff5b61345443f459b1fc58,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Strongly agree,True
+69ff5b61345443f459b1fc58,sofia,a_s_sofia,stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,True
+69ff5b61345443f459b1fc58,james,a_s_james,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat agree,True
+6a019e6b8da7695beb0edc1b,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat agree,False
+6a019e6b8da7695beb0edc1b,marlinq,a_us_marcus_linq,non_stereo,No,0.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,False
+6a019e6b8da7695beb0edc1b,margart,a_us_margaret,non_stereo,Yes,1.0,No,0.0,Strongly disagree,Neither agree nor disagree,False
+6a019e6b8da7695beb0edc1b,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Strongly disagree,Somewhat disagree,True
+6a019e6b8da7695beb0edc1b,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Strongly disagree,True
+6a019e6b8da7695beb0edc1b,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Strongly disagree,True
+69f0c9cf7195f5d1a2b828f8,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,False
+69f0c9cf7195f5d1a2b828f8,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Somewhat disagree,False
+69f0c9cf7195f5d1a2b828f8,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Neither agree nor disagree,Somewhat agree,False
+69f0c9cf7195f5d1a2b828f8,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+69f0c9cf7195f5d1a2b828f8,caroline,a_s_caroline,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+69f0c9cf7195f5d1a2b828f8,aisha,a_s_aisha,stereo,Yes,1.0,No,0.0,Neither agree nor disagree,Strongly disagree,True
+6a0ce5c072c5248c70596640,marcus,a_us_marcus,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a0ce5c072c5248c70596640,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a0ce5c072c5248c70596640,richard,a_us_richard,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,False
+6a0ce5c072c5248c70596640,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,True
+6a0ce5c072c5248c70596640,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,True
+6a0ce5c072c5248c70596640,james,a_s_james,stereo,Yes,1.0,Yes,1.0,Strongly agree,Strongly agree,True
+6a01c5302fe25a1df112af14,eleanor,a_us_eleanor,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a01c5302fe25a1df112af14,richard,a_us_richard,non_stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,False
+6a01c5302fe25a1df112af14,margart,a_us_margaret,non_stereo,No,0.0,No,0.0,Somewhat agree,Neither agree nor disagree,False
+6a01c5302fe25a1df112af14,bernie,a_s_bernie,stereo,Yes,1.0,Yes,1.0,Neither agree nor disagree,Neither agree nor disagree,True
+6a01c5302fe25a1df112af14,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat disagree,Neither agree nor disagree,True
+6a01c5302fe25a1df112af14,james,a_s_james,stereo,No,0.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a018a689e42e82854b2be2d,mei,a_us_mei,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+6a018a689e42e82854b2be2d,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Somewhat agree,False
+6a018a689e42e82854b2be2d,margart,a_us_margaret,non_stereo,No,0.0,Yes,1.0,Somewhat disagree,Somewhat agree,False
+6a018a689e42e82854b2be2d,bernie,a_s_bernie,stereo,Yes,1.0,No,0.0,Somewhat disagree,Somewhat disagree,True
+6a018a689e42e82854b2be2d,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Somewhat disagree,True
+6a018a689e42e82854b2be2d,aisha,a_s_aisha,stereo,No,0.0,No,0.0,Somewhat agree,Somewhat agree,True
+69fa8e763eda30d36940cb9b,marcus,a_us_marcus,non_stereo,No,0.0,No,0.0,Neither agree nor disagree,Somewhat agree,False
+69fa8e763eda30d36940cb9b,marlinq,a_us_marcus_linq,non_stereo,Yes,1.0,Yes,1.0,Strongly agree,Neither agree nor disagree,False
+69fa8e763eda30d36940cb9b,richard,a_us_richard,non_stereo,No,0.0,Yes,1.0,Somewhat agree,Neither agree nor disagree,False
+69fa8e763eda30d36940cb9b,sofia,a_s_sofia,stereo,Yes,1.0,Yes,1.0,Strongly disagree,Neither agree nor disagree,True
+69fa8e763eda30d36940cb9b,caroline,a_s_caroline,stereo,Yes,1.0,No,0.0,Somewhat agree,Somewhat agree,True
+69fa8e763eda30d36940cb9b,ray,a_s_ray,stereo,Yes,1.0,No,0.0,Strongly disagree,Neither agree nor disagree,True

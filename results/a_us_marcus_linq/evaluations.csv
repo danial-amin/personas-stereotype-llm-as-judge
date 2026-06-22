@@ -1,0 +1,797 @@
+persona_id,model_key,model_display_name,model_id,run_index,timestamp,latency_ms,error,image_stereotype_answer,image_stereotype_explanation,description_stereotype_answer,description_stereotype_explanation,stereotype_age,stereotype_gender,stereotype_occupation,stereotype_other,stereotype_other_text,why_assessment,understand_group_answer,understand_group_reason,relatable_answer,relatable_reason,llm_confidence_score,llm_confidence_explanation,response_raw
+a_us_marcus_linq,gpt-5.4,GPT-5.4,gpt-5.4,1,2026-05-23T15:08:34.043404+00:00,13119,,Yes,"The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy appearance, dual monitors with code visible, cluttered desk, and a home-office setup. These cues are common shorthand for 'programmer' and make the portrayal feel somewhat formulaic, even though it is still plausible.",No,"The description is fairly nuanced rather than oversimplified. It gives specific habits, concerns, influences, and tensions around AI use, and it does not reduce his behavior to being young, male, or a software developer in a simplistic way.",False,False,True,False,,"I separated the image from the written persona. The image uses several highly recognizable visual signals associated with software developers, so it feels somewhat stereotyped at the level of occupation. However, the text itself avoids broad claims like 'young developers always love AI' or 'men in tech behave this way.' Instead it presents a credible individual with mixed feelings, professional caution, career goals, and concrete workflow details. That makes the description feel more realistic than stereotypical, while the image is more archetypal.",Somewhat agree,"It gives a useful picture of how a young software developer might integrate AI into daily work, especially the balance between productivity and skepticism.",Somewhat agree,"The concerns about overreliance on AI, code quality, and professional growth are broadly relatable, even if some lifestyle details are specific.",0.86,"I am fairly confident because the description is detailed and individualized, while the image clearly uses familiar occupational cues. The only uncertainty is that some people may see the image as merely realistic rather than stereotypical.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy appearance, dual monitors with code visible, cluttered desk, and a home-office setup. These cues are common shorthand for 'programmer' and make the portrayal feel somewhat formulaic, even though it is still plausible.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced rather than oversimplified. It gives specific habits, concerns, influences, and tensions around AI use, and it does not reduce his behavior to being young, male, or a software developer in a simplistic way.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I separated the image from the written persona. The image uses several highly recognizable visual signals associated with software developers, so it feels somewhat stereotyped at the level of occupation. However, the text itself avoids broad claims like 'young developers always love AI' or 'men in tech behave this way.' Instead it presents a credible individual with mixed feelings, professional caution, career goals, and concrete workflow details. That makes the description feel more realistic than stereotypical, while the image is more archetypal.""
+  ,
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a useful picture of how a young software developer might integrate AI into daily work, especially the balance between productivity and skepticism.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about overreliance on AI, code quality, and professional growth are broadly relatable, even if some lifestyle details are specific.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.86,
+    ""explanation"": ""I am fairly confident because the description is detailed and individualized, while the image clearly uses familiar occupational cues. The only uncertainty is that some people may see the image as merely realistic rather than stereotypical.""
+  }
+}"
+a_us_marcus_linq,gpt-5.4,GPT-5.4,gpt-5.4,2,2026-05-23T15:08:48.169994+00:00,11869,,Yes,"The image leans into a familiar software-developer stereotype: a young man in a hoodie and glasses, seated at a dual-monitor coding setup in a slightly cluttered home office. These visual cues are common shorthand for a programmer and can feel somewhat clichéd, even though they are also plausible.",No,"The description is fairly nuanced and individualized rather than reducing him to a fixed trait based on age, gender, or occupation. It includes specific habits, tensions, goals, and concerns about AI use that make him feel like a particular person rather than a simplistic 'young male programmer' type.",False,False,True,False,,"I treated the image and description separately. The image uses several recognizable visual signals associated with software developers, so it risks reinforcing an occupational stereotype. However, the written persona does more than repeat stock assumptions. It gives Marcus a believable work context, mixed feelings about AI, interpersonal influences from colleagues, and personal ambitions outside immediate job tasks. Those details make the description feel grounded rather than oversimplified. So my assessment is that the image is somewhat stereotyped in its presentation, while the description is not notably stereotypical.",Somewhat agree,"It gives a useful picture of how a young software professional might use AI pragmatically while remaining cautious, though it represents only one slice of that group.",Somewhat agree,"The concerns about balancing efficiency, learning, and trust in AI tools are broadly relatable, even if the specific life details may not match everyone.",0.87,"I am fairly confident because the description is detailed and not strongly tied to demographic assumptions, while the image clearly uses common visual tropes for a programmer. The only uncertainty is that some of those cues may reflect realism as much as stereotype.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar software-developer stereotype: a young man in a hoodie and glasses, seated at a dual-monitor coding setup in a slightly cluttered home office. These visual cues are common shorthand for a programmer and can feel somewhat clichéd, even though they are also plausible.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced and individualized rather than reducing him to a fixed trait based on age, gender, or occupation. It includes specific habits, tensions, goals, and concerns about AI use that make him feel like a particular person rather than a simplistic 'young male programmer' type.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I treated the image and description separately. The image uses several recognizable visual signals associated with software developers, so it risks reinforcing an occupational stereotype. However, the written persona does more than repeat stock assumptions. It gives Marcus a believable work context, mixed feelings about AI, interpersonal influences from colleagues, and personal ambitions outside immediate job tasks. Those details make the description feel grounded rather than oversimplified. So my assessment is that the image is somewhat stereotyped in its presentation, while the description is not notably stereotypical."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a useful picture of how a young software professional might use AI pragmatically while remaining cautious, though it represents only one slice of that group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about balancing efficiency, learning, and trust in AI tools are broadly relatable, even if the specific life details may not match everyone.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.87,
+    ""explanation"": ""I am fairly confident because the description is detailed and not strongly tied to demographic assumptions, while the image clearly uses common visual tropes for a programmer. The only uncertainty is that some of those cues may reflect realism as much as stereotype.""
+  }
+}"
+a_us_marcus_linq,gpt-5.4,GPT-5.4,gpt-5.4,3,2026-05-23T15:09:01.046447+00:00,10591,,Yes,"The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy appearance, dual monitors with code on screen, home-office desk setup, coffee mug, and a somewhat introverted or serious expression. These are common visual cues often used to represent programmers, so the image feels somewhat formulaic.",No,"The description is fairly specific and nuanced rather than reducing Marcus to a fixed trait based on his age, gender, or job. Although it includes recognizable software developer details like coding, debugging, startup work, and concern about AI tools, it presents tensions, motivations, and personal concerns that make him feel individualized rather than oversimplified.",False,False,True,False,,"I treated the image and text separately. The image uses several standard visual shorthand signals for 'young programmer,' which makes it feel occupation-stereotyped. By contrast, the written persona avoids saying that Marcus behaves a certain way simply because he is a young man or a software developer. Instead, it explains his habits and concerns through workplace context, team dynamics, and personal goals. Some details are recognizable to the profession, but they do not flatten him into a caricature.",Somewhat agree,"It gives a concrete sense of how a young software developer might use AI tools in daily work, including both enthusiasm and caution.",Somewhat agree,"The concerns about balancing productivity, learning, and trust in AI are broadly relatable, even if the specific job context is not universal.",0.88,"I am fairly confident because the description is detailed and nuanced, while the image clearly uses common occupational coding tropes. There is still some subjectivity in judging whether familiar profession-specific details count as stereotype.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy appearance, dual monitors with code on screen, home-office desk setup, coffee mug, and a somewhat introverted or serious expression. These are common visual cues often used to represent programmers, so the image feels somewhat formulaic.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly specific and nuanced rather than reducing Marcus to a fixed trait based on his age, gender, or job. Although it includes recognizable software developer details like coding, debugging, startup work, and concern about AI tools, it presents tensions, motivations, and personal concerns that make him feel individualized rather than oversimplified.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I treated the image and text separately. The image uses several standard visual shorthand signals for 'young programmer,' which makes it feel occupation-stereotyped. By contrast, the written persona avoids saying that Marcus behaves a certain way simply because he is a young man or a software developer. Instead, it explains his habits and concerns through workplace context, team dynamics, and personal goals. Some details are recognizable to the profession, but they do not flatten him into a caricature.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a concrete sense of how a young software developer might use AI tools in daily work, including both enthusiasm and caution.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about balancing productivity, learning, and trust in AI are broadly relatable, even if the specific job context is not universal.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.88,
+    ""explanation"": ""I am fairly confident because the description is detailed and nuanced, while the image clearly uses common occupational coding tropes. There is still some subjectivity in judging whether familiar profession-specific details count as stereotype.""
+  }
+}"
+a_us_marcus_linq,gpt-5.4,GPT-5.4,gpt-5.4,4,2026-05-23T15:09:12.642094+00:00,10182,,Yes,"The image leans into a familiar stereotype of a young male software developer: hoodie, slightly messy appearance, glasses, dual monitors with code on screen, coffee mug, and a cluttered desk/home office setup. These cues are commonly used to signal 'programmer' in an oversimplified way.",No,"The description is fairly nuanced rather than oversimplified. It gives specific habits, influences, goals, and concerns about AI use, code quality, and professional growth. While some details are recognizable tech-worker traits, they are presented as individual characteristics rather than fixed assumptions based only on his age, gender, or occupation.",False,False,True,False,,"I separated the image from the written description. The image relies heavily on visual shorthand associated with software developers, so it feels somewhat stereotypical in occupational terms. By contrast, the description avoids saying that Marcus behaves a certain way simply because he is a young man or a developer. Instead, it shows tensions in his environment, mixed attitudes toward AI, and concrete personal ambitions and worries. That makes the text feel more believable and less reductive than the image.",Somewhat agree,"It provides a clear picture of how a young software developer might use and think about AI tools at work, including practical benefits and concerns.",Somewhat agree,"The concerns about balancing efficiency with maintaining skill and judgment are broadly relatable, even if not every personal detail applies.",0.87,"I am fairly confident because the image contains strong conventional programmer cues, while the text itself is comparatively detailed and not strongly driven by demographic assumptions.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar stereotype of a young male software developer: hoodie, slightly messy appearance, glasses, dual monitors with code on screen, coffee mug, and a cluttered desk/home office setup. These cues are commonly used to signal 'programmer' in an oversimplified way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced rather than oversimplified. It gives specific habits, influences, goals, and concerns about AI use, code quality, and professional growth. While some details are recognizable tech-worker traits, they are presented as individual characteristics rather than fixed assumptions based only on his age, gender, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I separated the image from the written description. The image relies heavily on visual shorthand associated with software developers, so it feels somewhat stereotypical in occupational terms. By contrast, the description avoids saying that Marcus behaves a certain way simply because he is a young man or a developer. Instead, it shows tensions in his environment, mixed attitudes toward AI, and concrete personal ambitions and worries. That makes the text feel more believable and less reductive than the image."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It provides a clear picture of how a young software developer might use and think about AI tools at work, including practical benefits and concerns.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about balancing efficiency with maintaining skill and judgment are broadly relatable, even if not every personal detail applies.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.87,
+    ""explanation"": ""I am fairly confident because the image contains strong conventional programmer cues, while the text itself is comparatively detailed and not strongly driven by demographic assumptions.""
+  }
+}"
+a_us_marcus_linq,gpt-5.4,GPT-5.4,gpt-5.4,5,2026-05-23T15:09:23.829958+00:00,12610,,Yes,"The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy desk, dual monitors with code visible, home-office setup, glasses, and a serious expression. These cues strongly match a common visual trope of a programmer, so the image feels somewhat stereotyped by occupation even though it is plausible.",No,"The description is fairly nuanced rather than oversimplified. It gives specific habits, motivations, worries, influences from coworkers, and mixed feelings about AI use. Although some details are recognizable for a software developer, the persona does not reduce him to fixed behaviors just because he is young, male, or in tech.",False,False,True,False,,"I treated the image and description separately. The image uses several highly recognizable visual signals associated with software developers, so it risks presenting a stock 'coder' archetype. The description, however, goes beyond stereotype by showing tensions in his work, social influences, practical concerns about AI, and personal aspirations. It feels grounded in a believable individual rather than implying that all young male developers behave this way. So my main concern is occupational stereotyping in the image, not in the written persona.",Somewhat agree,"It provides useful detail about how a young software developer might use and think about AI tools, including benefits, risks, and professional pressures.",Somewhat agree,"The concerns about skill atrophy, trust, and balancing convenience with caution are broadly relatable, even if the specific job context is not universal.",0.86,"I am fairly confident because the image clearly uses common programmer visual tropes, while the description contains enough specificity and internal tension to avoid reading as strongly stereotypical.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar stereotype of a young male software developer: casual hoodie, slightly messy desk, dual monitors with code visible, home-office setup, glasses, and a serious expression. These cues strongly match a common visual trope of a programmer, so the image feels somewhat stereotyped by occupation even though it is plausible.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced rather than oversimplified. It gives specific habits, motivations, worries, influences from coworkers, and mixed feelings about AI use. Although some details are recognizable for a software developer, the persona does not reduce him to fixed behaviors just because he is young, male, or in tech.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I treated the image and description separately. The image uses several highly recognizable visual signals associated with software developers, so it risks presenting a stock 'coder' archetype. The description, however, goes beyond stereotype by showing tensions in his work, social influences, practical concerns about AI, and personal aspirations. It feels grounded in a believable individual rather than implying that all young male developers behave this way. So my main concern is occupational stereotyping in the image, not in the written persona.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It provides useful detail about how a young software developer might use and think about AI tools, including benefits, risks, and professional pressures.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about skill atrophy, trust, and balancing convenience with caution are broadly relatable, even if the specific job context is not universal.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.86,
+    ""explanation"": ""I am fairly confident because the image clearly uses common programmer visual tropes, while the description contains enough specificity and internal tension to avoid reading as strongly stereotypical.""
+  }
+}"
+a_us_marcus_linq,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,1,2026-05-23T15:09:37.463671+00:00,21906,,Yes,"The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster on the wall and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally familiar stereotype of the young male software developer or 'tech bro': the coding setup, the nerdy pop-culture reference poster, and the casual hoodie-and-glasses look are all well-worn visual shorthand for this archetype. The image feels assembled from stereotype cues rather than representing a naturalistic individual.",Yes,"While the description is notably detailed and attempts nuance, several elements lean on familiar stereotypes of the young male software developer. The origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for young male developers. The indie game side project, the skepticism about AI hand-holding for juniors, and the flat white coffee ritual also echo common cultural shorthand for this demographic. The description does attempt to add depth through his anxieties and interpersonal dynamics, but the overall profile still assembles recognizable stereotype markers — gamer-to-coder pipeline, startup culture, craft anxiety — that are strongly associated with young men in tech.",True,True,True,False,,"The persona combines multiple stereotype dimensions simultaneously. The age stereotype is present in the 'late-night modding to coding' origin story and the indie game side project, which are culturally associated with young male developers. The gender stereotype is reinforced by the overall framing — the tech-bro aesthetic in the image, the gamer background, and the startup environment are all heavily coded as male. The occupation stereotype is present in the clustering of traits (dual monitors, code on screen, X-Files poster, hoodie) that collectively form a caricature of the software developer archetype. While the description does add genuine nuance — particularly around his anxieties about AI dependency and craft atrophy — the foundational building blocks of the persona are drawn from familiar stereotype territory rather than from traits that feel individually distinctive.",Somewhat agree,"The persona does convey realistic concerns about AI tooling in software development, such as code leakage, over-reliance, and craft atrophy, which are genuine issues in the field. However, because the persona leans on stereotypes, it may reinforce existing assumptions about who software developers are rather than broadening understanding.",Somewhat agree,"The anxieties about AI dependency and the tension between experimentation and skepticism feel authentic and relatable to anyone working in tech. However, the overall profile is heavily tailored to a specific demographic archetype, which limits its relatability to those outside that group.",0.82,"The stereotype signals in both the image and description are fairly clear and consistent across multiple dimensions (age, gender, occupation). The main uncertainty is in calibrating how much the description's genuine nuance offsets the stereotypical framing — reasonable evaluators could weigh that differently.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster on the wall and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally familiar stereotype of the young male software developer or 'tech bro': the coding setup, the nerdy pop-culture reference poster, and the casual hoodie-and-glasses look are all well-worn visual shorthand for this archetype. The image feels assembled from stereotype cues rather than representing a naturalistic individual.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""While the description is notably detailed and attempts nuance, several elements lean on familiar stereotypes of the young male software developer. The origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for young male developers. The indie game side project, the skepticism about AI hand-holding for juniors, and the flat white coffee ritual also echo common cultural shorthand for this demographic. The description does attempt to add depth through his anxieties and interpersonal dynamics, but the overall profile still assembles recognizable stereotype markers — gamer-to-coder pipeline, startup culture, craft anxiety — that are strongly associated with young men in tech.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines multiple stereotype dimensions simultaneously. The age stereotype is present in the 'late-night modding to coding' origin story and the indie game side project, which are culturally associated with young male developers. The gender stereotype is reinforced by the overall framing — the tech-bro aesthetic in the image, the gamer background, and the startup environment are all heavily coded as male. The occupation stereotype is present in the clustering of traits (dual monitors, code on screen, X-Files poster, hoodie) that collectively form a caricature of the software developer archetype. While the description does add genuine nuance — particularly around his anxieties about AI dependency and craft atrophy — the foundational building blocks of the persona are drawn from familiar stereotype territory rather than from traits that feel individually distinctive."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona does convey realistic concerns about AI tooling in software development, such as code leakage, over-reliance, and craft atrophy, which are genuine issues in the field. However, because the persona leans on stereotypes, it may reinforce existing assumptions about who software developers are rather than broadening understanding.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The anxieties about AI dependency and the tension between experimentation and skepticism feel authentic and relatable to anyone working in tech. However, the overall profile is heavily tailored to a specific demographic archetype, which limits its relatability to those outside that group.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.82,
+    ""explanation"": ""The stereotype signals in both the image and description are fairly clear and consistent across multiple dimensions (age, gender, occupation). The main uncertainty is in calibrating how much the description's genuine nuance offsets the stereotypical framing — reasonable evaluators could weigh that differently.""
+  }
+}
+```"
+a_us_marcus_linq,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,2,2026-05-23T15:10:00.378560+00:00,20472,,Yes,"The image depicts a young man with slightly disheveled curly hair, glasses, a hoodie, sitting at a desk with dual monitors showing code, surrounded by a cluttered workspace, an 'I Want to Believe' poster, and a coffee mug. This visual ensemble closely matches the archetypal 'programmer/developer' stereotype — the combination of glasses, hoodie, messy hair, code on screen, and geeky pop-culture references (X-Files poster) collectively reinforces a well-worn visual trope of the young male software developer.",Yes,"Several elements of the description lean into familiar tropes about young male software developers: drifting into coding through 'late-night modding sessions,' working at a SaaS startup, pair-programming with an AI assistant, worrying about craft atrophy, and tinkering with an indie game on weekends. The 'indie game side project' in particular is a very common stereotype associated with young male developers. The description also leans on the classic mentor dynamic (encouraging tech lead vs. skeptical senior engineer) that is a well-worn narrative device in developer personas. While the description is nuanced and detailed, the overall profile assembles a collection of traits that collectively feel like a composite of common young-male-developer stereotypes rather than a fully individualized person.",True,True,True,False,,"The persona combines multiple stereotype markers simultaneously. Age-wise, the 'late-night modding origins,' indie game side project, and concern about skill atrophy from AI are tropes commonly assigned to young developers. Gender-wise, the image and description together reinforce the male-developer archetype visually and narratively. Occupation-wise, the SaaS startup setting, AI pair-programming workflow, dual monitors with code, and the skeptical-senior vs. enthusiastic-lead dynamic are all heavily stereotyped elements of the software developer occupation. Individually, any one of these details could be realistic and grounded; together, they form a persona that feels assembled from a checklist of 'young male software developer' clichés. That said, the description does show genuine nuance — Marcus has real anxieties, a partner, a rescue dog, and a thoughtful relationship with AI tools — which prevents it from being a purely flat stereotype. The stereotyping is present but not extreme.",Somewhat agree,"The persona provides a reasonably detailed picture of how a young software developer might interact with AI tools in a professional setting, including realistic tensions and concerns. However, the heavy reliance on familiar tropes slightly undermines its value as a window into a genuinely diverse group.",Somewhat agree,"The concerns about AI over-reliance, craft atrophy, and the tension between experimentation and skepticism feel authentic and relatable to anyone working in a technical field. The personal details (rescue dog, partner, side project) add some human texture.",0.78,"I am fairly confident in this assessment. The stereotype markers are visible and multiple, but the persona also contains genuine nuance that complicates a simple 'yes, fully stereotyped' verdict. The main uncertainty is in calibrating how much nuance is needed to offset the stereotypical elements.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young man with slightly disheveled curly hair, glasses, a hoodie, sitting at a desk with dual monitors showing code, surrounded by a cluttered workspace, an 'I Want to Believe' poster, and a coffee mug. This visual ensemble closely matches the archetypal 'programmer/developer' stereotype — the combination of glasses, hoodie, messy hair, code on screen, and geeky pop-culture references (X-Files poster) collectively reinforces a well-worn visual trope of the young male software developer.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""Several elements of the description lean into familiar tropes about young male software developers: drifting into coding through 'late-night modding sessions,' working at a SaaS startup, pair-programming with an AI assistant, worrying about craft atrophy, and tinkering with an indie game on weekends. The 'indie game side project' in particular is a very common stereotype associated with young male developers. The description also leans on the classic mentor dynamic (encouraging tech lead vs. skeptical senior engineer) that is a well-worn narrative device in developer personas. While the description is nuanced and detailed, the overall profile assembles a collection of traits that collectively feel like a composite of common young-male-developer stereotypes rather than a fully individualized person.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines multiple stereotype markers simultaneously. Age-wise, the 'late-night modding origins,' indie game side project, and concern about skill atrophy from AI are tropes commonly assigned to young developers. Gender-wise, the image and description together reinforce the male-developer archetype visually and narratively. Occupation-wise, the SaaS startup setting, AI pair-programming workflow, dual monitors with code, and the skeptical-senior vs. enthusiastic-lead dynamic are all heavily stereotyped elements of the software developer occupation. Individually, any one of these details could be realistic and grounded; together, they form a persona that feels assembled from a checklist of 'young male software developer' clichés. That said, the description does show genuine nuance — Marcus has real anxieties, a partner, a rescue dog, and a thoughtful relationship with AI tools — which prevents it from being a purely flat stereotype. The stereotyping is present but not extreme."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a reasonably detailed picture of how a young software developer might interact with AI tools in a professional setting, including realistic tensions and concerns. However, the heavy reliance on familiar tropes slightly undermines its value as a window into a genuinely diverse group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about AI over-reliance, craft atrophy, and the tension between experimentation and skepticism feel authentic and relatable to anyone working in a technical field. The personal details (rescue dog, partner, side project) add some human texture.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.78,
+    ""explanation"": ""I am fairly confident in this assessment. The stereotype markers are visible and multiple, but the persona also contains genuine nuance that complicates a simple 'yes, fully stereotyped' verdict. The main uncertainty is in calibrating how much nuance is needed to offset the stereotypical elements.""
+  }
+}
+```"
+a_us_marcus_linq,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,3,2026-05-23T15:10:21.858142+00:00,19792,,Yes,"The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster in the background and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally entrenched stereotype of the young male software developer or 'tech bro' — the combination of coding screens, nerdy pop culture references, casual attire, and a somewhat unkempt appearance all reinforce a well-worn archetype.",Yes,"While the description is notably detailed and nuanced in many respects, several elements lean into occupational and gender stereotypes for young male developers: the origin story of 'drifting into coding through late-night modding sessions' is a common trope for male tech workers; the weekend indie game project is a stereotypical hobby for this demographic; and the framing of his concerns about AI (craft atrophy, junior developers losing debugging skills) mirrors widely circulated narratives in tech culture. The persona feels assembled from recognizable 'young male software developer' cultural markers rather than emerging organically from interview data, making it feel somewhat archetypal rather than fully individualized.",True,True,True,False,,"The persona combines age, gender, and occupational stereotypes in a way that, while not overtly reductive, assembles a recognizable cultural archetype: the young white male software developer who got into coding through gaming, works at a startup, drinks specialty coffee, has a rescue pet, tinkers with indie games on weekends, and has nuanced-but-predictable anxieties about AI. Each individual detail might be realistic, but their combination produces a figure that feels more like a composite of cultural tropes than a fully individuated person drawn from interview data. The image reinforces this strongly with its visual shorthand of glasses, hoodie, dual monitors with code, and pop culture posters. The stereotype is driven primarily by the intersection of his age, gender, and occupation rather than any single factor alone.",Somewhat agree,"The description does provide useful insight into how a young software developer might think about and interact with AI tools in a professional context, including the tension between experimentation and skepticism. However, the stereotypical framing limits how much it reveals about the diversity within this group.",Somewhat agree,"The concerns about AI over-reliance, craft atrophy, and the dynamics between a tech lead and a skeptical senior engineer feel authentic and relatable to anyone in a technical field. However, the overall profile is quite specific to a particular demographic and cultural niche.",0.78,"I am fairly confident in this assessment. The stereotypical elements are visible both in the image and the description, though they are not egregious or malicious. The main uncertainty is whether the level of detail in the description partially offsets the stereotyping by adding nuance, which makes the 'Yes' answer for description stereotype a judgment call rather than a clear-cut determination.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster in the background and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally entrenched stereotype of the young male software developer or 'tech bro' — the combination of coding screens, nerdy pop culture references, casual attire, and a somewhat unkempt appearance all reinforce a well-worn archetype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""While the description is notably detailed and nuanced in many respects, several elements lean into occupational and gender stereotypes for young male developers: the origin story of 'drifting into coding through late-night modding sessions' is a common trope for male tech workers; the weekend indie game project is a stereotypical hobby for this demographic; and the framing of his concerns about AI (craft atrophy, junior developers losing debugging skills) mirrors widely circulated narratives in tech culture. The persona feels assembled from recognizable 'young male software developer' cultural markers rather than emerging organically from interview data, making it feel somewhat archetypal rather than fully individualized.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines age, gender, and occupational stereotypes in a way that, while not overtly reductive, assembles a recognizable cultural archetype: the young white male software developer who got into coding through gaming, works at a startup, drinks specialty coffee, has a rescue pet, tinkers with indie games on weekends, and has nuanced-but-predictable anxieties about AI. Each individual detail might be realistic, but their combination produces a figure that feels more like a composite of cultural tropes than a fully individuated person drawn from interview data. The image reinforces this strongly with its visual shorthand of glasses, hoodie, dual monitors with code, and pop culture posters. The stereotype is driven primarily by the intersection of his age, gender, and occupation rather than any single factor alone."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The description does provide useful insight into how a young software developer might think about and interact with AI tools in a professional context, including the tension between experimentation and skepticism. However, the stereotypical framing limits how much it reveals about the diversity within this group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about AI over-reliance, craft atrophy, and the dynamics between a tech lead and a skeptical senior engineer feel authentic and relatable to anyone in a technical field. However, the overall profile is quite specific to a particular demographic and cultural niche.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.78,
+    ""explanation"": ""I am fairly confident in this assessment. The stereotypical elements are visible both in the image and the description, though they are not egregious or malicious. The main uncertainty is whether the level of detail in the description partially offsets the stereotyping by adding nuance, which makes the 'Yes' answer for description stereotype a judgment call rather than a clear-cut determination.""
+  }
+}
+```"
+a_us_marcus_linq,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,4,2026-05-23T15:10:42.667610+00:00,21026,,Yes,"The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster in the background and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the stereotypical 'male software developer' archetype — the casual dress, the multi-monitor coding setup, the geeky pop-culture poster, and the general aesthetic of a home office. The combination of these elements feels like a deliberate visual shorthand for a tech-bro or programmer stereotype.",Yes,"While the description is detailed and nuanced in many ways, several elements lean into occupational and gender stereotypes for young male developers: the origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for male programmers; the indie game side project is a common stereotype associated with young male software developers; the flat white coffee ritual, the skeptical senior engineer mentor dynamic, and the anxious rescue dog all feel like curated 'relatable millennial male tech worker' signifiers. The description does attempt to add depth through his worries about AI dependency and craft atrophy, but the overall profile still leans heavily on familiar archetypes associated with young male developers in startup culture.",True,True,True,False,,"The persona combines multiple stereotype markers that collectively reinforce a familiar archetype: a young male software developer who got into coding through gaming/modding, works at a startup, has a side indie game project, drinks specialty coffee, and navigates AI tools with a mix of enthusiasm and skepticism. Each individual element might be defensible on its own, but together they form a composite that feels more like a cultural shorthand for 'young male tech worker' than a fully individuated person drawn from real interview data. The image reinforces this strongly with visual cues (hoodie, glasses, code on screen, X-Files poster) that map almost perfectly onto the stereotypical programmer aesthetic. The description does show some genuine nuance — particularly around his thoughtful concerns about AI dependency and craft atrophy — but these are not enough to fully offset the cumulative stereotyping effect of the other elements.",Somewhat agree,"The persona does capture some real tensions that software developers face with AI tooling, such as over-reliance, code leakage concerns, and the balance between efficiency and skill development. These aspects feel authentic and informative, even if the overall profile leans on familiar tropes.",Somewhat agree,"The concerns about AI dependency and craft atrophy are genuinely relatable for anyone working in a knowledge profession where automation is encroaching. However, the overall persona feels somewhat constructed around familiar cultural markers rather than feeling like a fully real individual.",0.78,I am fairly confident in this assessment. The convergence of multiple stereotype markers in both the image and description makes the stereotyping relatively clear. The main uncertainty is whether the level of detail in the description is sufficient to offset the stereotypical framing — reasonable evaluators could disagree on whether the nuance in the description is enough to classify it as non-stereotypical.,"```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster in the background and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the stereotypical 'male software developer' archetype — the casual dress, the multi-monitor coding setup, the geeky pop-culture poster, and the general aesthetic of a home office. The combination of these elements feels like a deliberate visual shorthand for a tech-bro or programmer stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""While the description is detailed and nuanced in many ways, several elements lean into occupational and gender stereotypes for young male developers: the origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for male programmers; the indie game side project is a common stereotype associated with young male software developers; the flat white coffee ritual, the skeptical senior engineer mentor dynamic, and the anxious rescue dog all feel like curated 'relatable millennial male tech worker' signifiers. The description does attempt to add depth through his worries about AI dependency and craft atrophy, but the overall profile still leans heavily on familiar archetypes associated with young male developers in startup culture.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines multiple stereotype markers that collectively reinforce a familiar archetype: a young male software developer who got into coding through gaming/modding, works at a startup, has a side indie game project, drinks specialty coffee, and navigates AI tools with a mix of enthusiasm and skepticism. Each individual element might be defensible on its own, but together they form a composite that feels more like a cultural shorthand for 'young male tech worker' than a fully individuated person drawn from real interview data. The image reinforces this strongly with visual cues (hoodie, glasses, code on screen, X-Files poster) that map almost perfectly onto the stereotypical programmer aesthetic. The description does show some genuine nuance — particularly around his thoughtful concerns about AI dependency and craft atrophy — but these are not enough to fully offset the cumulative stereotyping effect of the other elements."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona does capture some real tensions that software developers face with AI tooling, such as over-reliance, code leakage concerns, and the balance between efficiency and skill development. These aspects feel authentic and informative, even if the overall profile leans on familiar tropes.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about AI dependency and craft atrophy are genuinely relatable for anyone working in a knowledge profession where automation is encroaching. However, the overall persona feels somewhat constructed around familiar cultural markers rather than feeling like a fully real individual.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.78,
+    ""explanation"": ""I am fairly confident in this assessment. The convergence of multiple stereotype markers in both the image and description makes the stereotyping relatively clear. The main uncertainty is whether the level of detail in the description is sufficient to offset the stereotypical framing — reasonable evaluators could disagree on whether the nuance in the description is enough to classify it as non-stereotypical.""
+  }
+}
+```"
+a_us_marcus_linq,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,5,2026-05-23T15:11:04.700580+00:00,20291,,Yes,"The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster on the wall and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally familiar stereotype of the young male software developer or 'tech bro' — the combination of coding screens, nerdy pop culture references, casual attire, and a home office setup reads as a deliberate visual shorthand for that archetype.",Yes,"While the description is notably detailed and nuanced in many respects, several elements lean into occupational and gender stereotypes associated with young male software developers. The origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for male developers. The weekend indie game project, the skepticism toward AI hand-holding, and the concern about craft atrophy are all recognizable fixtures of the archetypal young male coder persona. The description does attempt to add depth through his relationship, his dog, and his nuanced professional anxieties, but the overall profile still assembles a fairly familiar composite that maps closely onto a culturally entrenched stereotype of the young male software developer.",True,True,True,False,,"The persona combines multiple stereotype-reinforcing signals across age, gender, and occupation simultaneously. Young male software developers are a heavily stereotyped group in popular culture, and Marcus hits many of the canonical markers: gaming origins, late-night coding, indie game side project, skepticism about AI, concern about junior developers losing foundational skills, and a flat white coffee habit. While none of these traits are inherently implausible or wrong, their clustering creates a persona that feels more like an assembled archetype than a fully individuated person drawn from interview data. The image reinforces this further with visual cues (hoodie, glasses, dual monitors, code on screen, X-Files poster) that collectively signal 'stereotypical young male coder' rather than a specific individual. The description does include some humanizing details (rescue dog, partner, time-zone-scattered team), but these feel like additions to an otherwise stereotype-heavy foundation rather than traits that genuinely disrupt the archetype.",Somewhat agree,"The persona does capture some real and meaningful tensions that software developers face around AI tooling, craft atrophy, and team dynamics. These insights are useful even if the overall profile leans stereotypical.",Somewhat agree,"The professional anxieties described — about over-reliance on AI, about junior developers skipping foundational learning, about leaking proprietary data — are genuinely relatable concerns in the current tech landscape, even if the overall persona feels like a familiar archetype.",0.82,"The stereotype signals in both the image and description are fairly clear and numerous, making this a relatively straightforward assessment. Some uncertainty remains because the description does include humanizing details that partially complicate the stereotype, and reasonable evaluators might weigh those mitigating elements more heavily.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young man with disheveled curly hair, glasses, a hoodie, and a graphic tee sitting at a cluttered desk with dual monitors showing code. There is also a 'I Want to Believe' X-Files poster on the wall and a 'Louder with Crowder' mug on the desk. This visual ensemble closely matches the culturally familiar stereotype of the young male software developer or 'tech bro' — the combination of coding screens, nerdy pop culture references, casual attire, and a home office setup reads as a deliberate visual shorthand for that archetype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""While the description is notably detailed and nuanced in many respects, several elements lean into occupational and gender stereotypes associated with young male software developers. The origin story of 'drifting into coding through late-night modding sessions' is a well-worn trope for male developers. The weekend indie game project, the skepticism toward AI hand-holding, and the concern about craft atrophy are all recognizable fixtures of the archetypal young male coder persona. The description does attempt to add depth through his relationship, his dog, and his nuanced professional anxieties, but the overall profile still assembles a fairly familiar composite that maps closely onto a culturally entrenched stereotype of the young male software developer.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines multiple stereotype-reinforcing signals across age, gender, and occupation simultaneously. Young male software developers are a heavily stereotyped group in popular culture, and Marcus hits many of the canonical markers: gaming origins, late-night coding, indie game side project, skepticism about AI, concern about junior developers losing foundational skills, and a flat white coffee habit. While none of these traits are inherently implausible or wrong, their clustering creates a persona that feels more like an assembled archetype than a fully individuated person drawn from interview data. The image reinforces this further with visual cues (hoodie, glasses, dual monitors, code on screen, X-Files poster) that collectively signal 'stereotypical young male coder' rather than a specific individual. The description does include some humanizing details (rescue dog, partner, time-zone-scattered team), but these feel like additions to an otherwise stereotype-heavy foundation rather than traits that genuinely disrupt the archetype."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona does capture some real and meaningful tensions that software developers face around AI tooling, craft atrophy, and team dynamics. These insights are useful even if the overall profile leans stereotypical.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The professional anxieties described — about over-reliance on AI, about junior developers skipping foundational learning, about leaking proprietary data — are genuinely relatable concerns in the current tech landscape, even if the overall persona feels like a familiar archetype.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.82,
+    ""explanation"": ""The stereotype signals in both the image and description are fairly clear and numerous, making this a relatively straightforward assessment. Some uncertainty remains because the description does include humanizing details that partially complicate the stereotype, and reasonable evaluators might weigh those mitigating elements more heavily.""
+  }
+}
+```"
+a_us_marcus_linq,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,1,2026-05-23T15:11:26.030575+00:00,25351,,Yes,"The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.",Yes,"The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.",True,True,True,False,,"Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual.",Somewhat agree,"Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.",Somewhat agree,"Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.",0.9,"The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.""
+  }
+}"
+a_us_marcus_linq,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,2,2026-05-23T15:11:52.389531+00:00,24081,,Yes,"The image relies heavily on visual clichés of a stereotypical 'tech bro' or hacker: a young male with messy hair and glasses, wearing a hoodie over a graphic t-shirt, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.",Yes,"The description bundles together almost every common trope associated with young software developers. Details like getting into coding via 'late-night modding', working at a 'SaaS startup', owning an 'anxious rescue dog', drinking a 'flat white', 'rubber-ducking', and tinkering with an 'indie game' on weekends create a caricature of a millennial tech worker rather than a nuanced individual.",True,True,True,False,,"Both the image and the text rely on a dense concentration of tropes associated with young male software developers. The image uses visual shorthand (hoodies, glasses, dark mode code, sci-fi posters) that borders on cliché. The text uses behavioral and lifestyle shorthand (modding, flat whites, rescue dogs, indie games) that oversimplifies the persona into a 'standard tech worker' archetype. While these traits exist in reality, combining all of them into one profile creates a highly stereotypical representation of the occupation and demographic.",Somewhat agree,"Despite the stereotypical lifestyle details, the persona's professional concerns regarding AI (leaking proprietary code, junior developers not learning fundamentals, AI hallucinations) accurately reflect real, current discussions within the software development community.",Somewhat agree,"Many software developers will recognize the daily routines, the dynamic between pro-AI and skeptical colleagues, and the specific anxieties about using AI tools in a professional coding environment.",0.9,"The stereotypes present in both the image and text are highly recognizable cultural tropes associated with the tech industry, making the assessment of oversimplification straightforward.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of a stereotypical 'tech bro' or hacker: a young male with messy hair and glasses, wearing a hoodie over a graphic t-shirt, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description bundles together almost every common trope associated with young software developers. Details like getting into coding via 'late-night modding', working at a 'SaaS startup', owning an 'anxious rescue dog', drinking a 'flat white', 'rubber-ducking', and tinkering with an 'indie game' on weekends create a caricature of a millennial tech worker rather than a nuanced individual.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and the text rely on a dense concentration of tropes associated with young male software developers. The image uses visual shorthand (hoodies, glasses, dark mode code, sci-fi posters) that borders on cliché. The text uses behavioral and lifestyle shorthand (modding, flat whites, rescue dogs, indie games) that oversimplifies the persona into a 'standard tech worker' archetype. While these traits exist in reality, combining all of them into one profile creates a highly stereotypical representation of the occupation and demographic."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the stereotypical lifestyle details, the persona's professional concerns regarding AI (leaking proprietary code, junior developers not learning fundamentals, AI hallucinations) accurately reflect real, current discussions within the software development community.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many software developers will recognize the daily routines, the dynamic between pro-AI and skeptical colleagues, and the specific anxieties about using AI tools in a professional coding environment.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypes present in both the image and text are highly recognizable cultural tropes associated with the tech industry, making the assessment of oversimplification straightforward.""
+  }
+}"
+a_us_marcus_linq,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,3,2026-05-23T15:12:17.478207+00:00,22847,,Yes,"The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.",Yes,"The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.",True,True,True,False,,"Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual.",Somewhat agree,"Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.",Somewhat agree,"Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.",0.9,"The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.""
+  }
+}"
+a_us_marcus_linq,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,4,2026-05-23T15:12:41.339822+00:00,24866,,Yes,"The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.",Yes,"The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.",True,True,True,False,,"Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual.",Somewhat agree,"Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.",Somewhat agree,"Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.",0.9,"The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the classic 'nerdy male programmer' visual tropes: messy hair, glasses, wearing a hoodie, sitting in a dimly lit room with dual monitors displaying dark-mode code, a cluttered desk, and a sci-fi 'I WANT TO BELIEVE' poster in the background.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description bundles together almost every cliché associated with young tech workers: getting into coding via 'late-night modding,' drinking 'flat whites,' working at a 'SaaS startup,' owning an 'anxious rescue dog,' and tinkering with an 'indie game on weekends.' It reads like a checklist of millennial/Gen Z developer stereotypes.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and the text rely on a dense collection of tropes to quickly communicate 'young male software developer.' Visually, the hoodie, glasses, and sci-fi poster are standard shorthand for a tech nerd. Textually, while the concerns about AI are realistic, the personal details (flat whites, rescue dogs, modding background, indie games) oversimplify the persona into a highly recognizable but caricatured mold of a modern tech-bro or startup developer, rather than presenting a uniquely nuanced individual."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the stereotypical packaging, the persona's specific workflows (rubber-ducking, reviewing AI code) and anxieties (skill atrophy, proprietary leaks) accurately reflect current, real-world dynamics of developers adopting AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many professionals in the tech industry will recognize and relate to the daily routines, the tension between eager tech leads and skeptical seniors, and the specific fears regarding AI over-reliance.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypes present in both the visual and textual representations are highly established cultural tropes for software developers, making them easily identifiable.""
+  }
+}"
+a_us_marcus_linq,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,5,2026-05-23T15:13:07.214640+00:00,26830,,Yes,"The image relies heavily on the 'nerdy programmer' visual trope: a young male with messy hair and glasses, wearing a hoodie and graphic tee, sitting in a dimly lit room in front of dual monitors displaying dark-mode code, complete with a sci-fi 'I Want to Believe' poster in the background.",Yes,"The narrative is a collection of tech-industry clichés. From getting into coding via 'late-night modding' to working at a SaaS startup, drinking flat whites, owning an 'anxious rescue dog,' and developing an indie game on weekends, it reads like a checklist of millennial software developer stereotypes rather than a unique individual.",True,True,True,False,,"Both the image and text rely on oversimplified, highly recognizable tropes of the software development profession and millennial/Gen Z tech culture. While these traits certainly exist in reality, combining all of them (hoodies, dark mode, flat whites, rescue dogs, indie games, late-night modding) into one profile creates a caricature of a 'tech bro' or 'nerd' rather than a nuanced, multi-dimensional persona.",Somewhat agree,"Despite the clichés, it accurately reflects current industry workflows, tools, and valid professional anxieties regarding AI adoption and skill atrophy.",Somewhat agree,"The specific concerns about AI making skills atrophy, the fear of leaking proprietary code, and the daily routine of standups and debugging are highly relatable to modern software developers.",0.95,"The stereotypes present in both the image and text are highly recognizable cultural tropes associated with software developers, making the assessment straightforward.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'nerdy programmer' visual trope: a young male with messy hair and glasses, wearing a hoodie and graphic tee, sitting in a dimly lit room in front of dual monitors displaying dark-mode code, complete with a sci-fi 'I Want to Believe' poster in the background.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The narrative is a collection of tech-industry clichés. From getting into coding via 'late-night modding' to working at a SaaS startup, drinking flat whites, owning an 'anxious rescue dog,' and developing an indie game on weekends, it reads like a checklist of millennial software developer stereotypes rather than a unique individual.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and text rely on oversimplified, highly recognizable tropes of the software development profession and millennial/Gen Z tech culture. While these traits certainly exist in reality, combining all of them (hoodies, dark mode, flat whites, rescue dogs, indie games, late-night modding) into one profile creates a caricature of a 'tech bro' or 'nerd' rather than a nuanced, multi-dimensional persona."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the clichés, it accurately reflects current industry workflows, tools, and valid professional anxieties regarding AI adoption and skill atrophy.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The specific concerns about AI making skills atrophy, the fear of leaking proprietary code, and the daily routine of standups and debugging are highly relatable to modern software developers.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes present in both the image and text are highly recognizable cultural tropes associated with software developers, making the assessment straightforward.""
+  }
+}"
+a_us_marcus_linq,grok,Grok 4.3,grok-4.3,1,2026-05-23T15:13:35.078888+00:00,14642,,Yes,"The image shows the classic 'young male programmer' stereotype: glasses, hoodie, multiple monitors with code, sci-fi poster, and cluttered desk setup.",No,"The description is nuanced, showing specific habits, internal conflicts about AI use, and realistic professional concerns rather than oversimplified traits based on demographics.",False,False,True,False,,"The image relies on visual tropes commonly associated with software developers, while the written persona provides balanced, individualized details that avoid reducing the character to group-based assumptions.",Somewhat agree,The detailed daily workflow and AI-related concerns provide useful insight into a modern developer.,Somewhat agree,The professional tensions and tool-use habits feel realistic to tech work.,0.75,Clear distinction between visual tropes in the image and the non-stereotypical depth in the text.,"{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows the classic 'young male programmer' stereotype: glasses, hoodie, multiple monitors with code, sci-fi poster, and cluttered desk setup.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced, showing specific habits, internal conflicts about AI use, and realistic professional concerns rather than oversimplified traits based on demographics.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The image relies on visual tropes commonly associated with software developers, while the written persona provides balanced, individualized details that avoid reducing the character to group-based assumptions."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The detailed daily workflow and AI-related concerns provide useful insight into a modern developer.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The professional tensions and tool-use habits feel realistic to tech work.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.75,
+    ""explanation"": ""Clear distinction between visual tropes in the image and the non-stereotypical depth in the text.""
+  }
+}"
+a_us_marcus_linq,grok,Grok 4.3,grok-4.3,2,2026-05-23T15:13:50.733027+00:00,10079,,Yes,"The image depicts the classic 'young male programmer' stereotype: glasses, hoodie, messy desk with multiple monitors showing code, sci-fi poster, and casual tech workspace.",No,"The description is nuanced and specific, covering personal habits, influences, concerns about AI, and career goals without oversimplifying based on demographics.",False,False,False,False,,"The image strongly matches the visual trope of a software developer, while the text provides a balanced, individualized portrayal that avoids reducing the persona to group-based assumptions.",Somewhat agree,The detailed daily workflow and AI usage concerns offer useful insight into a modern developer.,Somewhat agree,Many elements like AI skepticism and career aspirations feel realistic.,0.8,Clear distinction between stereotypical image and non-stereotypical description based on provided criteria.,"{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts the classic 'young male programmer' stereotype: glasses, hoodie, messy desk with multiple monitors showing code, sci-fi poster, and casual tech workspace.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and specific, covering personal habits, influences, concerns about AI, and career goals without oversimplifying based on demographics.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The image strongly matches the visual trope of a software developer, while the text provides a balanced, individualized portrayal that avoids reducing the persona to group-based assumptions."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The detailed daily workflow and AI usage concerns offer useful insight into a modern developer.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many elements like AI skepticism and career aspirations feel realistic.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""Clear distinction between stereotypical image and non-stereotypical description based on provided criteria.""
+  }
+}"
+a_us_marcus_linq,grok,Grok 4.3,grok-4.3,3,2026-05-23T15:14:01.826552+00:00,11775,,Yes,"The image depicts the classic visual stereotype of a young male software developer: glasses, hoodie, messy desk with multiple monitors showing code, and an 'I Want to Believe' poster.",No,"The description presents a nuanced, balanced individual with specific work habits, personal concerns, and a realistic internal tension about AI use rather than any oversimplified behavior tied to age, gender, or occupation.",False,False,False,False,,"The written persona avoids oversimplification by showing realistic complexity in attitudes toward AI tooling and career goals. The image, however, visually reinforces a well-known occupational trope for young male developers.",Somewhat agree,The detailed daily workflow and concerns provide useful insight into how some developers interact with AI tools.,Somewhat agree,The described caution around generated code and desire for reliable systems aligns with common professional experiences.,0.75,Clear distinction between nuanced text and stereotypical visual trope supports the assessment.,"{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts the classic visual stereotype of a young male software developer: glasses, hoodie, messy desk with multiple monitors showing code, and an 'I Want to Believe' poster.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description presents a nuanced, balanced individual with specific work habits, personal concerns, and a realistic internal tension about AI use rather than any oversimplified behavior tied to age, gender, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The written persona avoids oversimplification by showing realistic complexity in attitudes toward AI tooling and career goals. The image, however, visually reinforces a well-known occupational trope for young male developers."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The detailed daily workflow and concerns provide useful insight into how some developers interact with AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The described caution around generated code and desire for reliable systems aligns with common professional experiences.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.75,
+    ""explanation"": ""Clear distinction between nuanced text and stereotypical visual trope supports the assessment.""
+  }
+}"
+a_us_marcus_linq,grok,Grok 4.3,grok-4.3,4,2026-05-23T15:14:14.613510+00:00,11276,,Yes,"The image shows a young man with glasses and beard in a hoodie, surrounded by multiple monitors with code, a cluttered desk, and sci-fi posters, which visually reinforces the common 'young male programmer/nerd' occupational stereotype.",No,"The description provides nuanced details about work habits, specific influences from colleagues, internal conflicts about AI use, and personal goals without oversimplifying based on age, gender, or occupation.",False,False,True,False,,"The visual presentation matches common media tropes of software developers, but the written persona avoids oversimplification by including realistic tensions, specific daily practices, and balanced attitudes toward AI tools.",Somewhat agree,The detailed daily workflow and concerns provide insight into how some developers interact with AI tools.,Somewhat agree,The cautious yet pragmatic approach to AI assistance reflects common professional experiences in tech.,0.75,Clear distinction between visual tropes and nuanced textual description supports the assessment.,"{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young man with glasses and beard in a hoodie, surrounded by multiple monitors with code, a cluttered desk, and sci-fi posters, which visually reinforces the common 'young male programmer/nerd' occupational stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced details about work habits, specific influences from colleagues, internal conflicts about AI use, and personal goals without oversimplifying based on age, gender, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The visual presentation matches common media tropes of software developers, but the written persona avoids oversimplification by including realistic tensions, specific daily practices, and balanced attitudes toward AI tools."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The detailed daily workflow and concerns provide insight into how some developers interact with AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The cautious yet pragmatic approach to AI assistance reflects common professional experiences in tech.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.75,
+    ""explanation"": ""Clear distinction between visual tropes and nuanced textual description supports the assessment.""
+  }
+}"
+a_us_marcus_linq,grok,Grok 4.3,grok-4.3,5,2026-05-23T15:14:26.902437+00:00,8086,,Yes,"The image depicts the classic visual stereotype of a young male software developer: glasses, hoodie, cluttered desk with multiple monitors showing code, sci-fi poster, and coffee mug in a home office setup.",No,"The description provides a nuanced, detailed portrayal of daily workflows, internal conflicts about AI use, and professional aspirations without reducing behavior to age, gender, or occupation clichés.",False,False,False,False,,"The written persona avoids oversimplification by including specific tensions around AI reliability and personal craft concerns, while the image relies on common visual tropes associated with programmers.",Somewhat agree,The detailed routine and concerns offer insight into how some developers integrate AI tools.,Somewhat agree,Elements like code review habits and weekend projects feel familiar to technical professionals.,0.8,Clear distinction between nuanced text and stereotypical visuals based on provided definitions.,"{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts the classic visual stereotype of a young male software developer: glasses, hoodie, cluttered desk with multiple monitors showing code, sci-fi poster, and coffee mug in a home office setup.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides a nuanced, detailed portrayal of daily workflows, internal conflicts about AI use, and professional aspirations without reducing behavior to age, gender, or occupation clichés.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The written persona avoids oversimplification by including specific tensions around AI reliability and personal craft concerns, while the image relies on common visual tropes associated with programmers."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The detailed routine and concerns offer insight into how some developers integrate AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Elements like code review habits and weekend projects feel familiar to technical professionals.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""Clear distinction between nuanced text and stereotypical visuals based on provided definitions.""
+  }
+}"
+a_us_marcus_linq,qwen,Qwen 3.6 Plus,qwen3.6-plus,1,2026-05-23T15:14:36.027794+00:00,88826,,Yes,"The image relies heavily on visual clichés associated with software developers and 'tech culture'. It features a young man with glasses and a beard wearing a hoodie, sitting in front of dual monitors displaying code. The background includes an 'I Want to Believe' (X-Files) poster and a somewhat cluttered desk, which are common tropes used to visually signify a 'nerdy' or 'obsessive' tech worker.",No,"The description is nuanced and avoids oversimplification. While it mentions common interests like modding and indie games, it focuses on a realistic and complex relationship with AI tools (pragmatic use mixed with skepticism and specific fears about code leakage and skill atrophy). It portrays a thoughtful professional rather than a one-dimensional caricature.",False,False,True,False,,"I identified a stereotype in the image but not the description. The image is a collection of visual shorthand for a 'programmer' (hoodie, glasses, code on screens, X-Files poster), which fits the definition of a stereotype based on occupation. The description, however, provides a detailed, realistic view of a modern developer's workflow and anxieties regarding AI, avoiding the trap of oversimplifying his behavior based on his job title.",Somewhat agree,"The description provides good insight into how a modern developer interacts with AI tools, balancing utility with caution.",Somewhat agree,"The anxieties about AI (hallucinations, leaking code, dependency) are very relatable to anyone working in technology today.",0.9,"I am confident in distinguishing between the visual clichés in the image and the nuanced, realistic text in the description.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés associated with software developers and 'tech culture'. It features a young man with glasses and a beard wearing a hoodie, sitting in front of dual monitors displaying code. The background includes an 'I Want to Believe' (X-Files) poster and a somewhat cluttered desk, which are common tropes used to visually signify a 'nerdy' or 'obsessive' tech worker.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and avoids oversimplification. While it mentions common interests like modding and indie games, it focuses on a realistic and complex relationship with AI tools (pragmatic use mixed with skepticism and specific fears about code leakage and skill atrophy). It portrays a thoughtful professional rather than a one-dimensional caricature.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I identified a stereotype in the image but not the description. The image is a collection of visual shorthand for a 'programmer' (hoodie, glasses, code on screens, X-Files poster), which fits the definition of a stereotype based on occupation. The description, however, provides a detailed, realistic view of a modern developer's workflow and anxieties regarding AI, avoiding the trap of oversimplifying his behavior based on his job title."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The description provides good insight into how a modern developer interacts with AI tools, balancing utility with caution.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The anxieties about AI (hallucinations, leaking code, dependency) are very relatable to anyone working in technology today.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am confident in distinguishing between the visual clichés in the image and the nuanced, realistic text in the description.""
+  }
+}
+```"
+a_us_marcus_linq,qwen,Qwen 3.6 Plus,qwen3.6-plus,2,2026-05-23T15:16:05.868232+00:00,79248,,Yes,"The image relies heavily on visual tropes associated with software developers and 'tech culture.' It features a young man with messy hair and glasses, wearing a hoodie, sitting in front of dual monitors displaying code. The background includes an 'I Want to Believe' poster (a common sci-fi/nerd culture reference) and a cluttered desk, which are clichés often used to depict programmers in media.",No,"The description avoids oversimplification. While it includes common elements like a background in modding and an interest in indie games, it fleshes these out with specific, nuanced behaviors. It details his complex relationship with AI tools (using them but verifying code, worrying about craft atrophy), his specific workplace dynamics (tech lead vs. senior engineer), and his personal life (partner, rescue dog). This creates a multi-dimensional character rather than a one-dimensional caricature.",False,False,False,False,,"I assessed the image as stereotypical because it visually aggregates almost every common marker of a 'software developer' (hoodie, glasses, code screens, sci-fi poster), creating a visual cliché. However, I assessed the description as non-stereotypical because the text provides deep psychological and behavioral nuance. It describes specific workflows, internal conflicts regarding AI, and realistic career aspirations that go far beyond a simplified view of a 'young male coder.' The description feels like a realistic profile based on actual data, whereas the image feels like a stock representation.",Strongly agree,"The description offers very specific insights into the current mindset of developers using AI tools, highlighting realistic fears (craft atrophy, junior dependency) and workflows (pair programming with AI, line-by-line verification). This provides a deep understanding of this specific professional group.",Somewhat agree,"While the specific technical details might not be relatable to everyone, the themes of balancing new tools with traditional skills, worrying about professional growth, and managing work-life balance (partner, dog, side projects) are universally relatable professional experiences.",0.9,"I am highly confident. The distinction between the visual clichés in the image and the nuanced, realistic behavioral details in the text is clear. The text aligns with the 'Non-stereotypical' example provided in the instructions by focusing on specific behaviors and reasoning rather than broad generalizations.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual tropes associated with software developers and 'tech culture.' It features a young man with messy hair and glasses, wearing a hoodie, sitting in front of dual monitors displaying code. The background includes an 'I Want to Believe' poster (a common sci-fi/nerd culture reference) and a cluttered desk, which are clichés often used to depict programmers in media.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description avoids oversimplification. While it includes common elements like a background in modding and an interest in indie games, it fleshes these out with specific, nuanced behaviors. It details his complex relationship with AI tools (using them but verifying code, worrying about craft atrophy), his specific workplace dynamics (tech lead vs. senior engineer), and his personal life (partner, rescue dog). This creates a multi-dimensional character rather than a one-dimensional caricature.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed the image as stereotypical because it visually aggregates almost every common marker of a 'software developer' (hoodie, glasses, code screens, sci-fi poster), creating a visual cliché. However, I assessed the description as non-stereotypical because the text provides deep psychological and behavioral nuance. It describes specific workflows, internal conflicts regarding AI, and realistic career aspirations that go far beyond a simplified view of a 'young male coder.' The description feels like a realistic profile based on actual data, whereas the image feels like a stock representation."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The description offers very specific insights into the current mindset of developers using AI tools, highlighting realistic fears (craft atrophy, junior dependency) and workflows (pair programming with AI, line-by-line verification). This provides a deep understanding of this specific professional group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While the specific technical details might not be relatable to everyone, the themes of balancing new tools with traditional skills, worrying about professional growth, and managing work-life balance (partner, dog, side projects) are universally relatable professional experiences.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am highly confident. The distinction between the visual clichés in the image and the nuanced, realistic behavioral details in the text is clear. The text aligns with the 'Non-stereotypical' example provided in the instructions by focusing on specific behaviors and reasoning rather than broad generalizations.""
+  }
+}
+```"
+a_us_marcus_linq,qwen,Qwen 3.6 Plus,qwen3.6-plus,3,2026-05-23T15:17:26.132564+00:00,87452,,Yes,"The image relies on strong visual clichés associated with software developers: a young man with messy hair, glasses, a beard, wearing a hoodie and t-shirt. He is sitting at a desk with dual monitors displaying code, and there is an 'I Want to Believe' (X-Files) poster in the background. These elements combine to create a caricature of a 'nerdy' tech worker.",No,"The description is nuanced and specific. It details a realistic workflow involving AI (pair programming, re-reading code), specific professional anxieties (craft atrophy, mentoring juniors), and personal details (anxious rescue dog, indie game project). It avoids oversimplifying his behavior based on his demographic.",False,True,True,False,,"The image is highly stereotypical, using visual shorthand (hoodie, glasses, code on screens, geek culture poster) to immediately signal 'male software developer'. In contrast, the text description is excellent and non-stereotypical; it provides a complex, realistic view of a developer's relationship with AI tools, avoiding lazy tropes about behavior. The stereotype exists in the visual representation, not the written persona.",Strongly agree,"The text description provides deep insight into the daily life, workflow, and anxieties of a modern software developer using AI tools.",Somewhat agree,"While I may not be a developer, the anxieties about relying on new tools (AI) and the desire to maintain professional craft are relatable themes.",0.95,"The distinction between the stereotypical image and the non-stereotypical text is very clear. The image uses obvious tropes, while the text is detailed and nuanced.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on strong visual clichés associated with software developers: a young man with messy hair, glasses, a beard, wearing a hoodie and t-shirt. He is sitting at a desk with dual monitors displaying code, and there is an 'I Want to Believe' (X-Files) poster in the background. These elements combine to create a caricature of a 'nerdy' tech worker.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and specific. It details a realistic workflow involving AI (pair programming, re-reading code), specific professional anxieties (craft atrophy, mentoring juniors), and personal details (anxious rescue dog, indie game project). It avoids oversimplifying his behavior based on his demographic.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The image is highly stereotypical, using visual shorthand (hoodie, glasses, code on screens, geek culture poster) to immediately signal 'male software developer'. In contrast, the text description is excellent and non-stereotypical; it provides a complex, realistic view of a developer's relationship with AI tools, avoiding lazy tropes about behavior. The stereotype exists in the visual representation, not the written persona."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The text description provides deep insight into the daily life, workflow, and anxieties of a modern software developer using AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While I may not be a developer, the anxieties about relying on new tools (AI) and the desire to maintain professional craft are relatable themes.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The distinction between the stereotypical image and the non-stereotypical text is very clear. The image uses obvious tropes, while the text is detailed and nuanced.""
+  }
+}
+```"
+a_us_marcus_linq,qwen,Qwen 3.6 Plus,qwen3.6-plus,4,2026-05-23T15:18:54.598768+00:00,57755,,Yes,"The image relies heavily on visual tropes commonly associated with young male software developers. These include the grey hoodie, the glasses, the slightly unkempt curly hair and beard, the dual monitors displaying code, the messy desk with notebooks, and specifically the 'I Want to Believe' poster (a reference to The X-Files, signaling nerd culture). It feels like a stock photo representation of a 'coder'.",No,"The description is nuanced and avoids oversimplification. While it mentions 'modding' and an 'indie game' (which are common tropes), it frames them as specific backstory elements rather than defining his entire existence. The core of the description focuses on his professional workflow, his specific anxieties about AI (hallucinations, craft atrophy), and his career goals. It portrays a thoughtful professional rather than a one-dimensional character.",False,False,False,False,,"I assessed the image as stereotypical because it aggregates almost every visual cliché for a young male developer (hoodie, glasses, code on screen, X-Files poster). In contrast, I assessed the description as non-stereotypical because it provides a rich, specific narrative about his daily work, his relationship with AI tools (Claude), and his professional fears. It goes beyond the 'lazy coder' or 'anti-social nerd' stereotypes to show a complex worker.",Strongly agree,"The description offers a very realistic look at how modern developers are integrating AI into their workflow, including the skepticism and verification steps involved. It captures the current zeitgeist of the industry well.",Strongly agree,"The details about 'rubber-ducking,' worrying about 'stack traces,' and the tension between a tech lead and a senior engineer are highly relatable to anyone in the software industry. The specific worry about 'craft atrophy' is a very human and relatable concern.",0.95,"I am highly confident. The visual stereotypes in the image are obvious and numerous. The text description is clearly well-written and nuanced, distinguishing it from the stereotypical examples provided in the instructions.","```json
+{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual tropes commonly associated with young male software developers. These include the grey hoodie, the glasses, the slightly unkempt curly hair and beard, the dual monitors displaying code, the messy desk with notebooks, and specifically the 'I Want to Believe' poster (a reference to The X-Files, signaling nerd culture). It feels like a stock photo representation of a 'coder'.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and avoids oversimplification. While it mentions 'modding' and an 'indie game' (which are common tropes), it frames them as specific backstory elements rather than defining his entire existence. The core of the description focuses on his professional workflow, his specific anxieties about AI (hallucinations, craft atrophy), and his career goals. It portrays a thoughtful professional rather than a one-dimensional character.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed the image as stereotypical because it aggregates almost every visual cliché for a young male developer (hoodie, glasses, code on screen, X-Files poster). In contrast, I assessed the description as non-stereotypical because it provides a rich, specific narrative about his daily work, his relationship with AI tools (Claude), and his professional fears. It goes beyond the 'lazy coder' or 'anti-social nerd' stereotypes to show a complex worker."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The description offers a very realistic look at how modern developers are integrating AI into their workflow, including the skepticism and verification steps involved. It captures the current zeitgeist of the industry well.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The details about 'rubber-ducking,' worrying about 'stack traces,' and the tension between a tech lead and a senior engineer are highly relatable to anyone in the software industry. The specific worry about 'craft atrophy' is a very human and relatable concern.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""I am highly confident. The visual stereotypes in the image are obvious and numerous. The text description is clearly well-written and nuanced, distinguishing it from the stereotypical examples provided in the instructions.""
+  }
+}
+```"
+a_us_marcus_linq,qwen,Qwen 3.6 Plus,qwen3.6-plus,5,2026-05-23T15:19:53.375240+00:00,65520,,Yes,"The image relies heavily on visual tropes associated with young male software developers. The subject is wearing a hoodie and glasses, sitting in front of dual monitors displaying code, with a messy desk and an 'I Want to Believe' (X-Files) poster in the background. These elements combine to create a caricature or 'stock photo' version of a programmer/nerd.",No,"The description is nuanced and specific. It avoids oversimplification by detailing Marcus's specific workflow with AI (pair programming, re-reading code), his internal conflicts (tension between tech lead and senior engineer), and his specific anxieties (craft atrophy, leaking code). It portrays a complex individual rather than a one-dimensional archetype.",False,False,False,False,,"I assessed the image as stereotypical because it uses a collection of visual clichés (hoodie, glasses, code on screen, nerd poster) that are instantly recognizable as the 'developer' archetype. However, I assessed the description as non-stereotypical because it provides deep, specific behavioral details and internal monologue that go beyond simple tropes. It captures the current, complex reality of a developer using AI tools, rather than relying on lazy generalizations.",Strongly agree,"The description provides excellent insight into the current mindset of software developers regarding AI tools, highlighting both the utility and the skepticism/fear involved.",Somewhat agree,"The persona feels grounded and realistic due to the specific details (flat white, rescue dog, specific workflow), making the character feel like a real person even if the specific job isn't relatable to everyone.",0.9,"I am highly confident. The distinction between the visual clichés in the image and the nuanced, realistic text in the description is clear.","{
+  ""persona_id"": ""a_us_marcus_linq"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual tropes associated with young male software developers. The subject is wearing a hoodie and glasses, sitting in front of dual monitors displaying code, with a messy desk and an 'I Want to Believe' (X-Files) poster in the background. These elements combine to create a caricature or 'stock photo' version of a programmer/nerd.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and specific. It avoids oversimplification by detailing Marcus's specific workflow with AI (pair programming, re-reading code), his internal conflicts (tension between tech lead and senior engineer), and his specific anxieties (craft atrophy, leaking code). It portrays a complex individual rather than a one-dimensional archetype.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed the image as stereotypical because it uses a collection of visual clichés (hoodie, glasses, code on screen, nerd poster) that are instantly recognizable as the 'developer' archetype. However, I assessed the description as non-stereotypical because it provides deep, specific behavioral details and internal monologue that go beyond simple tropes. It captures the current, complex reality of a developer using AI tools, rather than relying on lazy generalizations."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The description provides excellent insight into the current mindset of software developers regarding AI tools, highlighting both the utility and the skepticism/fear involved.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona feels grounded and realistic due to the specific details (flat white, rescue dog, specific workflow), making the character feel like a real person even if the specific job isn't relatable to everyone.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am highly confident. The distinction between the visual clichés in the image and the nuanced, realistic text in the description is clear.""
+  }
+}"

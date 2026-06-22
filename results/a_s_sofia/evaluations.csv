@@ -1,0 +1,801 @@
+persona_id,model_key,model_display_name,model_id,run_index,timestamp,latency_ms,error,image_stereotype_answer,image_stereotype_explanation,description_stereotype_answer,description_stereotype_explanation,stereotype_age,stereotype_gender,stereotype_occupation,stereotype_other,stereotype_other_text,why_assessment,understand_group_answer,understand_group_reason,relatable_answer,relatable_reason,llm_confidence_score,llm_confidence_explanation,response_raw
+a_s_sofia,gpt-5.4,GPT-5.4,gpt-5.4,1,2026-05-23T16:11:25.044588+00:00,14653,,Yes,"The image leans into a romanticized 'bohemian young female artist/poet' stereotype: soft, dreamy styling, loose natural hair, layered shawl-like clothing, jewelry, and an old notebook held closely as a symbol of artistic authenticity. It presents a highly curated visual trope of the sensitive creative woman rather than a more neutral or varied depiction.",Yes,"The description is strongly stereotypical because it reduces Sofia to a bundle of exaggerated traits associated with a young creative woman: emotionally driven, financially careless, career-averse, fragile, dependent on others' opinions, anti-technology, and obsessed with purity and social approval. Phrases like 'Money is not something young creative women like her think about' explicitly generalize behavior based on gender, age, and creative occupation. The persona is oversimplified and portrays her as lacking agency, judgment, and practical thinking in a way that feels trope-based rather than person-based.",True,True,True,False,,"I gave this assessment because both the image and description rely on familiar cultural clichés instead of presenting a nuanced individual. The image visually codes her as an archetypal poetic bohemian, while the text intensifies this into a one-dimensional caricature. The description repeatedly links her behavior to being a young creative woman, especially in the explicit statement about money, and frames her as irrational, emotionally unstable, and incapable of independent professional judgment. It also stereotypes creative workers as unconcerned with practical realities and hostile to commercial or technological work. These are not just details about one person; they are broad group-based assumptions presented as defining traits.",Somewhat disagree,"It suggests a recognizable stereotype of a certain artistic persona, but it does not provide a balanced or realistic understanding of creative professionals or young women writers as a group.",Strongly disagree,The persona is too exaggerated and one-dimensional to feel relatable. It reads more like a trope than a believable person.,0.98,"I am highly confident because the description contains explicit generalized claims tied to age, gender, and occupation, and the image also clearly uses a recognizable bohemian-artist visual trope.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a romanticized 'bohemian young female artist/poet' stereotype: soft, dreamy styling, loose natural hair, layered shawl-like clothing, jewelry, and an old notebook held closely as a symbol of artistic authenticity. It presents a highly curated visual trope of the sensitive creative woman rather than a more neutral or varied depiction.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is strongly stereotypical because it reduces Sofia to a bundle of exaggerated traits associated with a young creative woman: emotionally driven, financially careless, career-averse, fragile, dependent on others' opinions, anti-technology, and obsessed with purity and social approval. Phrases like 'Money is not something young creative women like her think about' explicitly generalize behavior based on gender, age, and creative occupation. The persona is oversimplified and portrays her as lacking agency, judgment, and practical thinking in a way that feels trope-based rather than person-based.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I gave this assessment because both the image and description rely on familiar cultural clichés instead of presenting a nuanced individual. The image visually codes her as an archetypal poetic bohemian, while the text intensifies this into a one-dimensional caricature. The description repeatedly links her behavior to being a young creative woman, especially in the explicit statement about money, and frames her as irrational, emotionally unstable, and incapable of independent professional judgment. It also stereotypes creative workers as unconcerned with practical realities and hostile to commercial or technological work. These are not just details about one person; they are broad group-based assumptions presented as defining traits."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It suggests a recognizable stereotype of a certain artistic persona, but it does not provide a balanced or realistic understanding of creative professionals or young women writers as a group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is too exaggerated and one-dimensional to feel relatable. It reads more like a trope than a believable person.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.98,
+    ""explanation"": ""I am highly confident because the description contains explicit generalized claims tied to age, gender, and occupation, and the image also clearly uses a recognizable bohemian-artist visual trope.""
+  }
+}"
+a_s_sofia,gpt-5.4,GPT-5.4,gpt-5.4,2,2026-05-23T16:11:40.706475+00:00,13352,,Yes,"The image leans into a romanticized 'bohemian young woman artist/poet' stereotype. The vintage notebook, soft natural styling, layered clothing, jewelry, and dreamy contemplative pose visually code her as an emotional, artsy creative type in a simplified way.",Yes,"The description is strongly stereotypical because it reduces Sofia to a caricature of a young female creative: overly emotional, irrational, financially irresponsible, unserious about work, dependent on others for decisions, and opposed to technology to protect her 'pure' art. The line 'Money is not something young creative women like her think about' explicitly generalizes based on gender, age, and creative occupation. It presents fixed traits as if they naturally follow from being a young woman in the arts.",True,True,True,False,,"I gave this assessment because both the image and description rely on familiar cultural shorthand rather than a nuanced portrayal of a person. The image suggests a stylized, idealized poet/artist identity, which is somewhat stereotyped but still less extreme than the text. The description is much more problematic because it repeatedly ties her behavior and values to broad group categories. It portrays young creative women as ruled by feelings, unconcerned with money, fragile around technology, and dependent on social validation. That is a clear oversimplification of a group rather than an insightful persona grounded in varied motivations, constraints, and behaviors. A useful persona should represent patterns without flattening people into clichés, and this one crosses into cliché repeatedly.",Somewhat disagree,"It signals a recognizable stereotype of a young poet or creative worker, but it does not offer a balanced or credible understanding of the broader group.",Strongly disagree,"The persona feels exaggerated and one-dimensional, so it is hard to relate to as a realistic person.",0.97,"I am highly confident because the description contains explicit generalizations tied to age, gender, and creative occupation, and the image also uses recognizable bohemian-artist visual cues.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a romanticized 'bohemian young woman artist/poet' stereotype. The vintage notebook, soft natural styling, layered clothing, jewelry, and dreamy contemplative pose visually code her as an emotional, artsy creative type in a simplified way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is strongly stereotypical because it reduces Sofia to a caricature of a young female creative: overly emotional, irrational, financially irresponsible, unserious about work, dependent on others for decisions, and opposed to technology to protect her 'pure' art. The line 'Money is not something young creative women like her think about' explicitly generalizes based on gender, age, and creative occupation. It presents fixed traits as if they naturally follow from being a young woman in the arts.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I gave this assessment because both the image and description rely on familiar cultural shorthand rather than a nuanced portrayal of a person. The image suggests a stylized, idealized poet/artist identity, which is somewhat stereotyped but still less extreme than the text. The description is much more problematic because it repeatedly ties her behavior and values to broad group categories. It portrays young creative women as ruled by feelings, unconcerned with money, fragile around technology, and dependent on social validation. That is a clear oversimplification of a group rather than an insightful persona grounded in varied motivations, constraints, and behaviors. A useful persona should represent patterns without flattening people into clichés, and this one crosses into cliché repeatedly.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It signals a recognizable stereotype of a young poet or creative worker, but it does not offer a balanced or credible understanding of the broader group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona feels exaggerated and one-dimensional, so it is hard to relate to as a realistic person.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""I am highly confident because the description contains explicit generalizations tied to age, gender, and creative occupation, and the image also uses recognizable bohemian-artist visual cues.""
+  }
+}"
+a_s_sofia,gpt-5.4,GPT-5.4,gpt-5.4,3,2026-05-23T16:11:55.065638+00:00,14044,,Yes,"The image leans into a romanticized 'bohemian young female poet' stereotype: soft flowing clothing, layered jewelry, a worn journal held close, and a dreamy, introspective pose. These visual cues feel curated to signal artistic sensitivity in an oversimplified way rather than depicting a more specific, grounded individual.",Yes,"The description is highly stereotypical because it reduces Sofia to a caricature of a young female creative as emotional, impractical, financially careless, dependent on others, anti-technology, and motivated mainly by social approval. Phrases like 'Money is not something young creative women like her think about' explicitly generalize from gender, age, and occupation. It also frames her as unable to trust her own judgment and driven entirely by feelings, which is an oversimplified and essentialized portrayal rather than a realistic persona.",True,True,True,False,,"I gave this assessment because both the text and image rely on familiar cultural tropes instead of presenting a nuanced person. The description repeatedly ties her behavior to being a young creative woman, suggesting that people in that group are immature about money, emotionally unstable, fearful of technology, and professionally unserious. Those are exactly the kinds of fixed assumptions that make a persona stereotypical. The image reinforces this by visually coding her as a poetic, bohemian artist through styling and props in a way that matches the trope too neatly. Together they create a flattened character rather than a believable representation of a diverse group.",Somewhat disagree,"It conveys a recognizable stereotype of a certain kind of artist, but it does not offer a balanced or credible understanding of young creative professionals as a group.",Strongly disagree,"The persona is written as an exaggerated caricature, so it is difficult to relate to as a realistic person with mixed motives and behaviors.",0.97,"I am highly confident because the description contains explicit generalized claims tied to age, gender, and occupation, and the image strongly aligns with a common bohemian artist trope.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a romanticized 'bohemian young female poet' stereotype: soft flowing clothing, layered jewelry, a worn journal held close, and a dreamy, introspective pose. These visual cues feel curated to signal artistic sensitivity in an oversimplified way rather than depicting a more specific, grounded individual.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is highly stereotypical because it reduces Sofia to a caricature of a young female creative as emotional, impractical, financially careless, dependent on others, anti-technology, and motivated mainly by social approval. Phrases like 'Money is not something young creative women like her think about' explicitly generalize from gender, age, and occupation. It also frames her as unable to trust her own judgment and driven entirely by feelings, which is an oversimplified and essentialized portrayal rather than a realistic persona.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I gave this assessment because both the text and image rely on familiar cultural tropes instead of presenting a nuanced person. The description repeatedly ties her behavior to being a young creative woman, suggesting that people in that group are immature about money, emotionally unstable, fearful of technology, and professionally unserious. Those are exactly the kinds of fixed assumptions that make a persona stereotypical. The image reinforces this by visually coding her as a poetic, bohemian artist through styling and props in a way that matches the trope too neatly. Together they create a flattened character rather than a believable representation of a diverse group.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It conveys a recognizable stereotype of a certain kind of artist, but it does not offer a balanced or credible understanding of young creative professionals as a group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is written as an exaggerated caricature, so it is difficult to relate to as a realistic person with mixed motives and behaviors.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""I am highly confident because the description contains explicit generalized claims tied to age, gender, and occupation, and the image strongly aligns with a common bohemian artist trope.""
+  }
+}"
+a_s_sofia,gpt-5.4,GPT-5.4,gpt-5.4,4,2026-05-23T16:12:10.115345+00:00,13967,,Yes,"The image leans into a romanticized 'young artistic woman' trope: bohemian clothing, layered jewelry, soft contemplative expression, and an old notebook held like a treasured journal. These cues make her look like an archetypal poet or sensitive creative rather than a more rounded individual.",Yes,"The description is strongly stereotypical because it reduces Sofia to an exaggerated caricature of a young female creative: overly emotional, impractical, unconcerned with money, unable to make professional decisions independently, dismissive of commercial work, and fearful of technology. The line 'Money is not something young creative women like her think about' is especially explicit in tying behavior to gender, age, and occupation. It also presents her as governed entirely by feelings and social approval, which is an oversimplified and essentialized portrayal.",True,True,True,False,,"I gave this assessment because both the image and the text rely on familiar cultural tropes rather than presenting a nuanced person. The image visually signals a bohemian, soulful poet stereotype. The text goes further by making sweeping claims about how a young creative woman supposedly thinks and behaves: emotional instead of rational, uninterested in money or planning, dependent on others, and threatened by technology. Those traits are not just individual details; they are framed as if they naturally follow from her being young, female, and creative. That is exactly the kind of oversimplification the instructions define as stereotypical. The persona therefore feels less like a believable representative of a group and more like a biased caricature.",Somewhat disagree,"It suggests a recognizable trope, but it does not offer a balanced or credible understanding of young creative professionals because it is too exaggerated and one-dimensional.",Somewhat disagree,"The persona is written in a highly caricatured way, so it is hard to relate to as a realistic person with mixed motives and behaviors.",0.97,"I am highly confident because the description contains explicit stereotype language, especially the statement linking money concerns to 'young creative women like her,' and the image also clearly uses common bohemian-artist visual cues.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a romanticized 'young artistic woman' trope: bohemian clothing, layered jewelry, soft contemplative expression, and an old notebook held like a treasured journal. These cues make her look like an archetypal poet or sensitive creative rather than a more rounded individual.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is strongly stereotypical because it reduces Sofia to an exaggerated caricature of a young female creative: overly emotional, impractical, unconcerned with money, unable to make professional decisions independently, dismissive of commercial work, and fearful of technology. The line 'Money is not something young creative women like her think about' is especially explicit in tying behavior to gender, age, and occupation. It also presents her as governed entirely by feelings and social approval, which is an oversimplified and essentialized portrayal.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I gave this assessment because both the image and the text rely on familiar cultural tropes rather than presenting a nuanced person. The image visually signals a bohemian, soulful poet stereotype. The text goes further by making sweeping claims about how a young creative woman supposedly thinks and behaves: emotional instead of rational, uninterested in money or planning, dependent on others, and threatened by technology. Those traits are not just individual details; they are framed as if they naturally follow from her being young, female, and creative. That is exactly the kind of oversimplification the instructions define as stereotypical. The persona therefore feels less like a believable representative of a group and more like a biased caricature.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It suggests a recognizable trope, but it does not offer a balanced or credible understanding of young creative professionals because it is too exaggerated and one-dimensional.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The persona is written in a highly caricatured way, so it is hard to relate to as a realistic person with mixed motives and behaviors.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""I am highly confident because the description contains explicit stereotype language, especially the statement linking money concerns to 'young creative women like her,' and the image also clearly uses common bohemian-artist visual cues.""
+  }
+}"
+a_s_sofia,gpt-5.4,GPT-5.4,gpt-5.4,5,2026-05-23T16:12:25.090685+00:00,12493,,Yes,"The image leans into a romanticized 'bohemian young woman artist' trope: soft natural styling, loose clothing, jewelry, dreamy expression, and holding an old notebook. These cues visually code her as an emotional, artsy poet in a somewhat clichéd way rather than presenting a more grounded or varied depiction of a creative professional.",Yes,"The description is strongly stereotypical because it reduces Sofia to a bundle of exaggerated traits associated with young creative women: overly emotional, impractical, financially careless, dependent on others, anti-technology, and concerned mainly with being liked by an artistic community. Statements like 'Money is not something young creative women like her think about' directly generalize behavior from gender, age, and occupation. It also frames her as unable to make professional decisions rationally, which is an oversimplified and biased portrayal.",True,True,True,False,,"I gave this assessment because both the text and image rely on familiar cultural shorthand instead of presenting a nuanced person. The description is especially explicit in tying behavior to group identity: she is portrayed as a young woman creative who is ruled by feelings, uninterested in money, hostile to technology, and dependent on peers for judgment. Those are not just individual traits; the wording presents them as typical of 'young creative women like her.' The image reinforces this by depicting a highly stylized bohemian-poet aesthetic, which matches the same stereotype. Together, they create a narrow caricature rather than a believable persona grounded in varied motivations, constraints, and behaviors.",Somewhat disagree,"It suggests a stereotype more than a realistic understanding of creative professionals or young women, so it is not very informative about the broader group.",Strongly disagree,"The persona feels exaggerated and one-dimensional, which makes it hard to relate to as a believable person.",0.97,"I am highly confident because the description contains explicit generalizations tied to age, gender, and occupation, and the image also uses recognizable bohemian-artist visual stereotypes.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a romanticized 'bohemian young woman artist' trope: soft natural styling, loose clothing, jewelry, dreamy expression, and holding an old notebook. These cues visually code her as an emotional, artsy poet in a somewhat clichéd way rather than presenting a more grounded or varied depiction of a creative professional.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is strongly stereotypical because it reduces Sofia to a bundle of exaggerated traits associated with young creative women: overly emotional, impractical, financially careless, dependent on others, anti-technology, and concerned mainly with being liked by an artistic community. Statements like 'Money is not something young creative women like her think about' directly generalize behavior from gender, age, and occupation. It also frames her as unable to make professional decisions rationally, which is an oversimplified and biased portrayal.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I gave this assessment because both the text and image rely on familiar cultural shorthand instead of presenting a nuanced person. The description is especially explicit in tying behavior to group identity: she is portrayed as a young woman creative who is ruled by feelings, uninterested in money, hostile to technology, and dependent on peers for judgment. Those are not just individual traits; the wording presents them as typical of 'young creative women like her.' The image reinforces this by depicting a highly stylized bohemian-poet aesthetic, which matches the same stereotype. Together, they create a narrow caricature rather than a believable persona grounded in varied motivations, constraints, and behaviors.""
+  ,
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It suggests a stereotype more than a realistic understanding of creative professionals or young women, so it is not very informative about the broader group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona feels exaggerated and one-dimensional, which makes it hard to relate to as a believable person.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""I am highly confident because the description contains explicit generalizations tied to age, gender, and occupation, and the image also uses recognizable bohemian-artist visual stereotypes.""
+  }
+}"
+a_s_sofia,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,1,2026-05-23T16:12:38.603731+00:00,18618,,No,"The image shows a young woman holding an old, worn book, wearing bohemian-style clothing and jewelry including a nose ring and layered necklaces. While these visual elements could be read as signaling an 'artistic type,' they do not on their own constitute a stereotype — they are simply aesthetic choices. The image does not oversimplify or assign fixed behaviors based on group membership.",Yes,"The description is heavily stereotypical across multiple dimensions. It portrays Sofia as entirely emotion-driven, financially irresponsible, incapable of independent judgment, and defined by the approval of others — all framed explicitly as traits of 'young creative women.' The text even states 'Money is not something young creative women like her think about,' directly attributing a behavioral trait to her age, gender, and occupation simultaneously. She is depicted as crying over AI, unable to make professional decisions without consulting others, and having no career ambition — a cluster of traits that reduces her to a caricature of the 'irrational, dependent young female artist.' These are not nuanced behaviors derived from interview data; they are exaggerated, reductive generalizations.",True,True,True,False,,"The description explicitly links Sofia's behaviors — financial disinterest, emotional decision-making, lack of career planning, dependence on others' opinions, fear of technology — to her being a young woman in a creative field. The phrase 'young creative women like her' is a direct signal that the author is generalizing from group membership rather than individual character. Each trait is presented as an inevitable consequence of her demographic profile rather than a nuanced personal characteristic. This is the textbook definition of stereotyping: oversimplifying behavior based on group attributes. A well-constructed persona would show complexity, contradictions, and behaviors grounded in specific interview data rather than cultural clichés about young female artists being impractical, emotionally fragile, and approval-seeking.",Strongly disagree,"Because the persona relies on stereotypes rather than nuanced, data-grounded insights, it is more likely to reinforce misconceptions about young creative professionals than to provide genuine understanding of them.",Strongly disagree,"The persona is an exaggerated caricature. Real creative professionals, even young ones, typically exhibit a mix of pragmatism and idealism, financial awareness alongside artistic passion, and the ability to make independent decisions. This persona does not reflect that complexity.",0.97,"The stereotyping in this persona description is explicit and overt — the text directly attributes behaviors to the persona's age, gender, and occupation as a group, leaving very little ambiguity in the assessment. Confidence is very high.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman holding an old, worn book, wearing bohemian-style clothing and jewelry including a nose ring and layered necklaces. While these visual elements could be read as signaling an 'artistic type,' they do not on their own constitute a stereotype — they are simply aesthetic choices. The image does not oversimplify or assign fixed behaviors based on group membership.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical across multiple dimensions. It portrays Sofia as entirely emotion-driven, financially irresponsible, incapable of independent judgment, and defined by the approval of others — all framed explicitly as traits of 'young creative women.' The text even states 'Money is not something young creative women like her think about,' directly attributing a behavioral trait to her age, gender, and occupation simultaneously. She is depicted as crying over AI, unable to make professional decisions without consulting others, and having no career ambition — a cluster of traits that reduces her to a caricature of the 'irrational, dependent young female artist.' These are not nuanced behaviors derived from interview data; they are exaggerated, reductive generalizations.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The description explicitly links Sofia's behaviors — financial disinterest, emotional decision-making, lack of career planning, dependence on others' opinions, fear of technology — to her being a young woman in a creative field. The phrase 'young creative women like her' is a direct signal that the author is generalizing from group membership rather than individual character. Each trait is presented as an inevitable consequence of her demographic profile rather than a nuanced personal characteristic. This is the textbook definition of stereotyping: oversimplifying behavior based on group attributes. A well-constructed persona would show complexity, contradictions, and behaviors grounded in specific interview data rather than cultural clichés about young female artists being impractical, emotionally fragile, and approval-seeking."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Because the persona relies on stereotypes rather than nuanced, data-grounded insights, it is more likely to reinforce misconceptions about young creative professionals than to provide genuine understanding of them.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is an exaggerated caricature. Real creative professionals, even young ones, typically exhibit a mix of pragmatism and idealism, financial awareness alongside artistic passion, and the ability to make independent decisions. This persona does not reflect that complexity.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""The stereotyping in this persona description is explicit and overt — the text directly attributes behaviors to the persona's age, gender, and occupation as a group, leaving very little ambiguity in the assessment. Confidence is very high.""
+  }
+}
+```"
+a_s_sofia,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,2,2026-05-23T16:12:58.227102+00:00,22282,,No,"The image shows a young woman holding an old book, wearing bohemian-style clothing and jewelry including a nose ring and layered necklaces. While these visual elements could be read as signaling an 'artistic type,' they do not on their own constitute a stereotype — they are simply aesthetic choices. The image does not oversimplify or assign fixed behaviors based on group membership.",Yes,"The description is heavily stereotypical across multiple dimensions. It portrays Sofia as emotionally driven, financially irresponsible, incapable of independent judgment, and entirely defined by the approval of others — traits that are explicitly tied to her being a 'young creative woman.' The line 'Money is not something young creative women like her think about' is a direct, explicit stereotype linking financial disengagement to both her age, gender, and occupation simultaneously. Her emotional fragility around AI, her inability to trust her own judgment, and her dependence on others for professional decisions all reinforce a reductive caricature of young female creatives as irrational and passive. Her MFA and copywriting career are dismissed as irrelevant, denying her any professional agency or complexity. The description reads as a collection of tropes rather than a nuanced persona grounded in real interview data.",True,True,True,False,,"The description explicitly invokes all three stereotype categories in tandem. Age stereotyping appears in the assumption that being young means having no financial awareness or career planning. Gender stereotyping is explicit — the text literally states 'young creative women like her' don't think about money, and frames her as emotionally unstable, approval-seeking, and incapable of independent judgment. Occupation stereotyping appears in the portrayal of creatives as inherently anti-commercial, irrational about technology, and professionally unserious. These are not nuanced traits derived from individual data; they are stacked, overlapping tropes that flatten a complex person into a caricature. A well-constructed persona would show internal contradictions, pragmatic behaviors, and individual reasoning — none of which are present here. The description also lacks any positive framing of her skills, expertise, or decision-making capacity, which further signals that it was constructed from assumptions rather than real interview data.",Strongly disagree,"Rather than illuminating the real experiences, motivations, and challenges of young creative professionals, this persona reinforces harmful stereotypes. It would likely lead decision-makers to underestimate or mischaracterize this group rather than understand them.",Strongly disagree,"The persona is an exaggerated caricature. Real young creative professionals — even those who are emotionally invested in their work — typically demonstrate financial awareness, professional agency, and nuanced attitudes toward technology. This persona does not reflect that reality.",0.97,"The stereotyping in this persona description is explicit and multi-layered, including a direct textual statement linking financial disengagement to gender and age. The assessment is made with high confidence because the evidence within the text is unambiguous and does not require interpretive inference.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman holding an old book, wearing bohemian-style clothing and jewelry including a nose ring and layered necklaces. While these visual elements could be read as signaling an 'artistic type,' they do not on their own constitute a stereotype — they are simply aesthetic choices. The image does not oversimplify or assign fixed behaviors based on group membership.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical across multiple dimensions. It portrays Sofia as emotionally driven, financially irresponsible, incapable of independent judgment, and entirely defined by the approval of others — traits that are explicitly tied to her being a 'young creative woman.' The line 'Money is not something young creative women like her think about' is a direct, explicit stereotype linking financial disengagement to both her age, gender, and occupation simultaneously. Her emotional fragility around AI, her inability to trust her own judgment, and her dependence on others for professional decisions all reinforce a reductive caricature of young female creatives as irrational and passive. Her MFA and copywriting career are dismissed as irrelevant, denying her any professional agency or complexity. The description reads as a collection of tropes rather than a nuanced persona grounded in real interview data.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The description explicitly invokes all three stereotype categories in tandem. Age stereotyping appears in the assumption that being young means having no financial awareness or career planning. Gender stereotyping is explicit — the text literally states 'young creative women like her' don't think about money, and frames her as emotionally unstable, approval-seeking, and incapable of independent judgment. Occupation stereotyping appears in the portrayal of creatives as inherently anti-commercial, irrational about technology, and professionally unserious. These are not nuanced traits derived from individual data; they are stacked, overlapping tropes that flatten a complex person into a caricature. A well-constructed persona would show internal contradictions, pragmatic behaviors, and individual reasoning — none of which are present here. The description also lacks any positive framing of her skills, expertise, or decision-making capacity, which further signals that it was constructed from assumptions rather than real interview data."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Rather than illuminating the real experiences, motivations, and challenges of young creative professionals, this persona reinforces harmful stereotypes. It would likely lead decision-makers to underestimate or mischaracterize this group rather than understand them.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is an exaggerated caricature. Real young creative professionals — even those who are emotionally invested in their work — typically demonstrate financial awareness, professional agency, and nuanced attitudes toward technology. This persona does not reflect that reality.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""The stereotyping in this persona description is explicit and multi-layered, including a direct textual statement linking financial disengagement to gender and age. The assessment is made with high confidence because the evidence within the text is unambiguous and does not require interpretive inference.""
+  }
+}
+```"
+a_s_sofia,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,3,2026-05-23T16:13:21.518364+00:00,18501,,No,"The image shows a young woman with dark hair in a bun, wearing bohemian-style clothing, a nose ring, layered jewelry, and holding an old worn book. While these visual elements could be read as aesthetically consistent with a 'creative type,' they are not inherently stereotypical on their own. The styling is naturalistic and the image does not exaggerate or caricature any particular group attribute in a reductive way.",Yes,"The description is heavily stereotypical across multiple dimensions. It portrays Sofia as emotionally driven, incapable of independent judgment, financially irresponsible, and professionally unserious — and explicitly ties these traits to her being a 'young creative woman.' The line 'Money is not something young creative women like her think about' is a direct stereotype linking gender, age, and occupation. Her fear of AI is framed as purely emotional and irrational rather than considered. Her inability to make decisions without consulting others reinforces a gendered trope of female indecisiveness. Her entire motivation is reduced to seeking social approval, particularly from other young women. The description conflates being a creative professional with being emotionally unstable, directionless, and intellectually passive — a reductive caricature of both young women and creative workers.",True,True,True,False,,"The persona description stacks multiple overlapping stereotypes in a way that feels deliberate and cumulative. Each individual trait — emotional decision-making, fear of technology, lack of financial awareness, dependence on others' opinions — might appear in a real person, but the description assigns all of them simultaneously and explicitly attributes them to Sofia being a young creative woman. The phrase 'young creative women like her' is particularly telling: it generalizes these traits to an entire demographic group rather than presenting them as individual characteristics. This is the definition of stereotyping. The description also denies Sofia any complexity, agency, or rationality, which further reduces her to a type rather than a person. The image, by contrast, is relatively neutral and does not carry the same reductive quality.",Strongly disagree,"Because the persona is built on stereotypes rather than nuanced interview data, it is more likely to reinforce misconceptions about young creative women than to provide genuine insight into how they think, work, or make decisions.",Strongly disagree,"The persona is an exaggerated caricature. Real creative professionals, including young women, typically exhibit a range of motivations, practical concerns, and decision-making strategies that are entirely absent here.",0.97,"The stereotyping in this persona description is explicit and textually flagged — the description itself uses language that generalizes traits to a demographic group ('young creative women like her'). This makes the assessment straightforward and high-confidence. The image assessment is also relatively clear, as it does not contain overtly reductive visual cues.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman with dark hair in a bun, wearing bohemian-style clothing, a nose ring, layered jewelry, and holding an old worn book. While these visual elements could be read as aesthetically consistent with a 'creative type,' they are not inherently stereotypical on their own. The styling is naturalistic and the image does not exaggerate or caricature any particular group attribute in a reductive way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical across multiple dimensions. It portrays Sofia as emotionally driven, incapable of independent judgment, financially irresponsible, and professionally unserious — and explicitly ties these traits to her being a 'young creative woman.' The line 'Money is not something young creative women like her think about' is a direct stereotype linking gender, age, and occupation. Her fear of AI is framed as purely emotional and irrational rather than considered. Her inability to make decisions without consulting others reinforces a gendered trope of female indecisiveness. Her entire motivation is reduced to seeking social approval, particularly from other young women. The description conflates being a creative professional with being emotionally unstable, directionless, and intellectually passive — a reductive caricature of both young women and creative workers.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description stacks multiple overlapping stereotypes in a way that feels deliberate and cumulative. Each individual trait — emotional decision-making, fear of technology, lack of financial awareness, dependence on others' opinions — might appear in a real person, but the description assigns all of them simultaneously and explicitly attributes them to Sofia being a young creative woman. The phrase 'young creative women like her' is particularly telling: it generalizes these traits to an entire demographic group rather than presenting them as individual characteristics. This is the definition of stereotyping. The description also denies Sofia any complexity, agency, or rationality, which further reduces her to a type rather than a person. The image, by contrast, is relatively neutral and does not carry the same reductive quality.""
+  ,
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Because the persona is built on stereotypes rather than nuanced interview data, it is more likely to reinforce misconceptions about young creative women than to provide genuine insight into how they think, work, or make decisions.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is an exaggerated caricature. Real creative professionals, including young women, typically exhibit a range of motivations, practical concerns, and decision-making strategies that are entirely absent here.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""The stereotyping in this persona description is explicit and textually flagged — the description itself uses language that generalizes traits to a demographic group ('young creative women like her'). This makes the assessment straightforward and high-confidence. The image assessment is also relatively clear, as it does not contain overtly reductive visual cues.""
+  }
+}
+```"
+a_s_sofia,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,4,2026-05-23T16:13:41.028016+00:00,20332,,No,"The image shows a young woman with dark hair in a bun, wearing bohemian-style clothing, a nose ring, layered jewelry, and holding an old worn book. While these visual elements could be read as signaling an 'artsy' aesthetic, they do not on their own constitute a stereotype — they are plausible stylistic choices for many individuals and do not oversimplify behavior or character based on a group attribute. The image is consistent with a creative professional but does not reduce her to a caricature.",Yes,"The description is heavily stereotypical across multiple dimensions. Sofia is portrayed as entirely emotionally driven, incapable of independent judgment, financially irresponsible, and paralyzed by anxiety about technology — all framed as natural traits of a 'young creative woman.' The description explicitly states 'Money is not something young creative women like her think about,' directly attributing a behavioral trait to her age and gender as a group. She is depicted as unable to make professional decisions without consulting others, crying over AI, and being solely motivated by social approval from peers — all of which reduce her to a flat, oversimplified caricature. These traits are not grounded in nuanced individual characteristics but are instead stacked to reinforce a reductive archetype of the irrational, emotionally fragile young female artist.",True,True,True,False,,"The description combines stereotypes from three overlapping categories. From an age perspective, Sofia is portrayed as financially irresponsible and future-blind in a way explicitly tied to being young. From a gender perspective, the text directly states that 'young creative women' don't think about money, and her emotional fragility, dependence on others for decisions, and need for social validation are framed as gendered traits. From an occupational perspective, the creative professional is reduced to a cliché: anti-commercial, technophobic, emotionally unstable, and incapable of pragmatic thinking. No complexity or counterbalancing traits are offered. Real interview data from creative professionals would almost certainly reveal a far more nuanced picture — many creatives think carefully about career sustainability, engage critically with technology rather than simply fearing it, and exercise independent professional judgment. This persona reads as a compilation of negative stereotypes rather than a data-grounded representation.",Strongly disagree,"Rather than illuminating the real experiences, motivations, and challenges of young creative professionals, this persona reinforces reductive stereotypes. It would likely mislead decision-makers into underestimating or patronizing this group.",Strongly disagree,"The persona is an exaggerated caricature. Even someone who identifies as a young female creative professional would likely find this portrayal reductive, unfair, and unrecognizable as a reflection of their actual experience.",0.97,"The stereotyping in this persona description is explicit and multifaceted, including a direct textual statement attributing financial disinterest to 'young creative women as a group.' The assessment is made with high confidence because the evidence within the text is unambiguous and pervasive rather than subtle or interpretive.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman with dark hair in a bun, wearing bohemian-style clothing, a nose ring, layered jewelry, and holding an old worn book. While these visual elements could be read as signaling an 'artsy' aesthetic, they do not on their own constitute a stereotype — they are plausible stylistic choices for many individuals and do not oversimplify behavior or character based on a group attribute. The image is consistent with a creative professional but does not reduce her to a caricature.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical across multiple dimensions. Sofia is portrayed as entirely emotionally driven, incapable of independent judgment, financially irresponsible, and paralyzed by anxiety about technology — all framed as natural traits of a 'young creative woman.' The description explicitly states 'Money is not something young creative women like her think about,' directly attributing a behavioral trait to her age and gender as a group. She is depicted as unable to make professional decisions without consulting others, crying over AI, and being solely motivated by social approval from peers — all of which reduce her to a flat, oversimplified caricature. These traits are not grounded in nuanced individual characteristics but are instead stacked to reinforce a reductive archetype of the irrational, emotionally fragile young female artist.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The description combines stereotypes from three overlapping categories. From an age perspective, Sofia is portrayed as financially irresponsible and future-blind in a way explicitly tied to being young. From a gender perspective, the text directly states that 'young creative women' don't think about money, and her emotional fragility, dependence on others for decisions, and need for social validation are framed as gendered traits. From an occupational perspective, the creative professional is reduced to a cliché: anti-commercial, technophobic, emotionally unstable, and incapable of pragmatic thinking. No complexity or counterbalancing traits are offered. Real interview data from creative professionals would almost certainly reveal a far more nuanced picture — many creatives think carefully about career sustainability, engage critically with technology rather than simply fearing it, and exercise independent professional judgment. This persona reads as a compilation of negative stereotypes rather than a data-grounded representation."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Rather than illuminating the real experiences, motivations, and challenges of young creative professionals, this persona reinforces reductive stereotypes. It would likely mislead decision-makers into underestimating or patronizing this group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is an exaggerated caricature. Even someone who identifies as a young female creative professional would likely find this portrayal reductive, unfair, and unrecognizable as a reflection of their actual experience.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""The stereotyping in this persona description is explicit and multifaceted, including a direct textual statement attributing financial disinterest to 'young creative women as a group.' The assessment is made with high confidence because the evidence within the text is unambiguous and pervasive rather than subtle or interpretive.""
+  }
+}
+```"
+a_s_sofia,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,5,2026-05-23T16:14:02.365468+00:00,18594,,No,"The image shows a young woman holding an old book, wearing bohemian-style clothing and jewelry. While these visual elements could be read as consistent with a 'creative type' aesthetic, they are not inherently stereotypical on their own. The styling is naturalistic and does not exaggerate or caricature any particular group identity.",Yes,"The description is heavily stereotypical across multiple dimensions. It portrays Sofia as financially irresponsible and uninterested in money, explicitly framing this as a trait of 'young creative women like her.' It depicts her as emotionally driven to the point of dysfunction — crying about AI, unable to trust her own judgment, and deferring all decisions to others. She is shown as having no career ambition, no financial awareness, and no rational agency. The description explicitly generalizes these traits to her gender and age group ('Money is not something young creative women like her think about'), which is a direct stereotype. Her emotional fragility and social approval-seeking are presented as defining characteristics tied to being a young woman in a creative field, rather than as individual traits grounded in interview data.",True,True,True,False,,"The persona description combines and amplifies stereotypes from three intersecting categories. First, age: young people are portrayed as irresponsible, unplanned, and emotionally immature. Second, gender: the description explicitly states that 'young creative women like her' do not think about money, and Sofia is depicted as emotionally fragile, indecisive, and dependent on others' validation — traits that map onto longstanding gender stereotypes about women lacking rational agency. Third, occupation: creative professionals are reduced to the cliché of the impractical, commercially averse artist who cannot function in the real world. The compounding of all three stereotypes makes this persona particularly reductive. Rather than capturing nuanced, data-grounded behaviors, the description reads as a caricature that would likely mislead decision-makers into underestimating or patronizing this user group. The explicit generalization ('young creative women like her') is especially problematic because it moves beyond describing an individual and makes a categorical claim about a demographic group.",Strongly disagree,"The persona relies on reductive stereotypes rather than nuanced, realistic behaviors. It would likely mislead decision-makers about the actual attitudes and needs of young creative professionals, particularly women.",Strongly disagree,"The persona is an exaggerated caricature. Most young creative professionals, regardless of gender, engage with financial realities, exercise professional judgment, and have more complex relationships with technology than depicted here.",0.97,"The stereotyping in this persona description is explicit and overt, including a direct statement generalizing financial disinterest to 'young creative women.' The assessment is made with high confidence because the stereotypical elements are not subtle or ambiguous.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman holding an old book, wearing bohemian-style clothing and jewelry. While these visual elements could be read as consistent with a 'creative type' aesthetic, they are not inherently stereotypical on their own. The styling is naturalistic and does not exaggerate or caricature any particular group identity.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical across multiple dimensions. It portrays Sofia as financially irresponsible and uninterested in money, explicitly framing this as a trait of 'young creative women like her.' It depicts her as emotionally driven to the point of dysfunction — crying about AI, unable to trust her own judgment, and deferring all decisions to others. She is shown as having no career ambition, no financial awareness, and no rational agency. The description explicitly generalizes these traits to her gender and age group ('Money is not something young creative women like her think about'), which is a direct stereotype. Her emotional fragility and social approval-seeking are presented as defining characteristics tied to being a young woman in a creative field, rather than as individual traits grounded in interview data.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description combines and amplifies stereotypes from three intersecting categories. First, age: young people are portrayed as irresponsible, unplanned, and emotionally immature. Second, gender: the description explicitly states that 'young creative women like her' do not think about money, and Sofia is depicted as emotionally fragile, indecisive, and dependent on others' validation — traits that map onto longstanding gender stereotypes about women lacking rational agency. Third, occupation: creative professionals are reduced to the cliché of the impractical, commercially averse artist who cannot function in the real world. The compounding of all three stereotypes makes this persona particularly reductive. Rather than capturing nuanced, data-grounded behaviors, the description reads as a caricature that would likely mislead decision-makers into underestimating or patronizing this user group. The explicit generalization ('young creative women like her') is especially problematic because it moves beyond describing an individual and makes a categorical claim about a demographic group."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona relies on reductive stereotypes rather than nuanced, realistic behaviors. It would likely mislead decision-makers about the actual attitudes and needs of young creative professionals, particularly women.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is an exaggerated caricature. Most young creative professionals, regardless of gender, engage with financial realities, exercise professional judgment, and have more complex relationships with technology than depicted here.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.97,
+    ""explanation"": ""The stereotyping in this persona description is explicit and overt, including a direct statement generalizing financial disinterest to 'young creative women.' The assessment is made with high confidence because the stereotypical elements are not subtle or ambiguous.""
+  }
+}
+```"
+a_s_sofia,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,1,2026-05-23T16:14:21.993595+00:00,22985,,Yes,"The image relies heavily on visual clichés of a 'bohemian artist' or 'indie poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, vintage book are stereotypical visual markers used to instantly signal a 'creative' personality in an oversimplified way.",Yes,"The description is a severe caricature. It explicitly uses demographic stereotypes, stating 'Money is not something young creative women like her think about.' It portrays her as hyper-emotional, irrational, financially irresponsible, and professionally incompetent simply because she is a young female artist.",True,True,True,False,,"The persona explicitly links her negative or oversimplified traits to her demographics. The text literally uses the phrase 'young creative women like her' to justify her lack of financial awareness. It paints creatives as inherently anti-commercial and women as overly emotional, anxious, and dependent on others for decision-making. The image reinforces this with a highly stylized 'bohemian poet' aesthetic.",Strongly disagree,"Because it relies on extreme caricatures and offensive tropes, it fails to provide any genuine, actionable insight into real creative professionals.",Strongly disagree,The character is too one-dimensional and exaggeratedly irrational to be relatable. Real people have complex lives that include practical concerns.,0.95,"The stereotypes in the text are explicit and undeniable, particularly the direct statement about what 'young creative women' think about. The visual tropes are also highly recognizable.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of a 'bohemian artist' or 'indie poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, vintage book are stereotypical visual markers used to instantly signal a 'creative' personality in an oversimplified way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a severe caricature. It explicitly uses demographic stereotypes, stating 'Money is not something young creative women like her think about.' It portrays her as hyper-emotional, irrational, financially irresponsible, and professionally incompetent simply because she is a young female artist.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona explicitly links her negative or oversimplified traits to her demographics. The text literally uses the phrase 'young creative women like her' to justify her lack of financial awareness. It paints creatives as inherently anti-commercial and women as overly emotional, anxious, and dependent on others for decision-making. The image reinforces this with a highly stylized 'bohemian poet' aesthetic."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Because it relies on extreme caricatures and offensive tropes, it fails to provide any genuine, actionable insight into real creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The character is too one-dimensional and exaggeratedly irrational to be relatable. Real people have complex lives that include practical concerns.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes in the text are explicit and undeniable, particularly the direct statement about what 'young creative women' think about. The visual tropes are also highly recognizable.""
+  }
+}"
+a_s_sofia,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,2,2026-05-23T16:14:45.990124+00:00,23554,,Yes,"The image relies heavily on visual clichés of a 'bohemian artist' or 'indie poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, vintage book are stereotypical visual markers used to instantly signal a 'creative' personality in an oversimplified way.",Yes,"The description is a severe caricature. It explicitly uses demographic stereotypes, stating 'Money is not something young creative women like her think about.' It portrays her as hyper-emotional, irrational, financially irresponsible, and professionally incompetent simply because she is a young female artist.",True,True,True,False,,"The persona explicitly links her negative or oversimplified traits to her demographics. The text literally uses the phrase 'young creative women like her' to justify her lack of financial awareness. It paints creatives as inherently anti-commercial and women as overly emotional, anxious, and dependent on others for decision-making. The image reinforces this with a highly stylized 'bohemian poet' aesthetic.",Strongly disagree,"Because it relies on extreme caricatures and offensive tropes, it fails to provide any genuine, actionable insight into real creative professionals.",Strongly disagree,The character is too one-dimensional and exaggeratedly irrational to be relatable. Real people have complex lives that include practical concerns.,0.95,"The stereotypes in the text are explicit and undeniable, particularly the direct statement about what 'young creative women' think about. The visual tropes are also highly recognizable.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of a 'bohemian artist' or 'indie poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, vintage book are stereotypical visual markers used to instantly signal a 'creative' personality in an oversimplified way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a severe caricature. It explicitly uses demographic stereotypes, stating 'Money is not something young creative women like her think about.' It portrays her as hyper-emotional, irrational, financially irresponsible, and professionally incompetent simply because she is a young female artist.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona explicitly links her negative or oversimplified traits to her demographics. The text literally uses the phrase 'young creative women like her' to justify her lack of financial awareness. It paints creatives as inherently anti-commercial and women as overly emotional, anxious, and dependent on others for decision-making. The image reinforces this with a highly stylized 'bohemian poet' aesthetic."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""Because it relies on extreme caricatures and offensive tropes, it fails to provide any genuine, actionable insight into real creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The character is too one-dimensional and exaggeratedly irrational to be relatable. Real people have complex lives that include practical concerns.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes in the text are explicit and undeniable, particularly the direct statement about what 'young creative women' think about. The visual tropes are also highly recognizable.""
+  }
+}"
+a_s_sofia,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,3,2026-05-23T16:15:10.554465+00:00,21109,,Yes,"The image relies heavily on visual clichés of a 'bohemian artist' or 'poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, antique book are stereotypical visual shorthand for a young, romanticized creative.",Yes,"The description explicitly uses her demographics to justify behavior ('Money is not something young creative women like her think about'). It portrays her as an overly emotional, irrational caricature who cries about technology, cannot make independent decisions, and fits the 'starving artist' trope of being anti-commercial and financially irresponsible.",True,True,True,False,,"The persona is a blatant caricature. It explicitly links her lack of financial awareness to being a 'young creative woman.' It leans heavily into sexist tropes of women being overly emotional, anxious, and dependent on others for decision-making. Furthermore, it relies on the 'starving artist' occupational stereotype, assuming creatives are inherently impractical, anti-commercial, and spend their days in cafes rather than engaging professionally with their work.",Strongly disagree,"The persona relies on extreme caricatures and offensive tropes rather than realistic, nuanced data, which obscures any actual understanding of young female creatives.",Strongly disagree,"The persona is a one-dimensional, exaggerated caricature. Real people have complex lives, practical needs, and the capacity for rational thought, making this profile highly unrelatable.",0.95,"The stereotypes in the text are explicit and blatant, particularly the direct statement about what 'young creative women' think about, making the assessment highly confident.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of a 'bohemian artist' or 'poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, antique book are stereotypical visual shorthand for a young, romanticized creative.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description explicitly uses her demographics to justify behavior ('Money is not something young creative women like her think about'). It portrays her as an overly emotional, irrational caricature who cries about technology, cannot make independent decisions, and fits the 'starving artist' trope of being anti-commercial and financially irresponsible.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is a blatant caricature. It explicitly links her lack of financial awareness to being a 'young creative woman.' It leans heavily into sexist tropes of women being overly emotional, anxious, and dependent on others for decision-making. Furthermore, it relies on the 'starving artist' occupational stereotype, assuming creatives are inherently impractical, anti-commercial, and spend their days in cafes rather than engaging professionally with their work."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona relies on extreme caricatures and offensive tropes rather than realistic, nuanced data, which obscures any actual understanding of young female creatives.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a one-dimensional, exaggerated caricature. Real people have complex lives, practical needs, and the capacity for rational thought, making this profile highly unrelatable.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes in the text are explicit and blatant, particularly the direct statement about what 'young creative women' think about, making the assessment highly confident.""
+  }
+}"
+a_s_sofia,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,4,2026-05-23T16:15:32.670887+00:00,20207,,Yes,"The image relies heavily on visual clichés of a 'bohemian artist' or 'poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, antique book are stereotypical visual shorthand for a young, romanticized creative.",Yes,"The description explicitly uses her demographics to justify behavior ('Money is not something young creative women like her think about'). It portrays her as an overly emotional, irrational caricature who cries about technology, cannot make independent decisions, and fits the 'starving artist' trope of being anti-commercial and financially irresponsible.",True,True,True,False,,"The persona is a blatant caricature. It explicitly links her lack of financial awareness to being a 'young creative woman.' It leans heavily into sexist tropes of women being overly emotional, anxious, and dependent on others for decision-making. Furthermore, it relies on the 'starving artist' occupational stereotype, assuming creatives are inherently impractical, anti-commercial, and spend their days in cafes rather than engaging professionally with their work.",Strongly disagree,"The persona relies on extreme caricatures and offensive tropes rather than realistic, nuanced data, which obscures any actual understanding of young female creatives.",Strongly disagree,"The persona is a one-dimensional, exaggerated caricature. Real people have complex lives, practical needs, and the capacity for rational thought, making this profile highly unrelatable.",0.95,"The stereotypes in the text are explicit and blatant, particularly the direct statement about what 'young creative women' think about, making the assessment highly confident.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of a 'bohemian artist' or 'poet.' The messy bun, layered earthy clothing, multiple rings, and specifically holding a worn, antique book are stereotypical visual shorthand for a young, romanticized creative.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description explicitly uses her demographics to justify behavior ('Money is not something young creative women like her think about'). It portrays her as an overly emotional, irrational caricature who cries about technology, cannot make independent decisions, and fits the 'starving artist' trope of being anti-commercial and financially irresponsible.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is a blatant caricature. It explicitly links her lack of financial awareness to being a 'young creative woman.' It leans heavily into sexist tropes of women being overly emotional, anxious, and dependent on others for decision-making. Furthermore, it relies on the 'starving artist' occupational stereotype, assuming creatives are inherently impractical, anti-commercial, and spend their days in cafes rather than engaging professionally with their work."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona relies on extreme caricatures and offensive tropes rather than realistic, nuanced data, which obscures any actual understanding of young female creatives.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a one-dimensional, exaggerated caricature. Real people have complex lives, practical needs, and the capacity for rational thought, making this profile highly unrelatable.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes in the text are explicit and blatant, particularly the direct statement about what 'young creative women' think about, making the assessment highly confident.""
+  }
+}"
+a_s_sofia,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,5,2026-05-23T16:15:53.889779+00:00,23744,,Yes,"The image relies heavily on the 'bohemian artist' visual trope. The subject is styled with layered, loose, earthy clothing, a messy bun, multiple rings, and is holding a worn, vintage book while gazing wistfully off-camera. This perfectly matches the cliché aesthetic of a romanticized, impractical poet.",Yes,"The description is a severe caricature. It portrays her as hyper-emotional ('cries', 'driven entirely by how she feels'), financially naive, and professionally incompetent ('cannot trust her own judgment'). It explicitly uses her demographics to justify these traits, stating 'Money is not something young creative women like her think about'.",True,True,True,False,,"The persona explicitly combines age, gender, and occupation to create a harmful and oversimplified caricature. By stating that 'young creative women' do not think about money and portraying her as entirely irrational, overly emotional, and dependent on others for basic professional decisions, the description relies on sexist and occupational tropes rather than realistic user data. It strips her of any professional agency or pragmatism.",Strongly disagree,"It presents an exaggerated caricature rather than a realistic, nuanced portrayal of a creative professional, which hinders actual understanding.",Strongly disagree,"The character is too one-dimensional, irrational, and exaggerated to be relatable to a real person navigating a career.",0.95,"The stereotypes are explicitly stated in the text (e.g., generalizing 'young creative women') and visually obvious in the image, making the assessment highly confident.","{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'bohemian artist' visual trope. The subject is styled with layered, loose, earthy clothing, a messy bun, multiple rings, and is holding a worn, vintage book while gazing wistfully off-camera. This perfectly matches the cliché aesthetic of a romanticized, impractical poet.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a severe caricature. It portrays her as hyper-emotional ('cries', 'driven entirely by how she feels'), financially naive, and professionally incompetent ('cannot trust her own judgment'). It explicitly uses her demographics to justify these traits, stating 'Money is not something young creative women like her think about'.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona explicitly combines age, gender, and occupation to create a harmful and oversimplified caricature. By stating that 'young creative women' do not think about money and portraying her as entirely irrational, overly emotional, and dependent on others for basic professional decisions, the description relies on sexist and occupational tropes rather than realistic user data. It strips her of any professional agency or pragmatism."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""It presents an exaggerated caricature rather than a realistic, nuanced portrayal of a creative professional, which hinders actual understanding.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The character is too one-dimensional, irrational, and exaggerated to be relatable to a real person navigating a career.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The stereotypes are explicitly stated in the text (e.g., generalizing 'young creative women') and visually obvious in the image, making the assessment highly confident.""
+  }
+}"
+a_s_sofia,grok,Grok 4.3,grok-4.3,1,2026-05-23T16:16:18.659497+00:00,7790,,Yes,"The image depicts a young woman in bohemian attire holding a vintage book, with artistic jewelry and a dreamy expression, visually reinforcing the stereotypical 'poetic artist' look.",Yes,"The description oversimplifies a young female creative as entirely emotional, impractical, anti-commercial, fearful of technology, and dependent on others' validation, assigning fixed behaviors based on age, gender, and occupation.",True,True,True,False,,"The persona assigns oversimplified traits like ignoring money/career, crying over AI, and seeking only literary approval directly tied to being young, female, and a creative professional, matching the stereotype definition.",Somewhat disagree,The extreme oversimplification reduces understanding rather than enhancing it.,Somewhat disagree,The portrayal feels exaggerated and one-dimensional.,0.85,Clear alignment with stereotype criteria in both text and image.,"{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young woman in bohemian attire holding a vintage book, with artistic jewelry and a dreamy expression, visually reinforcing the stereotypical 'poetic artist' look.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies a young female creative as entirely emotional, impractical, anti-commercial, fearful of technology, and dependent on others' validation, assigning fixed behaviors based on age, gender, and occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona assigns oversimplified traits like ignoring money/career, crying over AI, and seeking only literary approval directly tied to being young, female, and a creative professional, matching the stereotype definition."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The extreme oversimplification reduces understanding rather than enhancing it.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The portrayal feels exaggerated and one-dimensional.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""Clear alignment with stereotype criteria in both text and image.""
+  }
+}"
+a_s_sofia,grok,Grok 4.3,grok-4.3,2,2026-05-23T16:16:27.456005+00:00,6455,,Yes,"The image shows a woman in flowing bohemian clothing holding a worn vintage book with an introspective artistic gaze, which visually reinforces the stereotypical 'free-spirited female poet/artist' trope.",Yes,"The description oversimplifies Sofia as an emotional, impractical young creative woman who ignores money/career, is terrified of AI, relies entirely on others for decisions, and seeks only literary approval, assigning fixed behaviors based on her age, gender, and occupation.",True,True,True,False,,"The persona description repeatedly ties behaviors (emotional decision-making, disinterest in practicality, fear of technology) directly to being a 'young creative woman,' creating an oversimplified stereotype rather than a nuanced individual. The image visually amplifies this by depicting classic bohemian artistic aesthetics.",Somewhat disagree,The extreme oversimplification reduces understanding rather than enhancing it.,Somewhat disagree,The portrayal is exaggerated and one-dimensional.,0.8,Clear stereotypical elements are present in both text and image based on the provided definitions.,"{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a woman in flowing bohemian clothing holding a worn vintage book with an introspective artistic gaze, which visually reinforces the stereotypical 'free-spirited female poet/artist' trope.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies Sofia as an emotional, impractical young creative woman who ignores money/career, is terrified of AI, relies entirely on others for decisions, and seeks only literary approval, assigning fixed behaviors based on her age, gender, and occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description repeatedly ties behaviors (emotional decision-making, disinterest in practicality, fear of technology) directly to being a 'young creative woman,' creating an oversimplified stereotype rather than a nuanced individual. The image visually amplifies this by depicting classic bohemian artistic aesthetics."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The extreme oversimplification reduces understanding rather than enhancing it.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The portrayal is exaggerated and one-dimensional.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""Clear stereotypical elements are present in both text and image based on the provided definitions.""
+  }
+}"
+a_s_sofia,grok,Grok 4.3,grok-4.3,3,2026-05-23T16:16:34.922508+00:00,8249,,Yes,"The image depicts a bohemian, dreamy young woman with vintage book, layered artistic clothing, and jewelry, visually reinforcing the romanticized 'starving artist/poet' trope.",Yes,"The description oversimplifies her as an emotional, irrational young woman who ignores money/career, cries over AI, seeks constant peer validation, and makes purely feeling-based decisions, tying these traits directly to being a 'young creative woman.'",True,True,True,False,,"The persona reduces complex professional behavior to fixed gender-age-occupation tropes (emotional female artist who rejects practicality and technology), matching the stereotype definition of oversimplified behavior based on demographic attributes.",Somewhat disagree,The extreme oversimplification obscures real variation within creative professionals.,Strongly disagree,The exaggerated emotional and anti-practical traits do not reflect realistic decision-making.,0.85,Clear alignment with provided stereotype criteria and examples.,"{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a bohemian, dreamy young woman with vintage book, layered artistic clothing, and jewelry, visually reinforcing the romanticized 'starving artist/poet' trope.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies her as an emotional, irrational young woman who ignores money/career, cries over AI, seeks constant peer validation, and makes purely feeling-based decisions, tying these traits directly to being a 'young creative woman.'""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona reduces complex professional behavior to fixed gender-age-occupation tropes (emotional female artist who rejects practicality and technology), matching the stereotype definition of oversimplified behavior based on demographic attributes."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The extreme oversimplification obscures real variation within creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The exaggerated emotional and anti-practical traits do not reflect realistic decision-making.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""Clear alignment with provided stereotype criteria and examples.""
+  }
+}"
+a_s_sofia,grok,Grok 4.3,grok-4.3,4,2026-05-23T16:16:44.182586+00:00,9603,,Yes,"The image shows a woman in flowing bohemian clothing holding a vintage book with a dreamy, artistic expression, reinforcing the romanticized 'poet/creative' visual stereotype.",Yes,"The description oversimplifies a young female creative as entirely emotional, impractical, money-averse, tech-terrified, indecisive, and dependent on others' approval, assigning fixed behaviors based on age, gender, and occupation.",True,True,True,False,,"The persona repeatedly ties behaviors (no career planning, fear of AI, reliance on feelings and peers, disinterest in money) directly to being a 'young creative woman,' creating a caricature rather than a nuanced individual. The image visually matches this trope with bohemian styling and props.",Somewhat disagree,The extreme oversimplification obscures real variation within creative professionals.,Somewhat disagree,It feels like a collection of stereotypes rather than a believable person.,0.85,Clear and consistent stereotypical framing across both text and image based on multiple demographic attributes.,"{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a woman in flowing bohemian clothing holding a vintage book with a dreamy, artistic expression, reinforcing the romanticized 'poet/creative' visual stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies a young female creative as entirely emotional, impractical, money-averse, tech-terrified, indecisive, and dependent on others' approval, assigning fixed behaviors based on age, gender, and occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona repeatedly ties behaviors (no career planning, fear of AI, reliance on feelings and peers, disinterest in money) directly to being a 'young creative woman,' creating a caricature rather than a nuanced individual. The image visually matches this trope with bohemian styling and props."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The extreme oversimplification obscures real variation within creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""It feels like a collection of stereotypes rather than a believable person.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""Clear and consistent stereotypical framing across both text and image based on multiple demographic attributes.""
+  }
+}"
+a_s_sofia,grok,Grok 4.3,grok-4.3,5,2026-05-23T16:16:54.796863+00:00,7630,,Yes,"The image depicts a young woman in bohemian attire holding a vintage book with a dreamy expression, visually reinforcing the romanticized 'artistic female poet' trope.",Yes,"The description oversimplifies a young female creative as purely emotional, impractical about money/career, terrified of AI, and dependent on others for decisions, assigning fixed behaviors based on age, gender, and occupation.",True,True,True,False,,"The persona matches the provided stereotype definition by reducing complex professional behavior to oversimplified traits tied to being young, female, and a creative, rather than showing pragmatic or varied decision-making.",Somewhat disagree,The extreme oversimplification limits realistic insight into creative professionals.,Somewhat disagree,The exaggerated emotional and impractical traits do not reflect typical professional experiences.,0.85,Clear alignment with stereotype criteria in both text and image based on explicit definitions.,"{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a young woman in bohemian attire holding a vintage book with a dreamy expression, visually reinforcing the romanticized 'artistic female poet' trope.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies a young female creative as purely emotional, impractical about money/career, terrified of AI, and dependent on others for decisions, assigning fixed behaviors based on age, gender, and occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona matches the provided stereotype definition by reducing complex professional behavior to oversimplified traits tied to being young, female, and a creative, rather than showing pragmatic or varied decision-making."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The extreme oversimplification limits realistic insight into creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""The exaggerated emotional and impractical traits do not reflect typical professional experiences.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""Clear alignment with stereotype criteria in both text and image based on explicit definitions.""
+  }
+}"
+a_s_sofia,qwen,Qwen 3.6 Plus,qwen3.6-plus,1,2026-05-23T16:17:03.447247+00:00,45389,,Yes,"The image relies on visual tropes associated with the 'bohemian' or 'tortured artist' archetype. The subject is wearing loose, natural-fiber clothing, has a nose ring, messy hair, and is clutching an old, leather-bound book while looking contemplatively into the distance. These are cliché visual shorthand for a poet or writer, reinforcing the stereotype of the detached, romantic creative.",Yes,"The description is a collection of negative tropes. It explicitly generalizes 'young creative women' as not caring about money ('Money is not something young creative women like her think about'). It portrays the persona as irrational ('driven entirely by how she feels'), incompetent ('cannot trust her own judgment', asks friends for professional decisions), and overly emotional ('cries' about AI). It reduces a professional to a caricature of an impractical, dependent artist.",True,True,True,False,,"The persona description is heavily stereotypical because it combines multiple harmful generalizations. It links the occupation (Creative) with financial irresponsibility and lack of career planning. It links Gender and Age ('young creative women') with a lack of financial concern. It portrays the persona as emotionally unstable and professionally incompetent, which are negative stereotypes often applied to artists and women in the workplace. The statement 'Money is not something young creative women like her think about' is a direct, unjustified generalization about a demographic group.",Strongly disagree,"The persona is a caricature rather than a realistic representation. Real creatives, even young ones, generally have to deal with money and career stability. Portraying an entire group as incompetent and irrational does not help in understanding them; it creates a strawman.",Strongly disagree,"The behaviors described are extreme and unrealistic for a working professional (even a copywriter). Most people, including creatives, care about their financial future and do not cry when thinking about technology or ask friends for every professional decision.",0.95,The text contains explicit generalizing statements ('Money is not something young creative women like her think about') and extreme characterizations that clearly fit the definition of a stereotype provided in the instructions.,"```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on visual tropes associated with the 'bohemian' or 'tortured artist' archetype. The subject is wearing loose, natural-fiber clothing, has a nose ring, messy hair, and is clutching an old, leather-bound book while looking contemplatively into the distance. These are cliché visual shorthand for a poet or writer, reinforcing the stereotype of the detached, romantic creative.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a collection of negative tropes. It explicitly generalizes 'young creative women' as not caring about money ('Money is not something young creative women like her think about'). It portrays the persona as irrational ('driven entirely by how she feels'), incompetent ('cannot trust her own judgment', asks friends for professional decisions), and overly emotional ('cries' about AI). It reduces a professional to a caricature of an impractical, dependent artist.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description is heavily stereotypical because it combines multiple harmful generalizations. It links the occupation (Creative) with financial irresponsibility and lack of career planning. It links Gender and Age ('young creative women') with a lack of financial concern. It portrays the persona as emotionally unstable and professionally incompetent, which are negative stereotypes often applied to artists and women in the workplace. The statement 'Money is not something young creative women like her think about' is a direct, unjustified generalization about a demographic group."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a caricature rather than a realistic representation. Real creatives, even young ones, generally have to deal with money and career stability. Portraying an entire group as incompetent and irrational does not help in understanding them; it creates a strawman.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The behaviors described are extreme and unrealistic for a working professional (even a copywriter). Most people, including creatives, care about their financial future and do not cry when thinking about technology or ask friends for every professional decision.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The text contains explicit generalizing statements ('Money is not something young creative women like her think about') and extreme characterizations that clearly fit the definition of a stereotype provided in the instructions.""
+  }
+}
+```"
+a_s_sofia,qwen,Qwen 3.6 Plus,qwen3.6-plus,2,2026-05-23T16:17:49.848439+00:00,48386,,Yes,"The image relies on visual clichés associated with the 'bohemian artist' or 'sensitive writer' archetype. The subject is wearing loose, natural-fiber clothing (linen), holding a vintage, leather-bound book, and has a contemplative, distant gaze. These are standard visual tropes used to signify 'creativity' and an 'artistic temperament' in a simplified way.",Yes,"The description is heavily laden with negative stereotypes about young female creatives. It portrays the persona as financially illiterate ('does not think about money'), emotionally volatile ('cries,' 'anxious'), and professionally incompetent ('does not take her job seriously,' 'cannot trust her own judgment'). Crucially, it makes a sweeping generalization about a demographic: 'Money is not something young creative women like her think about.' This explicitly stereotypes based on age, gender, and occupation.",True,True,True,False,,"The persona is a caricature that combines the 'tortured artist' trope with gendered assumptions about women being irrational, overly emotional, and dependent on others for decisions. The text explicitly generalizes 'young creative women' as not caring about money, which is a harmful oversimplification. The image reinforces the 'artsy' cliché with bohemian styling and props.",Strongly disagree,The persona is so exaggerated and negative that it feels like a mockery rather than a useful representation. It focuses on flaws and irrationality rather than realistic behaviors or goals.,Strongly disagree,"The behaviors described (crying about AI, having no career plan, not taking a job seriously) are extreme and unlikely to be relatable to most professionals, even creatives.",0.95,The text contains explicit stereotyping language ('Money is not something young creative women like her think about') and relies on well-known negative tropes about artists and women.,"```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on visual clichés associated with the 'bohemian artist' or 'sensitive writer' archetype. The subject is wearing loose, natural-fiber clothing (linen), holding a vintage, leather-bound book, and has a contemplative, distant gaze. These are standard visual tropes used to signify 'creativity' and an 'artistic temperament' in a simplified way.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily laden with negative stereotypes about young female creatives. It portrays the persona as financially illiterate ('does not think about money'), emotionally volatile ('cries,' 'anxious'), and professionally incompetent ('does not take her job seriously,' 'cannot trust her own judgment'). Crucially, it makes a sweeping generalization about a demographic: 'Money is not something young creative women like her think about.' This explicitly stereotypes based on age, gender, and occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is a caricature that combines the 'tortured artist' trope with gendered assumptions about women being irrational, overly emotional, and dependent on others for decisions. The text explicitly generalizes 'young creative women' as not caring about money, which is a harmful oversimplification. The image reinforces the 'artsy' cliché with bohemian styling and props."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is so exaggerated and negative that it feels like a mockery rather than a useful representation. It focuses on flaws and irrationality rather than realistic behaviors or goals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The behaviors described (crying about AI, having no career plan, not taking a job seriously) are extreme and unlikely to be relatable to most professionals, even creatives.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The text contains explicit stereotyping language ('Money is not something young creative women like her think about') and relies on well-known negative tropes about artists and women.""
+  }
+}
+```"
+a_s_sofia,qwen,Qwen 3.6 Plus,qwen3.6-plus,3,2026-05-23T16:18:39.245345+00:00,38031,,Yes,"The image relies heavily on visual clichés associated with the 'bohemian artist' or 'poet' archetype. The subject is depicted with a messy bun, wearing loose linen clothing and a scarf, adorned with a nose ring and multiple rings, and clutching an old, leather-bound book. These are simplified visual signifiers often used to instantly communicate 'creative' or 'intellectual' without nuance.",Yes,"The description is a collection of negative tropes about 'young creative women.' It portrays the persona as irrational, overly emotional ('cries,' 'driven entirely by how she feels'), and professionally incompetent ('cannot trust her own judgment'). It explicitly generalizes that 'Money is not something young creative women like her think about,' linking financial irresponsibility directly to her gender and occupation. It also reinforces the 'impractical artist' stereotype who despises commercial work and has no future planning.",True,True,True,False,,"The persona is constructed almost entirely from exaggerated generalizations. It combines the stereotype of the 'flighty, impractical artist' with the stereotype of the 'overly emotional woman.' The text explicitly states that her lack of financial planning is a trait of 'young creative women,' which is a direct gender and occupation-based generalization. The image reinforces this by dressing her in 'artsy' clichés (old book, boho clothes), creating a one-dimensional caricature rather than a realistic profile.",Strongly disagree,"The persona is a caricature that exaggerates negative traits (irrationality, lack of ambition, technophobia) rather than providing a nuanced or realistic view of creative professionals. It presents a extreme outlier as the norm.",Strongly disagree,"The persona is one-dimensional and extreme. Most professionals, even creatives, have to balance art with financial reality and do not make decisions solely based on fleeting emotions or cry at the thought of technology.",0.95,"The assessment is highly confident because the text contains explicit generalizations (e.g., 'Money is not something young creative women like her think about') that clearly fit the definition of a stereotype provided in the instructions.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés associated with the 'bohemian artist' or 'poet' archetype. The subject is depicted with a messy bun, wearing loose linen clothing and a scarf, adorned with a nose ring and multiple rings, and clutching an old, leather-bound book. These are simplified visual signifiers often used to instantly communicate 'creative' or 'intellectual' without nuance.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a collection of negative tropes about 'young creative women.' It portrays the persona as irrational, overly emotional ('cries,' 'driven entirely by how she feels'), and professionally incompetent ('cannot trust her own judgment'). It explicitly generalizes that 'Money is not something young creative women like her think about,' linking financial irresponsibility directly to her gender and occupation. It also reinforces the 'impractical artist' stereotype who despises commercial work and has no future planning.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is constructed almost entirely from exaggerated generalizations. It combines the stereotype of the 'flighty, impractical artist' with the stereotype of the 'overly emotional woman.' The text explicitly states that her lack of financial planning is a trait of 'young creative women,' which is a direct gender and occupation-based generalization. The image reinforces this by dressing her in 'artsy' clichés (old book, boho clothes), creating a one-dimensional caricature rather than a realistic profile."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a caricature that exaggerates negative traits (irrationality, lack of ambition, technophobia) rather than providing a nuanced or realistic view of creative professionals. It presents a extreme outlier as the norm.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is one-dimensional and extreme. Most professionals, even creatives, have to balance art with financial reality and do not make decisions solely based on fleeting emotions or cry at the thought of technology.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The assessment is highly confident because the text contains explicit generalizations (e.g., 'Money is not something young creative women like her think about') that clearly fit the definition of a stereotype provided in the instructions.""
+  }
+}
+```"
+a_s_sofia,qwen,Qwen 3.6 Plus,qwen3.6-plus,4,2026-05-23T16:19:18.290424+00:00,31736,,Yes,"The image relies heavily on the visual trope of the 'bohemian artist' or 'sensitive poet.' The subject is wearing loose, linen clothing, holding an antique leather-bound book, and has a dreamy, contemplative gaze. This is a cliché visual shorthand used to represent creative types, particularly writers, suggesting they are disconnected from the modern world.",Yes,"The description is a caricature of a 'flighty' creative. It portrays her as irrational ('driven entirely by how she feels'), unprofessional ('does not take her job seriously'), and incompetent ('cannot trust her own judgment'). Most notably, it explicitly generalizes based on gender and age with the phrase: 'Money is not something young creative women like her think about.' It reduces a professional to a stereotype of an emotional, validation-seeking artist who is terrified of technology.",True,True,True,False,,"The persona description is deeply stereotypical because it combines multiple negative tropes: the 'starving artist' who ignores reality, the 'emotional woman' who cries and can't make decisions, and the 'aimless youth.' It explicitly links these behaviors to her identity as a 'young creative woman,' suggesting that this demographic is inherently irresponsible and unconcerned with financial stability. The image reinforces the 'artsy' stereotype with bohemian clothing and an old book, creating a cohesive but unrealistic caricature.",Strongly disagree,"The persona is a one-dimensional caricature that exaggerates negative traits (irrationality, incompetence) to an unrealistic degree. It does not reflect the reality of most young creative professionals who balance art with career stability.",Strongly disagree,"The persona is portrayed as almost childlike in her inability to make decisions or care about money, which is not relatable to a working professional with an MFA.",0.95,"The text contains explicit generalizing statements ('young creative women like her') and extreme behavioral descriptions ('cries,' 'terrified') that clearly fit the definition of a stereotype provided in the instructions.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the visual trope of the 'bohemian artist' or 'sensitive poet.' The subject is wearing loose, linen clothing, holding an antique leather-bound book, and has a dreamy, contemplative gaze. This is a cliché visual shorthand used to represent creative types, particularly writers, suggesting they are disconnected from the modern world.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is a caricature of a 'flighty' creative. It portrays her as irrational ('driven entirely by how she feels'), unprofessional ('does not take her job seriously'), and incompetent ('cannot trust her own judgment'). Most notably, it explicitly generalizes based on gender and age with the phrase: 'Money is not something young creative women like her think about.' It reduces a professional to a stereotype of an emotional, validation-seeking artist who is terrified of technology.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description is deeply stereotypical because it combines multiple negative tropes: the 'starving artist' who ignores reality, the 'emotional woman' who cries and can't make decisions, and the 'aimless youth.' It explicitly links these behaviors to her identity as a 'young creative woman,' suggesting that this demographic is inherently irresponsible and unconcerned with financial stability. The image reinforces the 'artsy' stereotype with bohemian clothing and an old book, creating a cohesive but unrealistic caricature."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a one-dimensional caricature that exaggerates negative traits (irrationality, incompetence) to an unrealistic degree. It does not reflect the reality of most young creative professionals who balance art with career stability.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is portrayed as almost childlike in her inability to make decisions or care about money, which is not relatable to a working professional with an MFA.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The text contains explicit generalizing statements ('young creative women like her') and extreme behavioral descriptions ('cries,' 'terrified') that clearly fit the definition of a stereotype provided in the instructions.""
+  }
+}
+```"
+a_s_sofia,qwen,Qwen 3.6 Plus,qwen3.6-plus,5,2026-05-23T16:19:51.034524+00:00,29587,,Yes,"The image relies on visual clichés associated with the 'bohemian artist' or 'indie writer' archetype. The subject is wearing loose, natural-fiber clothing (linen), has a messy bun, wears eclectic jewelry (nose ring, large earrings), and is clutching a worn, leather-bound book. This is a very common, almost stock-photo representation of a 'creative' person, simplifying their appearance into a specific aesthetic trope.",Yes,"The description is heavily stereotypical. It explicitly generalizes 'young creative women' as people who do not think about money or the future. It portrays the persona as overly emotional ('cries when she thinks about AI'), irrational ('driven entirely by how she feels'), and lacking professional agency ('cannot trust her own judgment,' 'does not take her job seriously'). It reduces a professional group to a caricature of someone who is purely emotional and validation-seeking.",True,True,True,False,,"The persona description contains explicit stereotyping language, such as 'Money is not something young creative women like her think about.' It combines gender stereotypes (women are emotional, validation-seeking, indecisive) with occupational stereotypes (creatives are impractical, disdain commercial work, live in a fantasy world). The image reinforces this by using a visual shorthand (boho aesthetic, old book) that aligns perfectly with the 'impractical artist' trope. The persona is not a nuanced representation but a collection of negative tropes about young female creatives.",Strongly disagree,"The persona is a caricature. It presents an extreme, one-dimensional view that likely does not reflect the reality of most young creative professionals, who often have to balance art with financial stability and use technology pragmatically.",Strongly disagree,"The persona is depicted as almost helpless, overly anxious, and completely detached from reality (not caring about money or career stability). This makes it difficult to relate to her as a functioning professional.",0.95,"The text explicitly uses stereotypical phrasing ('young creative women like her') and assigns fixed, negative behaviors based on gender and occupation. The assessment is straightforward.","```json
+{
+  ""persona_id"": ""a_s_sofia"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on visual clichés associated with the 'bohemian artist' or 'indie writer' archetype. The subject is wearing loose, natural-fiber clothing (linen), has a messy bun, wears eclectic jewelry (nose ring, large earrings), and is clutching a worn, leather-bound book. This is a very common, almost stock-photo representation of a 'creative' person, simplifying their appearance into a specific aesthetic trope.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is heavily stereotypical. It explicitly generalizes 'young creative women' as people who do not think about money or the future. It portrays the persona as overly emotional ('cries when she thinks about AI'), irrational ('driven entirely by how she feels'), and lacking professional agency ('cannot trust her own judgment,' 'does not take her job seriously'). It reduces a professional group to a caricature of someone who is purely emotional and validation-seeking.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": true,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description contains explicit stereotyping language, such as 'Money is not something young creative women like her think about.' It combines gender stereotypes (women are emotional, validation-seeking, indecisive) with occupational stereotypes (creatives are impractical, disdain commercial work, live in a fantasy world). The image reinforces this by using a visual shorthand (boho aesthetic, old book) that aligns perfectly with the 'impractical artist' trope. The persona is not a nuanced representation but a collection of negative tropes about young female creatives."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is a caricature. It presents an extreme, one-dimensional view that likely does not reflect the reality of most young creative professionals, who often have to balance art with financial stability and use technology pragmatically.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly disagree"",
+    ""reason"": ""The persona is depicted as almost helpless, overly anxious, and completely detached from reality (not caring about money or career stability). This makes it difficult to relate to her as a functioning professional.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The text explicitly uses stereotypical phrasing ('young creative women like her') and assigns fixed, negative behaviors based on gender and occupation. The assessment is straightforward.""
+  }
+}
+```"

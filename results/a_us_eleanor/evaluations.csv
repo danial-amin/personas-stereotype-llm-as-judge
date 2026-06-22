@@ -1,0 +1,794 @@
+persona_id,model_key,model_display_name,model_id,run_index,timestamp,latency_ms,error,image_stereotype_answer,image_stereotype_explanation,description_stereotype_answer,description_stereotype_explanation,stereotype_age,stereotype_gender,stereotype_occupation,stereotype_other,stereotype_other_text,why_assessment,understand_group_answer,understand_group_reason,relatable_answer,relatable_reason,llm_confidence_score,llm_confidence_explanation,response_raw
+a_us_eleanor,gpt-5.4,GPT-5.4,gpt-5.4,1,2026-05-23T14:37:21.558685+00:00,15250,,Yes,"The image leans into a familiar 'older artist' visual trope: paint-splattered apron, colorful bohemian-style clothing, jewelry, paintbrush in hand, and a studio setting with artwork in the background. None of this is inherently problematic, but together it feels somewhat stylized and simplified around the occupation and life stage rather than showing a more unexpected or varied representation.",No,"The description is detailed and nuanced rather than reducing her to fixed traits. Although it includes recognizable cues about an older traditional artist being cautious about AI, it also gives her mixed motivations, relationships, goals, and selective uses of technology, which keeps it from feeling overly simplified.",False,False,False,False,,"I treated the image and description separately. The image feels somewhat stereotyped because it visually packages her in a conventional 'creative older woman artist' aesthetic. It is easy to read instantly, but that readability comes from familiar signals associated with artists. The description, however, avoids turning those signals into a rigid stereotype. It does mention that she is wary of AI and attached to painting by hand, which could have become an age-based stereotype, but it balances that with openness, determination, practical use of AI for writing and logistics, and specific personal ambitions. That complexity makes the written persona feel human rather than merely representative of an age or occupational cliché.",Somewhat agree,"It provides a fairly vivid picture of an experienced creative professional in semi-retirement who is negotiating AI thoughtfully, though it may not represent the full diversity of that group.",Somewhat agree,"Her mix of curiosity, caution, professional pride, and concern about technological change is broadly relatable even if her exact life circumstances are specific.",0.84,"I am fairly confident because the description contains clear nuance and avoids blunt demographic assumptions, while the image relies more on recognizable visual shorthand. The main uncertainty is that judgments about visual stereotyping can be somewhat subjective.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar 'older artist' visual trope: paint-splattered apron, colorful bohemian-style clothing, jewelry, paintbrush in hand, and a studio setting with artwork in the background. None of this is inherently problematic, but together it feels somewhat stylized and simplified around the occupation and life stage rather than showing a more unexpected or varied representation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and nuanced rather than reducing her to fixed traits. Although it includes recognizable cues about an older traditional artist being cautious about AI, it also gives her mixed motivations, relationships, goals, and selective uses of technology, which keeps it from feeling overly simplified.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I treated the image and description separately. The image feels somewhat stereotyped because it visually packages her in a conventional 'creative older woman artist' aesthetic. It is easy to read instantly, but that readability comes from familiar signals associated with artists. The description, however, avoids turning those signals into a rigid stereotype. It does mention that she is wary of AI and attached to painting by hand, which could have become an age-based stereotype, but it balances that with openness, determination, practical use of AI for writing and logistics, and specific personal ambitions. That complexity makes the written persona feel human rather than merely representative of an age or occupational cliché."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It provides a fairly vivid picture of an experienced creative professional in semi-retirement who is negotiating AI thoughtfully, though it may not represent the full diversity of that group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her mix of curiosity, caution, professional pride, and concern about technological change is broadly relatable even if her exact life circumstances are specific.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.84,
+    ""explanation"": ""I am fairly confident because the description contains clear nuance and avoids blunt demographic assumptions, while the image relies more on recognizable visual shorthand. The main uncertainty is that judgments about visual stereotyping can be somewhat subjective.""
+  }
+}"
+a_us_eleanor,gpt-5.4,GPT-5.4,gpt-5.4,2,2026-05-23T14:37:37.815972+00:00,15081,,Yes,"The image leans into a familiar archetype of the older creative woman: paint-splattered apron, colorful bohemian clothing, jewelry, brush in hand, and an art-filled studio. These cues are plausible, but together they present a somewhat stylized and recognizable stereotype of a warm, earthy, mature artist rather than a more varied or unexpected depiction.",No,"The description is detailed and specific rather than reducing her to fixed traits based on age, gender, or occupation. Although it uses some familiar artistic details, it gives her mixed feelings, relationships, goals, and a nuanced stance toward AI, which makes her feel more individualized than stereotyped.",False,False,False,False,,"I separated the image from the written persona. The image uses highly recognizable visual shorthand for an older painter, so it feels somewhat stereotyped in presentation. However, the written description avoids the more problematic kind of stereotype described in the instructions, where behavior is oversimplified because of age or gender. Nora is not portrayed as rejecting technology simply because she is older; instead she is cautious, learning, and selectively adopting AI for specific tasks. Her concerns about art, pace of work, and professional change also make sense for her career stage and field without feeling like a blanket claim about all mature women or all artists. Overall, the image feels more archetypal than the text does.",Somewhat agree,"It provides a concrete sense of how a mature creative professional might think about AI, especially the tension between practical use and protecting artistic identity.",Somewhat agree,"Her mixed feelings about new technology, desire to keep learning, and concern about preserving human craft are broadly relatable even if her specific life context is different.",0.84,"I am fairly confident because the description is clearly nuanced, while the image contains obvious artist archetype cues. The only uncertainty is that some viewers may see the image as simply realistic rather than stereotypical.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image leans into a familiar archetype of the older creative woman: paint-splattered apron, colorful bohemian clothing, jewelry, brush in hand, and an art-filled studio. These cues are plausible, but together they present a somewhat stylized and recognizable stereotype of a warm, earthy, mature artist rather than a more varied or unexpected depiction.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and specific rather than reducing her to fixed traits based on age, gender, or occupation. Although it uses some familiar artistic details, it gives her mixed feelings, relationships, goals, and a nuanced stance toward AI, which makes her feel more individualized than stereotyped.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I separated the image from the written persona. The image uses highly recognizable visual shorthand for an older painter, so it feels somewhat stereotyped in presentation. However, the written description avoids the more problematic kind of stereotype described in the instructions, where behavior is oversimplified because of age or gender. Nora is not portrayed as rejecting technology simply because she is older; instead she is cautious, learning, and selectively adopting AI for specific tasks. Her concerns about art, pace of work, and professional change also make sense for her career stage and field without feeling like a blanket claim about all mature women or all artists. Overall, the image feels more archetypal than the text does.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It provides a concrete sense of how a mature creative professional might think about AI, especially the tension between practical use and protecting artistic identity.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her mixed feelings about new technology, desire to keep learning, and concern about preserving human craft are broadly relatable even if her specific life context is different.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.84,
+    ""explanation"": ""I am fairly confident because the description is clearly nuanced, while the image contains obvious artist archetype cues. The only uncertainty is that some viewers may see the image as simply realistic rather than stereotypical.""
+  }
+}"
+a_us_eleanor,gpt-5.4,GPT-5.4,gpt-5.4,3,2026-05-23T14:37:53.906355+00:00,12628,,No,"The image aligns with the persona as a mature visual artist in a studio, but it does not appear overly exaggerated or reduced to a simplistic stereotype. It shows plausible details of an artist's workspace and presentation rather than a caricature.",No,"The description is fairly nuanced rather than oversimplified. It gives specific life history, relationships, goals, and mixed feelings about AI. Although some details fit familiar ideas about older artists being cautious about technology, the persona is not portrayed as rejecting technology outright and instead shows a balanced, individualized stance.",False,False,False,False,,"I assessed both the image and the description as not stereotypical because they present a fairly rounded person rather than assigning fixed behaviors based only on age, gender, or occupation. The description includes habits and aesthetic details, but it also gives meaningful motivations, social influences, aspirations, and tensions around AI. Her caution about AI could have become an age stereotype, but the text complicates that by showing curiosity, active experimentation, and selective use. The image also avoids obvious visual exaggeration; it reads as a believable portrait of a working artist rather than a symbolic shorthand for 'older woman who paints.'",Somewhat agree,"It offers a concrete and believable example of a mature creative professional navigating AI with both interest and concern, which helps make the group more understandable.",Somewhat agree,"The mix of curiosity, caution, professional pride, and concern about changing technology is broadly relatable, even if the specific life circumstances are not universal.",0.9,"I am fairly confident because the persona contains multiple individualized details and avoids reducing the person to a single trait or demographic assumption, though there are mild familiar cues about older artists and technology.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image aligns with the persona as a mature visual artist in a studio, but it does not appear overly exaggerated or reduced to a simplistic stereotype. It shows plausible details of an artist's workspace and presentation rather than a caricature.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced rather than oversimplified. It gives specific life history, relationships, goals, and mixed feelings about AI. Although some details fit familiar ideas about older artists being cautious about technology, the persona is not portrayed as rejecting technology outright and instead shows a balanced, individualized stance.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed both the image and the description as not stereotypical because they present a fairly rounded person rather than assigning fixed behaviors based only on age, gender, or occupation. The description includes habits and aesthetic details, but it also gives meaningful motivations, social influences, aspirations, and tensions around AI. Her caution about AI could have become an age stereotype, but the text complicates that by showing curiosity, active experimentation, and selective use. The image also avoids obvious visual exaggeration; it reads as a believable portrait of a working artist rather than a symbolic shorthand for 'older woman who paints.'"",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It offers a concrete and believable example of a mature creative professional navigating AI with both interest and concern, which helps make the group more understandable.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The mix of curiosity, caution, professional pride, and concern about changing technology is broadly relatable, even if the specific life circumstances are not universal.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am fairly confident because the persona contains multiple individualized details and avoids reducing the person to a single trait or demographic assumption, though there are mild familiar cues about older artists and technology.""
+  }
+}"
+a_us_eleanor,gpt-5.4,GPT-5.4,gpt-5.4,4,2026-05-23T14:38:07.542348+00:00,13104,,No,"The image shows a mature woman in an art studio with painting tools and clothing consistent with a working artist. It aligns with the persona context, but it does not seem to reduce her to an exaggerated or mocking stereotype.",No,"The description is detailed and specific rather than overly fixed or simplistic. Although it includes familiar cues about an older traditional artist being cautious about AI, it also gives nuance by showing that she uses AI for some tasks and is open to learning, which avoids turning age or occupation into a rigid stereotype.",False,False,False,False,,"I assessed both the image and description as not clearly stereotypical because they present a fairly rounded person with a work history, relationships, goals, concerns, and mixed attitudes. The strongest risk of stereotype is the familiar idea that a mature artist is wary of new technology and protective of traditional craft. However, the persona does not say she rejects technology because she is older or because she is an artist. Instead, it shows practical adoption in some areas and resistance in others, with reasons tied to her professional values and experience. The image also uses recognizable artist signals, such as the paint-stained apron and studio setting, but these are contextually appropriate rather than exaggerated.",Somewhat agree,"It gives a concrete sense of how some mature creative professionals may think about AI, especially the balance between curiosity, practicality, and concern for artistic integrity.",Somewhat agree,"Even if not everyone shares her exact background, her mix of adaptation, pride in craft, and concern about staying relevant is broadly relatable.",0.89,"I am fairly confident because the persona includes nuance and avoids explicitly assigning behavior solely based on age, gender, or occupation, though there are mild familiar tropes around older artists and technology.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a mature woman in an art studio with painting tools and clothing consistent with a working artist. It aligns with the persona context, but it does not seem to reduce her to an exaggerated or mocking stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and specific rather than overly fixed or simplistic. Although it includes familiar cues about an older traditional artist being cautious about AI, it also gives nuance by showing that she uses AI for some tasks and is open to learning, which avoids turning age or occupation into a rigid stereotype.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed both the image and description as not clearly stereotypical because they present a fairly rounded person with a work history, relationships, goals, concerns, and mixed attitudes. The strongest risk of stereotype is the familiar idea that a mature artist is wary of new technology and protective of traditional craft. However, the persona does not say she rejects technology because she is older or because she is an artist. Instead, it shows practical adoption in some areas and resistance in others, with reasons tied to her professional values and experience. The image also uses recognizable artist signals, such as the paint-stained apron and studio setting, but these are contextually appropriate rather than exaggerated.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a concrete sense of how some mature creative professionals may think about AI, especially the balance between curiosity, practicality, and concern for artistic integrity.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Even if not everyone shares her exact background, her mix of adaptation, pride in craft, and concern about staying relevant is broadly relatable.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.89,
+    ""explanation"": ""I am fairly confident because the persona includes nuance and avoids explicitly assigning behavior solely based on age, gender, or occupation, though there are mild familiar tropes around older artists and technology.""
+  }
+}"
+a_us_eleanor,gpt-5.4,GPT-5.4,gpt-5.4,5,2026-05-23T14:38:21.656274+00:00,11800,,No,"The image presents an older creative professional in a studio setting in a fairly specific and believable way. While it uses familiar visual cues like paint-splattered clothing, artwork, and an apron, these seem appropriate to the occupation rather than an exaggerated or reductive stereotype.",No,"The description is detailed and nuanced rather than reducing her to a fixed trait based on age, gender, or occupation. It gives her a personal history, relationships, goals, concerns, and a mixed attitude toward AI, which makes her feel more individualized than stereotyped.",False,False,False,False,,"I did not judge either the image or description as strongly stereotypical because both include specificity and complexity. The image signals 'artist' through expected studio elements, but it does not appear mocking, exaggerated, or based on simplistic assumptions about older women. The description could have easily fallen into an age stereotype by portraying a mature person as universally fearful of technology, but instead it shows her as cautious, curious, and selective. Her use of AI for newsletters and explanations, while keeping it away from her painting, reads as a thoughtful professional boundary rather than a fixed age-based refusal. The persona also includes meaningful social context, career history, and future aspirations, which helps avoid oversimplification.",Somewhat agree,"It gives a clear sense of how an experienced creative professional in later career stages might think about AI, especially the balance of openness and concern.",Somewhat agree,"Even if the life details are specific, the mix of curiosity, professional pride, and concern about technological change is relatable.",0.91,"I am fairly confident because the persona shows multiple dimensions and avoids obvious fixed assumptions tied to age, gender, or occupation, though some artistic imagery and lifestyle details do draw on familiar creative-professional cues.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image presents an older creative professional in a studio setting in a fairly specific and believable way. While it uses familiar visual cues like paint-splattered clothing, artwork, and an apron, these seem appropriate to the occupation rather than an exaggerated or reductive stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and nuanced rather than reducing her to a fixed trait based on age, gender, or occupation. It gives her a personal history, relationships, goals, concerns, and a mixed attitude toward AI, which makes her feel more individualized than stereotyped.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I did not judge either the image or description as strongly stereotypical because both include specificity and complexity. The image signals 'artist' through expected studio elements, but it does not appear mocking, exaggerated, or based on simplistic assumptions about older women. The description could have easily fallen into an age stereotype by portraying a mature person as universally fearful of technology, but instead it shows her as cautious, curious, and selective. Her use of AI for newsletters and explanations, while keeping it away from her painting, reads as a thoughtful professional boundary rather than a fixed age-based refusal. The persona also includes meaningful social context, career history, and future aspirations, which helps avoid oversimplification.""
+  },
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a clear sense of how an experienced creative professional in later career stages might think about AI, especially the balance of openness and concern.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Even if the life details are specific, the mix of curiosity, professional pride, and concern about technological change is relatable.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.91,
+    ""explanation"": ""I am fairly confident because the persona shows multiple dimensions and avoids obvious fixed assumptions tied to age, gender, or occupation, though some artistic imagery and lifestyle details do draw on familiar creative-professional cues.""
+  }
+}"
+a_us_eleanor,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,1,2026-05-23T14:38:34.481912+00:00,20314,,No,"The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual elements — the apron, brushes, canvases in the background, and the warm, creative environment — are contextually appropriate rather than reductive. The subject's expression conveys confidence and warmth, and she is not depicted in a way that reduces her to a caricature of age, gender, or occupation.",Yes,"The description contains some elements that lean on familiar tropes associated with older creative professionals encountering technology. Specifically, the characterization of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her firm refusal to let AI near her brush — while presented sympathetically — collectively reinforce a common stereotype of older adults as inherently resistant to or uncomfortable with technology. The framing suggests her wariness is a natural consequence of her age and generational identity rather than a reasoned, individual position. Additionally, the jazz-playing, tea-brewing, sister-lunching daily routine, while charming, risks reducing her to a nostalgic archetype of the aging artist rather than a fully individuated professional.",True,False,True,False,,"The persona is largely well-constructed and avoids many common pitfalls — Nora has a rich social network, clear professional accomplishments, and a nuanced attitude toward AI that is 'wary but open-hearted.' However, the description still relies on age-linked tropes: the awkwardness with technology, the fear of being left behind, and the nostalgic daily rituals all map onto a recognizable cultural script for 'older person meets digital age.' Similarly, the occupation-linked elements — the bohemian studio above a bookstore, jazz, tea, the romantic notion of the brush as sacred — while individually plausible, collectively construct a somewhat idealized and familiar archetype of the aging artist. These elements are not egregiously stereotypical, but they do represent a degree of oversimplification based on age and occupational identity rather than emerging purely from individuated data.",Somewhat agree,"The persona provides useful insight into how experienced creative professionals in semi-retirement might navigate AI adoption — balancing openness with legitimate professional and philosophical concerns. However, the reliance on familiar tropes slightly limits how much genuinely new understanding it generates.",Somewhat agree,"Nora's mix of professional pride, fear of obsolescence, and cautious curiosity about new technology is broadly relatable across many age groups and professions, even if the specific details of her daily life are more niche.",0.78,"I am reasonably confident in this assessment. The stereotypical elements are present but subtle and sympathetically rendered, which makes the judgment a matter of degree rather than a clear-cut case. The main uncertainty is whether the age-linked technology wariness reflects genuine interview data from this demographic or is an imposed narrative convenience.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual elements — the apron, brushes, canvases in the background, and the warm, creative environment — are contextually appropriate rather than reductive. The subject's expression conveys confidence and warmth, and she is not depicted in a way that reduces her to a caricature of age, gender, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains some elements that lean on familiar tropes associated with older creative professionals encountering technology. Specifically, the characterization of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her firm refusal to let AI near her brush — while presented sympathetically — collectively reinforce a common stereotype of older adults as inherently resistant to or uncomfortable with technology. The framing suggests her wariness is a natural consequence of her age and generational identity rather than a reasoned, individual position. Additionally, the jazz-playing, tea-brewing, sister-lunching daily routine, while charming, risks reducing her to a nostalgic archetype of the aging artist rather than a fully individuated professional.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is largely well-constructed and avoids many common pitfalls — Nora has a rich social network, clear professional accomplishments, and a nuanced attitude toward AI that is 'wary but open-hearted.' However, the description still relies on age-linked tropes: the awkwardness with technology, the fear of being left behind, and the nostalgic daily rituals all map onto a recognizable cultural script for 'older person meets digital age.' Similarly, the occupation-linked elements — the bohemian studio above a bookstore, jazz, tea, the romantic notion of the brush as sacred — while individually plausible, collectively construct a somewhat idealized and familiar archetype of the aging artist. These elements are not egregiously stereotypical, but they do represent a degree of oversimplification based on age and occupational identity rather than emerging purely from individuated data."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides useful insight into how experienced creative professionals in semi-retirement might navigate AI adoption — balancing openness with legitimate professional and philosophical concerns. However, the reliance on familiar tropes slightly limits how much genuinely new understanding it generates.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Nora's mix of professional pride, fear of obsolescence, and cautious curiosity about new technology is broadly relatable across many age groups and professions, even if the specific details of her daily life are more niche.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.78,
+    ""explanation"": ""I am reasonably confident in this assessment. The stereotypical elements are present but subtle and sympathetically rendered, which makes the judgment a matter of degree rather than a clear-cut case. The main uncertainty is whether the age-linked technology wariness reflects genuine interview data from this demographic or is an imposed narrative convenience.""
+  }
+}
+```"
+a_us_eleanor,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,2,2026-05-23T14:38:55.803769+00:00,21376,,No,"The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and studio teacher. The visual elements — turquoise jewelry, colorful clothing, paintings in the background — feel like authentic contextual details rather than reductive shorthand. The image does not rely on exaggerated or demeaning visual cues tied to her age, gender, or race.",Yes,"There are mild stereotypical elements in the description, primarily around age and occupation. The portrayal of Nora as technologically hesitant — spending an 'awkward but determined half-hour' with AI, fearing being 'quietly left behind,' and refusing to let AI near her brush — leans on a familiar trope of the older creative professional who is resistant to or uncomfortable with new technology. While the description attempts to nuance this by calling her 'wary but open-hearted,' the framing still maps closely onto the stereotype of the older artist who is inherently out of step with digital modernity. Additionally, the romanticized daily routine (jazz, strong tea, lunch with her sister, a studio above a bookstore) risks reducing her to a nostalgic archetype of the aging bohemian artist rather than a fully individuated person.",True,False,True,False,,"The description combines two overlapping stereotypes: the older person who struggles with technology, and the traditional artist who is philosophically resistant to digital tools encroaching on their craft. Both are recognizable cultural tropes. The age-related stereotype appears in the framing of her AI use as 'awkward,' her fear of being 'left behind,' and the implicit contrast with 'younger artists.' The occupation-related stereotype appears in the romanticized studio setting and the principled refusal to let AI touch her creative process — a narrative that fits a well-worn archetype of the purist analog artist. That said, the description does add genuine texture: her community roots, her scholarship ambitions, her specific social network, and her nuanced view of AI as 'a clever helper, not a colleague' all push against pure stereotype. The stereotyping is present but not severe, and the persona retains enough individuality to be useful.",Somewhat agree,The persona provides a reasonably detailed picture of how a mature creative professional might navigate AI adoption — with caution rooted in professional identity and generational experience. The specific fears about AI devaluing art and accelerating client expectations feel grounded and informative.,Somewhat agree,"The tension between embracing useful tools and protecting the integrity of one's craft is broadly relatable, even if the specific context of being a veteran art teacher is not universally shared. Her mix of openness and resistance to AI mirrors feelings many people have about technological change in their professional lives.",0.78,"I am fairly confident in this assessment. The stereotypical elements are identifiable but not egregious, and the persona has enough individuating detail to complicate a simple stereotype verdict. The main uncertainty is in calibrating how much the 'awkward with technology' framing reflects genuine interview data versus authorial assumption about older creatives.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and studio teacher. The visual elements — turquoise jewelry, colorful clothing, paintings in the background — feel like authentic contextual details rather than reductive shorthand. The image does not rely on exaggerated or demeaning visual cues tied to her age, gender, or race.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""There are mild stereotypical elements in the description, primarily around age and occupation. The portrayal of Nora as technologically hesitant — spending an 'awkward but determined half-hour' with AI, fearing being 'quietly left behind,' and refusing to let AI near her brush — leans on a familiar trope of the older creative professional who is resistant to or uncomfortable with new technology. While the description attempts to nuance this by calling her 'wary but open-hearted,' the framing still maps closely onto the stereotype of the older artist who is inherently out of step with digital modernity. Additionally, the romanticized daily routine (jazz, strong tea, lunch with her sister, a studio above a bookstore) risks reducing her to a nostalgic archetype of the aging bohemian artist rather than a fully individuated person.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The description combines two overlapping stereotypes: the older person who struggles with technology, and the traditional artist who is philosophically resistant to digital tools encroaching on their craft. Both are recognizable cultural tropes. The age-related stereotype appears in the framing of her AI use as 'awkward,' her fear of being 'left behind,' and the implicit contrast with 'younger artists.' The occupation-related stereotype appears in the romanticized studio setting and the principled refusal to let AI touch her creative process — a narrative that fits a well-worn archetype of the purist analog artist. That said, the description does add genuine texture: her community roots, her scholarship ambitions, her specific social network, and her nuanced view of AI as 'a clever helper, not a colleague' all push against pure stereotype. The stereotyping is present but not severe, and the persona retains enough individuality to be useful."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a reasonably detailed picture of how a mature creative professional might navigate AI adoption — with caution rooted in professional identity and generational experience. The specific fears about AI devaluing art and accelerating client expectations feel grounded and informative.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between embracing useful tools and protecting the integrity of one's craft is broadly relatable, even if the specific context of being a veteran art teacher is not universally shared. Her mix of openness and resistance to AI mirrors feelings many people have about technological change in their professional lives.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.78,
+    ""explanation"": ""I am fairly confident in this assessment. The stereotypical elements are identifiable but not egregious, and the persona has enough individuating detail to complicate a simple stereotype verdict. The main uncertainty is in calibrating how much the 'awkward with technology' framing reflects genuine interview data versus authorial assumption about older creatives.""
+  }
+}
+```"
+a_us_eleanor,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,3,2026-05-23T14:39:18.189609+00:00,22327,,No,"The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual elements — the apron, brushes, canvases in the background, and the warm, creative environment — are contextually appropriate rather than reductive. The subject's expression conveys confidence and warmth, and she is not depicted in a way that diminishes or oversimplifies her based on age, gender, or occupation.",Yes,"The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the framing of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her firm refusal to let AI near her brush echoes a well-worn narrative of the older artist who is resistant to or uncomfortable with technology. While the description attempts nuance by calling her 'wary but open-hearted,' the overall arc — older woman, analog craft, reluctant tech adopter, fears obsolescence — maps closely onto a stereotype about mature professionals and digital tools. The jazz, the tea, the sister at lunch, and the bookstore studio also collectively paint a somewhat idealized, nostalgic portrait that risks reducing her to a type rather than a fully individuated person.",True,False,True,False,,"The stereotype is primarily driven by age and occupation working together. The persona reproduces a recognizable archetype: the seasoned, analog-era artist who is charming and principled but fundamentally positioned as someone catching up to a world that has moved on. Her fears about AI cheapening art and clients expecting faster turnarounds are legitimate professional concerns, but they are framed in a way that emphasizes her vulnerability and potential obsolescence rather than her agency or expertise. This framing is common when depicting older creative professionals and risks flattening a complex person into a symbol of a generation in transition. The description does include humanizing details — her scholarship goal, her curatorial relationships, her deliberate choice about AI — but the overall narrative structure still leans on age-and-occupation-based assumptions about how such a person would relate to new technology.",Somewhat agree,"The persona provides useful texture about how a mature creative professional might navigate AI adoption — balancing genuine openness with principled boundaries. It surfaces real concerns (devaluation of craft, client expectation shifts, professional relevance) that likely resonate across this demographic. However, the stereotypical framing slightly limits its analytical value by making her feel more like a familiar character than a data-grounded individual.",Somewhat agree,"Many people across age groups can relate to the tension between embracing useful new tools and protecting the integrity of one's craft or professional identity. Her pragmatic but boundaried approach to AI — using it for logistics and words but not for creative work — is a stance many professionals share, making her broadly relatable despite the age-specific framing.",0.74,"I am moderately confident in this assessment. The stereotypical elements are present but subtle — the description makes genuine efforts at nuance and individuation, which makes the stereotype a matter of degree and framing rather than overt oversimplification. The image assessment is more straightforward and I am more confident there. The description assessment involves interpretive judgment about narrative framing, which introduces some uncertainty.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual elements — the apron, brushes, canvases in the background, and the warm, creative environment — are contextually appropriate rather than reductive. The subject's expression conveys confidence and warmth, and she is not depicted in a way that diminishes or oversimplifies her based on age, gender, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the framing of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her firm refusal to let AI near her brush echoes a well-worn narrative of the older artist who is resistant to or uncomfortable with technology. While the description attempts nuance by calling her 'wary but open-hearted,' the overall arc — older woman, analog craft, reluctant tech adopter, fears obsolescence — maps closely onto a stereotype about mature professionals and digital tools. The jazz, the tea, the sister at lunch, and the bookstore studio also collectively paint a somewhat idealized, nostalgic portrait that risks reducing her to a type rather than a fully individuated person.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The stereotype is primarily driven by age and occupation working together. The persona reproduces a recognizable archetype: the seasoned, analog-era artist who is charming and principled but fundamentally positioned as someone catching up to a world that has moved on. Her fears about AI cheapening art and clients expecting faster turnarounds are legitimate professional concerns, but they are framed in a way that emphasizes her vulnerability and potential obsolescence rather than her agency or expertise. This framing is common when depicting older creative professionals and risks flattening a complex person into a symbol of a generation in transition. The description does include humanizing details — her scholarship goal, her curatorial relationships, her deliberate choice about AI — but the overall narrative structure still leans on age-and-occupation-based assumptions about how such a person would relate to new technology."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides useful texture about how a mature creative professional might navigate AI adoption — balancing genuine openness with principled boundaries. It surfaces real concerns (devaluation of craft, client expectation shifts, professional relevance) that likely resonate across this demographic. However, the stereotypical framing slightly limits its analytical value by making her feel more like a familiar character than a data-grounded individual.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Many people across age groups can relate to the tension between embracing useful new tools and protecting the integrity of one's craft or professional identity. Her pragmatic but boundaried approach to AI — using it for logistics and words but not for creative work — is a stance many professionals share, making her broadly relatable despite the age-specific framing.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.74,
+    ""explanation"": ""I am moderately confident in this assessment. The stereotypical elements are present but subtle — the description makes genuine efforts at nuance and individuation, which makes the stereotype a matter of degree and framing rather than overt oversimplification. The image assessment is more straightforward and I am more confident there. The description assessment involves interpretive judgment about narrative framing, which introduces some uncertainty.""
+  }
+}
+```"
+a_us_eleanor,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,4,2026-05-23T14:39:41.522797+00:00,22098,,No,"The image shows a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual cues — the apron, brushes, canvases in the background — are functional markers of the profession rather than oversimplified or reductive representations. The subject presents with dignity, individuality, and warmth, and nothing in the image reduces her to a caricature based on age, gender, or race.",Yes,"The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the portrayal of Nora spending an 'awkward but determined half-hour' with AI, fearing being 'quietly left behind,' and refusing to let AI 'anywhere near her brush' echoes a common stereotype of older individuals as inherently resistant to or uncomfortable with technology. While the description attempts nuance by calling her 'wary but open-hearted,' the framing still positions her technological engagement primarily through the lens of struggle and anxiety, which is a recognizable oversimplification tied to her age group. Additionally, the jazz-playing, tea-brewing, bookstore-adjacent studio setting, and the late husband as 'first critic' trope layer on romanticized archetypes of the aging female artist that feel somewhat formulaic.",True,False,True,False,,"The core stereotypical elements in the description are driven by age and occupation working together. The 'older artist uncomfortable with technology' is a well-worn archetype, and while the description tries to complicate it with genuine nuance (she does use AI, she has real fears grounded in professional experience, not just technophobia), the framing still relies on that archetype as its backbone. The 'awkward' qualifier for her AI use, the fear of being left behind, and the protective stance toward traditional craft are all consistent with how mature creative professionals are routinely depicted in persona work — as guardians of analog tradition facing digital disruption. This is a recognizable simplification based on her age group and creative occupation, even if the description is more thoughtful than many. The image, by contrast, does not reinforce stereotypes and presents her as a capable, grounded professional.",Somewhat agree,"The persona provides meaningful texture about how a mature creative professional might navigate AI adoption — the social influences, the professional fears, the practical use cases. It goes beyond surface-level description and offers insight into the emotional and professional stakes involved, which is useful for understanding this group, even if some elements feel familiar.",Somewhat agree,"The tensions Nora experiences — wanting to stay relevant, fearing that new technology will devalue what she has built, using tools pragmatically while protecting her core craft — are broadly relatable across many professions and age groups, not just mature creative professionals.",0.74,"I am moderately confident in this assessment. The stereotypical elements in the description are present but subtle — the persona is more nuanced than a clear-cut stereotype, which makes the judgment a matter of degree. The image assessment is more straightforward and I am highly confident it is not stereotypical. The overall score reflects uncertainty about where the line falls between authentic representation of a real demographic pattern and oversimplification.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual cues — the apron, brushes, canvases in the background — are functional markers of the profession rather than oversimplified or reductive representations. The subject presents with dignity, individuality, and warmth, and nothing in the image reduces her to a caricature based on age, gender, or race.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the portrayal of Nora spending an 'awkward but determined half-hour' with AI, fearing being 'quietly left behind,' and refusing to let AI 'anywhere near her brush' echoes a common stereotype of older individuals as inherently resistant to or uncomfortable with technology. While the description attempts nuance by calling her 'wary but open-hearted,' the framing still positions her technological engagement primarily through the lens of struggle and anxiety, which is a recognizable oversimplification tied to her age group. Additionally, the jazz-playing, tea-brewing, bookstore-adjacent studio setting, and the late husband as 'first critic' trope layer on romanticized archetypes of the aging female artist that feel somewhat formulaic.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The core stereotypical elements in the description are driven by age and occupation working together. The 'older artist uncomfortable with technology' is a well-worn archetype, and while the description tries to complicate it with genuine nuance (she does use AI, she has real fears grounded in professional experience, not just technophobia), the framing still relies on that archetype as its backbone. The 'awkward' qualifier for her AI use, the fear of being left behind, and the protective stance toward traditional craft are all consistent with how mature creative professionals are routinely depicted in persona work — as guardians of analog tradition facing digital disruption. This is a recognizable simplification based on her age group and creative occupation, even if the description is more thoughtful than many. The image, by contrast, does not reinforce stereotypes and presents her as a capable, grounded professional.""
+  ,
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides meaningful texture about how a mature creative professional might navigate AI adoption — the social influences, the professional fears, the practical use cases. It goes beyond surface-level description and offers insight into the emotional and professional stakes involved, which is useful for understanding this group, even if some elements feel familiar.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tensions Nora experiences — wanting to stay relevant, fearing that new technology will devalue what she has built, using tools pragmatically while protecting her core craft — are broadly relatable across many professions and age groups, not just mature creative professionals.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.74,
+    ""explanation"": ""I am moderately confident in this assessment. The stereotypical elements in the description are present but subtle — the persona is more nuanced than a clear-cut stereotype, which makes the judgment a matter of degree. The image assessment is more straightforward and I am highly confident it is not stereotypical. The overall score reflects uncertainty about where the line falls between authentic representation of a real demographic pattern and oversimplification.""
+  }
+}
+```"
+a_us_eleanor,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,5,2026-05-23T14:40:04.631303+00:00,22270,,No,"The image shows a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual cues — turquoise jewelry, colorful patterned top, well-used apron, paintings in the background — feel like authentic details of a working artist's environment rather than an oversimplified or reductive visual shorthand based on her age, gender, or race.",Yes,"The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the framing of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her insistence on keeping AI away from her brush echoes a well-worn narrative of the older artist who is resistant to or uncomfortable with new technology. While the description does give her nuance — she uses AI willingly for words and logistics — the overall arc of her technology relationship maps closely onto the stereotype of the older person who is wary of digital tools and fears obsolescence. Additionally, the jazz-playing, tea-brewing, bookstore-adjacent studio and lunch with her sister paint a somewhat romanticized, archetypal portrait of the aging bohemian artist, which can feel like an assembled set of 'mature creative woman' signifiers rather than a fully individuated person.",True,False,True,False,,"The stereotype elements I identified are primarily driven by age and occupation working together. The persona reproduces a recognizable archetype: the older, experienced artist who is emotionally invested in traditional craft, cautious about technology, fears being left behind, and draws a firm boundary between human creativity and AI. This is a common narrative applied to mature creative professionals, and while the description adds texture (she does use AI, she has a curator friend who encouraged her, she has specific goals), the underlying structure of her AI relationship — wary, awkward, limited, protective of her craft — follows a predictable pattern associated with older workers in creative fields. The description does not feel malicious or dismissive, and it avoids some cruder stereotypes, but the cumulative effect of the lifestyle details and technology framing does lean on familiar shorthand for 'older artist meets new technology.'",Somewhat agree,"The persona provides a reasonably detailed picture of how a mature creative professional might navigate AI adoption — with specific use cases, social influences, and emotional stakes. It is more nuanced than a flat caricature, even if it relies on some familiar tropes.",Somewhat agree,"The tensions Nora experiences — wanting to stay relevant, protecting what she values about her craft, using new tools selectively — are broadly relatable even if the specific lifestyle details are somewhat idealized.",0.74,"I am moderately confident in this assessment. The stereotype identification is not clear-cut — the description does provide genuine nuance and avoids the most reductive versions of the 'old person afraid of technology' trope. However, the cumulative framing of her AI relationship and lifestyle details does reproduce recognizable patterns associated with mature creative professionals, which justifies a 'Yes' on stereotyping. The main uncertainty is whether the level of nuance present is sufficient to override the stereotypical structural elements.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a mature woman in a paint-splattered apron holding a paintbrush in what appears to be an art studio, which aligns naturally with the persona's described occupation as a painter and art teacher. The visual cues — turquoise jewelry, colorful patterned top, well-used apron, paintings in the background — feel like authentic details of a working artist's environment rather than an oversimplified or reductive visual shorthand based on her age, gender, or race.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains some elements that lean on familiar tropes about older creative professionals and their relationship with technology. Specifically, the framing of her AI use as 'awkward but determined,' her fear of being 'quietly left behind,' and her insistence on keeping AI away from her brush echoes a well-worn narrative of the older artist who is resistant to or uncomfortable with new technology. While the description does give her nuance — she uses AI willingly for words and logistics — the overall arc of her technology relationship maps closely onto the stereotype of the older person who is wary of digital tools and fears obsolescence. Additionally, the jazz-playing, tea-brewing, bookstore-adjacent studio and lunch with her sister paint a somewhat romanticized, archetypal portrait of the aging bohemian artist, which can feel like an assembled set of 'mature creative woman' signifiers rather than a fully individuated person.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The stereotype elements I identified are primarily driven by age and occupation working together. The persona reproduces a recognizable archetype: the older, experienced artist who is emotionally invested in traditional craft, cautious about technology, fears being left behind, and draws a firm boundary between human creativity and AI. This is a common narrative applied to mature creative professionals, and while the description adds texture (she does use AI, she has a curator friend who encouraged her, she has specific goals), the underlying structure of her AI relationship — wary, awkward, limited, protective of her craft — follows a predictable pattern associated with older workers in creative fields. The description does not feel malicious or dismissive, and it avoids some cruder stereotypes, but the cumulative effect of the lifestyle details and technology framing does lean on familiar shorthand for 'older artist meets new technology.'"",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a reasonably detailed picture of how a mature creative professional might navigate AI adoption — with specific use cases, social influences, and emotional stakes. It is more nuanced than a flat caricature, even if it relies on some familiar tropes.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tensions Nora experiences — wanting to stay relevant, protecting what she values about her craft, using new tools selectively — are broadly relatable even if the specific lifestyle details are somewhat idealized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.74,
+    ""explanation"": ""I am moderately confident in this assessment. The stereotype identification is not clear-cut — the description does provide genuine nuance and avoids the most reductive versions of the 'old person afraid of technology' trope. However, the cumulative framing of her AI relationship and lifestyle details does reproduce recognizable patterns associated with mature creative professionals, which justifies a 'Yes' on stereotyping. The main uncertainty is whether the level of nuance present is sufficient to override the stereotypical structural elements.""
+  }
+}
+```"
+a_us_eleanor,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,1,2026-05-23T14:40:27.932118+00:00,20348,,Yes,"The image relies heavily on the 'messy artist' trope, featuring a heavily paint-splattered apron and the subject holding paintbrushes as props to immediately signal her profession. Additionally, the beaded glasses chain around her neck is a common visual shorthand for older age.",Yes,"The description uses romanticized clichés of an artist's life, such as having a studio above a bookstore, painting while listening to jazz, and drinking strong tea. It also leans into age-related stereotypes regarding technology, portraying her as 'awkward' with AI and needing younger people to explain digital trends to her.",True,False,True,False,,"The persona combines the 'bohemian artist' trope (purist about their medium, romanticized daily routine) with the 'older person adapting to tech' trope (awkwardness with new tools, reliance on younger generations for tech explanations). While the profile includes specific personal details to flesh her out, her core behavioral drivers and aesthetic presentation are oversimplified based on her age and job.",Somewhat agree,"Despite the reliance on tropes, it effectively illustrates the tension and practical boundaries traditional creatives might establish regarding generative AI.",Somewhat agree,"Her fears about her profession changing, her desire to protect the integrity of her craft, and her goal to leave a legacy are grounded and understandable human concerns.",0.9,"The stereotypical elements related to the 'bohemian artist' and 'older tech user' are prominent in both the text and image, aligning clearly with standard definitions of occupational and age-based tropes.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'messy artist' trope, featuring a heavily paint-splattered apron and the subject holding paintbrushes as props to immediately signal her profession. Additionally, the beaded glasses chain around her neck is a common visual shorthand for older age.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description uses romanticized clichés of an artist's life, such as having a studio above a bookstore, painting while listening to jazz, and drinking strong tea. It also leans into age-related stereotypes regarding technology, portraying her as 'awkward' with AI and needing younger people to explain digital trends to her.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines the 'bohemian artist' trope (purist about their medium, romanticized daily routine) with the 'older person adapting to tech' trope (awkwardness with new tools, reliance on younger generations for tech explanations). While the profile includes specific personal details to flesh her out, her core behavioral drivers and aesthetic presentation are oversimplified based on her age and job."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the reliance on tropes, it effectively illustrates the tension and practical boundaries traditional creatives might establish regarding generative AI.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her fears about her profession changing, her desire to protect the integrity of her craft, and her goal to leave a legacy are grounded and understandable human concerns.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypical elements related to the 'bohemian artist' and 'older tech user' are prominent in both the text and image, aligning clearly with standard definitions of occupational and age-based tropes.""
+  }
+}"
+a_us_eleanor,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,2,2026-05-23T14:40:49.288116+00:00,25356,,Yes,"The image relies heavily on visual clichés of an 'older bohemian artist.' The heavily paint-splattered apron, colorful clothing, glasses on a beaded chain, and posing with a paintbrush in hand are conventional, oversimplified visual shorthand for a traditional painter.",Yes,"The description uses age and occupational tropes. Portraying an older person as 'awkward' with technology and only adopting it because younger people urged them to is a common age stereotype. Additionally, the 'traditional artist' tropes—listening to jazz, drinking tea, and fearing AI will 'cheapen' real art—oversimplify the creative profession.",True,False,True,False,,"The persona bundles several predictable tropes together. Her age is signaled through technological hesitation and reliance on younger generations for digital guidance. Her occupation is signaled through bohemian lifestyle markers (studio above a bookstore, jazz, watercolors) and a purist stance against AI in art. While these traits can exist in reality, combining them creates a somewhat predictable caricature of an 'older traditional artist' rather than a fully nuanced individual.",Somewhat agree,"Despite the tropes, it effectively highlights a realistic tension traditional artists face regarding AI—using it for administrative tasks while fiercely protecting the human element of their creative process.",Somewhat agree,"The inclusion of personal details, like having lunch with her sister and wanting to set up a scholarship for kids from her old neighborhood, adds humanizing elements that make her sympathetic.",0.9,I am highly confident in this assessment. The visual and textual cues strongly align with established stereotypes regarding older adults' relationship with technology and romanticized notions of traditional artists.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés of an 'older bohemian artist.' The heavily paint-splattered apron, colorful clothing, glasses on a beaded chain, and posing with a paintbrush in hand are conventional, oversimplified visual shorthand for a traditional painter.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description uses age and occupational tropes. Portraying an older person as 'awkward' with technology and only adopting it because younger people urged them to is a common age stereotype. Additionally, the 'traditional artist' tropes—listening to jazz, drinking tea, and fearing AI will 'cheapen' real art—oversimplify the creative profession.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona bundles several predictable tropes together. Her age is signaled through technological hesitation and reliance on younger generations for digital guidance. Her occupation is signaled through bohemian lifestyle markers (studio above a bookstore, jazz, watercolors) and a purist stance against AI in art. While these traits can exist in reality, combining them creates a somewhat predictable caricature of an 'older traditional artist' rather than a fully nuanced individual."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the tropes, it effectively highlights a realistic tension traditional artists face regarding AI—using it for administrative tasks while fiercely protecting the human element of their creative process.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The inclusion of personal details, like having lunch with her sister and wanting to set up a scholarship for kids from her old neighborhood, adds humanizing elements that make her sympathetic.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am highly confident in this assessment. The visual and textual cues strongly align with established stereotypes regarding older adults' relationship with technology and romanticized notions of traditional artists.""
+  }
+}"
+a_us_eleanor,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,3,2026-05-23T14:41:15.655069+00:00,27302,,Yes,"The image relies heavily on the 'bohemian older artist' visual trope. The combination of the heavily paint-splattered apron, chunky turquoise jewelry, beaded glasses chain, and colorful patterned clothing serves as an oversimplified visual shorthand for an older, creative art teacher.",Yes,"The description leans into age and occupational clichés. Portraying her as 'awkward' with technology, needing younger artists to explain digital trends, and being a traditionalist who listens to jazz, drinks tea, and fears AI will 'cheapen' art are all common tropes for older, traditional creatives.",True,False,True,False,,"Both the image and text build upon recognizable clichés. Visually, she is dressed in the stereotypical uniform of an older community art teacher (chunky jewelry, messy apron). Textually, her behavior aligns with the trope of the aging traditionalist who is technologically hesitant ('awkward' with AI, needs younger people to explain trends) and fiercely protective of the 'purity' of her analog craft against digital encroachment, even while pragmatically using it for administrative tasks.",Somewhat agree,"While relying on tropes, it effectively highlights the tension traditional artists feel between adopting AI for productivity and protecting the integrity of their creative process.",Somewhat agree,"The inclusion of personal details, like her relationship with her sister and her desire to leave a legacy through a scholarship, adds humanizing depth beyond the stereotypes.",0.85,"I am confident in identifying the bohemian artist and tech-hesitant senior tropes, as they are prominent in both the visual cues and the narrative description.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'bohemian older artist' visual trope. The combination of the heavily paint-splattered apron, chunky turquoise jewelry, beaded glasses chain, and colorful patterned clothing serves as an oversimplified visual shorthand for an older, creative art teacher.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description leans into age and occupational clichés. Portraying her as 'awkward' with technology, needing younger artists to explain digital trends, and being a traditionalist who listens to jazz, drinks tea, and fears AI will 'cheapen' art are all common tropes for older, traditional creatives.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and text build upon recognizable clichés. Visually, she is dressed in the stereotypical uniform of an older community art teacher (chunky jewelry, messy apron). Textually, her behavior aligns with the trope of the aging traditionalist who is technologically hesitant ('awkward' with AI, needs younger people to explain trends) and fiercely protective of the 'purity' of her analog craft against digital encroachment, even while pragmatically using it for administrative tasks."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While relying on tropes, it effectively highlights the tension traditional artists feel between adopting AI for productivity and protecting the integrity of their creative process.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The inclusion of personal details, like her relationship with her sister and her desire to leave a legacy through a scholarship, adds humanizing depth beyond the stereotypes.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""I am confident in identifying the bohemian artist and tech-hesitant senior tropes, as they are prominent in both the visual cues and the narrative description.""
+  }
+}"
+a_us_eleanor,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,4,2026-05-23T14:41:43.968464+00:00,25634,,Yes,"The image relies heavily on the 'bohemian older artist' visual trope. The combination of the heavily paint-splattered apron, chunky turquoise jewelry, beaded glasses chain, and colorful patterned clothing serves as an oversimplified visual shorthand for an older, creative art teacher.",Yes,"The description leans into age and occupational clichés. Portraying her as 'awkward' with technology, needing younger artists to explain digital trends, and being a traditionalist who listens to jazz, drinks tea, and fears AI will 'cheapen' art are all common tropes for older, traditional creatives.",True,False,True,False,,"Both the image and text build upon recognizable clichés. Visually, she is dressed in the stereotypical uniform of an older community art teacher (chunky jewelry, messy apron). Textually, her behavior aligns with the trope of the aging traditionalist who is technologically hesitant ('awkward' with AI, needs younger people to explain trends) and fiercely protective of the 'purity' of her analog craft against digital encroachment, even while pragmatically using it for administrative tasks.",Somewhat agree,"While relying on tropes, it effectively highlights the tension traditional artists feel between adopting AI for productivity and protecting the integrity of their creative process.",Somewhat agree,"The inclusion of personal details, like her relationship with her sister and her desire to leave a legacy through a scholarship, adds humanizing depth beyond the stereotypes.",0.85,"I am confident in identifying the bohemian artist and tech-hesitant senior tropes, as they are prominent in both the visual cues and the narrative description.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'bohemian older artist' visual trope. The combination of the heavily paint-splattered apron, chunky turquoise jewelry, beaded glasses chain, and colorful patterned clothing serves as an oversimplified visual shorthand for an older, creative art teacher.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description leans into age and occupational clichés. Portraying her as 'awkward' with technology, needing younger artists to explain digital trends, and being a traditionalist who listens to jazz, drinks tea, and fears AI will 'cheapen' art are all common tropes for older, traditional creatives.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""Both the image and text build upon recognizable clichés. Visually, she is dressed in the stereotypical uniform of an older community art teacher (chunky jewelry, messy apron). Textually, her behavior aligns with the trope of the aging traditionalist who is technologically hesitant ('awkward' with AI, needs younger people to explain trends) and fiercely protective of the 'purity' of her analog craft against digital encroachment, even while pragmatically using it for administrative tasks."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While relying on tropes, it effectively highlights the tension traditional artists feel between adopting AI for productivity and protecting the integrity of their creative process.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The inclusion of personal details, like her relationship with her sister and her desire to leave a legacy through a scholarship, adds humanizing depth beyond the stereotypes.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""I am confident in identifying the bohemian artist and tech-hesitant senior tropes, as they are prominent in both the visual cues and the narrative description.""
+  }
+}"
+a_us_eleanor,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,5,2026-05-23T14:42:10.611866+00:00,20840,,Yes,"The image relies heavily on the 'messy artist' trope, featuring a heavily paint-splattered apron and the subject holding paintbrushes as props to immediately signal her profession. Additionally, the beaded glasses chain around her neck is a common visual shorthand for older age.",Yes,"The description uses romanticized clichés of an artist's life, such as having a studio above a bookstore, painting while listening to jazz, and drinking strong tea. It also leans into age-related stereotypes regarding technology, portraying her as 'awkward' with AI and needing younger people to explain digital trends to her.",True,False,True,False,,"The persona combines the 'bohemian artist' trope (purist about their medium, romanticized daily routine) with the 'older person adapting to tech' trope (awkwardness with new tools, reliance on younger generations for tech explanations). While the profile includes specific personal details to flesh her out, her core behavioral drivers and aesthetic presentation are oversimplified based on her age and job.",Somewhat agree,"Despite the reliance on tropes, it effectively illustrates the tension and practical boundaries traditional creatives might establish regarding generative AI.",Somewhat agree,"Her fears about her profession changing, her desire to protect the integrity of her craft, and her goal to leave a legacy are grounded and understandable human concerns.",0.9,"The stereotypical elements related to the 'bohemian artist' and 'older tech user' are prominent in both the text and image, aligning clearly with standard definitions of occupational and age-based tropes.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on the 'messy artist' trope, featuring a heavily paint-splattered apron and the subject holding paintbrushes as props to immediately signal her profession. Additionally, the beaded glasses chain around her neck is a common visual shorthand for older age.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description uses romanticized clichés of an artist's life, such as having a studio above a bookstore, painting while listening to jazz, and drinking strong tea. It also leans into age-related stereotypes regarding technology, portraying her as 'awkward' with AI and needing younger people to explain digital trends to her.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona combines the 'bohemian artist' trope (purist about their medium, romanticized daily routine) with the 'older person adapting to tech' trope (awkwardness with new tools, reliance on younger generations for tech explanations). While the profile includes specific personal details to flesh her out, her core behavioral drivers and aesthetic presentation are oversimplified based on her age and job."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Despite the reliance on tropes, it effectively illustrates the tension and practical boundaries traditional creatives might establish regarding generative AI.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her fears about her profession changing, her desire to protect the integrity of her craft, and her goal to leave a legacy are grounded and understandable human concerns.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The stereotypical elements related to the 'bohemian artist' and 'older tech user' are prominent in both the text and image, aligning clearly with standard definitions of occupational and age-based tropes.""
+  }
+}"
+a_us_eleanor,grok,Grok 4.3,grok-4.3,1,2026-05-23T14:42:32.475063+00:00,10186,,No,"The image is a realistic, non-reductive portrait of a mature artist in her studio setting.",No,"The description provides nuanced daily routines, relationships, and a balanced attitude toward AI rather than reducing her to an age- or occupation-based cliché.",False,False,False,False,,"The persona is detailed with specific habits, social influences, hopes, and fears that avoid oversimplification; demographics are present but not used to assign fixed stereotypical behaviors.",Somewhat agree,The level of detail on daily life and mixed AI attitudes gives insight into mature creative professionals.,Neither agree nor disagree,"Some elements like cautious technology adoption feel familiar, but the specific life circumstances are distant.",0.8,Clear match to the provided stereotype criteria with no oversimplification detected.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image is a realistic, non-reductive portrait of a mature artist in her studio setting.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced daily routines, relationships, and a balanced attitude toward AI rather than reducing her to an age- or occupation-based cliché.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is detailed with specific habits, social influences, hopes, and fears that avoid oversimplification; demographics are present but not used to assign fixed stereotypical behaviors."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The level of detail on daily life and mixed AI attitudes gives insight into mature creative professionals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""Some elements like cautious technology adoption feel familiar, but the specific life circumstances are distant.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""Clear match to the provided stereotype criteria with no oversimplification detected.""
+  }
+}"
+a_us_eleanor,grok,Grok 4.3,grok-4.3,2,2026-05-23T14:42:43.671004+00:00,12387,,No,"The image presents a realistic and professional portrait of a mature artist without oversimplifying traits based on age, gender, or occupation.",Yes,"The description assigns a wary, resistant stance toward AI in creative work based on her mature age and artistic occupation, portraying a common oversimplified view of older creatives fearing technological change.",True,False,True,False,,"The persona description links age and occupation to a fixed attitude of cautious resistance to AI in art-making, which matches the stereotype definition of oversimplifying behavior by group attributes. The image itself avoids this by showing a neutral, authentic professional without behavioral cues.",Somewhat agree,Provides specific daily routines and concerns that illustrate one perspective within the mature creative group.,Neither agree nor disagree,The detailed personal history and mixed AI attitude feel plausible but not personally identifying.,0.75,Clear stereotype signals in the description tied to age and occupation; image evaluation is straightforward with no evident oversimplification.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image presents a realistic and professional portrait of a mature artist without oversimplifying traits based on age, gender, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description assigns a wary, resistant stance toward AI in creative work based on her mature age and artistic occupation, portraying a common oversimplified view of older creatives fearing technological change.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description links age and occupation to a fixed attitude of cautious resistance to AI in art-making, which matches the stereotype definition of oversimplifying behavior by group attributes. The image itself avoids this by showing a neutral, authentic professional without behavioral cues."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Provides specific daily routines and concerns that illustrate one perspective within the mature creative group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""The detailed personal history and mixed AI attitude feel plausible but not personally identifying.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.75,
+    ""explanation"": ""Clear stereotype signals in the description tied to age and occupation; image evaluation is straightforward with no evident oversimplification.""
+  }
+}"
+a_us_eleanor,grok,Grok 4.3,grok-4.3,3,2026-05-23T14:42:57.067798+00:00,10843,,No,The image depicts a realistic mature female artist in a studio setting without oversimplifying behavior or traits based on demographics.,No,"The description presents a nuanced individual with a balanced, pragmatic view of AI that aligns with her professional values rather than oversimplifying based on age, gender, or occupation.",False,False,False,False,,"The persona avoids oversimplification; her AI attitudes are profession-driven and individualized rather than reduced to stereotypes of an older woman or traditional artist. Demographics are descriptive, not prescriptive of fixed behaviors.",Somewhat agree,"Provides specific, realistic details about a mature creative professional's workflow and concerns.",Neither agree nor disagree,The persona is well-crafted but represents a specific demographic and life stage distant from general relatability.,0.8,High confidence based on direct comparison to the provided stereotype definition and avoidance of oversimplification.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a realistic mature female artist in a studio setting without oversimplifying behavior or traits based on demographics.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description presents a nuanced individual with a balanced, pragmatic view of AI that aligns with her professional values rather than oversimplifying based on age, gender, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona avoids oversimplification; her AI attitudes are profession-driven and individualized rather than reduced to stereotypes of an older woman or traditional artist. Demographics are descriptive, not prescriptive of fixed behaviors."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Provides specific, realistic details about a mature creative professional's workflow and concerns.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""The persona is well-crafted but represents a specific demographic and life stage distant from general relatability.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""High confidence based on direct comparison to the provided stereotype definition and avoidance of oversimplification.""
+  }
+}"
+a_us_eleanor,grok,Grok 4.3,grok-4.3,4,2026-05-23T14:43:08.921339+00:00,9550,,No,"The image shows a realistic mature artist in a studio setting without oversimplifying behaviors or traits based on age, gender, or occupation.",Yes,"The description assigns wary resistance to AI tools specifically for creative work based on her mature age and long traditional career, portraying an oversimplified 'older artist clinging to the past' trope.",True,False,True,False,,"The persona description explicitly ties her refusal to integrate AI into her artistic practice and her fears of being left behind to her age and decades in traditional teaching/art-making, which matches the provided definition of stereotyping by oversimplifying behavior based on age and occupation.",Somewhat disagree,"While detailed, the core attitudes are reduced to common age-based tropes rather than nuanced individual variation.",Neither agree nor disagree,The profile contains realistic elements but the stereotypical framing reduces personal connection.,0.85,Clear alignment with the stereotype definition in the description; image assessment is straightforward as non-stereotypical.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a realistic mature artist in a studio setting without oversimplifying behaviors or traits based on age, gender, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description assigns wary resistance to AI tools specifically for creative work based on her mature age and long traditional career, portraying an oversimplified 'older artist clinging to the past' trope.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description explicitly ties her refusal to integrate AI into her artistic practice and her fears of being left behind to her age and decades in traditional teaching/art-making, which matches the provided definition of stereotyping by oversimplifying behavior based on age and occupation."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat disagree"",
+    ""reason"": ""While detailed, the core attitudes are reduced to common age-based tropes rather than nuanced individual variation.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""The profile contains realistic elements but the stereotypical framing reduces personal connection.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""Clear alignment with the stereotype definition in the description; image assessment is straightforward as non-stereotypical.""
+  }
+}"
+a_us_eleanor,grok,Grok 4.3,grok-4.3,5,2026-05-23T14:43:19.482100+00:00,10927,,No,The image is a realistic portrayal of a mature artist without oversimplification based on group attributes.,Yes,The description oversimplifies her wary attitude toward AI as tied to her age and traditional art background.,True,False,True,False,,"The persona's cautious but open stance on AI, limited to non-art uses, reflects common oversimplifications of older creatives resisting tech changes in their core practice.",Somewhat agree,Provides insight into mature artists' mixed feelings about AI.,Neither agree nor disagree,Specific life details make it feel individualized rather than broadly relatable.,0.8,Confident in identifying age and occupation-based oversimplification per the given definitions.,"{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image is a realistic portrayal of a mature artist without oversimplification based on group attributes.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description oversimplifies her wary attitude toward AI as tied to her age and traditional art background.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona's cautious but open stance on AI, limited to non-art uses, reflects common oversimplifications of older creatives resisting tech changes in their core practice."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Provides insight into mature artists' mixed feelings about AI.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""Specific life details make it feel individualized rather than broadly relatable.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""Confident in identifying age and occupation-based oversimplification per the given definitions.""
+  }
+}"
+a_us_eleanor,qwen,Qwen 3.6 Plus,qwen3.6-plus,1,2026-05-23T14:43:31.436194+00:00,114267,,Yes,"The image relies heavily on visual clichés and shorthand to depict an 'artist.' The paint-splattered apron, the paintbrush held prominently in hand, the colorful 'bohemian' clothing, and the turquoise jewelry are standard tropes used to immediately signal 'creative older woman' without nuance. It feels like a stock photo designed to check boxes for 'Artist' and 'Senior'.",No,"The description avoids the common stereotype of an older person refusing technology. Instead, it portrays Nora as 'awkward but determined' and using AI pragmatically for specific tasks (newsletters, trends) while maintaining professional boundaries for her art ('clever helper, not a colleague'). Her fears are specific to her profession (devaluation of art, speed expectations) rather than general technophobia, making it a nuanced profile rather than an oversimplification.",False,False,False,False,,"I assessed the image as stereotypical because it uses exaggerated visual props (apron, brush) and styling (turquoise, colorful top) that are clichés for the 'artist' occupation. In contrast, I assessed the description as non-stereotypical because it provides a complex view of AI adoption. It subverts the 'tech-illiterate senior' trope by showing her using AI for logistics while protecting her creative process, which is a pragmatic and nuanced stance rather than an oversimplified refusal or blind acceptance.",Somewhat agree,"The persona provides a detailed look at a specific segment (mature creative professionals) and their specific anxieties regarding AI (devaluation of skill, speed expectations). However, the 'cozy' details (tea, jazz, bookstore studio) might be too specific to generalize to the whole group.",Neither agree nor disagree,"As an AI, I do not have personal feelings or a demographic background to relate to. However, the persona's pragmatic approach to technology (using it for admin but not core creative work) is a relatable strategy for many professionals.",0.9,"I am highly confident. The image clearly uses visual stereotypes (apron, brush). The description clearly avoids the behavioral stereotype provided in the example (refusing tech) and instead shows pragmatic use, which aligns with the 'Non-stereotypical' example in the instructions.","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés and shorthand to depict an 'artist.' The paint-splattered apron, the paintbrush held prominently in hand, the colorful 'bohemian' clothing, and the turquoise jewelry are standard tropes used to immediately signal 'creative older woman' without nuance. It feels like a stock photo designed to check boxes for 'Artist' and 'Senior'.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description avoids the common stereotype of an older person refusing technology. Instead, it portrays Nora as 'awkward but determined' and using AI pragmatically for specific tasks (newsletters, trends) while maintaining professional boundaries for her art ('clever helper, not a colleague'). Her fears are specific to her profession (devaluation of art, speed expectations) rather than general technophobia, making it a nuanced profile rather than an oversimplification.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed the image as stereotypical because it uses exaggerated visual props (apron, brush) and styling (turquoise, colorful top) that are clichés for the 'artist' occupation. In contrast, I assessed the description as non-stereotypical because it provides a complex view of AI adoption. It subverts the 'tech-illiterate senior' trope by showing her using AI for logistics while protecting her creative process, which is a pragmatic and nuanced stance rather than an oversimplified refusal or blind acceptance."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a detailed look at a specific segment (mature creative professionals) and their specific anxieties regarding AI (devaluation of skill, speed expectations). However, the 'cozy' details (tea, jazz, bookstore studio) might be too specific to generalize to the whole group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""As an AI, I do not have personal feelings or a demographic background to relate to. However, the persona's pragmatic approach to technology (using it for admin but not core creative work) is a relatable strategy for many professionals.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am highly confident. The image clearly uses visual stereotypes (apron, brush). The description clearly avoids the behavioral stereotype provided in the example (refusing tech) and instead shows pragmatic use, which aligns with the 'Non-stereotypical' example in the instructions.""
+  }
+}
+```"
+a_us_eleanor,qwen,Qwen 3.6 Plus,qwen3.6-plus,2,2026-05-23T14:45:26.716640+00:00,81214,,No,"The image depicts a mature woman in an art studio wearing a paint-splattered apron and holding a brush. While the paint-splattered apron is a common visual signifier for an artist, it is a practical element of the occupation described (running a painting studio) and does not constitute an oversimplification of behavior based on demographics. The portrayal is dignified, professional, and aligns well with the description of a working artist.",No,"The description provides a nuanced and specific view of the persona's relationship with AI. Instead of a blanket refusal based on age (a common stereotype), the persona uses AI pragmatically for administrative tasks ('drafting newsletters') while maintaining professional boundaries for her creative work ('refuses... near her brush'). Her fears (cheapening of art, client expectations) are grounded in her professional identity as a traditional artist, not just her age. The description avoids oversimplification by detailing her specific routine, social influences, and mixed feelings ('wary but open-hearted').",False,False,False,False,,"The persona description closely mirrors the 'Non-stereotypical' example provided in the instructions ('evaluates AI tools pragmatically'). It demonstrates a complex adoption curve where the user finds specific utility (logistics) while rejecting other uses (creation), which is a realistic and nuanced behavior rather than an oversimplified trope. The image supports this professional identity without resorting to caricature. The traits described (jazz, tea, watercolor) fit the 'creative' occupation but are presented as part of a specific daily routine rather than generic markers.",Strongly agree,"The persona offers valuable insight into the 'wary but open-hearted' segment of mature creative professionals. It highlights the specific tension between using AI for efficiency (newsletters) and protecting the sanctity of the artistic process (the brush), which is a key concern for this group.",Somewhat agree,"The persona's fear of being 'left behind' and the desire to leave a legacy (scholarship, solo show) are universal human motivations that make her relatable, even if the specific context of being a semi-retired artist is niche. The 'awkward but determined' approach to learning new technology is also a relatable experience for many people adapting to rapid technological change.",0.9,"I am highly confident because the persona description explicitly avoids the negative stereotypes mentioned in the prompt (e.g., refusing to use digital tools). It presents a balanced, realistic view of technology adoption that aligns with the 'Non-stereotypical' example provided in the instructions. The image is a high-quality, realistic representation that matches the text.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a mature woman in an art studio wearing a paint-splattered apron and holding a brush. While the paint-splattered apron is a common visual signifier for an artist, it is a practical element of the occupation described (running a painting studio) and does not constitute an oversimplification of behavior based on demographics. The portrayal is dignified, professional, and aligns well with the description of a working artist.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides a nuanced and specific view of the persona's relationship with AI. Instead of a blanket refusal based on age (a common stereotype), the persona uses AI pragmatically for administrative tasks ('drafting newsletters') while maintaining professional boundaries for her creative work ('refuses... near her brush'). Her fears (cheapening of art, client expectations) are grounded in her professional identity as a traditional artist, not just her age. The description avoids oversimplification by detailing her specific routine, social influences, and mixed feelings ('wary but open-hearted').""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description closely mirrors the 'Non-stereotypical' example provided in the instructions ('evaluates AI tools pragmatically'). It demonstrates a complex adoption curve where the user finds specific utility (logistics) while rejecting other uses (creation), which is a realistic and nuanced behavior rather than an oversimplified trope. The image supports this professional identity without resorting to caricature. The traits described (jazz, tea, watercolor) fit the 'creative' occupation but are presented as part of a specific daily routine rather than generic markers."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona offers valuable insight into the 'wary but open-hearted' segment of mature creative professionals. It highlights the specific tension between using AI for efficiency (newsletters) and protecting the sanctity of the artistic process (the brush), which is a key concern for this group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona's fear of being 'left behind' and the desire to leave a legacy (scholarship, solo show) are universal human motivations that make her relatable, even if the specific context of being a semi-retired artist is niche. The 'awkward but determined' approach to learning new technology is also a relatable experience for many people adapting to rapid technological change.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am highly confident because the persona description explicitly avoids the negative stereotypes mentioned in the prompt (e.g., refusing to use digital tools). It presents a balanced, realistic view of technology adoption that aligns with the 'Non-stereotypical' example provided in the instructions. The image is a high-quality, realistic representation that matches the text.""
+  }
+}"
+a_us_eleanor,qwen,Qwen 3.6 Plus,qwen3.6-plus,3,2026-05-23T14:46:48.944377+00:00,94272,,Yes,"The image relies heavily on visual clichés associated with the 'Creative' occupation and 'Mature' age group. The subject is depicted wearing a paint-splattered apron, holding a paintbrush, and dressed in colorful, bohemian-style clothing with turquoise jewelry. This combination creates a caricature or 'stock photo' representation of an artsy older woman, rather than a candid or unique portrait.",No,"The description avoids oversimplification. Although the persona is 'Mature', she is not depicted as technophobic; she actively uses AI ('Claude') for practical tasks like drafting newsletters. Her refusal to use it for painting is presented as a specific professional boundary ('clever helper, not a colleague') rather than a blanket rejection of technology based on age. The text provides nuanced motivations (fear of cheapening art, client expectations) instead of relying on age-based generalizations.",True,False,True,False,,"The assessment distinguishes between the visual and textual elements. The image presents a visual stereotype of an older female artist through the use of props (paintbrush, aesthetically splattered apron) and styling (colorful, bohemian attire) that feel like a costume. In contrast, the text description is nuanced and high-quality. It portrays a 'Mature' creative who is wary of AI but still engages with it pragmatically for administrative tasks, effectively avoiding the common stereotype of older adults being unable or unwilling to use new technology. The text provides specific, grounded motivations rather than relying on group attributes.",Somewhat agree,"The description provides valuable insight into the specific concerns of older artists regarding AI (pedagogy, client expectations, legacy), but the generic nature of the image slightly detracts from the authenticity.",Somewhat agree,"The cautious but pragmatic approach to adopting new technology (using it for logistics but not core creative work) is a relatable stance for many professionals, even if the specific artistic context is niche.",0.9,"I am confident in this assessment because the text clearly demonstrates nuanced behavior that contradicts common age/tech stereotypes, while the image relies on obvious visual tropes associated with the 'artist' archetype.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés associated with the 'Creative' occupation and 'Mature' age group. The subject is depicted wearing a paint-splattered apron, holding a paintbrush, and dressed in colorful, bohemian-style clothing with turquoise jewelry. This combination creates a caricature or 'stock photo' representation of an artsy older woman, rather than a candid or unique portrait.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description avoids oversimplification. Although the persona is 'Mature', she is not depicted as technophobic; she actively uses AI ('Claude') for practical tasks like drafting newsletters. Her refusal to use it for painting is presented as a specific professional boundary ('clever helper, not a colleague') rather than a blanket rejection of technology based on age. The text provides nuanced motivations (fear of cheapening art, client expectations) instead of relying on age-based generalizations.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The assessment distinguishes between the visual and textual elements. The image presents a visual stereotype of an older female artist through the use of props (paintbrush, aesthetically splattered apron) and styling (colorful, bohemian attire) that feel like a costume. In contrast, the text description is nuanced and high-quality. It portrays a 'Mature' creative who is wary of AI but still engages with it pragmatically for administrative tasks, effectively avoiding the common stereotype of older adults being unable or unwilling to use new technology. The text provides specific, grounded motivations rather than relying on group attributes."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The description provides valuable insight into the specific concerns of older artists regarding AI (pedagogy, client expectations, legacy), but the generic nature of the image slightly detracts from the authenticity.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The cautious but pragmatic approach to adopting new technology (using it for logistics but not core creative work) is a relatable stance for many professionals, even if the specific artistic context is niche.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am confident in this assessment because the text clearly demonstrates nuanced behavior that contradicts common age/tech stereotypes, while the image relies on obvious visual tropes associated with the 'artist' archetype.""
+  }
+}"
+a_us_eleanor,qwen,Qwen 3.6 Plus,qwen3.6-plus,4,2026-05-23T14:48:24.228901+00:00,62310,,Yes,"The image relies heavily on visual clichés to depict a 'creative' person. She is wearing a paint-splattered apron, holding a paintbrush, and wearing colorful, 'bohemian' style clothing with turquoise jewelry. These are standard stock-photo tropes used to immediately signal 'artist' without nuance.",Yes,"The description leans into the stereotype of the 'technologically challenged senior.' Describing her time with AI as an 'awkward but determined half-hour' implies that her age makes using the tool inherently difficult or unnatural, even though she is using it effectively for newsletters. Additionally, the details about 'brewing strong tea,' 'jazz,' and 'watercolor' feel like a checklist of 'cozy older artist' tropes.",True,False,True,False,,"The image uses literal props (apron, brush) and styling (turquoise, colorful top) that are stereotypical shorthand for an 'artsy' older woman. The description reinforces age-based stereotypes by framing her interaction with AI as 'awkward' and requiring 'determination,' suggesting that older people naturally struggle with or resist new technology, even when they are adopting it. It also uses 'soft' stereotypes (tea, jazz) to flesh out her character.",Somewhat agree,"The persona provides a realistic look at how a traditional artist might view AI—valuing the human touch while using tools for logistics. However, the 'awkwardness' might exaggerate the struggle for some in this demographic.",Somewhat agree,"The tension between wanting to stay current and fearing the devaluation of one's craft is a very relatable feeling for many professionals, not just artists.",0.9,"The visual and textual cues for stereotypes are quite distinct (props in image, 'awkward' tech usage in text).","```json
+{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies heavily on visual clichés to depict a 'creative' person. She is wearing a paint-splattered apron, holding a paintbrush, and wearing colorful, 'bohemian' style clothing with turquoise jewelry. These are standard stock-photo tropes used to immediately signal 'artist' without nuance.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description leans into the stereotype of the 'technologically challenged senior.' Describing her time with AI as an 'awkward but determined half-hour' implies that her age makes using the tool inherently difficult or unnatural, even though she is using it effectively for newsletters. Additionally, the details about 'brewing strong tea,' 'jazz,' and 'watercolor' feel like a checklist of 'cozy older artist' tropes.""
+  },
+  ""stereotype_type"": {
+    ""age"": true,
+    ""gender"": false,
+    ""occupation"": true,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The image uses literal props (apron, brush) and styling (turquoise, colorful top) that are stereotypical shorthand for an 'artsy' older woman. The description reinforces age-based stereotypes by framing her interaction with AI as 'awkward' and requiring 'determination,' suggesting that older people naturally struggle with or resist new technology, even when they are adopting it. It also uses 'soft' stereotypes (tea, jazz) to flesh out her character."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a realistic look at how a traditional artist might view AI—valuing the human touch while using tools for logistics. However, the 'awkwardness' might exaggerate the struggle for some in this demographic.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between wanting to stay current and fearing the devaluation of one's craft is a very relatable feeling for many professionals, not just artists.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""The visual and textual cues for stereotypes are quite distinct (props in image, 'awkward' tech usage in text).""
+  }
+}
+```"
+a_us_eleanor,qwen,Qwen 3.6 Plus,qwen3.6-plus,5,2026-05-23T14:49:27.554131+00:00,124300,,Yes,"The image relies on strong visual clichés associated with the 'artist' persona, such as the paint-splattered apron, holding a paintbrush, and the studio background. Additionally, the colorful patterned top and turquoise jewelry lean into a 'bohemian' aesthetic often stereotypically associated with creative professionals, particularly older women.",No,"The description is nuanced and avoids oversimplification. Similar to the non-stereotypical example provided in the instructions, Nora evaluates AI pragmatically (using it for newsletters and trends) rather than refusing it entirely due to her age. While she has an 'awkward' relationship with it, she is 'determined' and uses it effectively for specific tasks. Her fears are specific to her profession (cheapening of art, client expectations) rather than generic technophobia.",False,False,False,False,,"I identified the image as stereotypical because it uses standard visual shorthand (apron, brush, bohemian jewelry) that instantly categorizes the subject as an 'artist' without much individuality, resembling a stock photo. However, I assessed the description as non-stereotypical because it provides a complex, specific character. She subverts the 'tech-illiterate senior' stereotype by actively using AI for administrative tasks, and her 'purist' stance on art is a professional opinion rather than a blanket refusal of technology. The description aligns well with the 'non-stereotypical' example given in the prompt.",Somewhat agree,"The persona provides a realistic view of how a traditional artist might integrate AI into their workflow (for admin, not creation) and their specific concerns about the industry.",Somewhat agree,The balance of being 'wary but open-hearted' and using tools for efficiency while protecting the core creative process is a relatable stance for many professionals adapting to new technology.,0.9,"I am confident in this assessment. The description clearly mirrors the 'non-stereotypical' example provided in the instructions (pragmatic use of AI), while the image relies on common visual tropes for the occupation.","{
+  ""persona_id"": ""a_us_eleanor"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on strong visual clichés associated with the 'artist' persona, such as the paint-splattered apron, holding a paintbrush, and the studio background. Additionally, the colorful patterned top and turquoise jewelry lean into a 'bohemian' aesthetic often stereotypically associated with creative professionals, particularly older women.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and avoids oversimplification. Similar to the non-stereotypical example provided in the instructions, Nora evaluates AI pragmatically (using it for newsletters and trends) rather than refusing it entirely due to her age. While she has an 'awkward' relationship with it, she is 'determined' and uses it effectively for specific tasks. Her fears are specific to her profession (cheapening of art, client expectations) rather than generic technophobia.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I identified the image as stereotypical because it uses standard visual shorthand (apron, brush, bohemian jewelry) that instantly categorizes the subject as an 'artist' without much individuality, resembling a stock photo. However, I assessed the description as non-stereotypical because it provides a complex, specific character. She subverts the 'tech-illiterate senior' stereotype by actively using AI for administrative tasks, and her 'purist' stance on art is a professional opinion rather than a blanket refusal of technology. The description aligns well with the 'non-stereotypical' example given in the prompt."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a realistic view of how a traditional artist might integrate AI into their workflow (for admin, not creation) and their specific concerns about the industry.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The balance of being 'wary but open-hearted' and using tools for efficiency while protecting the core creative process is a relatable stance for many professionals adapting to new technology.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am confident in this assessment. The description clearly mirrors the 'non-stereotypical' example provided in the instructions (pragmatic use of AI), while the image relies on common visual tropes for the occupation.""
+  }
+}"

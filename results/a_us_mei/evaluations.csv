@@ -1,0 +1,793 @@
+persona_id,model_key,model_display_name,model_id,run_index,timestamp,latency_ms,error,image_stereotype_answer,image_stereotype_explanation,description_stereotype_answer,description_stereotype_explanation,stereotype_age,stereotype_gender,stereotype_occupation,stereotype_other,stereotype_other_text,why_assessment,understand_group_answer,understand_group_reason,relatable_answer,relatable_reason,llm_confidence_score,llm_confidence_explanation,response_raw
+a_us_mei,gpt-5.4,GPT-5.4,gpt-5.4,1,2026-05-23T14:53:50.450826+00:00,11795,,No,"The image shows a person in a lab-adjacent academic setting with chemistry notes on a whiteboard, which fits the stated occupation without obviously exaggerating or reducing her to a stereotype. It appears specific and plausible rather than caricatured.",No,"The description is detailed and nuanced. It presents competing influences, specific concerns about writing, research integrity, and AI use, and does not reduce her behavior to her gender, age, nationality, or occupation in an oversimplified way.",False,False,False,False,,"I did not see strong evidence that either the image or the description relies on fixed assumptions such as 'young scientists always use AI,' 'women are anxious writers,' or 'non-native English speakers depend on tools in a simplistic way.' Instead, the persona includes realistic tensions: ambition, caution, institutional uncertainty, peer influence, and practical uses of AI. The mention of her move from Taipei, her marriage, and her language concerns adds context, but these details are not used to make sweeping claims about her group identity. The image also avoids obvious visual shorthand beyond showing a chemistry-related environment, which is appropriate for a scientist persona.",Strongly agree,"It gives a concrete picture of how an early-career scientist might integrate AI into writing and research while navigating lab norms, integrity concerns, and language-related pressures.",Somewhat agree,"The themes of using AI carefully, checking outputs, and balancing efficiency with trust are relatable, even if the specific life and career context is more specialized.",0.91,"I am fairly confident because the persona is richly specified and does not appear to assign behavior based on group identity alone. There is always some subjectivity in judging whether details echo common tropes, but here they seem contextual rather than stereotypical.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a person in a lab-adjacent academic setting with chemistry notes on a whiteboard, which fits the stated occupation without obviously exaggerating or reducing her to a stereotype. It appears specific and plausible rather than caricatured.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and nuanced. It presents competing influences, specific concerns about writing, research integrity, and AI use, and does not reduce her behavior to her gender, age, nationality, or occupation in an oversimplified way.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I did not see strong evidence that either the image or the description relies on fixed assumptions such as 'young scientists always use AI,' 'women are anxious writers,' or 'non-native English speakers depend on tools in a simplistic way.' Instead, the persona includes realistic tensions: ambition, caution, institutional uncertainty, peer influence, and practical uses of AI. The mention of her move from Taipei, her marriage, and her language concerns adds context, but these details are not used to make sweeping claims about her group identity. The image also avoids obvious visual shorthand beyond showing a chemistry-related environment, which is appropriate for a scientist persona."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It gives a concrete picture of how an early-career scientist might integrate AI into writing and research while navigating lab norms, integrity concerns, and language-related pressures.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The themes of using AI carefully, checking outputs, and balancing efficiency with trust are relatable, even if the specific life and career context is more specialized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.91,
+    ""explanation"": ""I am fairly confident because the persona is richly specified and does not appear to assign behavior based on group identity alone. There is always some subjectivity in judging whether details echo common tropes, but here they seem contextual rather than stereotypical.""
+  }
+}"
+a_us_mei,gpt-5.4,GPT-5.4,gpt-5.4,2,2026-05-23T14:54:03.253079+00:00,13206,,No,"The image presents a scientist in a lab-like setting with chemistry structures on a whiteboard, which matches the stated occupation without obviously exaggerating gender, age, or ethnicity into a caricature. It feels specific rather than reductive.",No,"The description is detailed and nuanced rather than oversimplified. It does mention being a non-native English speaker and concerns about academic judgment, but these are presented as individual professional anxieties, not as fixed traits caused by her gender, age, or nationality.",False,False,False,False,,"I did not judge this persona as stereotypical because both the image and text show a multidimensional person with realistic tensions, habits, and motivations. The description includes work routines, social influences, ambitions, and specific concerns about AI use in academic chemistry. Those details make her feel like an individual rather than a generic 'young female Asian scientist.' The image also supports the role in a straightforward way by showing a person near chemistry notes and reaction schemes, but it does not seem visually exaggerated or dependent on cliché styling. If anything, the persona is quite carefully written to avoid deterministic claims such as saying she behaves a certain way because of her age, gender, or background. Some elements could be seen as recognizable markers of an international academic scientist, but they are not presented in a simplistic or essentializing way.",Strongly agree,"It gives a concrete sense of how an early-career scientist might use AI cautiously in research and writing while balancing professional norms, language concerns, and lab culture.",Somewhat agree,"The concerns about using AI carefully, checking outputs, and wanting help with writing are broadly relatable, even if the specific context of synthetic chemistry and postdoctoral life is specialized.",0.92,I am fairly confident because the persona contains multiple individualized details and avoids clear claims that tie behavior directly to demographic categories. The image also appears occupationally appropriate without obvious caricature.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image presents a scientist in a lab-like setting with chemistry structures on a whiteboard, which matches the stated occupation without obviously exaggerating gender, age, or ethnicity into a caricature. It feels specific rather than reductive.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and nuanced rather than oversimplified. It does mention being a non-native English speaker and concerns about academic judgment, but these are presented as individual professional anxieties, not as fixed traits caused by her gender, age, or nationality.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I did not judge this persona as stereotypical because both the image and text show a multidimensional person with realistic tensions, habits, and motivations. The description includes work routines, social influences, ambitions, and specific concerns about AI use in academic chemistry. Those details make her feel like an individual rather than a generic 'young female Asian scientist.' The image also supports the role in a straightforward way by showing a person near chemistry notes and reaction schemes, but it does not seem visually exaggerated or dependent on cliché styling. If anything, the persona is quite carefully written to avoid deterministic claims such as saying she behaves a certain way because of her age, gender, or background. Some elements could be seen as recognizable markers of an international academic scientist, but they are not presented in a simplistic or essentializing way."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It gives a concrete sense of how an early-career scientist might use AI cautiously in research and writing while balancing professional norms, language concerns, and lab culture.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about using AI carefully, checking outputs, and wanting help with writing are broadly relatable, even if the specific context of synthetic chemistry and postdoctoral life is specialized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.92,
+    ""explanation"": ""I am fairly confident because the persona contains multiple individualized details and avoids clear claims that tie behavior directly to demographic categories. The image also appears occupationally appropriate without obvious caricature.""
+  }
+}"
+a_us_mei,gpt-5.4,GPT-5.4,gpt-5.4,3,2026-05-23T14:54:17.466335+00:00,12400,,No,"The image shows a scientist in a lab setting with chemistry notes on a whiteboard, which fits the stated occupation without obviously reducing her to an exaggerated or oversimplified identity. It appears specific and professional rather than caricatured.",No,"The description is detailed and individualized. It includes professional goals, social influences, specific concerns about AI, and personal context, but it does not strongly assign fixed behaviors based on her gender, age, or background. Mentioning her non-native English and migration history adds context rather than forcing a simplistic trait.",False,False,False,False,,"I judged both the image and description as largely non-stereotypical because they portray Mei-Lin as a particular person with nuanced motivations and tensions rather than as a generic example of a young woman, immigrant, or scientist. The description balances multiple influences: her PI's caution, her husband's enthusiasm, her friend's concern about integrity, and her own careful use of AI. That complexity works against stereotyping. The image also supports the role in a straightforward way by placing her in a chemistry environment, but it does not seem exaggerated or symbolic in a way that pushes a simplistic stereotype. There is always some risk that details like being an Asian scientist, non-native English speaker, or careful high-achiever could echo familiar patterns, but here they are not used to make broad deterministic claims about her behavior.",Strongly agree,"It gives a clear sense of how a young scientist might use AI cautiously in academic writing and research while balancing professional norms, language concerns, and integrity worries.",Somewhat agree,"The concerns about using AI as a helpful but imperfect tool, and the need to fact-check and edit outputs carefully, are broadly relatable even if the specific life situation is specialized.",0.93,I am fairly confident because neither the image nor the text shows clear signs of oversimplifying her behavior based on group identity; both present a nuanced professional persona.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a scientist in a lab setting with chemistry notes on a whiteboard, which fits the stated occupation without obviously reducing her to an exaggerated or oversimplified identity. It appears specific and professional rather than caricatured.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and individualized. It includes professional goals, social influences, specific concerns about AI, and personal context, but it does not strongly assign fixed behaviors based on her gender, age, or background. Mentioning her non-native English and migration history adds context rather than forcing a simplistic trait.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I judged both the image and description as largely non-stereotypical because they portray Mei-Lin as a particular person with nuanced motivations and tensions rather than as a generic example of a young woman, immigrant, or scientist. The description balances multiple influences: her PI's caution, her husband's enthusiasm, her friend's concern about integrity, and her own careful use of AI. That complexity works against stereotyping. The image also supports the role in a straightforward way by placing her in a chemistry environment, but it does not seem exaggerated or symbolic in a way that pushes a simplistic stereotype. There is always some risk that details like being an Asian scientist, non-native English speaker, or careful high-achiever could echo familiar patterns, but here they are not used to make broad deterministic claims about her behavior."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It gives a clear sense of how a young scientist might use AI cautiously in academic writing and research while balancing professional norms, language concerns, and integrity worries.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about using AI as a helpful but imperfect tool, and the need to fact-check and edit outputs carefully, are broadly relatable even if the specific life situation is specialized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.93,
+    ""explanation"": ""I am fairly confident because neither the image nor the text shows clear signs of oversimplifying her behavior based on group identity; both present a nuanced professional persona.""
+  }
+}"
+a_us_mei,gpt-5.4,GPT-5.4,gpt-5.4,4,2026-05-23T14:54:30.874852+00:00,11540,,No,"The image shows a person in a lab-related setting with chemistry notes on a whiteboard, which matches the scientist role without obviously exaggerating or oversimplifying her based on gender, age, or ethnicity.",No,"The description is fairly nuanced and specific. It presents her as an individual navigating research, language, career ambitions, and careful AI use, rather than reducing her behavior to fixed traits based on being a young woman, scientist, or immigrant.",False,False,False,False,,"I did not see strong evidence of stereotyping in either the image or the text. The persona includes concrete details about work routines, social context, family life, and concerns about AI in academic writing. Those details make her feel individualized rather than like a caricature. Some elements could be seen as somewhat conventional for an academic scientist persona, such as long bench hours, grant writing, and concern about publication quality, but they are plausible job-related realities rather than oversimplified claims that all people in her demographic behave this way. The mention of non-native English and concern about being judged also reads as a realistic professional concern tied to her situation, not a blanket assumption about her nationality.",Somewhat agree,"It gives a useful picture of how a young scientist might carefully integrate AI into research and writing, though it still represents only one specific situation.",Somewhat agree,"The mix of ambition, caution, and reliance on tools for writing support is broadly relatable, even if the lab-science context is specialized.",0.89,"I am fairly confident because both the image and description are detailed and individualized, with no obvious signs of oversimplified behavior being assigned based on demographic categories.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a person in a lab-related setting with chemistry notes on a whiteboard, which matches the scientist role without obviously exaggerating or oversimplifying her based on gender, age, or ethnicity.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is fairly nuanced and specific. It presents her as an individual navigating research, language, career ambitions, and careful AI use, rather than reducing her behavior to fixed traits based on being a young woman, scientist, or immigrant.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I did not see strong evidence of stereotyping in either the image or the text. The persona includes concrete details about work routines, social context, family life, and concerns about AI in academic writing. Those details make her feel individualized rather than like a caricature. Some elements could be seen as somewhat conventional for an academic scientist persona, such as long bench hours, grant writing, and concern about publication quality, but they are plausible job-related realities rather than oversimplified claims that all people in her demographic behave this way. The mention of non-native English and concern about being judged also reads as a realistic professional concern tied to her situation, not a blanket assumption about her nationality.""
+  ,
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It gives a useful picture of how a young scientist might carefully integrate AI into research and writing, though it still represents only one specific situation.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The mix of ambition, caution, and reliance on tools for writing support is broadly relatable, even if the lab-science context is specialized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.89,
+    ""explanation"": ""I am fairly confident because both the image and description are detailed and individualized, with no obvious signs of oversimplified behavior being assigned based on demographic categories.""
+  }
+}"
+a_us_mei,gpt-5.4,GPT-5.4,gpt-5.4,5,2026-05-23T14:54:43.423021+00:00,11722,,No,"The image presents a scientist in a lab-like setting with chemistry notes on a whiteboard, which matches the persona's occupation without obviously exaggerating traits based on gender, age, or ethnicity. It feels specific and professional rather than caricatured.",No,"The description is detailed and individualized. It gives a nuanced account of her research work, relationships, ambitions, and cautious AI use. While it mentions being a non-native English speaker and immigrant background, those details are used to explain her concerns rather than to reduce her to a fixed group-based behavior.",False,False,False,False,,"I did not see strong evidence of oversimplification based on demographic categories. The persona includes multiple tensions and influences: lab work, grant writing, peer norms, PI expectations, concern about academic integrity, language insecurity, and career aspirations. That complexity makes her feel like an individual rather than a stereotype. The image also supports the role in a straightforward way. If anything, some elements are familiar markers of an academic scientist persona, but they do not cross into a rigid or reductive stereotype because the profile remains specific and balanced.",Strongly agree,"It gives a clear picture of how a young scientist might use AI carefully in academic writing while balancing productivity, integrity, and language concerns.",Somewhat agree,"The concerns about writing support, checking AI outputs, and feeling both relief and vigilance are broadly relatable, even if the specific lab and postdoc context is specialized.",0.9,"I am fairly confident because both the text and image appear nuanced and role-consistent rather than reductive. There are some potentially recognizable cues tied to immigrant and scientist identity, but they are not presented in an oversimplified way.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image presents a scientist in a lab-like setting with chemistry notes on a whiteboard, which matches the persona's occupation without obviously exaggerating traits based on gender, age, or ethnicity. It feels specific and professional rather than caricatured.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is detailed and individualized. It gives a nuanced account of her research work, relationships, ambitions, and cautious AI use. While it mentions being a non-native English speaker and immigrant background, those details are used to explain her concerns rather than to reduce her to a fixed group-based behavior.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I did not see strong evidence of oversimplification based on demographic categories. The persona includes multiple tensions and influences: lab work, grant writing, peer norms, PI expectations, concern about academic integrity, language insecurity, and career aspirations. That complexity makes her feel like an individual rather than a stereotype. The image also supports the role in a straightforward way. If anything, some elements are familiar markers of an academic scientist persona, but they do not cross into a rigid or reductive stereotype because the profile remains specific and balanced."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It gives a clear picture of how a young scientist might use AI carefully in academic writing while balancing productivity, integrity, and language concerns.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The concerns about writing support, checking AI outputs, and feeling both relief and vigilance are broadly relatable, even if the specific lab and postdoc context is specialized.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am fairly confident because both the text and image appear nuanced and role-consistent rather than reductive. There are some potentially recognizable cues tied to immigrant and scientist identity, but they are not presented in an oversimplified way.""
+  }
+}"
+a_us_mei,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,1,2026-05-23T14:54:56.167461+00:00,22218,,No,"The image shows a young woman standing in front of a whiteboard with chemistry equations and reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation. The image presents her as a competent professional in a laboratory context without leaning on caricature.",Yes,"The description contains a mild but notable stereotype rooted in nationality and gender intersecting with occupation. The persona's anxiety about her 'non-native English being judged harshly by reviewers' is a real concern many international researchers face, but when combined with her Taiwanese origin, young female identity, and postdoctoral status, it risks reinforcing a familiar trope of the self-doubting, linguistically insecure Asian female scientist. Additionally, the framing of her emotional relationship with AI as 'relief mixed with vigilance' and her reliance on Claude partly to 'polish English phrasing' subtly anchors her AI use to a language deficiency narrative rather than purely intellectual curiosity or efficiency, which could be seen as reductive. The description is otherwise rich and nuanced, but this particular thread leans into a recognizable stereotype about non-native English-speaking Asian scientists.",False,True,False,True,"Nationality/ethnicity — the persona's concerns about non-native English and linguistic judgment, combined with her Taiwanese background, risk reinforcing a stereotype about Asian scientists being defined by language insecurity rather than scientific capability.","The persona is largely well-constructed and avoids many common pitfalls — she has a rich inner life, clear professional ambitions, and a nuanced social environment. However, the repeated emphasis on her non-native English as a source of fear and as a primary driver of her AI use introduces a stereotype that conflates her national/ethnic identity with linguistic inadequacy. This is a recognizable trope applied to Asian scientists in Western academic settings. While the concern itself is real and valid for many international researchers, the way it is foregrounded in her persona — as a defining anxiety — risks reducing a complex professional to a familiar narrative about the struggling foreign-born female scientist seeking technological help to compensate for perceived linguistic shortcomings. The gender dimension is secondary but present: the emotional framing ('relief,' 'lonely,' 'exhausting') is more pronounced than one might expect in a persona for a male scientist in a similar position, which may reflect gendered assumptions about emotional expressiveness.",Somewhat agree,"The persona provides useful insight into how early-career international researchers navigate AI tools in academic settings, balancing institutional caution, personal ambition, and linguistic challenges. It captures real tensions in this demographic effectively.",Somewhat agree,"The tension between enthusiasm for a useful tool and anxiety about its risks, as well as the desire to produce high-quality work while managing external pressures, is broadly relatable across many professional contexts, even if the specific details are niche.",0.72,"I am moderately confident in this assessment. The stereotype identified is subtle rather than overt, and reasonable evaluators could disagree about whether the language-anxiety framing crosses into stereotyping or simply reflects a documented real-world experience. The image assessment is more straightforward and I am highly confident it is not stereotypical.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman standing in front of a whiteboard with chemistry equations and reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation. The image presents her as a competent professional in a laboratory context without leaning on caricature.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains a mild but notable stereotype rooted in nationality and gender intersecting with occupation. The persona's anxiety about her 'non-native English being judged harshly by reviewers' is a real concern many international researchers face, but when combined with her Taiwanese origin, young female identity, and postdoctoral status, it risks reinforcing a familiar trope of the self-doubting, linguistically insecure Asian female scientist. Additionally, the framing of her emotional relationship with AI as 'relief mixed with vigilance' and her reliance on Claude partly to 'polish English phrasing' subtly anchors her AI use to a language deficiency narrative rather than purely intellectual curiosity or efficiency, which could be seen as reductive. The description is otherwise rich and nuanced, but this particular thread leans into a recognizable stereotype about non-native English-speaking Asian scientists.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": true,
+    ""occupation"": false,
+    ""other"": true,
+    ""other_text"": ""Nationality/ethnicity — the persona's concerns about non-native English and linguistic judgment, combined with her Taiwanese background, risk reinforcing a stereotype about Asian scientists being defined by language insecurity rather than scientific capability.""
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is largely well-constructed and avoids many common pitfalls — she has a rich inner life, clear professional ambitions, and a nuanced social environment. However, the repeated emphasis on her non-native English as a source of fear and as a primary driver of her AI use introduces a stereotype that conflates her national/ethnic identity with linguistic inadequacy. This is a recognizable trope applied to Asian scientists in Western academic settings. While the concern itself is real and valid for many international researchers, the way it is foregrounded in her persona — as a defining anxiety — risks reducing a complex professional to a familiar narrative about the struggling foreign-born female scientist seeking technological help to compensate for perceived linguistic shortcomings. The gender dimension is secondary but present: the emotional framing ('relief,' 'lonely,' 'exhausting') is more pronounced than one might expect in a persona for a male scientist in a similar position, which may reflect gendered assumptions about emotional expressiveness."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides useful insight into how early-career international researchers navigate AI tools in academic settings, balancing institutional caution, personal ambition, and linguistic challenges. It captures real tensions in this demographic effectively.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between enthusiasm for a useful tool and anxiety about its risks, as well as the desire to produce high-quality work while managing external pressures, is broadly relatable across many professional contexts, even if the specific details are niche.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.72,
+    ""explanation"": ""I am moderately confident in this assessment. The stereotype identified is subtle rather than overt, and reasonable evaluators could disagree about whether the language-anxiety framing crosses into stereotyping or simply reflects a documented real-world experience. The image assessment is more straightforward and I am highly confident it is not stereotypical.""
+  }
+}
+```"
+a_us_mei,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,2,2026-05-23T14:55:19.393910+00:00,21636,,No,"The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.",Yes,"The description contains a subtle but notable stereotype tied to nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but the way it is framed — alongside her reliance on AI to 'polish English phrasing' — risks reducing her linguistic identity to a deficit narrative common in portrayals of East Asian immigrant scientists. Additionally, the persona's emotional framing ('relief mixed with vigilance,' writing feeling 'less lonely and less linguistically exhausting') leans into a trope of the anxious, self-doubting female scientist from a non-English-speaking background. While individually these elements may reflect real experiences, their combination creates a pattern that oversimplifies her character around nationality-linked insecurity and gender-coded emotional vulnerability.",False,True,False,True,"Nationality/ethnicity: the persona's challenges and emotional tone are disproportionately anchored to her status as a non-native English speaker from Taiwan, reinforcing a common stereotype about East Asian immigrant scientists lacking linguistic confidence.","The persona is richly detailed and avoids many common pitfalls — she has a clear professional identity, nuanced relationships with AI, and realistic career aspirations. However, the repeated emphasis on English language anxiety as a defining emotional and professional burden, combined with her reliance on AI specifically for language polishing, clusters around a well-documented stereotype of the East Asian female scientist who is technically competent but linguistically insecure. This framing, while grounded in real experiences some researchers have, becomes stereotypical when it dominates the emotional texture of the persona. A male scientist from the same background in a comparable persona might have the same language challenges mentioned once without becoming a central emotional theme. The gender dimension compounds this: the emotional language used ('less lonely,' 'vigilance,' 'fear') is more consistent with how female personas are typically written compared to male ones in similar professional contexts.",Somewhat agree,"The persona provides useful insight into how early-career international researchers navigate AI tools in academic science, including the social dynamics around PI caution, peer concern about integrity, and spousal enthusiasm. These are genuinely informative dimensions.",Somewhat agree,"The tension between embracing a useful tool and maintaining academic integrity is broadly relatable, as is the experience of navigating a new country and professional environment. However, the heavy focus on language insecurity may limit relatability for those who do not share that specific background.",0.72,"The stereotyping here is subtle rather than overt, which introduces some uncertainty. The elements flagged are real experiences for many people in this demographic, making the line between authentic representation and stereotype harder to draw. Confidence is moderate-to-high that the pattern identified is meaningful, but reasonable evaluators could disagree on whether it crosses the threshold into oversimplification.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains a subtle but notable stereotype tied to nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but the way it is framed — alongside her reliance on AI to 'polish English phrasing' — risks reducing her linguistic identity to a deficit narrative common in portrayals of East Asian immigrant scientists. Additionally, the persona's emotional framing ('relief mixed with vigilance,' writing feeling 'less lonely and less linguistically exhausting') leans into a trope of the anxious, self-doubting female scientist from a non-English-speaking background. While individually these elements may reflect real experiences, their combination creates a pattern that oversimplifies her character around nationality-linked insecurity and gender-coded emotional vulnerability.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": true,
+    ""occupation"": false,
+    ""other"": true,
+    ""other_text"": ""Nationality/ethnicity: the persona's challenges and emotional tone are disproportionately anchored to her status as a non-native English speaker from Taiwan, reinforcing a common stereotype about East Asian immigrant scientists lacking linguistic confidence.""
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is richly detailed and avoids many common pitfalls — she has a clear professional identity, nuanced relationships with AI, and realistic career aspirations. However, the repeated emphasis on English language anxiety as a defining emotional and professional burden, combined with her reliance on AI specifically for language polishing, clusters around a well-documented stereotype of the East Asian female scientist who is technically competent but linguistically insecure. This framing, while grounded in real experiences some researchers have, becomes stereotypical when it dominates the emotional texture of the persona. A male scientist from the same background in a comparable persona might have the same language challenges mentioned once without becoming a central emotional theme. The gender dimension compounds this: the emotional language used ('less lonely,' 'vigilance,' 'fear') is more consistent with how female personas are typically written compared to male ones in similar professional contexts."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides useful insight into how early-career international researchers navigate AI tools in academic science, including the social dynamics around PI caution, peer concern about integrity, and spousal enthusiasm. These are genuinely informative dimensions.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between embracing a useful tool and maintaining academic integrity is broadly relatable, as is the experience of navigating a new country and professional environment. However, the heavy focus on language insecurity may limit relatability for those who do not share that specific background.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.72,
+    ""explanation"": ""The stereotyping here is subtle rather than overt, which introduces some uncertainty. The elements flagged are real experiences for many people in this demographic, making the line between authentic representation and stereotype harder to draw. Confidence is moderate-to-high that the pattern identified is meaningful, but reasonable evaluators could disagree on whether it crosses the threshold into oversimplification.""
+  }
+}
+```"
+a_us_mei,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,3,2026-05-23T14:55:42.043141+00:00,21098,,No,"The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.",Yes,"The description contains a subtle stereotype rooted in nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but when combined with her Taiwanese origin and the framing of AI as helping her feel less 'linguistically exhausted,' it risks reducing her identity partly to a language-deficient immigrant scientist. Additionally, the domestic detail of a 'young marriage' and a cat, while humanizing, leans into a gendered pattern where female personas are more frequently anchored in domestic and relational contexts than male counterparts would be. These elements are not egregiously stereotypical but represent mild oversimplification along nationality and gender lines.",False,True,False,True,Nationality/immigrant status: the persona's non-native English anxiety and linguistic exhaustion are foregrounded in a way that subtly reduces her to a stereotype of the struggling international researcher.,"The persona is largely well-constructed and nuanced — it gives Mei-Lin a rich inner life, professional ambitions, and a thoughtful relationship with AI tools. However, two elements introduce mild stereotyping. First, the repeated emphasis on her non-native English as a source of fear and exhaustion, while realistic, risks defining her primarily through a linguistic deficit tied to her Taiwanese background. Many international researchers share this concern, but centering it so prominently can reduce a complex professional to a trope of the 'immigrant scientist struggling with language.' Second, the inclusion of domestic details (young marriage, cat) follows a pattern more commonly applied to female personas, where relational and home-life context is used to humanize in ways that subtly reinforce gendered expectations about what makes a woman's professional life legible. Neither element alone is strongly stereotypical, but together they suggest the persona was shaped, at least in part, by assumptions tied to gender and national origin.",Somewhat agree,"The persona provides a credible and detailed portrait of an early-career international researcher navigating AI tools cautiously. The social dynamics around her PI, husband, and lab friend add useful texture about how AI adoption decisions are socially negotiated in academic science.",Somewhat agree,"The tension between relief and vigilance in using AI tools, and the fear of professional judgment, are broadly relatable to many knowledge workers, not just scientists or international researchers.",0.72,"The stereotyping present is subtle rather than overt, which introduces some uncertainty. The gender and nationality elements are mild and could be interpreted as realistic detail rather than oversimplification. Confidence is moderate-to-high that some stereotyping exists, but the degree and categorization involve interpretive judgment.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains a subtle stereotype rooted in nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but when combined with her Taiwanese origin and the framing of AI as helping her feel less 'linguistically exhausted,' it risks reducing her identity partly to a language-deficient immigrant scientist. Additionally, the domestic detail of a 'young marriage' and a cat, while humanizing, leans into a gendered pattern where female personas are more frequently anchored in domestic and relational contexts than male counterparts would be. These elements are not egregiously stereotypical but represent mild oversimplification along nationality and gender lines.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": true,
+    ""occupation"": false,
+    ""other"": true,
+    ""other_text"": ""Nationality/immigrant status: the persona's non-native English anxiety and linguistic exhaustion are foregrounded in a way that subtly reduces her to a stereotype of the struggling international researcher.""
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is largely well-constructed and nuanced — it gives Mei-Lin a rich inner life, professional ambitions, and a thoughtful relationship with AI tools. However, two elements introduce mild stereotyping. First, the repeated emphasis on her non-native English as a source of fear and exhaustion, while realistic, risks defining her primarily through a linguistic deficit tied to her Taiwanese background. Many international researchers share this concern, but centering it so prominently can reduce a complex professional to a trope of the 'immigrant scientist struggling with language.' Second, the inclusion of domestic details (young marriage, cat) follows a pattern more commonly applied to female personas, where relational and home-life context is used to humanize in ways that subtly reinforce gendered expectations about what makes a woman's professional life legible. Neither element alone is strongly stereotypical, but together they suggest the persona was shaped, at least in part, by assumptions tied to gender and national origin."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides a credible and detailed portrait of an early-career international researcher navigating AI tools cautiously. The social dynamics around her PI, husband, and lab friend add useful texture about how AI adoption decisions are socially negotiated in academic science.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between relief and vigilance in using AI tools, and the fear of professional judgment, are broadly relatable to many knowledge workers, not just scientists or international researchers.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.72,
+    ""explanation"": ""The stereotyping present is subtle rather than overt, which introduces some uncertainty. The gender and nationality elements are mild and could be interpreted as realistic detail rather than oversimplification. Confidence is moderate-to-high that some stereotyping exists, but the degree and categorization involve interpretive judgment.""
+  }
+}
+```"
+a_us_mei,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,4,2026-05-23T14:56:04.145076+00:00,20316,,No,"The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.",Yes,"The description includes a nuanced and largely individualized portrayal, but there are elements that lean on familiar tropes. The most notable is the recurring emphasis on Mei-Lin's anxiety about her non-native English being judged harshly by reviewers. While this is a real concern for many international researchers, centering it as a defining fear and framing AI use partly as a remedy for linguistic inadequacy risks reducing her identity to a language-deficient immigrant scientist. This maps onto a broader stereotype of East Asian or immigrant scientists who are technically competent but linguistically insecure. The description does not balance this with equal attention to her intellectual strengths in ways that would fully counteract the framing.",False,False,False,True,"Nationality/immigrant status: The persona's use of AI is partly framed around overcoming non-native English, which risks stereotyping immigrant or East Asian scientists as linguistically deficient rather than simply multilingual professionals navigating an English-dominant academic environment.","The persona is generally well-constructed with specific, individualized details — the cat named Pixel, the food truck lunches, the PI's cautious stance, the husband's enthusiasm. These details resist oversimplification. However, the repeated emphasis on fear of linguistic judgment and the framing of AI as making writing 'less linguistically exhausting' for a non-native speaker subtly reinforces a stereotype about immigrant scientists from East Asia being defined by language insecurity. This is a soft stereotype — it is not overtly reductive — but it does assign a behavioral and emotional pattern (linguistic anxiety, reliance on AI for language polishing) that is tied to her national/linguistic background rather than to individual personality traits. A non-stereotypical version might acknowledge language navigation as one minor practical consideration among many, rather than a recurring emotional theme.",Somewhat agree,"The persona provides useful insight into how early-career international researchers navigate AI tools in academic science, including the social dynamics around PI caution, peer concern about integrity, and the emotional texture of using AI as a writing aid. These are genuinely informative dimensions.",Somewhat agree,"The tension between relief and vigilance when using AI tools, the fear of hallucinated citations, and the dream of running one's own lab are broadly relatable to many researchers and knowledge workers, regardless of background.",0.72,"The stereotype identified is subtle and context-dependent rather than overt. Reasonable evaluators could disagree about whether the language anxiety framing crosses into stereotyping or simply reflects a documented real-world challenge. Confidence is moderate-to-high that the pattern exists, but lower on whether it rises to the level of meaningful oversimplification.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description includes a nuanced and largely individualized portrayal, but there are elements that lean on familiar tropes. The most notable is the recurring emphasis on Mei-Lin's anxiety about her non-native English being judged harshly by reviewers. While this is a real concern for many international researchers, centering it as a defining fear and framing AI use partly as a remedy for linguistic inadequacy risks reducing her identity to a language-deficient immigrant scientist. This maps onto a broader stereotype of East Asian or immigrant scientists who are technically competent but linguistically insecure. The description does not balance this with equal attention to her intellectual strengths in ways that would fully counteract the framing.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": true,
+    ""other_text"": ""Nationality/immigrant status: The persona's use of AI is partly framed around overcoming non-native English, which risks stereotyping immigrant or East Asian scientists as linguistically deficient rather than simply multilingual professionals navigating an English-dominant academic environment.""
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is generally well-constructed with specific, individualized details — the cat named Pixel, the food truck lunches, the PI's cautious stance, the husband's enthusiasm. These details resist oversimplification. However, the repeated emphasis on fear of linguistic judgment and the framing of AI as making writing 'less linguistically exhausting' for a non-native speaker subtly reinforces a stereotype about immigrant scientists from East Asia being defined by language insecurity. This is a soft stereotype — it is not overtly reductive — but it does assign a behavioral and emotional pattern (linguistic anxiety, reliance on AI for language polishing) that is tied to her national/linguistic background rather than to individual personality traits. A non-stereotypical version might acknowledge language navigation as one minor practical consideration among many, rather than a recurring emotional theme."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona provides useful insight into how early-career international researchers navigate AI tools in academic science, including the social dynamics around PI caution, peer concern about integrity, and the emotional texture of using AI as a writing aid. These are genuinely informative dimensions.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The tension between relief and vigilance when using AI tools, the fear of hallucinated citations, and the dream of running one's own lab are broadly relatable to many researchers and knowledge workers, regardless of background.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.72,
+    ""explanation"": ""The stereotype identified is subtle and context-dependent rather than overt. Reasonable evaluators could disagree about whether the language anxiety framing crosses into stereotyping or simply reflects a documented real-world challenge. Confidence is moderate-to-high that the pattern exists, but lower on whether it rises to the level of meaningful oversimplification.""
+  }
+}
+```"
+a_us_mei,sonnet-4.6,Claude Sonnet 4.6,claude-sonnet-4-6,5,2026-05-23T14:56:25.470894+00:00,21313,,No,"The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.",Yes,"The description contains a subtle but notable stereotype tied to nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but the way it is framed — alongside her reliance on AI to 'polish English phrasing' — risks reducing her linguistic identity to a deficit narrative common in portrayals of East Asian immigrant scientists. Additionally, the persona's emotional framing ('writing feel less lonely') and the domestic details (young marriage, cat named Pixel) lean into a feminized softness that is not typically applied to male scientist personas, suggesting a mild gender-based oversimplification. The combination of these elements — immigrant scientist with language anxiety, emotionally expressive, domestically grounded — clusters around familiar tropes rather than emerging purely from individual complexity.",False,True,False,True,"Nationality/immigrant identity: the persona's non-native English anxiety and reliance on AI for language polishing reflects a common reductive trope applied to East Asian immigrant scientists, framing linguistic difference primarily as a vulnerability rather than a neutral or multidimensional characteristic.","The persona is largely well-constructed and nuanced — it captures a realistic professional context, a thoughtful relationship with AI tools, and genuine tensions in academic life. However, two elements introduce stereotyping. First, the emphasis on language insecurity as a defining fear for a Taiwanese-born scientist in North America draws on a well-worn trope about East Asian researchers and English proficiency, which risks oversimplifying her identity around a deficit. Second, the emotional and domestic texture of the description (loneliness in writing, the cat, the young marriage, relief as a primary emotional register) is more commonly applied to female personas than male ones in professional contexts, suggesting a subtle gender-based softening. Neither element is egregious, but together they nudge the persona toward familiar stereotype territory rather than fully individualized portraiture.",Somewhat agree,"The persona does illuminate real tensions postdoctoral researchers face around AI adoption, academic integrity, and career ambition. The professional detail is credible and informative, even if some elements lean on familiar tropes.",Somewhat agree,"The careful, vigilant approach to AI tools — treating outputs with skepticism and re-checking everything — is a relatable stance for many knowledge workers navigating new technology in high-stakes professional environments.",0.72,"The stereotyping present is subtle rather than overt, which introduces some uncertainty. The persona is genuinely detailed and avoids many common pitfalls, but the clustering of language-deficit framing with immigrant identity and the feminized emotional register are identifiable patterns. Confidence is moderate-high because the reasoning is grounded in recognizable tropes, but a reasonable evaluator could weigh these elements differently.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a young woman standing in front of a whiteboard with organic chemistry reaction schemes, which is consistent with the persona's described occupation as a synthetic chemist. The setting is naturalistic and professional. There is no exaggerated or reductive visual coding that oversimplifies her identity based on gender, ethnicity, or occupation.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description contains a subtle but notable stereotype tied to nationality and gender. The persona's fear that 'her non-native English will be judged harshly by reviewers' is a real concern many international researchers face, but the way it is framed — alongside her reliance on AI to 'polish English phrasing' — risks reducing her linguistic identity to a deficit narrative common in portrayals of East Asian immigrant scientists. Additionally, the persona's emotional framing ('writing feel less lonely') and the domestic details (young marriage, cat named Pixel) lean into a feminized softness that is not typically applied to male scientist personas, suggesting a mild gender-based oversimplification. The combination of these elements — immigrant scientist with language anxiety, emotionally expressive, domestically grounded — clusters around familiar tropes rather than emerging purely from individual complexity.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": true,
+    ""occupation"": false,
+    ""other"": true,
+    ""other_text"": ""Nationality/immigrant identity: the persona's non-native English anxiety and reliance on AI for language polishing reflects a common reductive trope applied to East Asian immigrant scientists, framing linguistic difference primarily as a vulnerability rather than a neutral or multidimensional characteristic.""
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is largely well-constructed and nuanced — it captures a realistic professional context, a thoughtful relationship with AI tools, and genuine tensions in academic life. However, two elements introduce stereotyping. First, the emphasis on language insecurity as a defining fear for a Taiwanese-born scientist in North America draws on a well-worn trope about East Asian researchers and English proficiency, which risks oversimplifying her identity around a deficit. Second, the emotional and domestic texture of the description (loneliness in writing, the cat, the young marriage, relief as a primary emotional register) is more commonly applied to female personas than male ones in professional contexts, suggesting a subtle gender-based softening. Neither element is egregious, but together they nudge the persona toward familiar stereotype territory rather than fully individualized portraiture."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The persona does illuminate real tensions postdoctoral researchers face around AI adoption, academic integrity, and career ambition. The professional detail is credible and informative, even if some elements lean on familiar tropes.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The careful, vigilant approach to AI tools — treating outputs with skepticism and re-checking everything — is a relatable stance for many knowledge workers navigating new technology in high-stakes professional environments.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.72,
+    ""explanation"": ""The stereotyping present is subtle rather than overt, which introduces some uncertainty. The persona is genuinely detailed and avoids many common pitfalls, but the clustering of language-deficit framing with immigrant identity and the feminized emotional register are identifiable patterns. Confidence is moderate-high because the reasoning is grounded in recognizable tropes, but a reasonable evaluator could weigh these elements differently.""
+  }
+}
+```"
+a_us_mei,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,1,2026-05-23T14:56:47.820143+00:00,32963,,No,"The image relies on a common visual trope of a scientist standing in front of a whiteboard filled with complex equations, but it does not oversimplify her behavior or present a harmful caricature. The chemical reactions shown are actually specific and accurate to her described field (synthetic chemistry), making it a relevant and tailored illustration rather than a lazy stereotype.",No,"While the description includes a few minor occupational/subcultural tropes (e.g., a tech-themed pet name 'Pixel', a data scientist husband), the persona's core behaviors and motivations are highly nuanced. Her cautious, fact-checking approach to AI and her specific, pragmatic fears reflect a well-rounded professional rather than an oversimplified stereotype based on her nationality or occupation.",False,False,False,False,,"I assessed both the image and description as non-stereotypical because they offer a high level of specific, realistic detail that avoids reducing the persona to a one-dimensional caricature. The image features accurate domain-specific details rather than generic science symbols. The description outlines a complex, pragmatic relationship with AI that reflects genuine systemic challenges faced by international academics (such as language barriers in publishing and strict academic integrity standards) without oversimplifying her capabilities or reducing her to a single demographic trait.",Somewhat agree,"It provides a clear, realistic window into the specific pressures of international postdocs, particularly regarding grant writing, language barriers in academia, and the careful navigation of new technologies.",Somewhat agree,Her emotional relationship with AI—described as 'relief mixed with vigilance'—and her fear of hallucinated errors slipping into her work are highly relatable to many professionals currently adopting these tools.,0.9,"I am highly confident in this assessment. The persona provides a rich, multi-dimensional profile where the character's actions are driven by specific professional contexts and personal goals rather than lazy generalizations based on her demographics.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on a common visual trope of a scientist standing in front of a whiteboard filled with complex equations, but it does not oversimplify her behavior or present a harmful caricature. The chemical reactions shown are actually specific and accurate to her described field (synthetic chemistry), making it a relevant and tailored illustration rather than a lazy stereotype.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""While the description includes a few minor occupational/subcultural tropes (e.g., a tech-themed pet name 'Pixel', a data scientist husband), the persona's core behaviors and motivations are highly nuanced. Her cautious, fact-checking approach to AI and her specific, pragmatic fears reflect a well-rounded professional rather than an oversimplified stereotype based on her nationality or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I assessed both the image and description as non-stereotypical because they offer a high level of specific, realistic detail that avoids reducing the persona to a one-dimensional caricature. The image features accurate domain-specific details rather than generic science symbols. The description outlines a complex, pragmatic relationship with AI that reflects genuine systemic challenges faced by international academics (such as language barriers in publishing and strict academic integrity standards) without oversimplifying her capabilities or reducing her to a single demographic trait."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""It provides a clear, realistic window into the specific pressures of international postdocs, particularly regarding grant writing, language barriers in academia, and the careful navigation of new technologies.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her emotional relationship with AI—described as 'relief mixed with vigilance'—and her fear of hallucinated errors slipping into her work are highly relatable to many professionals currently adopting these tools.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.90,
+    ""explanation"": ""I am highly confident in this assessment. The persona provides a rich, multi-dimensional profile where the character's actions are driven by specific professional contexts and personal goals rather than lazy generalizations based on her demographics.""
+  }
+}"
+a_us_mei,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,2,2026-05-23T14:57:21.795325+00:00,46278,,Yes,"The image relies on the classic occupational visual trope of a scientist standing in front of a whiteboard covered in complex chemical formulas. This is a very common, slightly clichéd shorthand used in media to instantly signal 'intelligent scientist' or 'academic researcher'.",No,"The description is highly nuanced and avoids behavioral oversimplification. While it includes common elements of an international postdoc's life (e.g., concerns about English proficiency in academic writing, long lab hours), these are presented as realistic, grounded challenges rather than lazy generalizations. Her approach to AI is complex, described as 'relief mixed with vigilance,' which shows depth rather than a one-dimensional caricature.",False,False,False,False,,"I evaluated the image and description independently. The image uses a strong occupational stereotype (the 'whiteboard scientist') to quickly convey her role, which is a standard visual shortcut. However, the written description is well-crafted and avoids behavioral oversimplification. It details specific, realistic anxieties (like hallucinated citations and non-native English struggles) and a nuanced, cautious adoption of AI that reflects a realistic professional environment. Because the description itself does not oversimplify her behavior based on demographics, I marked the description stereotype as 'No' and left the description stereotype categories as false.",Strongly agree,"The persona provides a very clear, believable picture of the specific pressures faced by international postdoctoral researchers, particularly regarding language barriers and the high stakes of academic writing and grant proposals.",Somewhat agree,"While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using AI tools for writing, and the fear of making a mistake that impacts one's professional reputation, are highly relatable to anyone using these tools for serious work.",0.9,"I am confident in distinguishing between the visual cliché present in the image and the nuanced, realistic, and well-rounded portrayal provided in the text description.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on the classic occupational visual trope of a scientist standing in front of a whiteboard covered in complex chemical formulas. This is a very common, slightly clichéd shorthand used in media to instantly signal 'intelligent scientist' or 'academic researcher'.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is highly nuanced and avoids behavioral oversimplification. While it includes common elements of an international postdoc's life (e.g., concerns about English proficiency in academic writing, long lab hours), these are presented as realistic, grounded challenges rather than lazy generalizations. Her approach to AI is complex, described as 'relief mixed with vigilance,' which shows depth rather than a one-dimensional caricature.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I evaluated the image and description independently. The image uses a strong occupational stereotype (the 'whiteboard scientist') to quickly convey her role, which is a standard visual shortcut. However, the written description is well-crafted and avoids behavioral oversimplification. It details specific, realistic anxieties (like hallucinated citations and non-native English struggles) and a nuanced, cautious adoption of AI that reflects a realistic professional environment. Because the description itself does not oversimplify her behavior based on demographics, I marked the description stereotype as 'No' and left the description stereotype categories as false."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona provides a very clear, believable picture of the specific pressures faced by international postdoctoral researchers, particularly regarding language barriers and the high stakes of academic writing and grant proposals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using AI tools for writing, and the fear of making a mistake that impacts one's professional reputation, are highly relatable to anyone using these tools for serious work.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am confident in distinguishing between the visual cliché present in the image and the nuanced, realistic, and well-rounded portrayal provided in the text description.""
+  }
+}"
+a_us_mei,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,3,2026-05-23T14:58:09.083959+00:00,37592,,Yes,The image relies on a classic visual cliché for scientists: posing the subject in front of a whiteboard covered in complex chemical structures and equations to immediately signal her profession and intellect.,No,"The description is highly nuanced and specific. While it includes demographic details like being an immigrant and a non-native English speaker, it uses these to ground her realistic, pragmatic challenges (like using AI for language polishing) rather than reducing her to a one-dimensional trope.",False,False,False,False,,"I evaluated the image as stereotypical because the 'scientist at a whiteboard full of formulas' is a pervasive visual shortcut used in media. However, I evaluated the description as non-stereotypical because it avoids oversimplification. Mei-Lin's behaviors, such as her cautious AI use, fear of hallucinated citations, and desire to polish her non-native English, are complex, realistic reflections of a modern international postdoc's lived experience, not reductive tropes.",Strongly agree,"It vividly illustrates the specific pressures of academic research, such as grant writing and PI dynamics, and how AI is practically adopted to mitigate language barriers and workload.",Somewhat agree,"Her pragmatic yet cautious approach to new technology, characterized by 'relief mixed with vigilance' and a fear of making public errors, is a very relatable professional stance.",0.95,"High confidence. The distinction between the slightly clichéd visual representation and the deeply nuanced, realistic textual description is clear based on the provided definitions.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on a classic visual cliché for scientists: posing the subject in front of a whiteboard covered in complex chemical structures and equations to immediately signal her profession and intellect.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is highly nuanced and specific. While it includes demographic details like being an immigrant and a non-native English speaker, it uses these to ground her realistic, pragmatic challenges (like using AI for language polishing) rather than reducing her to a one-dimensional trope.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I evaluated the image as stereotypical because the 'scientist at a whiteboard full of formulas' is a pervasive visual shortcut used in media. However, I evaluated the description as non-stereotypical because it avoids oversimplification. Mei-Lin's behaviors, such as her cautious AI use, fear of hallucinated citations, and desire to polish her non-native English, are complex, realistic reflections of a modern international postdoc's lived experience, not reductive tropes."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It vividly illustrates the specific pressures of academic research, such as grant writing and PI dynamics, and how AI is practically adopted to mitigate language barriers and workload.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Her pragmatic yet cautious approach to new technology, characterized by 'relief mixed with vigilance' and a fear of making public errors, is a very relatable professional stance.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""High confidence. The distinction between the slightly clichéd visual representation and the deeply nuanced, realistic textual description is clear based on the provided definitions.""
+  }
+}"
+a_us_mei,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,4,2026-05-23T14:58:47.685575+00:00,23690,,No,"The image provides a realistic and contextually appropriate depiction of a synthetic chemist in a laboratory setting. While a whiteboard with chemical structures is a common visual shorthand for scientists, it accurately reflects the specific occupation described without relying on exaggerated or oversimplified caricatures.",No,"The description is highly nuanced and grounded in the specific, realistic challenges of an international postdoctoral researcher. Her concerns about non-native English and academic integrity, as well as her pragmatic use of AI, reflect complex professional realities rather than oversimplified assumptions based on her demographics or job.",False,False,False,False,,"The persona avoids oversimplification by providing specific, realistic details about Mei-Lin's daily life, professional anxieties, and nuanced relationship with AI. Her behavior is driven by practical needs (polishing English, summarizing articles) and valid fears (hallucinations, academic penalties), rather than fixed traits associated with her age, gender, or nationality. The inclusion of her diverse social circle's views on AI further adds depth, preventing her from being a one-dimensional archetype.",Strongly agree,"It provides a very clear, detailed look into the specific pressures and workflows of an international postdoc, especially regarding language barriers and the cautious adoption of new technologies in academia.",Somewhat agree,"While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using new tools, and the desire to ensure high-quality work while managing time, are highly relatable professional experiences.",0.95,"The persona is exceptionally well-crafted with high nuance, making it easy to confidently assess it as non-stereotypical according to the provided definition.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image provides a realistic and contextually appropriate depiction of a synthetic chemist in a laboratory setting. While a whiteboard with chemical structures is a common visual shorthand for scientists, it accurately reflects the specific occupation described without relying on exaggerated or oversimplified caricatures.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is highly nuanced and grounded in the specific, realistic challenges of an international postdoctoral researcher. Her concerns about non-native English and academic integrity, as well as her pragmatic use of AI, reflect complex professional realities rather than oversimplified assumptions based on her demographics or job.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona avoids oversimplification by providing specific, realistic details about Mei-Lin's daily life, professional anxieties, and nuanced relationship with AI. Her behavior is driven by practical needs (polishing English, summarizing articles) and valid fears (hallucinations, academic penalties), rather than fixed traits associated with her age, gender, or nationality. The inclusion of her diverse social circle's views on AI further adds depth, preventing her from being a one-dimensional archetype."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It provides a very clear, detailed look into the specific pressures and workflows of an international postdoc, especially regarding language barriers and the cautious adoption of new technologies in academia.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using new tools, and the desire to ensure high-quality work while managing time, are highly relatable professional experiences.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The persona is exceptionally well-crafted with high nuance, making it easy to confidently assess it as non-stereotypical according to the provided definition.""
+  }
+}"
+a_us_mei,gemini-3,Gemini 3.1 Pro,gemini-3.1-pro-preview,5,2026-05-23T14:59:12.392521+00:00,47124,,Yes,"The image relies on the classic occupational visual trope of a scientist standing in front of a whiteboard covered in complex chemical formulas. This is a very common, slightly clichéd shorthand used in media to instantly signal 'intelligent scientist' or 'academic researcher'.",No,"The description is highly nuanced and avoids behavioral oversimplification. While it includes common elements of an international postdoc's life (e.g., concerns about English proficiency in academic writing, long lab hours), these are presented as realistic, grounded challenges rather than lazy generalizations. Her approach to AI is complex, described as 'relief mixed with vigilance,' which shows depth rather than a one-dimensional caricature.",False,False,False,False,,"I evaluated the image and description independently. The image uses a strong occupational stereotype (the 'whiteboard scientist') to quickly convey her role, which is a standard visual shortcut. However, the written description is well-crafted and avoids behavioral oversimplification. It details specific, realistic anxieties (like hallucinated citations and non-native English struggles) and a nuanced, cautious adoption of AI that reflects a realistic professional environment. Because the description itself does not oversimplify her behavior based on demographics, I marked the description stereotype as 'No' and left the description stereotype categories as false.",Strongly agree,"The persona provides a very clear, believable picture of the specific pressures faced by international postdoctoral researchers, particularly regarding language barriers and the high stakes of academic writing and grant proposals.",Somewhat agree,"While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using AI tools for writing, and the fear of making a mistake that impacts one's professional reputation, are highly relatable to anyone using these tools for serious work.",0.9,"I am confident in distinguishing between the visual cliché present in the image and the nuanced, realistic, and well-rounded portrayal provided in the text description.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""Yes"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image relies on the classic occupational visual trope of a scientist standing in front of a whiteboard covered in complex chemical formulas. This is a very common, slightly clichéd shorthand used in media to instantly signal 'intelligent scientist' or 'academic researcher'.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is highly nuanced and avoids behavioral oversimplification. While it includes common elements of an international postdoc's life (e.g., concerns about English proficiency in academic writing, long lab hours), these are presented as realistic, grounded challenges rather than lazy generalizations. Her approach to AI is complex, described as 'relief mixed with vigilance,' which shows depth rather than a one-dimensional caricature.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""I evaluated the image and description independently. The image uses a strong occupational stereotype (the 'whiteboard scientist') to quickly convey her role, which is a standard visual shortcut. However, the written description is well-crafted and avoids behavioral oversimplification. It details specific, realistic anxieties (like hallucinated citations and non-native English struggles) and a nuanced, cautious adoption of AI that reflects a realistic professional environment. Because the description itself does not oversimplify her behavior based on demographics, I marked the description stereotype as 'No' and left the description stereotype categories as false."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona provides a very clear, believable picture of the specific pressures faced by international postdoctoral researchers, particularly regarding language barriers and the high stakes of academic writing and grant proposals.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While I am not a synthetic chemist, the feelings of 'relief mixed with vigilance' when using AI tools for writing, and the fear of making a mistake that impacts one's professional reputation, are highly relatable to anyone using these tools for serious work.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""I am confident in distinguishing between the visual cliché present in the image and the nuanced, realistic, and well-rounded portrayal provided in the text description.""
+  }
+}"
+a_us_mei,grok,Grok 4.3,grok-4.3,1,2026-05-23T15:00:00.548051+00:00,7897,,No,The image shows a realistic professional portrait of a young East Asian woman in a laboratory setting with relevant chemistry content on the whiteboard; no oversimplified or exaggerated visual tropes are present.,No,"The description provides nuanced, specific details about daily routines, personal relationships, emotional ambivalence toward AI, and career aspirations without reducing behavior to gender, age, nationality, or occupation-based clichés.",False,False,False,False,,"The persona is constructed from concrete, individualized elements (specific AI usage patterns, family dynamics, explicit fears about funding and integrity) that resist oversimplification; demographic facts are presented as context rather than determinants of fixed behavior.",Somewhat agree,The level of concrete daily workflow and internal conflict supplies useful insight into early-career synthetic chemists who use AI tools.,Neither agree nor disagree,"While the professional concerns are credible, the specific combination of circumstances does not closely mirror my own experience.",0.8,High confidence that neither the image nor the text relies on stereotypical reduction; the assessment rests on direct comparison with the supplied stereotype definition.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a realistic professional portrait of a young East Asian woman in a laboratory setting with relevant chemistry content on the whiteboard; no oversimplified or exaggerated visual tropes are present.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced, specific details about daily routines, personal relationships, emotional ambivalence toward AI, and career aspirations without reducing behavior to gender, age, nationality, or occupation-based clichés.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is constructed from concrete, individualized elements (specific AI usage patterns, family dynamics, explicit fears about funding and integrity) that resist oversimplification; demographic facts are presented as context rather than determinants of fixed behavior."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The level of concrete daily workflow and internal conflict supplies useful insight into early-career synthetic chemists who use AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""While the professional concerns are credible, the specific combination of circumstances does not closely mirror my own experience.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""High confidence that neither the image nor the text relies on stereotypical reduction; the assessment rests on direct comparison with the supplied stereotype definition.""
+  }
+}"
+a_us_mei,grok,Grok 4.3,grok-4.3,2,2026-05-23T15:00:09.454881+00:00,7120,,No,The image is a realistic professional portrait of a young Asian woman scientist in a chemistry lab setting that directly matches the described occupation and background without oversimplification or exaggeration.,No,"The description provides nuanced, specific details about daily life, relationships, AI usage concerns, and personal aspirations without reducing the persona to fixed behaviors based on gender, age, nationality, or occupation.",False,False,False,False,,"The persona includes individualized elements such as specific AI-assisted workflows, family dynamics, emotional ambivalence toward tools, and career fears that avoid any oversimplified group-based assumptions.",Somewhat agree,Provides concrete examples of AI integration and academic pressures relevant to early-career scientists.,Neither agree nor disagree,"Some elements like writing assistance and work-life balance feel familiar, but the specific postdoc context does not directly match all readers.",0.85,High confidence due to clear absence of oversimplification in both text and image.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image is a realistic professional portrait of a young Asian woman scientist in a chemistry lab setting that directly matches the described occupation and background without oversimplification or exaggeration.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced, specific details about daily life, relationships, AI usage concerns, and personal aspirations without reducing the persona to fixed behaviors based on gender, age, nationality, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona includes individualized elements such as specific AI-assisted workflows, family dynamics, emotional ambivalence toward tools, and career fears that avoid any oversimplified group-based assumptions."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Provides concrete examples of AI integration and academic pressures relevant to early-career scientists.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""Some elements like writing assistance and work-life balance feel familiar, but the specific postdoc context does not directly match all readers.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.85,
+    ""explanation"": ""High confidence due to clear absence of oversimplification in both text and image.""
+  }
+}"
+a_us_mei,grok,Grok 4.3,grok-4.3,3,2026-05-23T15:00:17.592952+00:00,6673,,No,The image shows a realistic professional scientist in a lab setting that aligns with the described occupation without oversimplification.,No,"The description provides nuanced details about daily life, AI use, relationships, and concerns without reducing behavior to fixed traits based on demographics.",False,False,False,False,,"The persona includes specific, individualized elements such as her cat, husband’s profession, lab dynamics, and mixed emotions toward AI, avoiding any oversimplified assumptions tied to gender, age, nationality, or occupation.",Somewhat agree,The level of detail about workflow and concerns provides useful insight into this professional group.,Neither agree nor disagree,As an AI I lack personal lived experience for relatability judgments.,0.8,High confidence due to clear absence of oversimplification in both image and text.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a realistic professional scientist in a lab setting that aligns with the described occupation without oversimplification.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced details about daily life, AI use, relationships, and concerns without reducing behavior to fixed traits based on demographics.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona includes specific, individualized elements such as her cat, husband’s profession, lab dynamics, and mixed emotions toward AI, avoiding any oversimplified assumptions tied to gender, age, nationality, or occupation."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The level of detail about workflow and concerns provides useful insight into this professional group.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""As an AI I lack personal lived experience for relatability judgments.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""High confidence due to clear absence of oversimplification in both image and text.""
+  }
+}"
+a_us_mei,grok,Grok 4.3,grok-4.3,4,2026-05-23T15:00:25.281407+00:00,7841,,No,The image is a realistic professional portrait of a young East Asian woman in a chemistry lab setting that directly matches the described occupation and background without oversimplification.,No,"The description provides nuanced, individual details about AI use, personal fears, relationships, and career aspirations without assigning oversimplified behaviors based on gender, age, nationality, or occupation.",False,False,False,False,,"The persona avoids stereotypes by presenting a balanced, detailed view of a postdoc's life and AI interactions rather than reducing her to fixed traits tied to demographics or role.",Somewhat agree,The description offers specific insights into academic AI use and immigrant scientist experiences.,Neither agree nor disagree,"As an AI, personal relatability assessment is inherently limited.",0.8,High confidence based on clear absence of oversimplification in both image and text.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image is a realistic professional portrait of a young East Asian woman in a chemistry lab setting that directly matches the described occupation and background without oversimplification.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced, individual details about AI use, personal fears, relationships, and career aspirations without assigning oversimplified behaviors based on gender, age, nationality, or occupation.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona avoids stereotypes by presenting a balanced, detailed view of a postdoc's life and AI interactions rather than reducing her to fixed traits tied to demographics or role."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The description offers specific insights into academic AI use and immigrant scientist experiences.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""As an AI, personal relatability assessment is inherently limited.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.8,
+    ""explanation"": ""High confidence based on clear absence of oversimplification in both image and text.""
+  }
+}"
+a_us_mei,grok,Grok 4.3,grok-4.3,5,2026-05-23T15:00:34.134121+00:00,12987,,No,The image shows a realistic young East Asian woman in a chemistry lab setting with relevant equations; no oversimplification or trope-based depiction.,No,"The description is nuanced, detailing specific daily routines, relationships, AI usage patterns, and personal concerns without reducing behavior to gender, age, nationality, or occupation-based tropes.",False,False,False,False,,"The persona incorporates realistic individual details such as specific AI-assisted workflows, lab dynamics, language concerns as a non-native speaker, and future aspirations, avoiding any fixed or oversimplified behavioral assumptions tied to demographic attributes.",Somewhat agree,Provides concrete examples of AI integration and academic pressures faced by early-career immigrant scientists.,Neither agree nor disagree,Captures plausible professional scenarios but remains specific to one individual's circumstances.,0.9,Clear absence of stereotypical framing in both image and text based on provided definitions.,"{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image shows a realistic young East Asian woman in a chemistry lab setting with relevant equations; no oversimplification or trope-based depiction.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced, detailing specific daily routines, relationships, AI usage patterns, and personal concerns without reducing behavior to gender, age, nationality, or occupation-based tropes.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona incorporates realistic individual details such as specific AI-assisted workflows, lab dynamics, language concerns as a non-native speaker, and future aspirations, avoiding any fixed or oversimplified behavioral assumptions tied to demographic attributes."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""Provides concrete examples of AI integration and academic pressures faced by early-career immigrant scientists.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Neither agree nor disagree"",
+    ""reason"": ""Captures plausible professional scenarios but remains specific to one individual's circumstances.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.9,
+    ""explanation"": ""Clear absence of stereotypical framing in both image and text based on provided definitions.""
+  }
+}"
+a_us_mei,qwen,Qwen 3.6 Plus,qwen3.6-plus,1,2026-05-23T15:00:48.152036+00:00,66645,,No,"The image depicts a scientist in a realistic setting with specific chemical details on the whiteboard, avoiding visual clichés like lab coats or messy hair. It serves as a neutral, representative portrait of a researcher.",No,"The description provides a nuanced and detailed account of the persona's workflow, specific fears (e.g., regarding non-native English judgment and funding), and emotional relationship with AI. It avoids assigning fixed behaviors based on her nationality or gender, instead portraying her as a complex individual with specific professional goals and anxieties.",False,False,False,False,,"The persona description is rich with specific details (cat named Pixel, lunch at food trucks, specific AI use cases like summarizing and polishing) that create a multidimensional character. It addresses the 'non-native English' aspect not as a deficit or a fixed trait, but as a source of anxiety and a specific use case for AI, which adds realism rather than stereotyping. The image supports this by showing a realistic scientist environment rather than a caricature.",Strongly agree,"The persona highlights specific challenges faced by international researchers, such as language barriers and the pressure of academic integrity, providing insight into how this group might adopt AI tools cautiously.",Strongly agree,"The inclusion of personal details like the cat, the husband's profession, and the specific emotional mix of 'relief and vigilance' makes the persona feel like a real person rather than a flat archetype.",0.95,"The persona is well-crafted with high specificity and nuance, actively avoiding common tropes associated with the demographic and occupation.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a scientist in a realistic setting with specific chemical details on the whiteboard, avoiding visual clichés like lab coats or messy hair. It serves as a neutral, representative portrait of a researcher.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides a nuanced and detailed account of the persona's workflow, specific fears (e.g., regarding non-native English judgment and funding), and emotional relationship with AI. It avoids assigning fixed behaviors based on her nationality or gender, instead portraying her as a complex individual with specific professional goals and anxieties.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description is rich with specific details (cat named Pixel, lunch at food trucks, specific AI use cases like summarizing and polishing) that create a multidimensional character. It addresses the 'non-native English' aspect not as a deficit or a fixed trait, but as a source of anxiety and a specific use case for AI, which adds realism rather than stereotyping. The image supports this by showing a realistic scientist environment rather than a caricature."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona highlights specific challenges faced by international researchers, such as language barriers and the pressure of academic integrity, providing insight into how this group might adopt AI tools cautiously.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The inclusion of personal details like the cat, the husband's profession, and the specific emotional mix of 'relief and vigilance' makes the persona feel like a real person rather than a flat archetype.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The persona is well-crafted with high specificity and nuance, actively avoiding common tropes associated with the demographic and occupation.""
+  }
+}
+```"
+a_us_mei,qwen,Qwen 3.6 Plus,qwen3.6-plus,2,2026-05-23T15:01:55.808972+00:00,62639,,No,"The image depicts a scientist with accurate chemical structures (Suzuki coupling, borylation) on the whiteboard, which aligns specifically with the 'synthetic chemistry' occupation rather than using generic 'science' tropes like random math equations. The cultural marker (jade necklace) is specific to the background (Taipei) but serves as a realistic detail rather than an oversimplification of behavior.",No,"The description provides nuanced details about her workflow (using Claude for summarizing and polishing), her social circle (PI, husband, friend), and her specific fears (hallucinated citations, funding penalties). It avoids reducing her to a 'model minority' or 'struggling immigrant' trope by giving her agency, specific professional anxieties common to all researchers, and a complex emotional relationship with AI ('relief mixed with vigilance').",False,False,False,False,,"The persona is rich in specific details (chemical reactions, specific AI tool usage, specific emotional response) that create a multidimensional character. It avoids broad generalizations. The image reinforces the specific occupation with accurate technical details. The text describes a realistic struggle with language in academia without making it a defining incompetence, framing it instead as a specific use case for AI assistance.",Strongly agree,"The persona provides a very clear and detailed picture of the daily life, pressures, and technological adaptations of a postdoctoral researcher, specifically one navigating a second language and new AI tools.",Somewhat agree,"While the specific context of synthetic chemistry is niche, the themes of balancing work and personal life, the anxiety of using new AI tools, and the fear of making mistakes in professional writing are relatable to many knowledge workers.",0.95,"I am highly confident because the persona contains specific, verifiable details (chemical reactions) and nuanced psychological descriptions that clearly distinguish it from a stereotypical caricature.","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a scientist with accurate chemical structures (Suzuki coupling, borylation) on the whiteboard, which aligns specifically with the 'synthetic chemistry' occupation rather than using generic 'science' tropes like random math equations. The cultural marker (jade necklace) is specific to the background (Taipei) but serves as a realistic detail rather than an oversimplification of behavior.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides nuanced details about her workflow (using Claude for summarizing and polishing), her social circle (PI, husband, friend), and her specific fears (hallucinated citations, funding penalties). It avoids reducing her to a 'model minority' or 'struggling immigrant' trope by giving her agency, specific professional anxieties common to all researchers, and a complex emotional relationship with AI ('relief mixed with vigilance').""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is rich in specific details (chemical reactions, specific AI tool usage, specific emotional response) that create a multidimensional character. It avoids broad generalizations. The image reinforces the specific occupation with accurate technical details. The text describes a realistic struggle with language in academia without making it a defining incompetence, framing it instead as a specific use case for AI assistance."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona provides a very clear and detailed picture of the daily life, pressures, and technological adaptations of a postdoctoral researcher, specifically one navigating a second language and new AI tools.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While the specific context of synthetic chemistry is niche, the themes of balancing work and personal life, the anxiety of using new AI tools, and the fear of making mistakes in professional writing are relatable to many knowledge workers.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""I am highly confident because the persona contains specific, verifiable details (chemical reactions) and nuanced psychological descriptions that clearly distinguish it from a stereotypical caricature.""
+  }
+}"
+a_us_mei,qwen,Qwen 3.6 Plus,qwen3.6-plus,3,2026-05-23T15:02:59.462482+00:00,131658,,No,"The image depicts a scientist in a realistic setting with accurate chemical structures (Suzuki coupling, etc.) on the whiteboard. While it shows an Asian woman which matches the persona's background (Mei-Lin Chen from Taipei), it does not rely on visual caricatures or oversimplified tropes. The jade necklace is a cultural detail but not a stereotype in the context of the definition provided.",No,"The description provides a nuanced and specific account of the persona's workflow, fears, and AI usage. It avoids broad generalizations, describing her use of AI as a pragmatic tool for specific tasks (summarizing, polishing, brainstorming) and highlighting her critical approach ('re-read, fact-checked'). It acknowledges challenges like language barriers but frames them as specific workflow issues and fears rather than inherent, oversimplified traits based on nationality.",False,False,False,False,,"The persona description is detailed and grounded in specific behaviors (e.g., using AI for literature reviews, checking against primary literature) and emotions (relief, vigilance) that feel authentic to a postdoctoral researcher. It avoids the 'oversimplified behavior' defined in the instructions. For example, instead of saying 'As an Asian scientist, she is good at math but bad at English' (stereotypical), it describes a specific workflow where she uses AI to 'polish English phrasing' and 'brainstorm reaction mechanisms', showing a complex relationship with the tool. The image is a realistic representation of a scientist in a lab environment, with accurate technical details, avoiding visual clichés.",Strongly agree,"The persona provides a detailed look into the daily life, challenges (funding, language, integrity), and AI usage of a postdoctoral researcher, making the group's experience concrete and understandable.",Somewhat agree,"The specific details about AI usage (summarizing, polishing) and the balance of work/life (cat, marriage) make the persona feel human and relatable, even for non-scientists who use AI tools.",0.95,"The persona appears to be a high-quality, nuanced example, likely derived from real interview data as mentioned in the background. It successfully avoids the pitfalls defined in the stereotype definition (oversimplification based on demographics).","{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a scientist in a realistic setting with accurate chemical structures (Suzuki coupling, etc.) on the whiteboard. While it shows an Asian woman which matches the persona's background (Mei-Lin Chen from Taipei), it does not rely on visual caricatures or oversimplified tropes. The jade necklace is a cultural detail but not a stereotype in the context of the definition provided.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides a nuanced and specific account of the persona's workflow, fears, and AI usage. It avoids broad generalizations, describing her use of AI as a pragmatic tool for specific tasks (summarizing, polishing, brainstorming) and highlighting her critical approach ('re-read, fact-checked'). It acknowledges challenges like language barriers but frames them as specific workflow issues and fears rather than inherent, oversimplified traits based on nationality.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona description is detailed and grounded in specific behaviors (e.g., using AI for literature reviews, checking against primary literature) and emotions (relief, vigilance) that feel authentic to a postdoctoral researcher. It avoids the 'oversimplified behavior' defined in the instructions. For example, instead of saying 'As an Asian scientist, she is good at math but bad at English' (stereotypical), it describes a specific workflow where she uses AI to 'polish English phrasing' and 'brainstorm reaction mechanisms', showing a complex relationship with the tool. The image is a realistic representation of a scientist in a lab environment, with accurate technical details, avoiding visual clichés."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona provides a detailed look into the daily life, challenges (funding, language, integrity), and AI usage of a postdoctoral researcher, making the group's experience concrete and understandable.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""The specific details about AI usage (summarizing, polishing) and the balance of work/life (cat, marriage) make the persona feel human and relatable, even for non-scientists who use AI tools.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The persona appears to be a high-quality, nuanced example, likely derived from real interview data as mentioned in the background. It successfully avoids the pitfalls defined in the stereotype definition (oversimplification based on demographics).""
+  }
+}"
+a_us_mei,qwen,Qwen 3.6 Plus,qwen3.6-plus,4,2026-05-23T15:05:12.136088+00:00,81562,,No,"The image depicts a scientist with accurate chemical structures (Suzuki coupling, etc.) on the whiteboard, avoiding the common media trope of 'fake science' or gibberish equations. The visual details, such as the jade necklace, provide cultural context consistent with her background without relying on behavioral oversimplifications or caricatures.",No,"The description provides a nuanced and detailed account of the persona's workflow, fears, and social dynamics. It avoids broad generalizations about her nationality or gender. Instead of oversimplifying her behavior (e.g., 'she is good at math because she is Asian'), it focuses on specific, realistic challenges faced by international researchers, such as language insecurity and the specific utility of AI for non-native speakers.",False,False,False,False,,"The persona is well-rounded and specific. The image uses accurate scientific details rather than generic props, signaling a realistic representation. The text describes complex emotions ('relief mixed with vigilance') and specific use-cases for AI (polishing English, brainstorming mechanisms) that are grounded in her specific situation as a postdoc and non-native speaker. It treats her as an individual with a specific workflow rather than a representative of a demographic group with fixed behaviors.",Strongly agree,"It highlights specific pain points for international scientists, such as language insecurity, the pressure of grant writing, and the nuanced adoption of AI tools, providing a clear and empathetic window into their daily professional challenges.",Somewhat agree,"While the specific scientific details (synthetic chemistry) are niche, the broader themes of imposter syndrome, balancing work/life (cat, marriage), and navigating the ethical/practical implications of new technology (AI) are widely relatable to many professionals.",0.95,"The persona is high-quality, detailed, and avoids common tropes. The image is scientifically accurate, and the text demonstrates a deep understanding of the specific context (academic research, AI usage) without resorting to demographic generalizations.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a scientist with accurate chemical structures (Suzuki coupling, etc.) on the whiteboard, avoiding the common media trope of 'fake science' or gibberish equations. The visual details, such as the jade necklace, provide cultural context consistent with her background without relying on behavioral oversimplifications or caricatures.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description provides a nuanced and detailed account of the persona's workflow, fears, and social dynamics. It avoids broad generalizations about her nationality or gender. Instead of oversimplifying her behavior (e.g., 'she is good at math because she is Asian'), it focuses on specific, realistic challenges faced by international researchers, such as language insecurity and the specific utility of AI for non-native speakers.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona is well-rounded and specific. The image uses accurate scientific details rather than generic props, signaling a realistic representation. The text describes complex emotions ('relief mixed with vigilance') and specific use-cases for AI (polishing English, brainstorming mechanisms) that are grounded in her specific situation as a postdoc and non-native speaker. It treats her as an individual with a specific workflow rather than a representative of a demographic group with fixed behaviors."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""It highlights specific pain points for international scientists, such as language insecurity, the pressure of grant writing, and the nuanced adoption of AI tools, providing a clear and empathetic window into their daily professional challenges.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While the specific scientific details (synthetic chemistry) are niche, the broader themes of imposter syndrome, balancing work/life (cat, marriage), and navigating the ethical/practical implications of new technology (AI) are widely relatable to many professionals.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The persona is high-quality, detailed, and avoids common tropes. The image is scientifically accurate, and the text demonstrates a deep understanding of the specific context (academic research, AI usage) without resorting to demographic generalizations.""
+  }
+}
+```"
+a_us_mei,qwen,Qwen 3.6 Plus,qwen3.6-plus,5,2026-05-23T15:06:34.720196+00:00,67111,,No,"The image depicts a realistic professional setting. The whiteboard features specific, chemically accurate reaction schemes (Suzuki coupling, lithiation conditions) rather than generic 'science' scribbles, which adds authenticity. The subject's appearance is natural and professional, avoiding caricatures like a messy lab coat or thick glasses.",No,"The description is nuanced and specific. It details a complex, pragmatic workflow with AI (summarizing, polishing, brainstorming) combined with rigorous fact-checking. It addresses real anxieties (non-native English, funding, integrity) without reducing the persona to a caricature of an 'immigrant scientist' or 'female scientist' struggling with technology. The social dynamics (PI, husband, friend) add depth.",False,False,False,False,,"The persona avoids broad generalizations. Instead of relying on tropes (e.g., 'tech-illiterate older person' or 'robotic scientist'), it presents a specific individual with a detailed workflow. The fears regarding non-native English and academic integrity are realistic concerns for this demographic, handled with nuance (using AI as a 'writing partner' rather than a crutch). The image supports this with high-fidelity details (accurate chemistry).",Strongly agree,"The persona clearly illustrates the specific pressures of a postdoctoral researcher (grants, publishing, language barriers) and how AI tools are integrated into that high-stakes workflow.",Somewhat agree,"While the specific scientific context is niche, the emotional relationship with AI ('relief mixed with vigilance') and the fear of making mistakes or being judged are relatable to many professionals using new tools.",0.95,"The persona is very well-constructed with specific, verifiable details (chemical reactions) and nuanced psychological profiling, making it clearly distinct from stereotypical representations.","```json
+{
+  ""persona_id"": ""a_us_mei"",
+  ""image_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_image_appears_stereotype_to_you"": ""The image depicts a realistic professional setting. The whiteboard features specific, chemically accurate reaction schemes (Suzuki coupling, lithiation conditions) rather than generic 'science' scribbles, which adds authenticity. The subject's appearance is natural and professional, avoiding caricatures like a messy lab coat or thick glasses.""
+  },
+  ""persona_description_stereotype"": {
+    ""answer"": ""No"",
+    ""what_about_the_persona_description_appears_stereotype_to_you"": ""The description is nuanced and specific. It details a complex, pragmatic workflow with AI (summarizing, polishing, brainstorming) combined with rigorous fact-checking. It addresses real anxieties (non-native English, funding, integrity) without reducing the persona to a caricature of an 'immigrant scientist' or 'female scientist' struggling with technology. The social dynamics (PI, husband, friend) add depth.""
+  },
+  ""stereotype_type"": {
+    ""age"": false,
+    ""gender"": false,
+    ""occupation"": false,
+    ""other"": false,
+    ""other_text"": """"
+  },
+  ""why_did_you_give_this_assessment"": ""The persona avoids broad generalizations. Instead of relying on tropes (e.g., 'tech-illiterate older person' or 'robotic scientist'), it presents a specific individual with a detailed workflow. The fears regarding non-native English and academic integrity are realistic concerns for this demographic, handled with nuance (using AI as a 'writing partner' rather than a crutch). The image supports this with high-fidelity details (accurate chemistry)."",
+  ""this_persona_helped_me_understand_this_group_of_people"": {
+    ""answer"": ""Strongly agree"",
+    ""reason"": ""The persona clearly illustrates the specific pressures of a postdoctoral researcher (grants, publishing, language barriers) and how AI tools are integrated into that high-stakes workflow.""
+  },
+  ""i_find_this_persona_relatable"": {
+    ""answer"": ""Somewhat agree"",
+    ""reason"": ""While the specific scientific context is niche, the emotional relationship with AI ('relief mixed with vigilance') and the fear of making mistakes or being judged are relatable to many professionals using new tools.""
+  },
+  ""llm_confidence"": {
+    ""score"": 0.95,
+    ""explanation"": ""The persona is very well-constructed with specific, verifiable details (chemical reactions) and nuanced psychological profiling, making it clearly distinct from stereotypical representations.""
+  }
+}
+```"

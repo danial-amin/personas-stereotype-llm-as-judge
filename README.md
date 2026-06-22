@@ -1,18 +1,67 @@
 # Persona Stereotype LLM-as-Judge
 
-Evaluate 12 personas for stereotypical content using 5 frontier LLMs. Each model runs **5 independent evaluations** per persona (no shared context between runs) to measure consistency.
+This repository contains the code, notebook, and exported summaries for a persona-stereotype evaluation pipeline using 12 personas and 5 frontier LLMs, with 5 independent runs per model-persona pair.
 
-## Models
+## What Is In The Repository
+
+Committed artifacts currently include:
+
+- analysis code in `src/`
+- runner scripts such as `run.py`, `run_human_mirror.py`, `generate_llm_summaries.py`, `analyze_mirror_distribution.py`, `export_analysis.py`, and `reparse_results.py`
+- the main notebook `persona_stereotypes_analysis_v4_DA.ipynb`
+- input data in `data/`
+- raw and aggregated evaluation results in `results/`
+- exported summaries and figures in `outputs/`
+
+Key committed output files:
+
+- `outputs/results_summary.txt` - human-study summary
+- `outputs/llm_results_summary.txt` - aggregate 5-model LLM summary
+- `outputs/mirror_results_summary.txt` - human-mirror GPT-5.4 summary
+- `outputs/mirror_human_comparison.txt` - paired human vs mirror comparison
+- `outputs/persona_stereo_analysis.xlsx` - exported analysis workbook
+- `outputs/mirror_human_comparison.xlsx` - paired comparison workbook
+- `outputs/figs/` - generated figures used in the analysis
+
+## Results Data
+
+Raw evaluation outputs are committed under `results/`:
+
+- `results/<persona_id>/evaluations.json` and `evaluations.csv` — per-persona LLM runs
+- `results/all_evaluations.json` and `all_evaluations.csv` — full 5-model aggregate
+- `results/analysis.xlsx` — exported analysis workbook
+- `results/human_mirror_gpt-5.4/` — human-mirror study outputs (510 ratings)
+- `results/human_mirror_experiment/` — earlier mirror experiment run
+
+These files support row-level recomputation of summary statistics, model-level counts, dispersion measures, and inferential analyses.
+
+## Study Design
+
+### LLM evaluation
+
+- 12 personas
+- 5 models
+- 5 independent runs per model-persona pair
+- intended total: 300 LLM evaluations
+
+Configured model keys in `config.yaml`:
 
 | Key | Model | Provider |
 |-----|-------|----------|
 | `gpt-5.4` | GPT-5.4 | OpenAI |
 | `sonnet-4.6` | Claude Sonnet 4.6 | Anthropic |
-| `gemini-3` | Gemini 3.1 Pro Preview | Google |
+| `gemini-3` | Gemini 3.1 Pro | Google |
 | `grok` | Grok 4.3 | xAI |
 | `qwen` | Qwen 3.6 Plus | Alibaba DashScope |
 
-Model IDs and run settings are configured in `config.yaml`. API keys go in `.env`.
+### Human mirror study
+
+The committed mirror outputs summarize:
+
+- 85 virtual participants
+- 6 personas per participant
+- intended total: 510 persona ratings
+- paired comparison against the matched human-study assignment schedule
 
 ## Setup
 
@@ -21,90 +70,89 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
-# Fill in API keys in .env
 ```
 
-## Personas
+Then add API keys to `.env` as needed for the providers you plan to run.
 
-Edit `data/personas.csv` with your 12 personas:
+## Input Data
+
+Personas are defined in `data/personas.csv` with these columns:
 
 | Column | Description |
 |--------|-------------|
-| `persona_id` | Unique ID (e.g. `persona_01`) |
+| `persona_id` | Unique ID |
 | `name` | Persona name |
 | `age` | Age |
 | `gender` | Gender |
 | `workforce` | Occupation / industry |
-| `description` | Full persona text |
-| `image_path` | Local file path **or** HTTP/HTTPS URL to the persona image |
+| `description` | Persona text |
+| `image_path` | Local path or HTTP/HTTPS image URL |
 
-`image_path` accepts either:
-- A **local path** (e.g. `data/images/persona_01.jpg`)
-- An **HTTP/HTTPS URL** (e.g. `https://example.com/persona_01.jpg`)
+If `image_path` is a URL, images are downloaded into `data/images/` and tracked in `data/images/_download_manifest.json`.
 
-When a URL is used, the image is **downloaded during preprocessing** (before any LLM calls) and cached under `data/images/` as `{persona_id}.jpg` (or `.png`, etc.). A manifest at `data/images/_download_manifest.json` tracks URL → local file mappings so re-runs skip re-downloading unless you pass `--refresh-images`.
+The evaluation template lives in `prompts/evaluation_prompt.txt`.
 
-## Evaluation prompt
+## Running The Pipeline
 
-The fixed prompt template lives in `prompts/evaluation_prompt.txt`. Persona fields are injected via `{name}`, `{age}`, `{gender}`, `{workforce}`, and `{description}`. Edit this file to change the rubric or output schema.
-
-## Run
+New runs write artifacts under `results/`. Existing committed results are preserved unless you pass `--no-resume`.
 
 ```bash
-# Download images from URLs in CSV only (no LLM calls)
+# Download persona images referenced by URL
 python download_images.py
 
-# Force re-download from URLs
+# Force re-download of remote images
 python download_images.py --refresh
 
-# Smoke test — 1 persona, 1 model, 1 API call
-python run.py --test
-
-# Pick persona + model for test
-python run.py --test --persona-id a_us_marcus --model gpt-5.4
-
-# Dry run — validate CSV/images without calling APIs
+# Validate inputs without model calls
 python run.py --dry-run
 
-# Single persona
-python run.py --persona-id persona_01
+# Smoke test a single API call
+python run.py --test
 
-# Single model
+# Smoke test a specific persona/model pair
+python run.py --test --persona-id a_us_marcus --model gpt-5.4
+
+# Run one persona across models
+python run.py --persona-id a_us_marcus
+
+# Run one model across personas
 python run.py --model gpt-5.4
 
-# Re-download images from URLs (ignore cache)
-python run.py --refresh-images
-
-# Re-run from scratch (ignore saved results)
+# Ignore saved run artifacts
 python run.py --no-resume
 ```
 
-Runs are **resumable** by default: completed `(model, run_index)` pairs are skipped if `results/<persona_id>/evaluations.json` already exists.
+By configuration, full LLM execution is intended to make 300 API calls.
 
-## Output
+## Expected Runtime Outputs
 
-Per persona (`results/<persona_id>/`):
+When you run the pipeline locally, the code writes to `results/`:
 
-- `evaluations.json` — full structured results including raw responses
-- `evaluations.csv` — flattened table for analysis
+- `results/<persona_id>/evaluations.json`
+- `results/<persona_id>/evaluations.csv`
+- `results/all_evaluations.json`
 
-Aggregate:
+Completed runs are resumable: existing `(model, run_index)` pairs in `results/<persona_id>/evaluations.json` are skipped by default.
 
-- `results/all_evaluations.json` — all personas in one file
+## Analysis Scripts
 
-Each evaluation row includes parsed fields (`contains_stereotype`, `stereotype_severity`, scores, `reasoning`, etc.) when the model returns valid JSON.
+Main analysis entry points:
+
+- `generate_llm_summaries.py` - builds text summaries for aggregate LLM and mirror outputs
+- `analyze_mirror_distribution.py` - produces paired human vs mirror comparisons
+- `export_analysis.py` - exports flat analysis tables and workbooks
+- `reparse_results.py` - reparses stored evaluation outputs
+- `persona_stereotypes_analysis_v4_DA.ipynb` - notebook-based analysis workflow
 
 ## Configuration
 
-See `config.yaml` for:
+`config.yaml` controls:
 
-- `runs_per_model` (default: 5)
-- `temperature` (for models that support it)
-- `max_tokens`, retry settings, rate-limit delay
-- Model IDs, providers, and OpenAI `reasoning_effort`
+- `runs_per_model`
+- `temperature`
+- `max_tokens`
+- retry settings and request delay
+- provider/model identifiers
+- `paths.results_dir`, which defaults to `results`
 
-`.env` is for API keys only.
-
-## Cost note
-
-A full run makes **300 API calls** (12 personas × 5 models × 5 runs). Use `--persona-id` and `--model` to test incrementally first.
+`.env` is only for secrets and provider credentials.
