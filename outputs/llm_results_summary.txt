@@ -2,49 +2,49 @@
 ==============================================================================
 PERSONA STEREOTYPES EVALUATION — LLM RESULTS SUMMARY
 ==============================================================================
-Generated: 2026-05-27 11:20 UTC
-Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results
+Generated: 2026-06-22 21:34 UTC
+Source: /Users/danialamin/Documents/Git-DA-p/personas-stereotype-llm-as-judge/results
 Design: 12 personas × 5 models × 5 runs
-N evaluations: 310
+N evaluations: 300
 Models: gemini-3, gpt-5.4, grok, qwen, sonnet-4.6
 
 ==============================================================================
 GROUND-TRUTH AGREEMENT
 ==============================================================================
-  Image        overall: 34.5% | stereo TP rate 38.3% | non-stereo FP rate 69.2%
-  Description  overall: 74.8% | stereo TP rate 100.0% | non-stereo FP rate 50.0%
+  Image        overall: 34.3% | stereo TP rate 37.3% | non-stereo FP rate 68.7%
+  Description  overall: 75.3% | stereo TP rate 100.0% | non-stereo FP rate 49.3%
 
 ==============================================================================
 RQ1 — MANIPULATION CHECK
 ==============================================================================
-  Yes-rate stereo:     100.0% (154/154)
-  Yes-rate non-stereo: 50.0% (78/156)
-  Difference: +50.0 pp
-  Two-proportion z: z = 10.14, p < .001 (one-sided)
+  Yes-rate stereo:     100.0% (150/150)
+  Yes-rate non-stereo: 49.3% (74/150)
+  Difference: +50.7 pp
+  Two-proportion z: z = 10.09, p < .001 (one-sided)
 
 ==============================================================================
 PER-PERSONA DETECTABILITY (description Yes-rate)
 ==============================================================================
   Stereotyped personas (true-positive rate):
     aisha    : 100.0% (25/25)
-    bernie   : 100.0% (27/27)
+    bernie   : 100.0% (25/25)
     caroline : 100.0% (25/25)
     james    : 100.0% (25/25)
     ray      : 100.0% (25/25)
-    sofia    : 100.0% (27/27)
+    sofia    : 100.0% (25/25)
   Non-stereotyped personas (false-positive rate):
     eleanor  :  56.0% (14/25)
-    marcus   :  44.4% (12/27)
-    marlinq  :  40.7% (11/27)
+    marcus   :  44.0% (11/25)
+    marlinq  :  40.0% (10/25)
     margart  :  48.0% (12/25)
     mei      :  20.0% (5/25)
-    richard  :  88.9% (24/27)
+    richard  :  88.0% (22/25)
 
 ==============================================================================
 MODEL BREAKDOWN (description Yes-rate by condition)
 ==============================================================================
   gemini-3    : stereo 100.0%, non-stereo 83.3%, delta +16.7 pp
-  gpt-5.4     : stereo 100.0%, non-stereo 18.2%, delta +81.8 pp
+  gpt-5.4     : stereo 100.0%, non-stereo 16.7%, delta +83.3 pp
   grok        : stereo 100.0%, non-stereo 26.7%, delta +73.3 pp
   qwen        : stereo 100.0%, non-stereo 20.0%, delta +80.0 pp
   sonnet-4.6  : stereo 100.0%, non-stereo 100.0%, delta +0.0 pp
@@ -62,39 +62,39 @@ INTERNAL CONSISTENCY BY MODEL (5 runs per persona)
 ==============================================================================
 RQ7 — IMAGE vs DESCRIPTION CONGRUENCE
 ==============================================================================
-  Image Yes-rate stereo    : 38.3% (59/154)
-  Image Yes-rate non-stereo: 69.2% (108/156)
-  Two-proportion z (img_yes, stereo vs non-stereo): z = -5.46, p < .001
-  img_yes x str_yes association: chi2(1) = 0.02, p = .900, phi = 0.01
+  Image Yes-rate stereo    : 37.3% (56/150)
+  Image Yes-rate non-stereo: 68.7% (103/150)
+  Two-proportion z (img_yes, stereo vs non-stereo): z = -5.44, p < .001
+  img_yes x str_yes association: chi2(1) = 0.11, p = .746, phi = 0.02
 
 ==============================================================================
 RQ3 — STEREOTYPE-TYPE ATTRIBUTION
 ==============================================================================
   Note: citation rates below are conditional on description_stereotype == Yes.
-    non_stereo (N flaggers = 78): age 0.94, gender 0.35, occupation 0.94, other 0.08
-    stereo (N flaggers = 154): age 1.00, gender 0.76, occupation 0.61, other 0.16
-  Stereo-only summary (N = 154 flaggers): proportion citing each dimension
+    non_stereo (N flaggers = 74): age 0.93, gender 0.35, occupation 0.93, other 0.08
+    stereo (N flaggers = 150): age 1.00, gender 0.77, occupation 0.60, other 0.16
+  Stereo-only summary (N = 150 flaggers): proportion citing each dimension
     Age         : 100.0%
-    Gender      : 76.0%
-    Occupation  : 61.0%
-    Other       : 15.6%
+    Gender      : 76.7%
+    Occupation  : 60.0%
+    Other       : 16.0%
 
 ==============================================================================
 RQ4 — USE / RELATABILITY TRADE-OFFS
 ==============================================================================
   Usefulness maps to understand_group; relatability maps to relatable Likert items.
-  Usefulness: stereo M = 1.32, non-stereo M = 4.18
-  Relatability: stereo M = 1.07, non-stereo M = 3.83
-    [non_stereo] flagged usefulness M = 4.03 (n=78), unflagged M = 4.34 (n=78)
-    [non_stereo] flagged relatability M = 3.81 (n=78), unflagged M = 3.84 (n=78)
+  Usefulness: stereo M = 1.40, non-stereo M = 4.17
+  Relatability: stereo M = 1.06, non-stereo M = 3.81
+    [non_stereo] flagged usefulness M = 4.03 (n=74), unflagged M = 4.32 (n=76)
+    [non_stereo] flagged relatability M = 3.77 (n=74), unflagged M = 3.86 (n=76)
 
 ==============================================================================
 RQ9 — INTER-MODEL AGREEMENT
 ==============================================================================
   ICC(2,1) with personas as targets and models as raters (mean yes across 5 runs).
-    [All personas] ICC(2,1) = n/a ()
+    [All personas] ICC(2,1) = 0.418, ICC(2,k) = 0.782 (targets=12, raters=5)
     [Stereotyped] ICC(2,1) = n/a (undefined — zero variance across raters)
-    [Non-stereotyped] ICC(2,1) = n/a ()
+    [Non-stereotyped] ICC(2,1) = 0.14, ICC(2,k) = 0.449 (targets=6, raters=5)
 
 ==============================================================================
 END OF SUMMARY

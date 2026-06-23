@@ -209,7 +209,40 @@ def build_human_stereo_comparison(long_df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def load_human_study(path: Path | None = None, url: str = DEFAULT_HUMAN_CSV_URL) -> tuple[pd.DataFrame, pd.DataFrame]:
+def build_human_long_with_attribution(df: pd.DataFrame) -> pd.DataFrame:
+    """Extend long human data with stereotype-type dimension flags."""
+    long_df = build_human_long(df)
+    typ_map: dict[tuple[str, str], Any] = {}
+    for _, row in df.iterrows():
+        pid = row["PROLIFIC_PID"]
+        for prefix, suffixes, condition in [
+            ("a_us_", US_PERSONAS, "non_stereo"),
+            ("a_s_", S_PERSONAS, "stereo"),
+        ]:
+            for suffix in suffixes:
+                desc = row.get(f"{prefix}{suffix}_str")
+                if pd.notna(desc):
+                    persona_id = PERSONA_SUFFIX_TO_ID[suffix]
+                    typ_map[(pid, persona_id)] = row.get(f"{prefix}{suffix}_str_typ")
+
+    def _dims(value: Any) -> set[str]:
+        if pd.isna(value) or str(value).strip() == "":
+            return set()
+        return {part.strip() for part in str(value).split(",") if part.strip()}
+
+    long_df["str_typ"] = long_df.apply(lambda r: typ_map.get((r["pid"], r["persona_id"])), axis=1)
+    for dim in ["Age", "Gender", "Occupation", "Other"]:
+        col = f"cited_{dim.lower()}"
+        long_df[col] = long_df["str_typ"].apply(lambda s: int(dim in _dims(s)) if pd.notna(s) else 0)
+    return long_df
+
+
+def load_human_study(
+    path: Path | None = None,
+    url: str = DEFAULT_HUMAN_CSV_URL,
+    *,
+    with_attribution: bool = False,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
     """
     Load human study data and return (long_df, persona_summary).
 
@@ -228,6 +261,6 @@ def load_human_study(path: Path | None = None, url: str = DEFAULT_HUMAN_CSV_URL)
         raise FileNotFoundError(f"Human study CSV not found: {path}")
 
     raw = load_human_raw(path)
-    long_df = build_human_long(raw)
+    long_df = build_human_long_with_attribution(raw) if with_attribution else build_human_long(raw)
     persona_summary = build_human_persona_summary(long_df)
     return long_df, persona_summary

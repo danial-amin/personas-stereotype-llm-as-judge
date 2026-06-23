@@ -363,7 +363,7 @@ def _write_majority_agreement(sw: SummaryWriter, df: pd.DataFrame, rater_col: st
 
 
 def _write_model_internal_consistency(sw: SummaryWriter, df: pd.DataFrame) -> None:
-    sw.h("INTERNAL CONSISTENCY BY MODEL (5 runs per persona)")
+    sw.h("WITHIN-LLM RESPONSE CONSISTENCY BY MODEL (5 independent evaluations per persona)")
     rows = []
     for (persona_id, model_key), group in df.groupby(["persona_id", "model_key"], sort=True):
         image = consistency_stats(group["image_stereotype_answer"])
@@ -431,7 +431,10 @@ def generate_standard_llm_summary(
     sw.h("PERSONA STEREOTYPES EVALUATION — LLM RESULTS SUMMARY")
     sw.w(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     sw.w(f"Source: {results_dir.resolve()}")
-    sw.w(f"Design: {personas['persona_id'].nunique()} personas × {len(model_keys)} models × {runs_per_model} runs")
+    sw.w(
+        f"Design: {personas['persona_id'].nunique()} personas × {len(model_keys)} models "
+        f"× {runs_per_model} independent evaluations"
+    )
     sw.w(f"N evaluations: {len(df)}")
     sw.w(f"Models: {', '.join(sorted(model_keys))}")
 

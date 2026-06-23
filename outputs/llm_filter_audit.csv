@@ -1,0 +1,2 @@
+persona_id,model_key,run_index,exclusion_reason,source_file
+a_us_marcus,deepseek,1,model_not_configured;evaluation_error;invalid_yes_no,results/a_us_marcus/evaluations.csv

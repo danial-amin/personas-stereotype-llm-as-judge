@@ -1,0 +1,11 @@
+model_key,condition,yes,n,rate
+gemini-3,stereo,30,30,1.0
+gemini-3,non_stereo,25,30,0.8333333333333334
+gpt-5.4,stereo,30,30,1.0
+gpt-5.4,non_stereo,5,30,0.16666666666666666
+grok,stereo,30,30,1.0
+grok,non_stereo,8,30,0.26666666666666666
+qwen,stereo,30,30,1.0
+qwen,non_stereo,6,30,0.2
+sonnet-4.6,stereo,30,30,1.0
+sonnet-4.6,non_stereo,30,30,1.0

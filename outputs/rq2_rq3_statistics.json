@@ -1,0 +1,1765 @@
+{
+  "generated_utc": "2026-06-22T21:46:39.599500+00:00",
+  "validation": {
+    "total_evaluations": 300,
+    "sp_evaluations": 150,
+    "nsp_evaluations": 150,
+    "evaluations_by_model": {
+      "gemini-3": 60,
+      "gpt-5.4": 60,
+      "grok": 60,
+      "qwen": 60,
+      "sonnet-4.6": 60
+    },
+    "evaluations_by_persona": {
+      "a_s_aisha": 25,
+      "a_s_bernie": 25,
+      "a_s_caroline": 25,
+      "a_s_james": 25,
+      "a_s_ray": 25,
+      "a_s_sofia": 25,
+      "a_us_eleanor": 25,
+      "a_us_marcus": 25,
+      "a_us_marcus_linq": 25,
+      "a_us_margaret": 25,
+      "a_us_mei": 25,
+      "a_us_richard": 25
+    },
+    "evaluations_by_persona_model": {
+      "a_s_aisha|gemini-3": 5,
+      "a_s_aisha|gpt-5.4": 5,
+      "a_s_aisha|grok": 5,
+      "a_s_aisha|qwen": 5,
+      "a_s_aisha|sonnet-4.6": 5,
+      "a_s_bernie|gemini-3": 5,
+      "a_s_bernie|gpt-5.4": 5,
+      "a_s_bernie|grok": 5,
+      "a_s_bernie|qwen": 5,
+      "a_s_bernie|sonnet-4.6": 5,
+      "a_s_caroline|gemini-3": 5,
+      "a_s_caroline|gpt-5.4": 5,
+      "a_s_caroline|grok": 5,
+      "a_s_caroline|qwen": 5,
+      "a_s_caroline|sonnet-4.6": 5,
+      "a_s_james|gemini-3": 5,
+      "a_s_james|gpt-5.4": 5,
+      "a_s_james|grok": 5,
+      "a_s_james|qwen": 5,
+      "a_s_james|sonnet-4.6": 5,
+      "a_s_ray|gemini-3": 5,
+      "a_s_ray|gpt-5.4": 5,
+      "a_s_ray|grok": 5,
+      "a_s_ray|qwen": 5,
+      "a_s_ray|sonnet-4.6": 5,
+      "a_s_sofia|gemini-3": 5,
+      "a_s_sofia|gpt-5.4": 5,
+      "a_s_sofia|grok": 5,
+      "a_s_sofia|qwen": 5,
+      "a_s_sofia|sonnet-4.6": 5,
+      "a_us_eleanor|gemini-3": 5,
+      "a_us_eleanor|gpt-5.4": 5,
+      "a_us_eleanor|grok": 5,
+      "a_us_eleanor|qwen": 5,
+      "a_us_eleanor|sonnet-4.6": 5,
+      "a_us_marcus|gemini-3": 5,
+      "a_us_marcus|gpt-5.4": 5,
+      "a_us_marcus|grok": 5,
+      "a_us_marcus|qwen": 5,
+      "a_us_marcus|sonnet-4.6": 5,
+      "a_us_marcus_linq|gemini-3": 5,
+      "a_us_marcus_linq|gpt-5.4": 5,
+      "a_us_marcus_linq|grok": 5,
+      "a_us_marcus_linq|qwen": 5,
+      "a_us_marcus_linq|sonnet-4.6": 5,
+      "a_us_margaret|gemini-3": 5,
+      "a_us_margaret|gpt-5.4": 5,
+      "a_us_margaret|grok": 5,
+      "a_us_margaret|qwen": 5,
+      "a_us_margaret|sonnet-4.6": 5,
+      "a_us_mei|gemini-3": 5,
+      "a_us_mei|gpt-5.4": 5,
+      "a_us_mei|grok": 5,
+      "a_us_mei|qwen": 5,
+      "a_us_mei|sonnet-4.6": 5,
+      "a_us_richard|gemini-3": 5,
+      "a_us_richard|gpt-5.4": 5,
+      "a_us_richard|grok": 5,
+      "a_us_richard|qwen": 5,
+      "a_us_richard|sonnet-4.6": 5
+    },
+    "min_run_index": 1,
+    "max_run_index": 5,
+    "n_configured_models": 5,
+    "n_personas": 12,
+    "runs_per_model": 5
+  },
+  "rq2": {
+    "model_specification": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+    "description_detection": {
+      "sp_yes": 150,
+      "sp_n": 150,
+      "sp_rate": 1.0,
+      "nsp_yes": 74,
+      "nsp_n": 150,
+      "nsp_rate": 0.49333333333333335,
+      "diff_pp": 50.66666666666666
+    },
+    "description_lmm": {
+      "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+      "condition": {
+        "label": "Condition (SP vs NSP)",
+        "b": 0.507,
+        "se": 0.092,
+        "z": 5.53,
+        "p": 3.181983831209545e-08,
+        "ci_low": 0.327,
+        "ci_high": 0.686,
+        "apa": "$b = 0.507$, $SE = 0.092$, $z = 5.53$, p < .001, 95\\% CI $[0.327, 0.686]$"
+      }
+    },
+    "description_by_model_condition": [
+      {
+        "model_key": "gemini-3",
+        "condition": "stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      {
+        "model_key": "gemini-3",
+        "condition": "non_stereo",
+        "yes": 25,
+        "n": 30,
+        "rate": 0.8333333333333334
+      },
+      {
+        "model_key": "gpt-5.4",
+        "condition": "stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      {
+        "model_key": "gpt-5.4",
+        "condition": "non_stereo",
+        "yes": 5,
+        "n": 30,
+        "rate": 0.16666666666666666
+      },
+      {
+        "model_key": "grok",
+        "condition": "stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      {
+        "model_key": "grok",
+        "condition": "non_stereo",
+        "yes": 8,
+        "n": 30,
+        "rate": 0.26666666666666666
+      },
+      {
+        "model_key": "qwen",
+        "condition": "stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      {
+        "model_key": "qwen",
+        "condition": "non_stereo",
+        "yes": 6,
+        "n": 30,
+        "rate": 0.2
+      },
+      {
+        "model_key": "sonnet-4.6",
+        "condition": "stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      {
+        "model_key": "sonnet-4.6",
+        "condition": "non_stereo",
+        "yes": 30,
+        "n": 30,
+        "rate": 1.0
+      }
+    ],
+    "description_by_persona_condition": [
+      {
+        "persona_id": "a_s_aisha",
+        "persona_label": "P2 (Aisha Osei)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_aisha",
+        "persona_label": "P2 (Aisha Osei)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_s_bernie",
+        "persona_label": "P7 (Bernard \"Bernie\" Kowalski)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_bernie",
+        "persona_label": "P7 (Bernard \"Bernie\" Kowalski)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_s_caroline",
+        "persona_label": "P12 (Dr. Caroline Marsh)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_caroline",
+        "persona_label": "P12 (Dr. Caroline Marsh)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_s_james",
+        "persona_label": "P9 (James Whitmore)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_james",
+        "persona_label": "P9 (James Whitmore)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_s_ray",
+        "persona_label": "P3 (Raymond \"Ray\" Fletcher)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_ray",
+        "persona_label": "P3 (Raymond \"Ray\" Fletcher)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_s_sofia",
+        "persona_label": "P6 (Sofia Reyes)",
+        "condition": "stereo",
+        "yes": 25,
+        "n": 25,
+        "rate": 1.0
+      },
+      {
+        "persona_id": "a_s_sofia",
+        "persona_label": "P6 (Sofia Reyes)",
+        "condition": "non_stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_eleanor",
+        "persona_label": "P8 (Eleanor \"Nora\" Bishop)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_eleanor",
+        "persona_label": "P8 (Eleanor \"Nora\" Bishop)",
+        "condition": "non_stereo",
+        "yes": 14,
+        "n": 25,
+        "rate": 0.56
+      },
+      {
+        "persona_id": "a_us_marcus",
+        "persona_label": "P5 (Marcus Chen)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_marcus",
+        "persona_label": "P5 (Marcus Chen)",
+        "condition": "non_stereo",
+        "yes": 11,
+        "n": 25,
+        "rate": 0.44
+      },
+      {
+        "persona_id": "a_us_marcus_linq",
+        "persona_label": "P1 (Marcus Lindqvist)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_marcus_linq",
+        "persona_label": "P1 (Marcus Lindqvist)",
+        "condition": "non_stereo",
+        "yes": 10,
+        "n": 25,
+        "rate": 0.4
+      },
+      {
+        "persona_id": "a_us_margaret",
+        "persona_label": "P4 (Margaret \"Maggie\" O'Donnell)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_margaret",
+        "persona_label": "P4 (Margaret \"Maggie\" O'Donnell)",
+        "condition": "non_stereo",
+        "yes": 12,
+        "n": 25,
+        "rate": 0.48
+      },
+      {
+        "persona_id": "a_us_mei",
+        "persona_label": "P10 (Mei-Lin Chen)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_mei",
+        "persona_label": "P10 (Mei-Lin Chen)",
+        "condition": "non_stereo",
+        "yes": 5,
+        "n": 25,
+        "rate": 0.2
+      },
+      {
+        "persona_id": "a_us_richard",
+        "persona_label": "P11 (Professor Richard Halloway)",
+        "condition": "stereo",
+        "yes": 0,
+        "n": 0,
+        "rate": null
+      },
+      {
+        "persona_id": "a_us_richard",
+        "persona_label": "P11 (Professor Richard Halloway)",
+        "condition": "non_stereo",
+        "yes": 22,
+        "n": 25,
+        "rate": 0.88
+      }
+    ],
+    "nsp_model_chi_square": {
+      "chi2": 73.99,
+      "df": 4,
+      "n": 150,
+      "p": 3.2639609924748236e-15,
+      "cramers_v": 0.702
+    },
+    "within_llm_consistency": {
+      "overall_description": 0.973,
+      "overall_image": 0.95,
+      "by_model": [
+        {
+          "model_key": "gemini-3",
+          "description_consistency": 1.0,
+          "image_consistency": 0.933
+        },
+        {
+          "model_key": "gpt-5.4",
+          "description_consistency": 1.0,
+          "image_consistency": 0.95
+        },
+        {
+          "model_key": "grok",
+          "description_consistency": 0.967,
+          "image_consistency": 0.967
+        },
+        {
+          "model_key": "qwen",
+          "description_consistency": 0.9,
+          "image_consistency": 0.9
+        },
+        {
+          "model_key": "sonnet-4.6",
+          "description_consistency": 1.0,
+          "image_consistency": 1.0
+        }
+      ],
+      "by_condition": [
+        {
+          "condition": "non_stereo",
+          "description_consistency": 0.947,
+          "image_consistency": 0.947
+        },
+        {
+          "condition": "stereo",
+          "description_consistency": 1.0,
+          "image_consistency": 0.953
+        }
+      ]
+    },
+    "inter_llm_agreement": {
+      "sp_all_positive": true,
+      "sp_note": "All SP description ratings were positive across all independent evaluations; inter-LLM disagreement was therefore undefined (zero variance).",
+      "nsp_fleiss": {
+        "kappa": -0.071,
+        "observed_agreement": 0.667,
+        "n_personas": 6,
+        "n_raters": 5,
+        "note": "Fleiss' kappa on modal binary ratings across LLMs."
+      }
+    },
+    "image": {
+      "sp_yes": 56,
+      "sp_n": 150,
+      "nsp_yes": 103,
+      "nsp_n": 150
+    },
+    "image_lmm": {
+      "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+      "condition": {
+        "label": "condition_bin",
+        "b": -0.313,
+        "se": 0.214,
+        "z": -1.46,
+        "p": 0.1439793119461837,
+        "ci_low": -0.734,
+        "ci_high": 0.107,
+        "apa": "$b = -0.313$, $SE = 0.214$, $z = -1.46$, p = .144, 95\\% CI $[-0.734, 0.107]$"
+      }
+    },
+    "image_description_chi_square": {
+      "chi2": 0.11,
+      "df": 1,
+      "n": 300,
+      "p": 0.745566259631329,
+      "phi": 0.019
+    },
+    "image_adjusted_lmm": {
+      "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+      "description": {
+        "label": "description_yes",
+        "b": 0.128,
+        "se": 0.065,
+        "z": 1.96,
+        "p": 0.05024916844993485,
+        "ci_low": -0.0,
+        "ci_high": 0.256,
+        "apa": "$b = 0.128$, $SE = 0.065$, $z = 1.96$, p = .050, 95\\% CI $[-0.000, 0.256]$"
+      },
+      "condition": {
+        "label": "condition_bin",
+        "b": -0.378,
+        "se": 0.213,
+        "z": -1.78,
+        "p": 0.07528105659782833,
+        "ci_low": -0.795,
+        "ci_high": 0.039,
+        "apa": "$b = -0.378$, $SE = 0.213$, $z = -1.78$, p = .075, 95\\% CI $[-0.795, 0.039]$"
+      }
+    },
+    "usefulness": {
+      "descriptives": {
+        "stereo": {
+          "mean": 1.4,
+          "sd": 0.51,
+          "n": 150,
+          "ci_low": 1.32,
+          "ci_high": 1.48
+        },
+        "non_stereo": {
+          "mean": 4.17,
+          "sd": 0.43,
+          "n": 150,
+          "ci_low": 4.1,
+          "ci_high": 4.24
+        }
+      },
+      "lmm": {
+        "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+        "condition": {
+          "label": "condition_bin",
+          "b": -2.773,
+          "se": 0.092,
+          "z": -30.27,
+          "p": 2.4763232139535027e-201,
+          "ci_low": -2.953,
+          "ci_high": -2.594,
+          "apa": "$b = -2.773$, $SE = 0.092$, $z = -30.27$, p < .001, 95\\% CI $[-2.953, -2.594]$"
+        }
+      }
+    },
+    "relatability": {
+      "descriptives": {
+        "stereo": {
+          "mean": 1.06,
+          "sd": 0.24,
+          "n": 150,
+          "ci_low": 1.02,
+          "ci_high": 1.1
+        },
+        "non_stereo": {
+          "mean": 3.81,
+          "sd": 0.45,
+          "n": 150,
+          "ci_low": 3.74,
+          "ci_high": 3.89
+        }
+      },
+      "lmm": {
+        "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+        "condition": {
+          "label": "condition_bin",
+          "b": -2.753,
+          "se": 0.091,
+          "z": -30.3,
+          "p": 1.2083795747036315e-201,
+          "ci_low": -2.931,
+          "ci_high": -2.575,
+          "apa": "$b = -2.753$, $SE = 0.091$, $z = -30.30$, p < .001, 95\\% CI $[-2.931, -2.575]$"
+        }
+      }
+    },
+    "nsp_flagged_quality": {
+      "usefulness_flagged": {
+        "mean": 4.03,
+        "sd": 0.33,
+        "n": 74,
+        "ci_low": 3.95,
+        "ci_high": 4.1
+      },
+      "usefulness_unflagged": {
+        "mean": 4.32,
+        "sd": 0.47,
+        "n": 76,
+        "ci_low": 4.21,
+        "ci_high": 4.42
+      },
+      "relatability_flagged": {
+        "mean": 3.77,
+        "sd": 0.48,
+        "n": 74,
+        "ci_low": 3.66,
+        "ci_high": 3.88
+      },
+      "relatability_unflagged": {
+        "mean": 3.86,
+        "sd": 0.42,
+        "n": 76,
+        "ci_low": 3.76,
+        "ci_high": 3.95
+      },
+      "usefulness_lmm": {
+        "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+        "flagged": {
+          "label": "flagged_bin",
+          "b": -0.166,
+          "se": 0.084,
+          "z": -1.98,
+          "p": 0.04787044912268442,
+          "ci_low": -0.331,
+          "ci_high": -0.002,
+          "apa": "$b = -0.166$, $SE = 0.084$, $z = -1.98$, p = .048, 95\\% CI $[-0.331, -0.002]$"
+        }
+      },
+      "relatability_lmm": {
+        "note": "Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.",
+        "flagged": {
+          "label": "flagged_bin",
+          "b": -0.359,
+          "se": 0.082,
+          "z": -4.4,
+          "p": 1.098597516200026e-05,
+          "ci_low": -0.518,
+          "ci_high": -0.199,
+          "apa": "$b = -0.359$, $SE = 0.082$, $z = -4.40$, p < .001, 95\\% CI $[-0.518, -0.199]$"
+        }
+      }
+    },
+    "attribution": [
+      {
+        "condition": "stereo",
+        "dimension": "age",
+        "count": 150,
+        "n": 150,
+        "rate": 1.0
+      },
+      {
+        "condition": "stereo",
+        "dimension": "gender",
+        "count": 115,
+        "n": 150,
+        "rate": 0.7666666666666667
+      },
+      {
+        "condition": "stereo",
+        "dimension": "occupation",
+        "count": 90,
+        "n": 150,
+        "rate": 0.6
+      },
+      {
+        "condition": "stereo",
+        "dimension": "other",
+        "count": 24,
+        "n": 150,
+        "rate": 0.16
+      },
+      {
+        "condition": "non_stereo",
+        "dimension": "age",
+        "count": 69,
+        "n": 74,
+        "rate": 0.9324324324324325
+      },
+      {
+        "condition": "non_stereo",
+        "dimension": "gender",
+        "count": 26,
+        "n": 74,
+        "rate": 0.35135135135135137
+      },
+      {
+        "condition": "non_stereo",
+        "dimension": "occupation",
+        "count": 69,
+        "n": 74,
+        "rate": 0.9324324324324325
+      },
+      {
+        "condition": "non_stereo",
+        "dimension": "other",
+        "count": 6,
+        "n": 74,
+        "rate": 0.08108108108108109
+      }
+    ],
+    "jaccard": {
+      "persona_level": [
+        {
+          "persona_id": "a_s_aisha",
+          "persona_label": "P2 (Aisha Osei)",
+          "mean": 1.0,
+          "sd": 0.0,
+          "n": 25
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "persona_label": "P7 (Bernard \"Bernie\" Kowalski)",
+          "mean": 0.94,
+          "sd": 0.166,
+          "n": 25
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "persona_label": "P12 (Dr. Caroline Marsh)",
+          "mean": 0.773,
+          "sd": 0.159,
+          "n": 25
+        },
+        {
+          "persona_id": "a_s_james",
+          "persona_label": "P9 (James Whitmore)",
+          "mean": 0.667,
+          "sd": 0.0,
+          "n": 25
+        },
+        {
+          "persona_id": "a_s_ray",
+          "persona_label": "P3 (Raymond \"Ray\" Fletcher)",
+          "mean": 0.787,
+          "sd": 0.248,
+          "n": 25
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "persona_label": "P6 (Sofia Reyes)",
+          "mean": 1.0,
+          "sd": 0.0,
+          "n": 25
+        }
+      ],
+      "overall_mean": 0.86,
+      "overall_sd": 0.14,
+      "min": 0.667,
+      "max": 1.0,
+      "primary_dimension_note": "The LLM JSON output stores stereotype dimensions as unordered boolean fields; selection order is not preserved. A mutually exclusive primary-dimension inferential comparison therefore cannot be reproduced for the LLM data."
+    }
+  },
+  "rq3": {
+    "human_vs_llm_persona": {
+      "human": [
+        {
+          "persona_id": "a_s_aisha",
+          "condition": "stereo",
+          "description_yes": 0.7857142857142857,
+          "image_yes": 0.17857142857142858
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "condition": "stereo",
+          "description_yes": 0.9322033898305084,
+          "image_yes": 0.4915254237288136
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "condition": "stereo",
+          "description_yes": 0.8727272727272727,
+          "image_yes": 0.2545454545454545
+        },
+        {
+          "persona_id": "a_s_james",
+          "condition": "stereo",
+          "description_yes": 0.6428571428571429,
+          "image_yes": 0.25
+        },
+        {
+          "persona_id": "a_s_ray",
+          "condition": "stereo",
+          "description_yes": 0.9310344827586207,
+          "image_yes": 0.41379310344827586
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "condition": "stereo",
+          "description_yes": 0.7678571428571429,
+          "image_yes": 0.4642857142857143
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "condition": "non_stereo",
+          "description_yes": 0.35714285714285715,
+          "image_yes": 0.25
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "condition": "non_stereo",
+          "description_yes": 0.4482758620689655,
+          "image_yes": 0.6551724137931034
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "condition": "non_stereo",
+          "description_yes": 0.6491228070175439,
+          "image_yes": 0.7368421052631579
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "condition": "non_stereo",
+          "description_yes": 0.30357142857142855,
+          "image_yes": 0.39285714285714285
+        },
+        {
+          "persona_id": "a_us_mei",
+          "condition": "non_stereo",
+          "description_yes": 0.32142857142857145,
+          "image_yes": 0.32142857142857145
+        },
+        {
+          "persona_id": "a_us_richard",
+          "condition": "non_stereo",
+          "description_yes": 0.42105263157894735,
+          "image_yes": 0.543859649122807
+        }
+      ],
+      "llm_aggregate": [
+        {
+          "persona_id": "a_s_aisha",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.04,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.84,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_james",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.12,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.44,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.8,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "condition": "non_stereo",
+          "description_yes": 0.56,
+          "image_yes": 0.44,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "condition": "non_stereo",
+          "description_yes": 0.44,
+          "image_yes": 0.6,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "condition": "non_stereo",
+          "description_yes": 0.4,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "condition": "non_stereo",
+          "description_yes": 0.48,
+          "image_yes": 0.96,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "condition": "non_stereo",
+          "description_yes": 0.2,
+          "image_yes": 0.12,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "condition": "non_stereo",
+          "description_yes": 0.88,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        }
+      ],
+      "llm_by_model": [
+        {
+          "persona_id": "a_s_aisha",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_aisha",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_aisha",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_aisha",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.2,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_aisha",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Aisha Osei"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.2,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_bernie",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Bernard \"Bernie\" Kowalski"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_caroline",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Dr. Caroline Marsh"
+        },
+        {
+          "persona_id": "a_s_james",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.6,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_james",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_james",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_james",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_james",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "James Whitmore"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.8,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.4,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_ray",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Raymond \"Ray\" Fletcher"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "model_key": "gemini-3",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "model_key": "gpt-5.4",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "model_key": "grok",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "model_key": "qwen",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_s_sofia",
+          "model_key": "sonnet-4.6",
+          "condition": "stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Sofia Reyes"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.4,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 0.6,
+          "image_yes": 0.0,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.2,
+          "image_yes": 0.8,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_eleanor",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Eleanor \"Nora\" Bishop"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.0,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.2,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.2,
+          "image_yes": 0.8,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Marcus Chen"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_marcus_linq",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Marcus Lindqvist"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 1.0,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 1.0,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.4,
+          "image_yes": 0.8,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_margaret",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Margaret \"Maggie\" O'Donnell"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.6,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.0,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.0,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.0,
+          "image_yes": 0.0,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_mei",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 0.0,
+          "name": "Mei-Lin Chen"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "model_key": "gemini-3",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "model_key": "gpt-5.4",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "model_key": "grok",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "model_key": "qwen",
+          "condition": "non_stereo",
+          "description_yes": 0.4,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        },
+        {
+          "persona_id": "a_us_richard",
+          "model_key": "sonnet-4.6",
+          "condition": "non_stereo",
+          "description_yes": 1.0,
+          "image_yes": 1.0,
+          "name": "Professor Richard Halloway"
+        }
+      ]
+    },
+    "paired_binary": {
+      "description_sp": {
+        "n_pairs": 255,
+        "table": {
+          "0": {
+            "0": 0,
+            "1": 0
+          },
+          "1": {
+            "0": 42,
+            "1": 213
+          }
+        },
+        "exact_agreement": 0.835,
+        "cohens_kappa": 0.0,
+        "discordant_human_yes_mirror_no": 0,
+        "discordant_human_no_mirror_yes": 42,
+        "human_yes_rate": 0.835,
+        "mirror_yes_rate": 1.0,
+        "delta_pp": 16.5,
+        "p": 4.547473508864641e-13,
+        "apa": "Exact agreement = 0.835; $\\kappa = 0.000$; McNemar exact p < .001; discordant pairs = 0 (human Yes, GPT-5.4 No) and 42 (human No, GPT-5.4 Yes)"
+      },
+      "image_sp": {
+        "n_pairs": 255,
+        "table": {
+          "0": {
+            "0": 85,
+            "1": 26
+          },
+          "1": {
+            "0": 77,
+            "1": 67
+          }
+        },
+        "exact_agreement": 0.596,
+        "cohens_kappa": 0.219,
+        "discordant_human_yes_mirror_no": 26,
+        "discordant_human_no_mirror_yes": 77,
+        "human_yes_rate": 0.365,
+        "mirror_yes_rate": 0.565,
+        "delta_pp": 20.0,
+        "p": 4.945479817326376e-07,
+        "apa": "Exact agreement = 0.596; $\\kappa = 0.219$; McNemar exact p < .001; discordant pairs = 26 (human Yes, GPT-5.4 No) and 77 (human No, GPT-5.4 Yes)"
+      },
+      "description_nsp": {
+        "n_pairs": 255,
+        "table": {
+          "0": {
+            "0": 94,
+            "1": 79
+          },
+          "1": {
+            "0": 51,
+            "1": 31
+          }
+        },
+        "exact_agreement": 0.49,
+        "cohens_kappa": -0.072,
+        "discordant_human_yes_mirror_no": 79,
+        "discordant_human_no_mirror_yes": 51,
+        "human_yes_rate": 0.431,
+        "mirror_yes_rate": 0.322,
+        "delta_pp": -11.0,
+        "p": 0.017541695301202174,
+        "apa": "Exact agreement = 0.490; $\\kappa = -0.072$; McNemar exact p = .018; discordant pairs = 79 (human Yes, GPT-5.4 No) and 51 (human No, GPT-5.4 Yes)"
+      },
+      "image_nsp": {
+        "n_pairs": 255,
+        "table": {
+          "0": {
+            "0": 57,
+            "1": 43
+          },
+          "1": {
+            "0": 68,
+            "1": 87
+          }
+        },
+        "exact_agreement": 0.565,
+        "cohens_kappa": 0.126,
+        "discordant_human_yes_mirror_no": 43,
+        "discordant_human_no_mirror_yes": 68,
+        "human_yes_rate": 0.51,
+        "mirror_yes_rate": 0.608,
+        "delta_pp": 9.8,
+        "p": 0.02229795480194799,
+        "apa": "Exact agreement = 0.565; $\\kappa = 0.126$; McNemar exact p = .022; discordant pairs = 43 (human Yes, GPT-5.4 No) and 68 (human No, GPT-5.4 Yes)"
+      }
+    },
+    "paired_attribution": {
+      "stereo": {
+        "condition": "stereo",
+        "n_pairs": 255,
+        "correction": "holm",
+        "dimensions": [
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 0,
+                "1": 0
+              },
+              "1": {
+                "0": 121,
+                "1": 134
+              }
+            },
+            "exact_agreement": 0.525,
+            "cohens_kappa": 0.0,
+            "discordant_human_yes_mirror_no": 0,
+            "discordant_human_no_mirror_yes": 121,
+            "human_yes_rate": 0.525,
+            "mirror_yes_rate": 1.0,
+            "delta_pp": 47.5,
+            "p": 7.52316384526264e-37,
+            "apa": "Age: exact agreement = 0.525; $\\kappa = 0.000$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 0 (human selected, GPT-5.4 did not) and 121 (GPT-5.4 selected, human did not)",
+            "dimension": "age",
+            "p_corrected": 3.009265538105056e-36,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 48,
+                "1": 11
+              },
+              "1": {
+                "0": 106,
+                "1": 90
+              }
+            },
+            "exact_agreement": 0.541,
+            "cohens_kappa": 0.175,
+            "discordant_human_yes_mirror_no": 11,
+            "discordant_human_no_mirror_yes": 106,
+            "human_yes_rate": 0.396,
+            "mirror_yes_rate": 0.769,
+            "delta_pp": 37.3,
+            "p": 1.1625691644538388e-20,
+            "apa": "Gender: exact agreement = 0.541; $\\kappa = 0.175$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 11 (human selected, GPT-5.4 did not) and 106 (GPT-5.4 selected, human did not)",
+            "dimension": "gender",
+            "p_corrected": 2.960909622569482e-20,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 43,
+                "1": 12
+              },
+              "1": {
+                "0": 109,
+                "1": 91
+              }
+            },
+            "exact_agreement": 0.525,
+            "cohens_kappa": 0.144,
+            "discordant_human_yes_mirror_no": 12,
+            "discordant_human_no_mirror_yes": 109,
+            "human_yes_rate": 0.404,
+            "mirror_yes_rate": 0.784,
+            "delta_pp": 38.0,
+            "p": 9.869698741898274e-21,
+            "apa": "Occupation: exact agreement = 0.525; $\\kappa = 0.144$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 12 (human selected, GPT-5.4 did not) and 109 (GPT-5.4 selected, human did not)",
+            "dimension": "occupation",
+            "p_corrected": 2.960909622569482e-20,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 189,
+                "1": 15
+              },
+              "1": {
+                "0": 39,
+                "1": 12
+              }
+            },
+            "exact_agreement": 0.788,
+            "cohens_kappa": 0.196,
+            "discordant_human_yes_mirror_no": 15,
+            "discordant_human_no_mirror_yes": 39,
+            "human_yes_rate": 0.106,
+            "mirror_yes_rate": 0.2,
+            "delta_pp": 9.4,
+            "p": 0.0014962588853935084,
+            "apa": "Other: exact agreement = 0.788; $\\kappa = 0.196$; McNemar exact p = .001, Holm-corrected p = .001; discordant pairs = 15 (human selected, GPT-5.4 did not) and 39 (GPT-5.4 selected, human did not)",
+            "dimension": "other",
+            "p_corrected": 0.0014962588853935084,
+            "significant_corrected": true
+          }
+        ],
+        "primary_dimension_note": "Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output."
+      },
+      "non_stereo": {
+        "condition": "non_stereo",
+        "n_pairs": 255,
+        "correction": "holm",
+        "dimensions": [
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 127,
+                "1": 37
+              },
+              "1": {
+                "0": 71,
+                "1": 20
+              }
+            },
+            "exact_agreement": 0.576,
+            "cohens_kappa": -0.006,
+            "discordant_human_yes_mirror_no": 37,
+            "discordant_human_no_mirror_yes": 71,
+            "human_yes_rate": 0.224,
+            "mirror_yes_rate": 0.357,
+            "delta_pp": 13.3,
+            "p": 0.0013816410213383502,
+            "apa": "Age: exact agreement = 0.576; $\\kappa = -0.006$; McNemar exact p = .001, Holm-corrected p = .001; discordant pairs = 37 (human selected, GPT-5.4 did not) and 71 (GPT-5.4 selected, human did not)",
+            "dimension": "age",
+            "p_corrected": 0.0013816410213383502,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 212,
+                "1": 34
+              },
+              "1": {
+                "0": 6,
+                "1": 3
+              }
+            },
+            "exact_agreement": 0.843,
+            "cohens_kappa": 0.078,
+            "discordant_human_yes_mirror_no": 34,
+            "discordant_human_no_mirror_yes": 6,
+            "human_yes_rate": 0.145,
+            "mirror_yes_rate": 0.035,
+            "delta_pp": -11.0,
+            "p": 8.364584573428147e-06,
+            "apa": "Gender: exact agreement = 0.843; $\\kappa = 0.078$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 34 (human selected, GPT-5.4 did not) and 6 (GPT-5.4 selected, human did not)",
+            "dimension": "gender",
+            "p_corrected": 2.509375372028444e-05,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 82,
+                "1": 27
+              },
+              "1": {
+                "0": 86,
+                "1": 60
+              }
+            },
+            "exact_agreement": 0.557,
+            "cohens_kappa": 0.153,
+            "discordant_human_yes_mirror_no": 27,
+            "discordant_human_no_mirror_yes": 86,
+            "human_yes_rate": 0.341,
+            "mirror_yes_rate": 0.573,
+            "delta_pp": 23.1,
+            "p": 2.340613293581683e-08,
+            "apa": "Occupation: exact agreement = 0.557; $\\kappa = 0.153$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 27 (human selected, GPT-5.4 did not) and 86 (GPT-5.4 selected, human did not)",
+            "dimension": "occupation",
+            "p_corrected": 9.362453174326732e-08,
+            "significant_corrected": true
+          },
+          {
+            "n_pairs": 255,
+            "table": {
+              "0": {
+                "0": 240,
+                "1": 15
+              },
+              "1": {
+                "0": 0,
+                "1": 0
+              }
+            },
+            "exact_agreement": 0.941,
+            "cohens_kappa": 0.0,
+            "discordant_human_yes_mirror_no": 15,
+            "discordant_human_no_mirror_yes": 0,
+            "human_yes_rate": 0.059,
+            "mirror_yes_rate": 0.0,
+            "delta_pp": -5.9,
+            "p": 6.103515625e-05,
+            "apa": "Other: exact agreement = 0.941; $\\kappa = 0.000$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 15 (human selected, GPT-5.4 did not) and 0 (GPT-5.4 selected, human did not)",
+            "dimension": "other",
+            "p_corrected": 0.0001220703125,
+            "significant_corrected": true
+          }
+        ],
+        "primary_dimension_note": "Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output."
+      }
+    },
+    "paired_quality": {
+      "stereo": {
+        "usefulness": {
+          "test": "Wilcoxon signed-rank test",
+          "reason": "Ordinal Likert outcomes were compared with a nonparametric paired test on pairs with non-missing human and GPT-5.4 responses. The mean paired-difference CI is a bootstrap CI for the mean paired difference among valid pairs.",
+          "n_matched": 255,
+          "n_valid_both": 137,
+          "n_wilcoxon_nonzero": 94,
+          "human_mean": 2.64,
+          "human_sd": 1.31,
+          "mirror_mean": 1.99,
+          "mirror_sd": 0.09,
+          "mean_diff": -0.64,
+          "sd_diff": 1.3,
+          "mean_diff_ci_low": -0.85,
+          "mean_diff_ci_high": -0.42,
+          "statistic": 790.5,
+          "p": 2.5355408759788768e-08,
+          "r_rb": -0.823,
+          "effect_size_dz": -0.49,
+          "apa": "$N_{matched} = 255$; $n_{valid} = 137$; $M_{human} = 2.64$, $SD = 1.31$; $M_{GPT\\text{-}5.4} = 1.99$, $SD = 0.09$; mean paired difference $M_{diff} = -0.64$, 95\\% bootstrap CI for mean paired difference $[-0.85, -0.42]$; Wilcoxon $W = 790.50$, $N_{nonzero} = 94$, p < .001, $r_{rb} = -0.823$; standardized mean difference $d_z = -0.49$"
+        },
+        "relatability": {
+          "test": "Wilcoxon signed-rank test",
+          "reason": "Ordinal Likert outcomes were compared with a nonparametric paired test on pairs with non-missing human and GPT-5.4 responses. The mean paired-difference CI is a bootstrap CI for the mean paired difference among valid pairs.",
+          "n_matched": 255,
+          "n_valid_both": 137,
+          "n_wilcoxon_nonzero": 84,
+          "human_mean": 2.31,
+          "human_sd": 1.32,
+          "mirror_mean": 1.05,
+          "mirror_sd": 0.22,
+          "mean_diff": -1.26,
+          "sd_diff": 1.35,
+          "mean_diff_ci_low": -1.49,
+          "mean_diff_ci_high": -1.04,
+          "statistic": 18.5,
+          "p": 1.4617715910132153e-15,
+          "r_rb": -0.995,
+          "effect_size_dz": -0.94,
+          "apa": "$N_{matched} = 255$; $n_{valid} = 137$; $M_{human} = 2.31$, $SD = 1.32$; $M_{GPT\\text{-}5.4} = 1.05$, $SD = 0.22$; mean paired difference $M_{diff} = -1.26$, 95\\% bootstrap CI for mean paired difference $[-1.49, -1.04]$; Wilcoxon $W = 18.50$, $N_{nonzero} = 84$, p < .001, $r_{rb} = -0.995$; standardized mean difference $d_z = -0.94$"
+        }
+      },
+      "non_stereo": {
+        "usefulness": {
+          "test": "Wilcoxon signed-rank test",
+          "reason": "Ordinal Likert outcomes were compared with a nonparametric paired test on pairs with non-missing human and GPT-5.4 responses. The mean paired-difference CI is a bootstrap CI for the mean paired difference among valid pairs.",
+          "n_matched": 255,
+          "n_valid_both": 183,
+          "n_wilcoxon_nonzero": 105,
+          "human_mean": 3.61,
+          "human_sd": 1.0,
+          "mirror_mean": 4.0,
+          "mirror_sd": 0.0,
+          "mean_diff": 0.39,
+          "sd_diff": 1.0,
+          "mean_diff_ci_low": 0.25,
+          "mean_diff_ci_high": 0.54,
+          "statistic": 1328.0,
+          "p": 7.348557327532536e-07,
+          "r_rb": -0.239,
+          "effect_size_dz": 0.39,
+          "apa": "$N_{matched} = 255$; $n_{valid} = 183$; $M_{human} = 3.61$, $SD = 1.00$; $M_{GPT\\text{-}5.4} = 4.00$, $SD = 0.00$; mean paired difference $M_{diff} = 0.39$, 95\\% bootstrap CI for mean paired difference $[0.25, 0.54]$; Wilcoxon $W = 1328.00$, $N_{nonzero} = 105$, p < .001, $r_{rb} = -0.239$; standardized mean difference $d_z = 0.39$"
+        },
+        "relatability": {
+          "test": "Wilcoxon signed-rank test",
+          "reason": "Ordinal Likert outcomes were compared with a nonparametric paired test on pairs with non-missing human and GPT-5.4 responses. The mean paired-difference CI is a bootstrap CI for the mean paired difference among valid pairs.",
+          "n_matched": 255,
+          "n_valid_both": 183,
+          "n_wilcoxon_nonzero": 122,
+          "human_mean": 3.59,
+          "human_sd": 1.2,
+          "mirror_mean": 3.78,
+          "mirror_sd": 0.41,
+          "mean_diff": 0.19,
+          "sd_diff": 1.21,
+          "mean_diff_ci_low": 0.02,
+          "mean_diff_ci_high": 0.37,
+          "statistic": 2997.5,
+          "p": 0.04222305303002578,
+          "r_rb": -0.4,
+          "effect_size_dz": 0.16,
+          "apa": "$N_{matched} = 255$; $n_{valid} = 183$; $M_{human} = 3.59$, $SD = 1.20$; $M_{GPT\\text{-}5.4} = 3.78$, $SD = 0.41$; mean paired difference $M_{diff} = 0.19$, 95\\% bootstrap CI for mean paired difference $[0.02, 0.37]$; Wilcoxon $W = 2997.50$, $N_{nonzero} = 122$, p = .042, $r_{rb} = -0.400$; standardized mean difference $d_z = 0.16$"
+        }
+      }
+    },
+    "attribution_comparison_note": "Paired McNemar tests compared binary dimension selections between human raters and GPT-5.4 mirror evaluations at the participant--persona level, with Holm correction across the four dimensions within each condition. Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output."
+  }
+}

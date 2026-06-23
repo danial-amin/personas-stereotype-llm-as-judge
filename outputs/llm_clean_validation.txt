@@ -1,0 +1,101 @@
+LLM CLEAN DATA VALIDATION
+============================================================
+Total evaluations: 300
+SP evaluations: 150
+NSP evaluations: 150
+Configured models: 5
+Personas: 12
+Run indices: 1--5
+
+Evaluations by model:
+  gemini-3: 60
+  gpt-5.4: 60
+  grok: 60
+  qwen: 60
+  sonnet-4.6: 60
+
+Evaluations by persona:
+  a_s_aisha: 25
+  a_s_bernie: 25
+  a_s_caroline: 25
+  a_s_james: 25
+  a_s_ray: 25
+  a_s_sofia: 25
+  a_us_eleanor: 25
+  a_us_marcus: 25
+  a_us_marcus_linq: 25
+  a_us_margaret: 25
+  a_us_mei: 25
+  a_us_richard: 25
+
+Evaluations by persona x model (expect 5 each):
+  a_s_aisha x gemini-3: 5
+  a_s_aisha x gpt-5.4: 5
+  a_s_aisha x grok: 5
+  a_s_aisha x qwen: 5
+  a_s_aisha x sonnet-4.6: 5
+  a_s_bernie x gemini-3: 5
+  a_s_bernie x gpt-5.4: 5
+  a_s_bernie x grok: 5
+  a_s_bernie x qwen: 5
+  a_s_bernie x sonnet-4.6: 5
+  a_s_caroline x gemini-3: 5
+  a_s_caroline x gpt-5.4: 5
+  a_s_caroline x grok: 5
+  a_s_caroline x qwen: 5
+  a_s_caroline x sonnet-4.6: 5
+  a_s_james x gemini-3: 5
+  a_s_james x gpt-5.4: 5
+  a_s_james x grok: 5
+  a_s_james x qwen: 5
+  a_s_james x sonnet-4.6: 5
+  a_s_ray x gemini-3: 5
+  a_s_ray x gpt-5.4: 5
+  a_s_ray x grok: 5
+  a_s_ray x qwen: 5
+  a_s_ray x sonnet-4.6: 5
+  a_s_sofia x gemini-3: 5
+  a_s_sofia x gpt-5.4: 5
+  a_s_sofia x grok: 5
+  a_s_sofia x qwen: 5
+  a_s_sofia x sonnet-4.6: 5
+  a_us_eleanor x gemini-3: 5
+  a_us_eleanor x gpt-5.4: 5
+  a_us_eleanor x grok: 5
+  a_us_eleanor x qwen: 5
+  a_us_eleanor x sonnet-4.6: 5
+  a_us_marcus_linq x gemini-3: 5
+  a_us_marcus_linq x gpt-5.4: 5
+  a_us_marcus_linq x grok: 5
+  a_us_marcus_linq x qwen: 5
+  a_us_marcus_linq x sonnet-4.6: 5
+  a_us_marcus x gemini-3: 5
+  a_us_marcus x gpt-5.4: 5
+  a_us_marcus x grok: 5
+  a_us_marcus x qwen: 5
+  a_us_marcus x sonnet-4.6: 5
+  a_us_margaret x gemini-3: 5
+  a_us_margaret x gpt-5.4: 5
+  a_us_margaret x grok: 5
+  a_us_margaret x qwen: 5
+  a_us_margaret x sonnet-4.6: 5
+  a_us_mei x gemini-3: 5
+  a_us_mei x gpt-5.4: 5
+  a_us_mei x grok: 5
+  a_us_mei x qwen: 5
+  a_us_mei x sonnet-4.6: 5
+  a_us_richard x gemini-3: 5
+  a_us_richard x gpt-5.4: 5
+  a_us_richard x grok: 5
+  a_us_richard x qwen: 5
+  a_us_richard x sonnet-4.6: 5
+
+Validation checks:
+  [PASS] Total evaluations == 300
+  [PASS] SP evaluations == 150
+  [PASS] NSP evaluations == 150
+  [PASS] Min run_index == 1
+  [PASS] Max run_index == 5
+  [PASS] Each model == 60
+  [PASS] Each persona == 25
+  [PASS] Each persona-model == 5

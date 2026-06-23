@@ -1,0 +1,33 @@
+% RQ2 — Five-LLM study (corrected 300 independent evaluations)
+
+\subsection{Model specification}
+Linear mixed model with LLM fixed effects and a persona random intercept: outcome ~ predictors + C(model_key), groups = persona_id, random intercept only. The same five LLMs evaluated all twelve personas, so LLM and persona are crossed; LLM-specific means are absorbed by fixed LLM indicators and persona-specific clustering is modeled by the random intercept.
+
+\subsection{Description detection and perception}
+SP positive description ratings: 100.0\% (150/150).
+NSP positive description ratings: 49.3\% (74/150).
+Difference: 50.7 percentage points.
+Mixed model: $b = 0.507$, $SE = 0.092$, $z = 5.53$, p < .001, 95\% CI $[0.327, 0.686]$.
+
+\subsection{Within-LLM response consistency}
+Overall description within-LLM response consistency: $M = 0.97$.
+Overall image within-LLM response consistency: $M = 0.95$.
+
+\subsection{Inter-LLM agreement}
+All SP description ratings were positive across all independent evaluations; inter-LLM disagreement was therefore undefined (zero variance).
+NSP modal description agreement across LLMs: Fleiss' $\kappa = -0.071$, observed agreement = 0.667.
+
+\subsection{Image ratings}
+SP image Yes: 37.3\% (56/150).
+NSP image Yes: 68.7\% (103/150).
+Condition mixed model: $b = -0.313$, $SE = 0.214$, $z = -1.46$, p = .144, 95\% CI $[-0.734, 0.107]$.
+Image--description association: $\chi^2(1) = 0.11$, $N = 300$, p = .746, $\phi = 0.019$.
+
+\subsection{Usefulness and relatability}
+Usefulness SP: $M = 1.4$, $SD = 0.51$, $n = 150$, 95\% CI $[1.32, 1.48]$.
+Usefulness NSP: $M = 4.17$, $SD = 0.43$, $n = 150$, 95\% CI $[4.1, 4.24]$.
+Condition effect: $b = -2.773$, $SE = 0.092$, $z = -30.27$, p < .001, 95\% CI $[-2.953, -2.594]$.
+Relatability SP: $M = 1.06$, $SD = 0.24$, $n = 150$, 95\% CI $[1.02, 1.1]$.
+Relatability NSP: $M = 3.81$, $SD = 0.45$, $n = 150$, 95\% CI $[3.74, 3.89]$.
+Condition effect: $b = -2.753$, $SE = 0.091$, $z = -30.30$, p < .001, 95\% CI $[-2.931, -2.575]$.
+The LLM JSON output stores stereotype dimensions as unordered boolean fields; selection order is not preserved. A mutually exclusive primary-dimension inferential comparison therefore cannot be reproduced for the LLM data.

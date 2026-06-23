@@ -2,8 +2,8 @@
 ==============================================================================
 PERSONA STEREOTYPES EVALUATION — HUMAN-MIRROR LLM RESULTS SUMMARY
 ==============================================================================
-Generated: 2026-05-27 11:20 UTC
-Source: /Users/danialamin/Documents/GitHub/personas-stereotype-llm-as-judge/results/human_mirror_gpt-5.4
+Generated: 2026-06-22 21:34 UTC
+Source: /Users/danialamin/Documents/Git-DA-p/personas-stereotype-llm-as-judge/results/human_mirror_gpt-5.4
 Model: GPT-5.4
 Design: 85 virtual participants × 6 personas (3 stereotyped + 3 non-stereotyped)
 Assignment schedule: matched to Prolific human study (partial overlap, 6/12 personas per participant)

@@ -73,23 +73,21 @@ def load_all_runs(
     results_dir: Path,
     personas: pd.DataFrame,
     model_keys: set[str] | None = None,
+    config_path: Path | None = None,
 ) -> pd.DataFrame:
-    frames: list[pd.DataFrame] = []
-    meta = personas.set_index("persona_id")[PERSONA_META_COLS]
+    """Load filtered standard LLM evaluations (planned independent evaluations only)."""
+    from src.llm_loader import load_clean_llm_runs, load_config
 
-    for csv_path in sorted(glob.glob(str(results_dir / "*/evaluations.csv"))):
-        df = pd.read_csv(csv_path)
-        if model_keys is not None:
-            df = df[df["model_key"].isin(model_keys)]
-        df = df.join(meta, on="persona_id", how="left")
-        frames.append(df)
-
-    if not frames:
-        raise FileNotFoundError(f"No evaluations.csv files found under {results_dir}")
-
-    all_runs = pd.concat(frames, ignore_index=True)
-    all_runs["is_stereo"] = all_runs["is_stereo"].map({True: "TRUE", False: "FALSE"})
-    return all_runs
+    cfg_path = config_path or Path("config.yaml")
+    cfg = load_config(cfg_path)
+    keys = model_keys if model_keys is not None else cfg["model_keys"]
+    clean, _audit = load_clean_llm_runs(
+        results_dir,
+        personas,
+        runs_per_model=cfg["runs_per_model"],
+        model_keys=keys,
+    )
+    return clean
 
 
 def yes_no_to_binary(value: Any) -> float | None:

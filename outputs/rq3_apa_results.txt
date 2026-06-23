@@ -1,0 +1,32 @@
+% RQ3 — Human vs GPT-5.4 mirror comparison
+
+Paired McNemar tests compared binary dimension selections between human raters and GPT-5.4 mirror evaluations at the participant--persona level, with Holm correction across the four dimensions within each condition. Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output.
+
+\subsection{description sp}
+Exact agreement = 0.835; $\kappa = 0.000$; McNemar exact p < .001; discordant pairs = 0 (human Yes, GPT-5.4 No) and 42 (human No, GPT-5.4 Yes)
+\subsection{image sp}
+Exact agreement = 0.596; $\kappa = 0.219$; McNemar exact p < .001; discordant pairs = 26 (human Yes, GPT-5.4 No) and 77 (human No, GPT-5.4 Yes)
+\subsection{description nsp}
+Exact agreement = 0.490; $\kappa = -0.072$; McNemar exact p = .018; discordant pairs = 79 (human Yes, GPT-5.4 No) and 51 (human No, GPT-5.4 Yes)
+\subsection{image nsp}
+Exact agreement = 0.565; $\kappa = 0.126$; McNemar exact p = .022; discordant pairs = 43 (human Yes, GPT-5.4 No) and 68 (human No, GPT-5.4 Yes)
+\subsection{Attribution — stereo}
+$N_{matched} = 255$.
+Age: exact agreement = 0.525; $\kappa = 0.000$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 0 (human selected, GPT-5.4 did not) and 121 (GPT-5.4 selected, human did not)
+Gender: exact agreement = 0.541; $\kappa = 0.175$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 11 (human selected, GPT-5.4 did not) and 106 (GPT-5.4 selected, human did not)
+Occupation: exact agreement = 0.525; $\kappa = 0.144$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 12 (human selected, GPT-5.4 did not) and 109 (GPT-5.4 selected, human did not)
+Other: exact agreement = 0.788; $\kappa = 0.196$; McNemar exact p = .001, Holm-corrected p = .001; discordant pairs = 15 (human selected, GPT-5.4 did not) and 39 (GPT-5.4 selected, human did not)
+Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output.
+\subsection{Attribution — non_stereo}
+$N_{matched} = 255$.
+Age: exact agreement = 0.576; $\kappa = -0.006$; McNemar exact p = .001, Holm-corrected p = .001; discordant pairs = 37 (human selected, GPT-5.4 did not) and 71 (GPT-5.4 selected, human did not)
+Gender: exact agreement = 0.843; $\kappa = 0.078$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 34 (human selected, GPT-5.4 did not) and 6 (GPT-5.4 selected, human did not)
+Occupation: exact agreement = 0.557; $\kappa = 0.153$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 27 (human selected, GPT-5.4 did not) and 86 (GPT-5.4 selected, human did not)
+Other: exact agreement = 0.941; $\kappa = 0.000$; McNemar exact p < .001, Holm-corrected p < .001; discordant pairs = 15 (human selected, GPT-5.4 did not) and 0 (GPT-5.4 selected, human did not)
+Mutually exclusive primary-dimension comparisons cannot be reproduced because selection order was not preserved in the GPT-5.4 mirror output.
+\subsection{Paired quality — stereo}
+Usefulness: $N_{matched} = 255$; $n_{valid} = 137$; $M_{human} = 2.64$, $SD = 1.31$; $M_{GPT\text{-}5.4} = 1.99$, $SD = 0.09$; mean paired difference $M_{diff} = -0.64$, 95\% bootstrap CI for mean paired difference $[-0.85, -0.42]$; Wilcoxon $W = 790.50$, $N_{nonzero} = 94$, p < .001, $r_{rb} = -0.823$; standardized mean difference $d_z = -0.49$
+Relatability: $N_{matched} = 255$; $n_{valid} = 137$; $M_{human} = 2.31$, $SD = 1.32$; $M_{GPT\text{-}5.4} = 1.05$, $SD = 0.22$; mean paired difference $M_{diff} = -1.26$, 95\% bootstrap CI for mean paired difference $[-1.49, -1.04]$; Wilcoxon $W = 18.50$, $N_{nonzero} = 84$, p < .001, $r_{rb} = -0.995$; standardized mean difference $d_z = -0.94$
+\subsection{Paired quality — non_stereo}
+Usefulness: $N_{matched} = 255$; $n_{valid} = 183$; $M_{human} = 3.61$, $SD = 1.00$; $M_{GPT\text{-}5.4} = 4.00$, $SD = 0.00$; mean paired difference $M_{diff} = 0.39$, 95\% bootstrap CI for mean paired difference $[0.25, 0.54]$; Wilcoxon $W = 1328.00$, $N_{nonzero} = 105$, p < .001, $r_{rb} = -0.239$; standardized mean difference $d_z = 0.39$
+Relatability: $N_{matched} = 255$; $n_{valid} = 183$; $M_{human} = 3.59$, $SD = 1.20$; $M_{GPT\text{-}5.4} = 3.78$, $SD = 0.41$; mean paired difference $M_{diff} = 0.19$, 95\% bootstrap CI for mean paired difference $[0.02, 0.37]$; Wilcoxon $W = 2997.50$, $N_{nonzero} = 122$, p = .042, $r_{rb} = -0.400$; standardized mean difference $d_z = 0.16$
